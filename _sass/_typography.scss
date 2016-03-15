@@ -7,7 +7,41 @@
    url('/assets/fonts/mario/Super-Mario-Bros-3.svg#svgFontName') format('svg');
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.site-title {
   font-family: mario3;
   letter-spacing: -3px;
+  vertical-align: middle;
+}
+
+.page-content a {
+  color: red;
+  text-decoration: none;
+
+  &.color {
+    &-0 {
+      color: red;
+    }
+
+    &-1 {
+      color: blue;
+    }
+
+    &-2 {
+      color: green;
+    }
+
+    &-3 {
+      color: yellow;
+    }
+  }
+
+  &:hover,
+  &:active {
+    color: #000;
+  }
+}
+
+.page-content p a {
+  text-decoration: underline;
 }
