@@ -111,21 +111,22 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
+  font-size: 15px;
+  border-radius: 3px;
 }
 
 code {
-    padding: 1px 5px;
+  background: #eee;
+  padding: 1px 5px;
 }
 
 pre {
-    padding: 8px 12px;
-    overflow-x: auto;
+  border-left: 2px solid #000;
+  padding: 8px 12px;
+  overflow-x: auto;
 
     > code {
+        background: #fff;
         border: 0;
         padding-right: 0;
         padding-left: 0;
