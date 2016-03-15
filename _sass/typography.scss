@@ -1,0 +1,13 @@
+@font-face {
+  font-family: mario3;
+  src: url('/assets/fonts/mario/Super-Mario-Bros--3.woff'),
+   url('/assets/fonts/mario/Super-Mario-Bros-3?#iefix') format('embedded-opentype'),
+   url('/assets/myfont-webfont.woff') format('woff'),
+   url('/assets/fonts/mario/Super-Mario-Bros--3.ttf')  format('truetype'),
+   url('/assets/fonts/mario/Super-Mario-Bros-3.svg#svgFontName') format('svg');
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: mario3;
+  letter-spacing: -3px;
+}
