@@ -8,31 +8,72 @@
 }
 
 h1, h2, h3, h4, h5, h6,
-.site-title {
+.blog-tagline {
   font-family: mario3;
   letter-spacing: -3px;
   vertical-align: middle;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.35rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.9rem;
+}
+
+.blog-tagline {
+  letter-spacing: 0;
+  .color-0 {
+    color: $color-0;
+  }
+  .color-1 {
+    color: $color-1;
+  }
+  .color-2 {
+    color: $color-2;
+  }
+  .color-3 {
+    color: $color-3;
+  }
+}
+
 .page-content a {
-  color: red;
+  border-bottom: 2px solid red;
+  color: #000;
   text-decoration: none;
 
   &.color {
     &-0 {
-      color: red;
+      border-color: $color-0;
     }
 
     &-1 {
-      color: blue;
+      border-color: $color-1;
     }
 
     &-2 {
-      color: green;
+      border-color: $color-2;
     }
 
     &-3 {
-      color: yellow;
+      border-color: $color-3;
     }
   }
 
@@ -43,5 +84,5 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .page-content p a {
-  text-decoration: underline;
+  //text-decoration: underline;
 }

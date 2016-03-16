@@ -2,7 +2,7 @@
   'use strict';
 
   function colorize () {
-    var links = document.querySelectorAll('a');
+    var links = document.querySelectorAll('.page-content a');
     if (links && links.length) {
       links = Array.prototype.slice.call(links);
     }
