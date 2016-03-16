@@ -9,8 +9,6 @@
  */
 .site-header {
   background-color: #000;
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
   min-height: 56px;
 
   // Positioning context for the mobile navigation icon
@@ -40,7 +38,7 @@
 .blog-title {
   display: inline-block;
   font-size: 1.5rem;
-  padding-top: 8px;
+  padding-top: 10px;
   text-decoration: none;
 }
 
@@ -63,10 +61,10 @@
     }
 
     @include media-query($on-palm) {
+        background-color: #000;
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
@@ -79,15 +77,6 @@
             line-height: 0;
             padding-top: 10px;
             text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
         }
 
         .trigger {
