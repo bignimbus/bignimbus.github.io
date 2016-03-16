@@ -8,7 +8,8 @@
 }
 
 h1, h2, h3, h4, h5, h6,
-.blog-tagline {
+.blog-tagline,
+.site-title {
   font-family: mario3;
   letter-spacing: -3px;
   vertical-align: middle;
@@ -54,25 +55,48 @@ h6 {
   }
 }
 
-.page-content a {
-  border-bottom: 2px solid red;
-  color: #000;
+a {
+  display: inline-block;
+  position: relative;
   text-decoration: none;
 
+  &:after {
+    border-bottom: 2px solid;
+    bottom: 10%;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+}
+
+.site-header {
+  .blog-title:after {
+    display: none;
+  }
+  a:after {
+    z-index: 0;
+  }
+}
+
+.page-content a {
+  color: #000;
+
   &.color {
-    &-0 {
+    &-0:after {
       border-color: $color-0;
     }
 
-    &-1 {
+    &-1:after {
       border-color: $color-1;
     }
 
-    &-2 {
+    &-2:after {
       border-color: $color-2;
     }
 
-    &-3 {
+    &-3:after {
       border-color: $color-3;
     }
   }
