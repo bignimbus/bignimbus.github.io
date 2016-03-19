@@ -1,0 +1,7 @@
+<ul class="tags">
+  <li class="date">{{ include.date | date: "%-m/%-d/%Y" }}</li>
+  <li class="category"><a href="/category/{{ include.categories }}/">.{{ include.categories }}</a></li>
+  {% for tag in include.tags %}
+    <li><a href="/tag/{{ tag }}/">#{{ tag }}</a></li>
+  {% endfor %}
+</ul>

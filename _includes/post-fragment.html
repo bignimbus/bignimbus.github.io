@@ -1,0 +1,12 @@
+<li>
+  <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+  {% include post-meta.html date=post.date tags=post.tags categories=post.categories %}
+  <div>
+    <p>
+      {% if post.featured_image %}
+        <div class="thumb-container"><img src="{{ post.featured_image }}"></div>
+      {% endif %}
+      {{ post.excerpt }}
+    </p>
+  </div>
+</li>

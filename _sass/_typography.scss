@@ -67,7 +67,7 @@ a {
     display: block;
     position: absolute;
     width: 100%;
-    z-index: -1;
+    z-index: 0;
   }
 }
 
@@ -109,4 +109,13 @@ a {
 
 .page-content p a {
   //text-decoration: underline;
+}
+
+.site-footer a {
+  color: #000;
+  text-decoration: none;
+
+  &::after {
+    border-bottom: 0;
+  }
 }
