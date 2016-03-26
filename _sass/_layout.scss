@@ -8,15 +8,17 @@
  * Site header
  */
 .site-header {
-  background-color: #000;
+  background: linear-gradient(rgba(0, 0, 0, 0.08), #fff);
+  //border-bottom: 1px solid #000;
   min-height: 56px;
 
   // Positioning context for the mobile navigation icon
   position: relative;
+  text-align: center;
 
   a,
   .site-nav a {
-    color: #fff;
+    //color: #fff;
   }
 
   @include media-query($on-palm) {
@@ -29,8 +31,17 @@
 .blog-title {
   display: inline-block;
   font-size: 1.5rem;
-  padding-top: 10px;
   text-decoration: none;
+}
+
+.avatar {
+  background: url('/assets/images/avatar.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 56px;
+  vertical-align: middle;
+  width: 56px;
 }
 
 .site-nav {
@@ -98,7 +109,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #000;
+  background: linear-gradient(#fff, rgba(0, 0, 0, 0.08));
   color: #000;
   padding: $spacing-unit 0;
 }
@@ -176,7 +187,9 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+  box-sizing: border-box;
+  min-height: calc(100vh - 56px - 97px);
+  padding: $spacing-unit 0;
 }
 
 .post-list {

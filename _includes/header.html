@@ -2,22 +2,6 @@
 
   <div class="wrapper">
 
-    <a href="{{ site.baseurl }}/" class="blog-title"><span class="site-title">Jeffrey Auriemma</span> <span class="blog-tagline"><span class="color-0">b</span><span class="color-1">l</span><span class="color-2">o</span><span class="color-3">g</span></span></a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <span class="fa fa-bars"></span>
-      </a>
-
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-
+    <a href="{{ site.baseurl }}/" class="blog-title"><span class="avatar"></span><span class="blog-tagline"><span class="color-0">b</span><span class="color-1">l</span><span class="color-2">o</span><span class="color-3">g</span></span></a>
   </div>
-
 </header>
