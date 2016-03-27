@@ -2,13 +2,16 @@
   'use strict';
 
   function colorize () {
-    var links = document.querySelectorAll('.page-content a');
-    if (links && links.length) {
-      links = Array.prototype.slice.call(links);
-    }
-
-    links.forEach(function (el, i) {
-      el.className = 'color-' + i % 3 + ' ' + el.className;
+    $('.page-content a').filter(function (i, el) {
+      var $el = $(el);
+      if ($el.find('img').length || $el.closest('.tags > li').length) {
+        el.className += ' no-underline';
+        console.log('uh oh');
+        return false;
+      }
+      return true;
+    }).each(function (i, el) {
+      el.className = 'color-' + i % 4 + ' ' + el.className;
     });
   }
 

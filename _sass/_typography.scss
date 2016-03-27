@@ -59,14 +59,14 @@ h6 {
   }
 }
 
-a {
+a:not(.no-underline) {
   display: inline-block;
   position: relative;
   text-decoration: none;
 
   &:after {
     border-bottom: 2px solid;
-    bottom: 10%;
+    bottom: 0;
     content: '';
     display: block;
     position: absolute;
