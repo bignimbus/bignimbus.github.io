@@ -5,7 +5,7 @@ date:   2014-08-02 00:00:00 -0600
 featured_image: http://jdauriemma.com/blog/wp-content/uploads/2014/08/bach-journey.jpg
 categories: music
 tags: ['if bach wrote', 'music', 'fugue']
-excerpt: Recording, score and analysis of my latest If Bach Wrote fugue.  Based on the piano/bass melody in the iconic "Don't Stop Believin'" by Journey.
+excerpt: A Bach-like fugue based on the piano/bass melody in the iconic "Don't Stop Believin'" by Journey.  Recording, score and analysis within.
 ---
 
 <p><a href="http://jdauriemma.com/blog/wp-content/uploads/2014/08/bach-journey.jpg"><img alt="bach journey" class="alignnone size-full wp-image-489" height="409" src="http://jdauriemma.com/blog/wp-content/uploads/2014/08/bach-journey.jpg" width="617"></a>
