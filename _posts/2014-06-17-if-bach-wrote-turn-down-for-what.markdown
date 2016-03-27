@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  'If Bach Wrote... "Turn Down for What"'
+title:  If Bach Wrote... "Turn Down for What"
 date:   2014-06-17 00:00:00 -0600
 featured_image: http://jdauriemma.com/blog/wp-content/uploads/2014/06/bachliljon.jpg
 categories: music
