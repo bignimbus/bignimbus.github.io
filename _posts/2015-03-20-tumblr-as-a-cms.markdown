@@ -28,8 +28,7 @@ My fondest wish was to spin up some static page generation magic using node and 
 <p>
 I recently refactored my site as an exercise in building a Backbone app.  One of the nice things about working with Backbone is its elegant way of hooking into APIs and modifying data structures via the <code>parse</code> method.  Using the a simple GET request to <a href="https://www.tumblr.com/docs/en/api/v1">Tumblr’s v1 API</a>, I pull down a well-structured JSON blob with all the data I need to populate a template.  There’s barely any parsing to be done.  Observe:
 </p>
-<pre><code>
-// <a href="https://github.com/bignimbus/jdauriemma.com/blob/master/js/collections/blog-posts.js">https://github.com/bignimbus/jdauriemma.com/blob/master/js/collections/blog-posts.js</a>
+```javascript
 // collections/blog-posts.js
 define(['models/post'],
 function (PostModel) {
@@ -42,11 +41,11 @@ function (PostModel) {
         }
     });
 });
-</code></pre>
+```
 <p>
 Tumblr’s API is good enough, but I also wanted to create a browse page.  As it stands, there’s no thumbnail or snippet text that we get for free with each post.  So, every blog post model comes with these methods:
 </p>
-<pre><code>
+``` javascript
 // <a href="https://github.com/bignimbus/jdauriemma.com/blob/master/js/models/post.js">https://github.com/bignimbus/jdauriemma.com/blob/master/js/models/post.js</a>
 // models/post.js
 define([], function () {
@@ -71,7 +70,7 @@ define([], function () {
         }
     });
 });
-</code></pre>
+```
 <h4>What the user sees</h4>
 <p>
 Right now, it’s pretty basic (I have plans - big plans!).  There are two views: single post, and browse.  Browse can show all of my blog posts, or indexed by tag.

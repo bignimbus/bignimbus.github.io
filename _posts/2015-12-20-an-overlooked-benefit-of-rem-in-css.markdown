@@ -19,7 +19,7 @@ Note: this article assumes that you are using some sort of CSS preprocessing: pe
 <p>
 When writing preprocessed CSS, consider the output of what you're writing: it's usually quite predictable.  For example: deep nesting tends to produce larger CSS files.  Consider:
 </p>
-<pre class="scss">
+```scss
 /* style.scss */
 $font-size: 16px;
 
@@ -31,32 +31,32 @@ $font-size: 16px;
     }
   }
 }
-</pre>
-<pre class="css">
+```
+```css
 /* style.css size: 85B */
 .container .another-container .standard-heading {
   color: #fff;
   font-size: 16px;
 }
-</pre>
+```
 <p>
 Assuming <code>.standard-heading</code> is used in the same context everywhere on the page, it is better not to nest it so deep.  Our file becomes lighter weight and our stylesheet more reusable:
 </p>
-<pre class="scss">
+```scss
 $font-size: 16px;
 
 .standard-heading {
   color: #fff;
   font-size: $font-size;
 }
-</pre>
-<pre class="css">
+```
+```css
 /* style.css size: 55B */
 .standard-heading {
   color: #fff;
   font-size: 16px;
 }
-</pre>
+```
 <p>
 Of course, saving 30 bytes is nothing to write home about.  But keeping these possible savings in mind while writing your application's stylesheets can significantly lighten your CSS payload, keeping page load times down and user experience positive.
 </p>
@@ -64,7 +64,7 @@ Of course, saving 30 bytes is nothing to write home about.  But keeping these po
 <p>
 OK, so let's add some design requirements into the mix.  What if your requirement is to scale down font sizes when the viewport is narrower than <code>460px</code>?  Here are two approaches:
 </p>
-<pre class="scss">
+```scss
 /* style.scss */
 
 $base-font-size: 16px;
@@ -98,8 +98,8 @@ $mobile-width: 460px;
 @media only screen and (max-width: $mobile-width) {
   @include standard-fonts($small-font-size);
 }
-</pre>
-<pre class="css">
+```
+```css
 /* style.css size: 354B */
 
 p {
@@ -139,11 +139,11 @@ footer p {
     font-size: 11.2px;
   }
 }
-</pre>
+```
 <p>
 This first approach is simple and effective.  We have satisfied the requirement and our mobile users are experiencing wonderfully optimized font sizes.  We are using <code>px</code>, which is universally supported in all browsers.  Why rock the boat?  Consider this:
 </p>
-<pre class="scss">
+```scss
 /* style.scss */
 
 $mobile-width: 460px;
@@ -175,8 +175,8 @@ h3 {
 footer p {
   font-size: .8rem;
 }
-</pre>
-<pre class="css">
+```
+```css
 /* style.css size: 251B */
 html {
   font-size: 16px;
@@ -207,7 +207,7 @@ h3 {
 footer p {
   font-size: .8rem;
 }
-</pre>
+```
 <p>
 The original example using <code>px</code> totaled 354 bytes of CSS.  The <code>rem</code> example totaled 251 bytes of CSS.  In this context, <code>rem</code> allowed us a way to scale our fonts in a media query without the use of redundant CSS output.  These simple optimizations could mean serious reductions in CSS payload when applied to an entire code base.  Of course, if you need to support &lt;=IE8, you're out of luck - <code>rem</code> is IE9 and up.
 </p>

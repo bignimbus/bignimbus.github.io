@@ -19,25 +19,26 @@ I am trying to show a visual element side-by-side with a corresponding CSS code 
 <p>
 My first approach was ugly.  It looked something like this:
 </p>
-<pre class="html"><code>
-&lt;!-- view.html.erb --&gt;
-&lt;section class="code-sample"&gt;
-  &lt;div class="container"&gt;
-&lt;%= highlight(
+```erb
+<!-- view.html.erb -->
+<section class="code-sample">
+  <div class="container">
+<%= highlight(
 '.example {
   color: $example-color;
 }',
 'scss'
-)%&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-</code></pre>
-<pre class="rb"><code>
+)%>
+  </div>
+</section>
+```
+
+```ruby
 # helper.rb
 def highlight(language, code)
   Rouge.highlight(code, language.downcase, 'html').html_safe
 end
-</code></pre>
+```
 <p>
 Notice how I had to break the indentation in the markup, and how ugly the arguments look.  It was a pain in the neck to write (particularly in my auto-indenting vim setup), and is not pleasant to look at.
 </p>
@@ -45,25 +46,26 @@ Notice how I had to break the indentation in the markup, and how ugly the argume
 <p>
 There is a better way!  The <code>&amp;block</code> keyword allows you to capture a blob of ruby code as a string, resulting in a much prettier way of handling complex content.  Observe:
 </p>
-<pre class="html"><code>
-&lt;!-- view.html.erb --&gt;
-&lt;section class="code-sample"&gt;
-  &lt;div class="container"&gt;
-    &lt;%= highlight 'scss' do %&gt;
+```erb
+<!-- view.html.erb -->
+<section class="code-sample">
+  <div class="container">
+    <%= highlight 'scss' do %>
       .example {
         color: $example-color;
       }
-    &lt;% end %&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-</code></pre>
-<pre class="rb"><code>
+    <% end %>
+  </div>
+</section>
+```
+
+```ruby
 # helper.rb
 def highlight(language, &amp;block)
   code = capture(&amp;block).strip_heredoc.strip
   Rouge.highlight(code, language.downcase, 'html').html_safe
 end
-</code></pre>
+```
 <p>
 This approach is much more intuitive and nicer-looking.  Thanks to Derek for a great tip.  For a more in-depth look at blocks and their general use in ruby, <a href="http://stackoverflow.com/questions/814739/whats-this-block-in-ruby-and-how-does-it-get-passed-in-a-method-here">this Stack Overflow thread</a> had some good information.
 </p>
