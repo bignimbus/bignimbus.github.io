@@ -1,16 +1,12 @@
 @font-face {
-  font-family: mario3;
-  src: url('/assets/fonts/mario/Super-Mario-Bros--3.woff'),
-   url('/assets/fonts/mario/Super-Mario-Bros-3?#iefix') format('embedded-opentype'),
-   url('/assets/myfont-webfont.woff') format('woff'),
-   url('/assets/fonts/mario/Super-Mario-Bros--3.ttf')  format('truetype'),
-   url('/assets/fonts/mario/Super-Mario-Bros-3.svg#svgFontName') format('svg');
+  font-family: press-start;
+  src: url('/assets/fonts/press-start/PressStart2P.ttf')  format('truetype');
 }
 
 h1, h2, h3, h4, h5, h6,
 .blog-tagline,
 .site-title {
-  font-family: mario3;
+  font-family: $accent-font;
   letter-spacing: -3px;
   vertical-align: middle;
 }
