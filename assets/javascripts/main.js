@@ -6,7 +6,6 @@
       var $el = $(el);
       if ($el.find('img').length || $el.closest('.tags > li').length) {
         el.className += ' no-underline';
-        console.log('uh oh');
         return false;
       }
       return true;

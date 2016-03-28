@@ -9,17 +9,11 @@
  */
 .site-header {
   background: linear-gradient(rgba(0, 0, 0, 0.08), #fff);
-  //border-bottom: 1px solid #000;
   min-height: 56px;
 
   // Positioning context for the mobile navigation icon
   position: relative;
   text-align: center;
-
-  a,
-  .site-nav a {
-    //color: #fff;
-  }
 
   @include media-query($on-palm) {
     .site-title {
@@ -261,12 +255,9 @@
     display: inline-block;
 
     a {
+      border-bottom: 0;
       color: #555;
       text-decoration: none;
-
-      &::after {
-        border: 0;
-      }
     }
   }
 }

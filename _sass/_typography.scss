@@ -59,19 +59,13 @@ h6 {
   }
 }
 
-a:not(.no-underline) {
-  display: inline-block;
-  position: relative;
+a {
+  border-bottom: 2px solid #000;
   text-decoration: none;
 
-  &:after {
-    border-bottom: 2px solid;
-    bottom: 0;
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    z-index: 0;
+  &.no-underline,
+  &.blog-title {
+    border-bottom: 0;
   }
 }
 
@@ -88,19 +82,19 @@ a:not(.no-underline) {
   color: #000;
 
   &.color {
-    &-0:after {
+    &-0 {
       border-color: $color-0;
     }
 
-    &-1:after {
+    &-1 {
       border-color: $color-1;
     }
 
-    &-2:after {
+    &-2 {
       border-color: $color-2;
     }
 
-    &-3:after {
+    &-3 {
       border-color: $color-3;
     }
   }
@@ -116,10 +110,7 @@ a:not(.no-underline) {
 }
 
 .site-footer a {
+  border-bottom: 0;
   color: #000;
   text-decoration: none;
-
-  &::after {
-    border-bottom: 0;
-  }
 }
