@@ -1,11 +1,9 @@
 <li>
+  <div class="thumb-container" style="background-image: url({{ post.featured_image || '/assets/images/avatar.svg'}});"></div>
   <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-  {% include post-meta.html date=post.date tags=post.tags categories=post.categories %}
+  {% include post-meta.html tags=post.tags categories=post.categories %}
   <div>
     <p>
-      {% if post.featured_image %}
-        <div class="thumb-container"><img src="{{ post.featured_image }}"></div>
-      {% endif %}
       <span>{{ post.excerpt }}</span>
     </p>
   </div>

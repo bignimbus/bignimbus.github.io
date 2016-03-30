@@ -192,16 +192,18 @@
 
   > li {
     clear: both;
-    margin-bottom: $spacing-unit;
+    margin: 0 auto $spacing-unit;
+    position: relative;
+    text-align: center;
+    width: 75%;
 
-    &:hover {
-      background-color: #eee;
+    @include media-query($on-palm) {
+      width: auto;
     }
-  }
 
-  .thumb-container {
-    float: left;
-    margin-right: 0.5rem;
+    p {
+      text-align: justify;
+    }
   }
 }
 
@@ -226,28 +228,25 @@
     margin-bottom: $spacing-unit;
 }
 
-.thumb-container {
-  height: 116px;
-  overflow: hidden;
-  position: relative;
-  width: 100px;
+.post-fragment {
+  
+}
 
-  img {
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 100%;
-  }
+.thumb-container {
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0 0 2px #000;
+  border-radius: 50%;
+  height: 100px;
+  margin: 0 auto;
+  width: 100px;
 }
 
 .tags {
   color: #555;
   font-family: $accent-font;
   font-size: 14px;
-  letter-spacing: -3px;
+  letter-spacing: -1px;
   list-style-type: none;
   margin-left: 0;
 
