@@ -8,7 +8,6 @@ tags: ['if bach wrote', 'music', 'fugue']
 excerpt: A Bach-like fugue based on the piano/bass melody in the iconic "Don't Stop Believin'" by Journey.  Recording, score and analysis within.
 ---
 
-<p><a href="http://jdauriemma.com/blog/wp-content/uploads/2014/08/bach-journey.jpg"><img alt="bach journey" class="alignnone size-full wp-image-489" height="409" src="http://jdauriemma.com/blog/wp-content/uploads/2014/08/bach-journey.jpg" width="617"></a>
 <pre><br><br>"Just a small town girl<br><br>Living in a lonely world<br><br>She took the midnight train<br><br>Going anywhere"<br><br>          -Journey<br><br></pre>
 <p>Admit it, you were singing along! Not to dismiss the importance of good lyrics, I've always been more attached to melodies, harmonies and bass lines than lead vocals; I learned all the notes in this song long before I knew all the words. Whether you love Journey's lyrics, instrumentals, or hate Journey entirely, I hope that you enjoy this version of "If Bach Wrote."</p><h4>If Bach Wrote... Don't Stop Believin'</h4>
 <p><a href="http://jdauriemma.com/audio/mp3/001IfBachWroteDontStopBelievin.mp3"><img src="http://cdn.flaticon.com/png/256/375.png"><br>If Bach Wrote "Don't Stop Believin'"</a>

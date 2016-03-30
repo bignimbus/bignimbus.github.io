@@ -8,9 +8,7 @@ tags: ['ruby', 'rails']
 excerpt: "From a Rails newcomer's point of view: how to use block helpers effectively."
 ---
 
-<p><img src="http://i.imgur.com/OCD3Hwk.png" alt="Block helpers in Ruby on Rails views"></p><p>
 I'm still pretty new at Ruby, but my coworker and all-around good guy Derek Schaefer pointed this tip out to me when reviewing a recent pull request of mine.
-</p>
 <h3>Context</h3>
 <p>
 I am trying to show a visual element side-by-side with a corresponding CSS code snippet.  Using rouge, I apply syntax highlighting to a plain text code sample.

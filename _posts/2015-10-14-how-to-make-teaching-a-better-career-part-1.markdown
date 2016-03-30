@@ -8,7 +8,6 @@ tags: ['teaching', 'politics', 'education']
 excerpt: We all want young people to have a great education in the United States.  Beyond that, the diversity of viewpoints on how to improve education in our country is breathtaking.  No matter what your views are, though, one crucial point in every plan is ensuring that we attract and keep high-quality teachers in the classroom.  Right now, that vital component to good education is in trouble.
 ---
 
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Applauding_Teacher.jpg"></p><p>
 We all want young people to have a great education in the United States.  Beyond that, the diversity of viewpoints on how to improve education in our country is breathtaking.  No matter what your views are, though, one crucial point in every plan is ensuring that we attract and keep high-quality teachers in the classroom.  Right now, that vital component to good education is in trouble: teacher <strong>turnover is high and job satisfaction is low</strong>.  If we expect to retain a competent, effective workforce in our public schools for generations to come, we must make significant changes in how we treat the professionals to whom we entrust our young peoples' minds.
 </p>
 <p>

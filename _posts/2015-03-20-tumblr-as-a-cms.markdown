@@ -8,7 +8,6 @@ tags: ['javascript', 'backbone', 'blogging']
 excerpt: How I hacked together a blogging solution using Tumblr as a headless CMS.  Backbone.js handled state and markup parsing on the client side.
 ---
 
-<p><img src="http://jdauriemma.com/media/tcms.png"><h4>WordPress problems</h4>
 <p>
 I once used WordPress to publish a blog, and why not?  It was and is the go-to CMS and had syndication, organization and a robust community out of the box.  A few months back I was warned about the security risks, but I lazily carried on.
 </p>

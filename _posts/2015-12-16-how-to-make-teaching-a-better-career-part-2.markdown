@@ -6,9 +6,10 @@ featured_image: https://c1.staticflickr.com/9/8467/8104594017_c418712932_z.jpg
 categories: education
 tags: ['teaching', 'politics', 'education']
 excerpt: Attracting and retaining great teachers in our schools is more difficult than ever.  Here is part two of my list of 10 solutions.
+attributions: [{asset_name: 'Hero image', asset_url: 'https://www.flickr.com/photos/cali4beach/', author: cali4beach, license_name: 'Creative Commons License', license_url: 'https://creativecommons.org/licenses/by/2.0/#'}]
 ---
 
-<p><a href="https://www.flickr.com/photos/cali4beach/"><img alt="photo by cali4beach via Creative Commons License https://creativecommons.org/licenses/by/2.0/#" src="https://c1.staticflickr.com/9/8467/8104594017_c418712932_z.jpg"></a><a href="http://jdauriemma.com/blog_how-to-make-teaching-a-better-career-part-1">The first part of this list</a> generated a lot of support from teachers and former teachers alike.  Thanks to all for a great discussion.
+<p><a href="http://jdauriemma.com/blog_how-to-make-teaching-a-better-career-part-1">The first part of this list</a> generated a lot of support from teachers and former teachers alike.  Thanks to all for a great discussion.
 
 </p><p>
 Teachers enter their profession for a variety of reasons, so this list isn't intended to be exhaustive or representative of all teachers' priorities or preferences in their work environment.  I am trying, however, to capture some of the struggles that I have read about, observed and experienced during my six-year teaching career and beyond.  Without further ado, items 1-5 in How to Make Teaching a Better Career:

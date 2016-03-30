@@ -8,7 +8,6 @@ tags: ['if bach wrote', 'music', 'fugue']
 excerpt: The bubblegum pop installment of If Bach Wrote.  Recording, score and analysis of a fugue based on the vocal melody in Britney Spears's "Oops!... I Did It Again."
 ---
 
-<p><a href="http://jdauriemma.com/blog/wp-content/uploads/2014/08/bach-britney.jpg"><img alt="bach-britney" class="alignnone size-full wp-image-552" height="416" src="http://jdauriemma.com/blog/wp-content/uploads/2014/08/bach-britney.jpg" width="554"></a>
 <p>You can't un-see that image.</p>
 <pre>"Oops!...I did it again<br><br>I played with your heart, got lost in the game<br><br>Oh baby, baby<br><br>Oops!...You think I'm in love<br><br>That I'm sent from above<br><br>I'm not that innocent"<br><br>      - Britney Spears<br><br></pre>
 <p>In my teen years I was too busy listening to Limp Bizkit to notice the hidden gem in Britney's 2000 hit, "Oops!... I Did It Again." Now, no one will ever repeat that fateful mistake again. You're welcome, America.
