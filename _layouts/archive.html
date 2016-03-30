@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="home">
+  <h2>
+    {% if page.type == 'category' %}
+      Posts about {{ page.title }}
+    {% else %}
+      Posts with tag {{ page.title }}
+    {% endif %}
+  </h2>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% include post-fragment.html %}
+    {% endfor %}
+  </ul>
+</div>

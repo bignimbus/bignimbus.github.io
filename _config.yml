@@ -16,3 +16,20 @@ linkedin_username: jeffreyauriemma
 
 # Build settings
 markdown: redcarpet
+redcarpet:
+  extensions:
+    - with_toc_data
+sass:
+  sass_dir: _sass
+gems:
+  - jekyll-archives
+  - jekyll-paginate
+paginate: 10
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    tag: '/tag/:name/'
+    categories: '/category/:name/'
