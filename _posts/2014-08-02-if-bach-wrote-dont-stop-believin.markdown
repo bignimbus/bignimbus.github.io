@@ -6,6 +6,7 @@ featured_image: http://jdauriemma.com/blog/wp-content/uploads/2014/08/bach-journ
 categories: music
 tags: ['if bach wrote', 'music', 'fugue']
 excerpt: A Bach-like fugue based on the piano/bass melody in the iconic "Don't Stop Believin'" by Journey.  Recording, score and analysis within.
+permalink: /:categories/:title
 ---
 
 <pre><br><br>"Just a small town girl<br><br>Living in a lonely world<br><br>She took the midnight train<br><br>Going anywhere"<br><br>          -Journey<br><br></pre>

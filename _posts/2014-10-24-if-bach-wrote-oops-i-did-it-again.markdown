@@ -6,6 +6,7 @@ featured_image: http://jdauriemma.com/blog/wp-content/uploads/2014/08/bach-britn
 categories: music
 tags: ['if bach wrote', 'music', 'fugue']
 excerpt: The bubblegum pop installment of If Bach Wrote.  Recording, score and analysis of a fugue based on the vocal melody in Britney Spears's "Oops!... I Did It Again."
+permalink: /:categories/:title
 ---
 
 <p>You can't un-see that image.</p>

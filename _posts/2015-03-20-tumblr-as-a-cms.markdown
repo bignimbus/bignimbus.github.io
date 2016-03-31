@@ -6,6 +6,7 @@ featured_image: http://jdauriemma.com/media/tcms.png
 categories: javascript
 tags: ['javascript', 'backbone', 'blogging']
 excerpt: How I hacked together a blogging solution using Tumblr as a headless CMS.  Backbone.js handled state and markup parsing on the client side.
+permalink: /:categories/:title
 ---
 
 <p>

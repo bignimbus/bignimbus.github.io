@@ -6,6 +6,7 @@ featured_image: http://i.imgur.com/sk3UnQy.jpg
 categories: programming
 tags: ['css', 'scss']
 excerpt: Should you choose rem, px, em, etc?  There's lots of nuance in this discussion.  Use of the rem unit can offer savings in the form of payload weight.  Here's how.
+permalink: /:categories/:title
 ---
 
 <p>
