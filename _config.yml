@@ -24,7 +24,6 @@ sass:
 gems:
   - jekyll-archives
   - jekyll-paginate
-  - jekyll-picture-tag
 paginate: 10
 jekyll-archives:
   enabled:
@@ -34,20 +33,3 @@ jekyll-archives:
   permalinks:
     tag: '/tag/:name/'
     categories: '/category/:name/'
-picture:
-  source: "assets/images/"
-  output: "assets/images/optimized"
-  markup: "picture"
-  presets:
-    default:
-      ppi: [1, 1.5, 2]
-    attr:
-      itemprop: "image"
-    source_large:
-      media: "(min-width: 800px)"
-      width: "800"
-    source_medium:
-      media: "(min-width: 600px)"
-      width: "600"
-    source_default:
-      width: "400"
