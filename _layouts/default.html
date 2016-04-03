@@ -1,20 +1,48 @@
 <!DOCTYPE html>
+{% capture tags %}
+  {% for tag in site.tags %}
+    {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}
 <html>
-
   {% include head.html %}
-
   <body>
-
     {% include header.html %}
-
     <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+      <section id="main-content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </section>
+      <section id="menu-content" class="hide">
+        <div class="wrapper">
+          <h2>by Jeffrey Auriemma</h2>
+          <p>
+            Thanks for visiting!
+          </p>
+          <nav>
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="{{ site.base_url }}">All</a></li>
+              {% for c in site.categories %}
+              <li><a href="{{ site.base_url }}/category/{{ c[0] }}">{{ c[0] | capitalize }}</a></li>
+              {% endfor %}
+            </ul>
+            <h4>Popular tags</h4>
+            <ul>
+              {% for tag in sortedtags reversed %}
+              {% assign tagitems = tag | split: '#' %}
+              {% if forloop.index < 10 %}
+              <li><a href="{{ site.base_url }}/tag/{{ tagitems[1] }}">{{ tagitems[1] }}</a></li>
+              {% endif %}
+              {% endfor %}
+            </ul>
+          </nav>
+        </div>
+      </section>
     </div>
-
     {% include footer.html %}
-
   </body>
   <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
   <script src="{{ site.baseurl }}/assets/javascripts/main.js"></script>

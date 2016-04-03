@@ -1,0 +1,16 @@
+.page-content > section {
+  &:last-child {
+    text-align: center;
+  }
+
+  &.hide {
+    display: none;
+  }
+
+  nav {
+    ul {
+      list-style-type: none;
+      margin-left: 0;
+    }
+  }
+}

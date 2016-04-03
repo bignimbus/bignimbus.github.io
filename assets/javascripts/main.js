@@ -1,6 +1,9 @@
 (function () {
   'use strict';
 
+  var $main = $('#main-content'),
+    $menu = $('#menu-content');
+
   function colorize () {
     $('.page-content a').filter(function (i, el) {
       var $el = $(el);
@@ -14,6 +17,18 @@
     });
   }
 
-  document.addEventListener('DOMContentLoaded', colorize, false);
+  function toggleHash () {
+    window.location.hash = window.location.hash ? '' : 'menu';
+  }
+
+  function toggleMenuState () {
+    $main.toggleClass('hide', window.location.hash === '#menu');
+    $menu.toggleClass('hide', window.location.hash === '');
+  }
+
+  $(colorize);
+  $(toggleMenuState);
+  $(document.body).on('click', '.blog-title', toggleHash);
+  $(window).on('hashchange', toggleMenuState);
 })();
 
