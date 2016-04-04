@@ -1,13 +1,14 @@
 (function () {
   'use strict';
 
-  var $main = $('#main-content'),
-    $menu = $('#menu-content');
+  var $body = $(document.body);
 
   function colorize () {
-    $('.page-content a').filter(function (i, el) {
-      var $el = $(el);
-      if ($el.find('img').length || $el.closest('.tags > li').length) {
+    $('.page-content *:not(.social-media-list) a').filter(function (i, el) {
+      var $el = $(el),
+        shouldColorize = $el.find('img').length
+          || $el.closest('.tags > li, .social-media-list').length;
+      if (shouldColorize) {
         el.className += ' no-underline';
         return false;
       }
@@ -22,8 +23,7 @@
   }
 
   function toggleMenuState () {
-    $main.toggleClass('hide', window.location.hash === '#menu');
-    $menu.toggleClass('hide', window.location.hash === '');
+    $body.toggleClass('show-menu', window.location.hash === '#menu');
   }
 
   $(colorize);

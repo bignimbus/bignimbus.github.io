@@ -187,10 +187,18 @@
 /**
  * Page content
  */
-.page-content {
+.page-content,
+#main-content {
   box-sizing: border-box;
-  min-height: calc(100vh - 56px - 97px);
+}
+
+#main-content {
+  min-height: calc(100vh - 60px - 56px - 97px);
+}
+
+.page-content {
   padding: $spacing-unit 0;
+  position: relative;
 }
 
 .post-list {

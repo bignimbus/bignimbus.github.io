@@ -18,27 +18,11 @@
       <section id="menu-content" class="hide">
         <div class="wrapper">
           <h2>by Jeffrey Auriemma</h2>
+          {% include social-media-list.html %}
           <p>
             Thanks for visiting!
           </p>
-          <nav>
-            <h4>Categories</h4>
-            <ul>
-              <li><a href="{{ site.base_url }}">All</a></li>
-              {% for c in site.categories %}
-              <li><a href="{{ site.base_url }}/category/{{ c[0] }}">{{ c[0] | capitalize }}</a></li>
-              {% endfor %}
-            </ul>
-            <h4>Popular tags</h4>
-            <ul>
-              {% for tag in sortedtags reversed %}
-              {% assign tagitems = tag | split: '#' %}
-              {% if forloop.index < 10 %}
-              <li><a href="{{ site.base_url }}/tag/{{ tagitems[1] }}">{{ tagitems[1] }}</a></li>
-              {% endif %}
-              {% endfor %}
-            </ul>
-          </nav>
+          {% include nav.html %}
         </div>
       </section>
     </div>

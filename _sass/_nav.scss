@@ -1,16 +1,50 @@
-.page-content > section {
-  &:last-child {
-    text-align: center;
+.show-menu {
+  overflow-y: hidden;
+
+  .page-content {
+    height: calc(100vh - 56px);
+    overflow-y: scroll;
+
+    > section:first-child {
+      left: -100%;
+      padding-top: 30px;
+      position: absolute;
+    }
+  }
+}
+
+.page-content {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 
-  &.hide {
-    display: none;
-  }
+  > section {
+    background: #fff;
+    float: left;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
 
-  nav {
-    ul {
-      list-style-type: none;
-      margin-left: 0;
+    &:first-child {
+      transition: left 0.3s;
+      z-index: 2;
+    }
+
+    &:last-child {
+      padding-top: 30px;
+      position: absolute;
+      text-align: center;
+      z-index: 1;
+    }
+
+    nav {
+      ul {
+        list-style-type: none;
+        margin-left: 0;
+      }
     }
   }
 }
