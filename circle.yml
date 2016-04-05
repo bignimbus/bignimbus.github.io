@@ -7,4 +7,4 @@ deployment:
     branch:
       - staging
     commands:
-      - rake publish
+      - bundle exec rake publish
