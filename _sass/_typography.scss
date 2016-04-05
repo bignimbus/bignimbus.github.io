@@ -1,0 +1,117 @@
+@font-face {
+  font-family: press-start;
+  src: url('/assets/fonts/press-start/PressStart2P.ttf')  format('truetype');
+}
+
+h1, h2, h3, h4, h5, h6,
+.blog-tagline,
+.site-title {
+  font-family: $accent-font;
+  letter-spacing: -1px;
+  vertical-align: middle;
+}
+
+.blog-tagline {
+  text-shadow: 1px 2px 1px #000;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.35rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.9rem;
+}
+
+p,
+li span {
+  font-size: 1rem;
+}
+
+.blog-tagline {
+  letter-spacing: 0;
+  .color-0 {
+    color: $color-0;
+  }
+  .color-1 {
+    color: $color-1;
+  }
+  .color-2 {
+    color: $color-2;
+  }
+  .color-3 {
+    color: $color-3;
+  }
+}
+
+a {
+  border-bottom: 2px solid #000;
+  text-decoration: none;
+
+  &.no-underline,
+  &.blog-title {
+    border-bottom: 0;
+  }
+}
+
+.site-header {
+  .blog-title:after {
+    display: none;
+  }
+  a:after {
+    z-index: 0;
+  }
+}
+
+.page-content a {
+  color: #000;
+
+  &.color {
+    &-0 {
+      border-color: $color-0;
+    }
+
+    &-1 {
+      border-color: $color-1;
+    }
+
+    &-2 {
+      border-color: $color-2;
+    }
+
+    &-3 {
+      border-color: $color-3;
+    }
+  }
+
+  &:hover,
+  &:active {
+    color: #000;
+  }
+}
+
+.page-content p a {
+  //text-decoration: underline;
+}
+
+.site-footer a {
+  border-bottom: 0;
+  color: #000;
+  text-decoration: none;
+}
