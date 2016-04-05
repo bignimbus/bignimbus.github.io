@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicon/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-64x64.png" sizes="64x64">
+  <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="msapplication-TileImage" content="/assets/images/favicon/mstile-150x150.png">
+  <meta name="msapplication-square70x70logo" content="/assets/images/favicon/mstile-70x70.png">
+  <meta name="msapplication-square150x150logo" content="/assets/images/favicon/mstile-150x150.png">
+  <meta name="msapplication-square310x310logo" content="/assets/images/favicon/mstile-310x310.png">
+  <meta name="msapplication-wide310x150logo" content="/assets/images/favicon/mstile-310x150.png">
+  <title>Tumblr as a CMS</title>
+  <meta name="description" content="How I hacked together a blogging solution using Tumblr as a headless CMS.  Backbone.js handled state and markup parsing on the client side.">
+<meta property="og:title" content="Tumblr as a CMS">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://bignimbus.github.io/programming/tumblr-as-a-cms">
+<meta property="og:image" content="http://jdauriemma.com/media/tcms.png">
+<meta property="og:description" content="How I hacked together a blogging solution using Tumblr as a headless CMS.  Backbone.js handled state and markup parsing on the client side.">
+<meta property="og:site_name" content="Jeffrey Auriemma's Blog">
+<meta property="og:locale" content="">
+
+
+  <meta property="article:modified_time" content="2015-03-20T01:00:00-05:00">
+  <meta property="article:published_time" content="2015-03-20T01:00:00-05:00">
+  
+    <meta property="og:see_also" content="http://bignimbus.github.io/programming/an-overlooked-benefit-of-rem-in-css">
+  
+    <meta property="og:see_also" content="http://bignimbus.github.io/education/how-to-make-teaching-a-better-career-part-2">
+  
+    <meta property="og:see_also" content="http://bignimbus.github.io/programming/block-helpers-in-ruby-on-rails">
+  
+
+
+
+  
+  <meta property="article:section" content="programming">
+  
+
+
+
+  
+  <meta property="article:tag" content="javascript">
+  
+  <meta property="article:tag" content="backbone">
+  
+  <meta property="article:tag" content="blogging">
+  
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@jbones3000">
+<meta name="twitter:title" content="Tumblr as a CMS">
+<meta name="twitter:description" content="How I hacked together a blogging solution using Tumblr as a headless CMS.  Backbone.js handled state and markup parsing on the client side.">
+<meta name="twitter:image" content="http://jdauriemma.com/media/tcms.png">
+<meta name="twitter:url" content="http://bignimbus.github.io/programming/tumblr-as-a-cms">
+
+<link rel="canonical" href="http://bignimbus.github.io/programming/tumblr-as-a-cms">
+<link rel="alternate" type="application/rss+xml" title="Jeffrey Auriemma's Blog" href="http://bignimbus.github.io/feed.xml">
+<meta name="description" content="How I hacked together a blogging solution using Tumblr as a headless CMS.  Backbone.js handled state and markup parsing on the client side.">
+
+
+
+<link rel="canonical" href="http://bignimbus.github.io/programming/tumblr-as-a-cms">
+
+
+  <link rel="next" href="http://bignimbus.github.io/education/how-to-make-teaching-a-better-career-part-1" title="How to Make Teaching a Better Career, Part 1">
+
+
+
+  <link rel="prev" href="http://bignimbus.github.io/music/if-bach-wrote-oops-i-did-it-again" title="If Bach Wrote... "Oops!... I Did It Again"">
+
+
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://bignimbus.github.io/programming/tumblr-as-a-cms">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="alternate" type="application/rss+xml" title="Jeffrey Auriemma's Blog" href="http://bignimbus.github.io/feed.xml">
+</head>
+
+  <body>
+    <header class="site-header">
+  <div class="wrapper">
+    <div class="blog-title"><span class="avatar"></span><span class="blog-tagline"><span class="color-0">b</span><span class="color-1">l</span><span class="color-2">o</span><span class="color-3">g</span></span></div>
+  </div>
+</header>
+
+    <div class="page-content">
+      <section id="main-content">
+        <div class="wrapper">
+          <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Tumblr as a CMS</h1>
+    <p class="post-meta"><ul class="tags">
+  <li class="date">March 20, 2015</li>
+  <li class="category"><a href="/category/programming/">.programming</a></li>
+  
+    <li><a href="/tag/javascript/">#javascript</a></li>
+  
+    <li><a href="/tag/backbone/">#backbone</a></li>
+  
+    <li><a href="/tag/blogging/">#blogging</a></li>
+  
+</ul>
+</p>
+    
+    <div class="featured-image-container">
+      <img src="http://jdauriemma.com/media/tcms.png" alt="Tumblr as a CMS">
+    </div>
+    
+  </header>
+  <div class="post-content" itemprop="articleBody">
+    <p>
+I once used WordPress to publish a blog, and why not?  It was and is the go-to CMS and had syndication, organization and a robust community out of the box.  A few months back I was warned about the security risks, but I lazily carried on.
+</p>
+
+<p>
+As if on cue, my installation suffered a security failure and some jerk broke into my server (quite easily) and inserted a bunch of adware on my site.  That was my sign: I exported my WordPress DB, temporarily shut down my blog and searched for another solution.  I didn’t want to host a framework built on PHP - the risks seemed too high, particularly when considering that WordPress is also built on PHP.
+</p>
+
+<h4>What I needed</h4>
+
+<p>
+Out of the box, my new system needed to have:
+</p><ul><li>A stable, modern API</li>
+<li>Syndication</li>
+<li>Security</li>
+</ul><p>
+My fondest wish was to spin up some static page generation magic using node and some interesting modules I’ve come across, but my cheap-o shared server doesn’t support node.  I also strongly considered <a href="//help.github.com/articles/using-jekyll-with-pages/">Github’s Jekyll</a>.  In the end, though, I decided to use <a href="//tumblr.com">Tumblr</a>.
+</p>
+
+<h4>How I did it</h4>
+
+<p>
+I recently refactored my site as an exercise in building a Backbone app.  One of the nice things about working with Backbone is its elegant way of hooking into APIs and modifying data structures via the <code>parse</code> method.  Using the a simple GET request to <a href="https://www.tumblr.com/docs/en/api/v1">Tumblr’s v1 API</a>, I pull down a well-structured JSON blob with all the data I need to populate a template.  There’s barely any parsing to be done.  Observe:
+</p>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// collections/blog-posts.js</span>
+<span class="nx">define</span><span class="p">([</span><span class="s1">'models/post'</span><span class="p">],</span>
+<span class="kd">function</span> <span class="p">(</span><span class="nx">PostModel</span><span class="p">)</span> <span class="p">{</span>
+    <span class="s1">'use strict'</span><span class="p">;</span>
+    <span class="k">return</span> <span class="nx">Backbone</span><span class="p">.</span><span class="nx">Collection</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
+        <span class="s2">"model"</span><span class="p">:</span> <span class="nx">PostModel</span><span class="p">,</span>
+        <span class="s2">"url"</span><span class="p">:</span> <span class="s1">'php/data/tumblr.json'</span><span class="p">,</span>
+        <span class="s2">"parse"</span><span class="p">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">response</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="nx">response</span><span class="p">.</span><span class="nx">posts</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">});</span>
+<span class="p">});</span>
+</code></pre></div>
+<p>
+Tumblr’s API is good enough, but I also wanted to create a browse page.  As it stands, there’s no thumbnail or snippet text that we get for free with each post.  So, every blog post model comes with these methods:
+</p>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// &lt;a href="https://github.com/bignimbus/jdauriemma.com/blob/master/js/models/post.js"&gt;https://github.com/bignimbus/jdauriemma.com/blob/master/js/models/post.js&lt;/a&gt;</span>
+<span class="c1">// models/post.js</span>
+<span class="nx">define</span><span class="p">([],</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="s1">'use strict'</span><span class="p">;</span>
+    <span class="k">return</span> <span class="nx">Backbone</span><span class="p">.</span><span class="nx">Model</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
+        <span class="s2">"initialize"</span><span class="p">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">setHeroImage</span><span class="p">();</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">setTextSnippet</span><span class="p">();</span>
+        <span class="p">},</span>
+        <span class="s2">"setHeroImage"</span><span class="p">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+            <span class="kd">var</span> <span class="nx">post</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">'regular-body'</span><span class="p">),</span>
+                <span class="nx">img</span> <span class="o">=</span> <span class="nx">post</span><span class="p">.</span><span class="nx">slice</span><span class="p">(</span><span class="nx">post</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span><span class="s1">'&amp;lt;img '</span><span class="p">));</span>
+            <span class="nx">img</span> <span class="o">=</span> <span class="nx">img</span><span class="p">.</span><span class="nx">slice</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nx">img</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span><span class="s1">'&amp;gt;'</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">set</span><span class="p">(</span><span class="s1">'heroImage'</span><span class="p">,</span> <span class="nx">img</span><span class="p">);</span>
+        <span class="p">},</span>
+        <span class="s2">"setTextSnippet"</span><span class="p">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+            <span class="kd">var</span> <span class="nx">post</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">'regular-body'</span><span class="p">),</span>
+                <span class="nx">text</span> <span class="o">=</span> <span class="sr">/&amp;lt;p&amp;gt;</span><span class="se">((?:</span><span class="sr">.|</span><span class="se">[\r\n])</span><span class="sr">*</span><span class="se">?)</span><span class="sr">&amp;lt;</span><span class="se">\/</span><span class="sr">p&amp;gt;/g</span><span class="p">.</span><span class="nx">exec</span><span class="p">(</span><span class="nx">post</span><span class="p">);</span>
+            <span class="nx">text</span> <span class="o">=</span> <span class="nx">text</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&amp;</span><span class="nx">amp</span><span class="p">;</span><span class="o">&amp;</span><span class="nx">amp</span><span class="p">;</span> <span class="nx">text</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/&amp;lt;</span><span class="se">(?:</span><span class="sr">.|</span><span class="se">\n)</span><span class="sr">*</span><span class="se">?</span><span class="sr">&amp;gt;/gm</span><span class="p">,</span> <span class="s1">''</span><span class="p">);</span>
+            <span class="nx">text</span> <span class="o">=</span> <span class="nx">text</span><span class="p">.</span><span class="nx">slice</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span> <span class="o">+</span> <span class="s1">'...'</span><span class="p">;</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">set</span><span class="p">(</span><span class="s1">'snippet'</span><span class="p">,</span> <span class="nx">text</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">});</span>
+<span class="p">});</span>
+</code></pre></div>
+<h4>What the user sees</h4>
+
+<p>
+Right now, it’s pretty basic (I have plans - big plans!).  There are two views: single post, and browse.  Browse can show all of my blog posts, or indexed by tag.
+</p>
+
+<p><img src="http://jdauriemma.com/media/blog-post.png"><br><img src="http://jdauriemma.com/media/blog-browse.png"><p>
+So, for the time being, this solution serves my purpose. I&#39;m no longer hosting a security risk on my site, and I actually get more control over my content than if I had continued using WordPress.
+</p>
+<h4>Tweet me</h4>
+<p>
+<a href="https://twitter.com/jbones3000">@jbones3000</a>
+</p></p></p>
+
+  </div>
+  
+
+</article>
+
+        </div>
+      </section>
+      <section id="menu-content" class="hide">
+        <div class="wrapper">
+          <h2>by Jeffrey Auriemma</h2>
+          <ul class="social-media-list">
+  <li>
+    <a href="/" span class="fa fa-lg fa-fw fa-home"></span></a>
+  </li>
+  <li>
+    <a href="/feed.xml"><span class="fa fa-lg fa-fw fa-rss"></span></a>
+  </li>
+  <li>
+    <a href="https://github.com/bignimbus"><span class="fa fa-lg fa-fw fa-github"></span></a>
+  </li>
+  <li>
+    <a href="https://twitter.com/jbones3000"><span class="fa fa-lg fa-fw fa-twitter"></span></a>
+  </li>
+  <li>
+    <a href="https://linkedin.com/in/jeffreyauriemma"><span class="fa fa-lg fa-fw fa-linkedin"></span></a>
+  </li>
+</ul>
+
+          <p>
+            Thanks for visiting!
+          </p>
+          <nav>
+  <h4>Categories</h4>
+  <ul>
+    <li><a href="/">All</a></li>
+    
+    <li><a href="/category/music">Music</a></li>
+    
+    <li><a href="/category/programming">Programming</a></li>
+    
+    <li><a href="/category/education">Education</a></li>
+    
+  </ul>
+  <h4>Popular tags</h4>
+  <ul>
+    
+    
+    
+    <li><a href="/tag/music">music</a></li>
+    
+    
+    
+    
+    <li><a href="/tag/ifbachwrote">ifbachwrote</a></li>
+    
+    
+    
+    
+    <li><a href="/tag/teaching">teaching</a></li>
+    
+    
+    
+    
+    <li><a href="/tag/politics">politics</a></li>
+    
+    
+    
+    
+    <li><a href="/tag/scss">scss</a></li>
+    
+    
+    
+    
+    <li><a href="/tag/ruby">ruby</a></li>
+    
+    
+    
+    
+    <li><a href="/tag/rails">rails</a></li>
+    
+    
+    
+    
+    <li><a href="/tag/javascript">javascript</a></li>
+    
+    
+    
+    
+    <li><a href="/tag/css">css</a></li>
+    
+    
+    
+    
+    
+    
+    
+    
+  </ul>
+</nav>
+
+        </div>
+      </section>
+    </div>
+    <footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <ul class="social-media-list">
+  <li>
+    <a href="/" span class="fa fa-lg fa-fw fa-home"></span></a>
+  </li>
+  <li>
+    <a href="/feed.xml"><span class="fa fa-lg fa-fw fa-rss"></span></a>
+  </li>
+  <li>
+    <a href="https://github.com/bignimbus"><span class="fa fa-lg fa-fw fa-github"></span></a>
+  </li>
+  <li>
+    <a href="https://twitter.com/jbones3000"><span class="fa fa-lg fa-fw fa-twitter"></span></a>
+  </li>
+  <li>
+    <a href="https://linkedin.com/in/jeffreyauriemma"><span class="fa fa-lg fa-fw fa-linkedin"></span></a>
+  </li>
+</ul>
+
+    </div>
+  </div>
+</footer>
+
+  </body>
+  <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+  <script src="/assets/javascripts/main.js"></script>
+</html>
