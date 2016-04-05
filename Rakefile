@@ -34,7 +34,6 @@ task :publish => [:generate] do
     system "git commit -m #{message.inspect}"
     system "git fetch"
     system "git merge -s ours origin/staging-build"
-    system "git log"
     system "git push origin staging-build"
 
     Dir.chdir pwd
