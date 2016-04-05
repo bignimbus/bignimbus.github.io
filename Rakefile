@@ -33,7 +33,7 @@ task :publish => [:generate] do
     message = "Site updated at #{Time.now.utc}"
     system "git commit -m #{message.inspect}"
     system "git fetch"
-    system "git merge -s ours origin/staging-build"
+    system "git merge -s ours origin/staging-build --no-edit"
     system "git push origin staging-build"
 
     Dir.chdir pwd
