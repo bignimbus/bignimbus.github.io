@@ -13,6 +13,7 @@ url: "http://jdauriemma.com" # the base hostname & protocol for your site
 twitter_username: jbones3000
 github_username: bignimbus
 linkedin_username: jeffreyauriemma
+logo: "/assets/images/avatar.png"
 
 # Build settings
 markdown: redcarpet
