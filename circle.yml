@@ -2,6 +2,10 @@ machine:
   ruby:
     version: 2.3.0
 
+test:
+  override:
+    - echo "test"
+
 deployment:
   automerge-staging:
     branch:
