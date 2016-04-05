@@ -27,6 +27,8 @@ task :publish => [:generate] do
     Dir.chdir tmp
 
     system "git init"
+    system 'git config --global user.email "jdauriemma@gmail.com"'
+    system 'git config --global user.name "Jeff Auriemma"'
     system "git remote add origin https://github.com/#{GITHUB_REPONAME}.git"
     system "git checkout -b staging-build"
     system "git add ."
