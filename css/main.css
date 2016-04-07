@@ -212,7 +212,9 @@ pre {
 .site-footer {
   background: linear-gradient(#fff, #ccc);
   color: #000;
-  padding: 30px 0; }
+  padding: 30px 0;
+  position: relative;
+  z-index: 1; }
 
 .footer-heading {
   font-size: 18px;
@@ -271,10 +273,11 @@ pre {
   box-sizing: border-box; }
 
 #main-content {
-  min-height: calc(100vh - 60px - 56px - 97px); }
+  min-height: calc(100vh - 30px - 56px - 97px); }
 
 .page-content {
-  padding: 30px 0;
+  overflow: hidden;
+  padding: 30px 0 0;
   position: relative; }
 
 .post-list {
