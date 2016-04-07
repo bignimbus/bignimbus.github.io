@@ -8,7 +8,7 @@
  * Site header
  */
 .site-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.08), #fff);
+  background: linear-gradient(to bottom, #ccc, #fff);
   min-height: 56px;
 
   // Positioning context for the mobile navigation icon
@@ -110,7 +110,7 @@
  * Site footer
  */
 .site-footer {
-  background: linear-gradient(#fff, rgba(0, 0, 0, 0.08));
+  background: linear-gradient(#fff, #ccc);
   color: #000;
   padding: $spacing-unit 0;
 }
