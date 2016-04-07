@@ -1,6 +1,11 @@
 .show-menu {
   overflow-y: hidden;
 
+  .avatar {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
   .page-content {
     height: calc(100vh - 56px);
     overflow-y: scroll;

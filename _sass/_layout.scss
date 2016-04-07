@@ -35,6 +35,7 @@
   background-size: contain;
   display: inline-block;
   height: 56px;
+  transition: transform 0.3s, -webkit-transform 0.3s;
   vertical-align: middle;
   width: 56px;
 }
