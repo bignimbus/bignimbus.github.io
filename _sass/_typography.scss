@@ -85,18 +85,34 @@ a {
   &.color {
     &-0 {
       border-color: $color-0;
+      &:hover,
+      &:active {
+        color: $color-0;
+      }
     }
 
     &-1 {
       border-color: $color-1;
+      &:hover,
+      &:active {
+        color: $color-1;
+      }
     }
 
     &-2 {
       border-color: $color-2;
+      &:hover,
+      &:active {
+        color: $color-2;
+      }
     }
 
     &-3 {
       border-color: $color-3;
+      &:hover,
+      &:active {
+        color: $color-3;
+      }
     }
   }
 
