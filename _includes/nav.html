@@ -1,9 +1,19 @@
-<nav>
+<nav class="main-nav">
   <h4>Categories</h4>
   <ul>
-    <li><a href="{{ site.base_url }}/">All</a></li>
+    <li>
+      <a href="{{ site.base_url }}/">
+        <div><img src="/assets/images/icons/all.svg"></div>
+        <div>All</div>
+      </a>
+    </li>
     {% for c in site.categories %}
-    <li><a href="{{ site.base_url }}/category/{{ c[0] }}">{{ c[0] | capitalize }}</a></li>
+    <li>
+      <a href="{{ site.base_url }}/category/{{ c[0] }}">
+        <div><img src="/assets/images/icons/{{ c[0] }}.svg"></div>
+        <div>{{ c[0] | capitalize }}</div>
+      </a>
+    </li>
     {% endfor %}
   </ul>
   <h4>Popular tags</h4>
@@ -11,7 +21,12 @@
     {% for tag in sortedtags reversed %}
     {% assign tagitems = tag | split: '#' %}
     {% if forloop.index < 10 %}
-    <li><a href="{{ site.base_url }}/tag/{{ tagitems[1] }}">{{ tagitems[1] }}</a></li>
+    <li>
+      <a href="{{ site.base_url }}/tag/{{ tagitems[1] }}">
+        <div><img src="/assets/images/icons/tag.svg"></div>
+        <div>{{ tagitems[1] }}</div>
+      </a>
+    </li>
     {% endif %}
     {% endfor %}
   </ul>
