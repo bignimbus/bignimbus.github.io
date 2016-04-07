@@ -114,6 +114,8 @@
   background: linear-gradient(#fff, #ccc);
   color: #000;
   padding: $spacing-unit 0;
+  position: relative;
+  z-index: 1;
 }
 
 .footer-heading {
@@ -194,11 +196,12 @@
 }
 
 #main-content {
-  min-height: calc(100vh - 60px - 56px - 97px);
+  min-height: calc(100vh - 30px - 56px - 97px);
 }
 
 .page-content {
-  padding: $spacing-unit 0;
+  overflow: hidden;
+  padding: $spacing-unit 0 0;
   position: relative;
 }
 
