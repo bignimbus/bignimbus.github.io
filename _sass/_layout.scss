@@ -211,7 +211,7 @@
 
   > li {
     clear: both;
-    margin: 0 auto $spacing-unit;
+    margin: 0 auto $spacing-unit * 2;
     position: relative;
     text-align: center;
     width: 75%;
@@ -257,7 +257,7 @@
   box-shadow: 0 0 2px #000;
   border-radius: 50%;
   height: 100px;
-  margin: 0 auto;
+  margin: 0 auto 16px;
   width: 100px;
 }
 
