@@ -285,7 +285,7 @@ pre {
   list-style: none; }
   .post-list > li {
     clear: both;
-    margin: 0 auto 30px;
+    margin: 0 auto 60px;
     position: relative;
     text-align: center;
     width: 75%; }
@@ -310,6 +310,8 @@ pre {
 
 .post-content {
   margin-bottom: 30px; }
+  .post-content img {
+    margin-bottom: 15px; }
 
 .thumb-container {
   background-position: center center;
@@ -317,7 +319,7 @@ pre {
   box-shadow: 0 0 2px #000;
   border-radius: 50%;
   height: 100px;
-  margin: 0 auto;
+  margin: 0 auto 16px;
   width: 100px; }
 
 .tags {
