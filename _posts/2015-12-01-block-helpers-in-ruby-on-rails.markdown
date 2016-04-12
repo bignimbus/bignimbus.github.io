@@ -18,6 +18,7 @@ I am trying to show a visual element side-by-side with a corresponding CSS code 
 <p>
 My first approach was ugly.  It looked something like this:
 </p>
+
 ```erb
 <!-- view.html.erb -->
 <section class="code-sample">

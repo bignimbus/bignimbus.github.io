@@ -244,11 +244,11 @@
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
-}
+  margin-bottom: $spacing-unit;
 
-.post-fragment {
-  
+  img {
+    margin-bottom: $spacing-unit / 2;
+  }
 }
 
 .thumb-container {
