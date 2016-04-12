@@ -1,0 +1,21 @@
+machine:
+  ruby:
+    version: 2.3.0
+
+general:
+  branches:
+    only:
+      - staging
+      - staging-build
+      - master
+
+test:
+  override:
+    - echo "test"
+
+deployment:
+  automerge-staging:
+    branch:
+      - staging
+    commands:
+      - bundle exec rake publish
