@@ -75,7 +75,7 @@ define([], function () {
 <p>
 Right now, it’s pretty basic (I have plans - big plans!).  There are two views: single post, and browse.  Browse can show all of my blog posts, or indexed by tag.
 </p>
-<img src="http://jdauriemma.com/media/blog-post.png"><br><img src="http://jdauriemma.com/media/blog-browse.png"><p>
+<img src="http://jdauriemma.startlogic.com/home/media/blog-post.png"><br><img src="http://jdauriemma.startlogic.com/home/media/blog-browse.png"><p>
 So, for the time being, this solution serves my purpose. I'm no longer hosting a security risk on my site, and I actually get more control over my content than if I had continued using WordPress.
 </p>
 <h4>Tweet me</h4>
