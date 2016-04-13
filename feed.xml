@@ -5,8 +5,8 @@
     <description>thoughts on code, music and education</description>
     <link>http://bignimbus.github.io/</link>
     <atom:link href="http://bignimbus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Apr 2016 03:41:01 +0000</pubDate>
-    <lastBuildDate>Wed, 13 Apr 2016 03:41:01 +0000</lastBuildDate>
+    <pubDate>Wed, 13 Apr 2016 04:41:26 +0000</pubDate>
+    <lastBuildDate>Wed, 13 Apr 2016 04:41:26 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
@@ -593,7 +593,7 @@ Tumblr’s API is good enough, but I also wanted to create a browse page.  As it
 Right now, it’s pretty basic (I have plans - big plans!).  There are two views: single post, and browse.  Browse can show all of my blog posts, or indexed by tag.
 &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://jdauriemma.com/media/blog-post.png&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://jdauriemma.com/media/blog-browse.png&quot;&gt;&lt;p&gt;
+&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/media/blog-post.png&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/media/blog-browse.png&quot;&gt;&lt;p&gt;
 So, for the time being, this solution serves my purpose. I&amp;#39;m no longer hosting a security risk on my site, and I actually get more control over my content than if I had continued using WordPress.
 &lt;/p&gt;
 &lt;h4&gt;Tweet me&lt;/h4&gt;
@@ -640,12 +640,12 @@ So, for the time being, this solution serves my purpose. I&amp;#39;m no longer h
 
 &lt;p&gt;This piece is a rare five-voice fugue, meaning there are up to five independent melodies happening in parallel. Most composers hesitate to write five-voice fugues (Bach only has a handful to his name): they tend to border on a &quot;chorale&quot; like sound, which can sound overly &quot;vertical&quot; and suffer from a lack of true polyphony. On top of that, most fugue subject are either too busy or have to wide of a tonal range to accommodate for five voices. &quot;Oops!... I Did It Again&quot; is slow enough (I slowed it down to 60bpm) and compact enough (within a sixth) that I decided to throw caution to the wind and give five voices a shot. Here&#39;s what the subject looks like on paper:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/08/bach-oops-subject.png&quot;&gt;&lt;img alt=&quot;IBW Oops I Did It Again Subject&quot; src=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/08/bach-oops-subject.png&quot;&gt;&lt;/a&gt;&lt;p&gt;Subject, in C# minor: i V i VII III i E: V I&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;IBW Oops I Did It Again Subject&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/bach-oops-subject.png&quot;&gt;&lt;p&gt;Subject, in C# minor: i V i VII III i E: V I&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue#The_exposition&quot;&gt;tonal answer&lt;/a&gt; is in the &lt;a href=&quot;http://en.wikipedia.org/wiki/Relative_key&quot;&gt;relative major&lt;/a&gt;:&lt;/p&gt;
-&lt;a href=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/10/bach-oops-answer.png&quot;&gt;&lt;img alt=&quot;IBW Oops I Did It Again Answer&quot; src=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/10/bach-oops-answer.png&quot;&gt;&lt;/a&gt; &lt;p&gt;Answer, in E major: I V I vi c#: iidim V&lt;/p&gt;
-&lt;p&gt;The exposition makes use of two &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue#The_exposition&quot;&gt;countersubjects&lt;/a&gt;, but only countersubject 2 is reused in the development section:&lt;/p&gt;&lt;a href=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/08/bach-oops-cs1.png&quot;&gt;&lt;img alt=&quot;IBW Oops I Did It Again Countersubject 1&quot; src=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/08/bach-oops-cs1.png&quot;&gt;&lt;/a&gt;
+&lt;img alt=&quot;IBW Oops I Did It Again Answer&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/10/bach-oops-answer.png&quot;&gt;&lt;p&gt;Answer, in E major: I V I vi c#: iidim V&lt;/p&gt;
+&lt;p&gt;The exposition makes use of two &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue#The_exposition&quot;&gt;countersubjects&lt;/a&gt;, but only countersubject 2 is reused in the development section:&lt;/p&gt;&lt;img alt=&quot;IBW Oops I Did It Again Countersubject 1&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/bach-oops-cs1.png&quot;&gt;
 &lt;p&gt;Countersubject 1&lt;/p&gt;
-&lt;a href=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/08/bach-oops-cs2.png&quot;&gt;&lt;img alt=&quot;bach-oops-IBW Oops I Did It Again Countersubject 2&quot; src=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/08/bach-oops-cs2.png&quot;&gt;&lt;/a&gt;
+&lt;img alt=&quot;bach-oops-IBW Oops I Did It Again Countersubject 2&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/bach-oops-cs2.png&quot;&gt;
 &lt;p&gt;Countersubject 2&lt;/p&gt;
 &lt;p&gt;The tonal outline of the piece is:&lt;/p&gt;
 &lt;ul&gt;&lt;li&gt;(mm1) C# minor&lt;/li&gt;
@@ -692,11 +692,11 @@ So, for the time being, this solution serves my purpose. I&amp;#39;m no longer h
 &lt;p&gt;First, you may want to &lt;a href=&quot;#score&quot;&gt;view the score&lt;/a&gt;. I&#39;m convinced that all American citizens have this song tattooed on their brains, but just in case you want to hear it ooooone moooore tiiiiime, here&#39;s a link to the &lt;a href=&quot;http://grooveshark.com/#!/s/Don+t+Stop+Believin/3WbLGn?src=5&quot;&gt;original recording&lt;/a&gt;. I decided to take the left-hand half of the piano part from the intro as this fugue&#39;s subject and &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;answer&lt;/a&gt;.
 &lt;/p&gt;&lt;p&gt;In notation:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.15.57-PM.png&quot;&gt;&lt;img alt=&quot;IBW Don&#39;t Stop Believin Subject&quot; src=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.15.57-PM.png&quot;&gt;&lt;/a&gt;&lt;p&gt;Subject, in E major: I V vi IV&lt;/p&gt;&lt;p&gt;
-&lt;a href=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.16.18-PM.png&quot;&gt;&lt;img alt=&quot;IBW Don&#39;t Stop Believin Answer&quot; class=&quot;size-full wp-image-494&quot; src=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.16.18-PM.png&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Tonal Answer, in E major: V ii-V42 IV V6&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;IBW Don&#39;t Stop Believin Subject&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.15.57-PM.png&quot;&gt;&lt;p&gt;Subject, in E major: I V vi IV&lt;/p&gt;&lt;p&gt;
+&lt;img alt=&quot;IBW Don&#39;t Stop Believin Answer&quot; class=&quot;size-full wp-image-494&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.16.18-PM.png&quot;&gt;&lt;/p&gt;&lt;p&gt;Tonal Answer, in E major: V ii-V42 IV V6&lt;/p&gt;
 &lt;p&gt;This fugue makes use of two &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;countersubjects&lt;/a&gt;:&lt;/p&gt;
-&lt;a href=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.25.36-PM.png&quot;&gt;&lt;img alt=&quot;Countersubject 1&quot; src=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.25.36-PM.png&quot;&gt;&lt;/a&gt;&lt;p&gt;Countersubject 1&lt;/p&gt;
-&lt;a href=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.25.55-PM.png&quot;&gt;&lt;img alt=&quot;Countersubject 2&quot; src=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.25.55-PM.png&quot;&gt;&lt;/a&gt;&lt;p&gt;Countersubject 2, free counterpoint thereafter&lt;/p&gt;
+&lt;img alt=&quot;Countersubject 1&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.25.36-PM.png&quot;&gt;&lt;p&gt;Countersubject 1&lt;/p&gt;
+&lt;img alt=&quot;Countersubject 2&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.25.55-PM.png&quot;&gt;&lt;p&gt;Countersubject 2, free counterpoint thereafter&lt;/p&gt;
 &lt;p&gt;You may notice that Countersubject sounds a tiny bit like the right-hand piano part of the song - this was unintentional but welcome.&lt;/p&gt;
 &lt;p&gt;The exposition is strict with very little free counterpoint, so it&amp;#39;s over fairly quickly for a four-voice fugue. The development begins in measure 17. The subject is stated many times throughout the piece per se, in simplified rhythms, &lt;a href=&quot;http://composerstoolbox.wordpress.com/2011/09/26/tool-17-augmentation-and-diminution/&quot;&gt;augmented&lt;/a&gt;, and &lt;a href=&quot;http://en.wikipedia.org/wiki/Inversion_(music)&quot;&gt;inverted&lt;/a&gt;. I am particularly proud of measures 49-59, where the subject is iterated concurrently per se and in augmentation.&lt;/p&gt;
 &lt;p&gt;The tonal outline of the piece is:&lt;/p&gt;
@@ -748,9 +748,9 @@ So, for the time being, this solution serves my purpose. I&amp;#39;m no longer h
 &lt;p&gt;&lt;em&gt;Audio Clip: Lil Jon / DJ Snake &quot;Turn Down for What&quot; (original)&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/06/turndownclip.mp3&quot;&gt;Synth Line&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;This synth ostinato will serve as the fugue&amp;#39;s &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;subject&lt;/a&gt;. I simplified the &lt;a href=&quot;http://en.wikipedia.org/wiki/Syncopation&quot;&gt;syncopation&lt;/a&gt; in the rhythm in order to accommodate the Baroque idiom:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/06/turndown01.jpg&quot;&gt;&lt;img alt=&quot;Fugue subject&quot; class=&quot;size-full wp-image-101&quot; src=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/06/turndown01.jpg&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;em&gt;Fugue subject in E minor: i (VI) (V)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Fugue subject&quot; class=&quot;size-full wp-image-101&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/06/turndown01.jpg&quot;&gt;&lt;br&gt;&lt;em&gt;Fugue subject in E minor: i (VI) (V)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I am using a &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;&amp;quot;tonal answer&amp;quot;&lt;/a&gt; that is a bit unconventional:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/06/turndown02.jpg&quot;&gt;&lt;img alt=&quot;Tonal answer in G minor: ii-dim&quot; class=&quot;size-full wp-image-102&quot; src=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/06/turndown02.jpg&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;em&gt;Tonal answer in E minor: iio - (v)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Tonal answer in G minor: ii-dim&quot; class=&quot;size-full wp-image-102&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/06/turndown02.jpg&quot;&gt;&lt;br&gt;&lt;em&gt;Tonal answer in E minor: iio - (v)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Most fugues in the minor mode opt for a tonal answer in the relative major or dominant; this, however, answers in the submediant. The piece wastes little time progressing into the development section after the third voice restates the subject. Here is the full audio:&lt;/p&gt;
 &lt;h4&gt;Final Product&lt;/h4&gt;
 &lt;p&gt;&lt;iframe height=&quot;500px&quot; src=&quot;http://www.noteflight.com/embed/52c241c3b178ed536a2ca961994176a5f0536125?scale=1&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
