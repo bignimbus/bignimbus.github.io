@@ -2,7 +2,7 @@
 layout: post
 title: Tumblr as a CMS
 date:   2015-03-20 00:00:00 -0600
-featured_image: http://jdauriemma.com/media/tcms.png
+featured_image: tcms.png
 categories: programming
 tags: ['javascript', 'backbone', 'blogging']
 excerpt: How I hacked together a blogging solution using Tumblr as a headless CMS.  Backbone.js handled state and markup parsing on the client side.

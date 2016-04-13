@@ -2,7 +2,7 @@
 layout: post
 title: Block Helpers in Ruby on Rails
 date:   2015-12-01 00:00:00 -0600
-featured_image: http://i.imgur.com/OCD3Hwk.png
+featured_image: OCD3Hwk.png
 categories: programming
 tags: ['ruby', 'rails']
 excerpt: "From a Rails newcomer's point of view: how to use block helpers effectively."

@@ -2,7 +2,7 @@
 layout: post
 title:  How to Make Teaching a Better Career, Part 1
 date:   2015-10-14 00:00:00 -0600
-featured_image: https://upload.wikimedia.org/wikipedia/commons/4/4e/Applauding_Teacher.jpg
+featured_image: Applauding_Teacher.jpg
 categories: education
 tags: ['teaching', 'politics']
 excerpt: We all want young people to have a great education in the United States.  Beyond that, the diversity of viewpoints on how to improve education in our country is breathtaking.  No matter what your views are, though, one crucial point in every plan is ensuring that we attract and keep high-quality teachers in the classroom.  Right now, that vital component to good education is in trouble.

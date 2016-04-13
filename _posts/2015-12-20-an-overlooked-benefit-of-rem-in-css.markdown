@@ -2,7 +2,7 @@
 layout: post
 title: An Overlooked Benefit of rem in CSS
 date:   2015-12-20 00:00:00 -0600
-featured_image: http://i.imgur.com/sk3UnQy.jpg
+featured_image: sk3UnQy.jpg
 categories: programming
 tags: ['css', 'scss']
 excerpt: Should you choose rem, px, em, etc?  There's lots of nuance in this discussion.  Use of the rem unit can offer savings in the form of payload weight.  Here's how.

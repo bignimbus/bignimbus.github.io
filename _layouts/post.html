@@ -7,7 +7,7 @@ layout: default
     <p class="post-meta">{% include post-meta.html date=page.date tags=page.tags categories=page.categories %}{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
     {% if page.featured_image %}
     <div class="featured-image-container">
-      <img src="{{ page.featured_image }}" alt="{{ page.title }}">
+      <img src="/assets/images/featured/{{ page.featured_image }}" alt="{{ page.title }}">
     </div>
     {% endif %}
   </header>
