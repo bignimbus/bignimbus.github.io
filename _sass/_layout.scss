@@ -254,11 +254,19 @@
 .thumb-container {
   background-position: center center;
   background-size: cover;
-  box-shadow: 0 0 2px #000;
-  border-radius: 50%;
   height: 100px;
   margin: 0 auto 16px;
+  position: relative;
   width: 100px;
+
+  img {
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
 }
 
 .tags {
