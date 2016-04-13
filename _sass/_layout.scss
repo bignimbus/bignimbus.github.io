@@ -266,6 +266,17 @@
     top: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+    z-index: 1;
+  }
+
+  &:after {
+    background-image: radial-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 45%, rgba(0, 0, 0, 0.7) 100%);
+    content: ' ';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
   }
 }
 
