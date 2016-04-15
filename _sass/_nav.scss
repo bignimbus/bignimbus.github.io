@@ -80,3 +80,15 @@
     }
   }
 }
+
+.blog-tagline {
+  span {
+    display: inline-block;
+    transform: rotate(0);
+    transition: transform .3s;
+
+    &:hover {
+      transform: rotate(15deg);
+    }
+  }
+}
