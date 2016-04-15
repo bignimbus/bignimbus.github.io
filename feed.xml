@@ -5,8 +5,8 @@
     <description>thoughts on code, music and education</description>
     <link>http://bignimbus.github.io/</link>
     <atom:link href="http://bignimbus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Apr 2016 04:41:26 +0000</pubDate>
-    <lastBuildDate>Wed, 13 Apr 2016 04:41:26 +0000</lastBuildDate>
+    <pubDate>Fri, 15 Apr 2016 04:41:30 +0000</pubDate>
+    <lastBuildDate>Fri, 15 Apr 2016 04:41:30 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
@@ -618,50 +618,87 @@ So, for the time being, this solution serves my purpose. I&amp;#39;m no longer h
     
       <item>
         <title>If Bach Wrote... &quot;Oops!... I Did It Again&quot;</title>
-        <description>&lt;p&gt;You can&#39;t un-see that image.&lt;/p&gt;
+        <description>&lt;p&gt;You can&amp;#39;t un-see that image.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;&quot;Oops!...I did it again  
 
-&lt;pre&gt;&quot;Oops!...I did it again&lt;br&gt;&lt;br&gt;I played with your heart, got lost in the game&lt;br&gt;&lt;br&gt;Oh baby, baby&lt;br&gt;&lt;br&gt;Oops!...You think I&#39;m in love&lt;br&gt;&lt;br&gt;That I&#39;m sent from above&lt;br&gt;&lt;br&gt;I&#39;m not that innocent&quot;&lt;br&gt;&lt;br&gt;      - Britney Spears&lt;br&gt;&lt;br&gt;&lt;/pre&gt;
+I played with your heart, got lost in the game  
 
-&lt;p&gt;In my teen years I was too busy listening to Limp Bizkit to notice the hidden gem in Britney&#39;s 2000 hit, &quot;Oops!... I Did It Again.&quot; Now, no one will ever repeat that fateful mistake again. You&#39;re welcome, America.
-&lt;/p&gt;&lt;h4&gt;If Bach Wrote... Oops!... I Did It Again&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;http://jdauriemma.com/audio/mp3/002IfBachWroteOopsIDidItAgain.mp3&quot;&gt;&lt;img src=&quot;http://cdn.flaticon.com/png/256/375.png&quot;&gt;&lt;br&gt;If Bach Wrote... Oops!... I Did It Again&lt;/a&gt;&lt;/p&gt;
+Oh baby, baby  
 
-&lt;h4&gt;Triumphant Return&lt;/h4&gt;
+Oops!...You think I&#39;m in love  
 
-&lt;p&gt;I apologize for my long hiatus on new posts - lots of new and exciting things are happening in my personal life right now and I&#39;ve had to put writing on the back burner for a bit. But enough about me. &lt;a href=&quot;http://jdauriemma.com/blog/tag/if-bach-wrote/&quot;&gt;If Bach Wrote...&lt;/a&gt; (IBW) is a personal project of mine where I regularly pick an iconic tune from pop culture, extract melodic material from it, and compose a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;fugue&lt;/a&gt; with that melody as the &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;subject&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;So far I&#39;ve tackled &lt;a href=&quot;http://jdauriemma.com/blog/if-bach-wrote-dont-stop-believin&quot;&gt;Journey&lt;/a&gt; and &lt;a href=&quot;http://jdauriemma.com/blog/if-bach-wrote-turn-down-for-what/&quot;&gt;Lil Jon&lt;/a&gt;, and I&#39;ve been pretty surprised with the large audience both pieces have acquired (relative to what I&#39;m used to). If you&#39;ve listened to those two pieces, thank you! Who knew that &lt;a href=&quot;http://en.wikipedia.org/wiki/Polyphony&quot;&gt;polyphony&lt;/a&gt; could still be popular in the 21st century?&lt;/p&gt;
+That I&#39;m sent from above  
 
-&lt;h4&gt;The Original&lt;/h4&gt;
+I&#39;m not that innocent&quot;  
+
+      - Britney Spears  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;In my teen years I was too busy listening to Limp Bizkit to notice the hidden gem in Britney&amp;#39;s 2000 hit, &amp;quot;Oops!... I Did It Again.&amp;quot; Now, no one will ever repeat that fateful mistake again. You&amp;#39;re welcome, America.&lt;/p&gt;
+
+&lt;h3 id=&quot;if-bach-wrote-oops-i-did-it-again&quot;&gt;If Bach Wrote... Oops!... I Did It Again&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jdauriemma.com/audio/mp3/002IfBachWroteOopsIDidItAgain.mp3&quot;&gt;&lt;img src=&quot;http://cdn.flaticon.com/png/256/375.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+If Bach Wrote... Oops!... I Did It Again&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;triumphant-return&quot;&gt;Triumphant Return&lt;/h3&gt;
+
+&lt;p&gt;I apologize for my long hiatus on new posts - lots of new and exciting things are happening in my personal life right now and I&amp;#39;ve had to put writing on the back burner for a bit. But enough about me. &lt;a href=&quot;http://bignimbus.github.io/tag/ifbachwrote/&quot;&gt;If Bach Wrote...&lt;/a&gt; (IBW) is a personal project of mine where I regularly pick an iconic tune from pop culture, extract melodic material from it, and compose a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;fugue&lt;/a&gt; with that melody as the &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;subject&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So far I&amp;#39;ve tackled &lt;a href=&quot;http://jdauriemma.com/blog/if-bach-wrote-dont-stop-believin&quot;&gt;Journey&lt;/a&gt; and &lt;a href=&quot;http://jdauriemma.com/blog/if-bach-wrote-turn-down-for-what/&quot;&gt;Lil Jon&lt;/a&gt;, and I&amp;#39;ve been pretty surprised with the large audience both pieces have acquired (relative to what I&amp;#39;m used to). If you&amp;#39;ve listened to those two pieces, thank you! Who knew that &lt;a href=&quot;http://en.wikipedia.org/wiki/Polyphony&quot;&gt;polyphony&lt;/a&gt; could still be popular in the 21st century?&lt;/p&gt;
+
+&lt;h3 id=&quot;the-original&quot;&gt;The Original&lt;/h3&gt;
 
 &lt;p&gt;For you music readers: &lt;a href=&quot;#score&quot;&gt;view the score&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Bubblegum pop is often given the cold shoulder by musicologists, but the refrain of &quot;Oops!... I Did It Again&quot; makes for a fascinating fugue subject. &lt;a href=&quot;http://grooveshark.com/#!/s/Oops+I+Did+It+Again/2M1Qyi?src=5&quot;&gt;Listen here&lt;/a&gt; - you can skip to 0:50 to hear the refrain, but you&#39;d be missing out on some slick bass playing by Thomas Lindberg. &lt;/p&gt;
+&lt;p&gt;Bubblegum pop is often given the cold shoulder by musicologists, but the refrain of &amp;quot;Oops!... I Did It Again&amp;quot; makes for a fascinating fugue subject. &lt;a href=&quot;http://grooveshark.com/#!/s/Oops+I+Did+It+Again/2M1Qyi?src=5&quot;&gt;Listen here&lt;/a&gt; - you can skip to 0:50 to hear the refrain, but you&amp;#39;d be missing out on some slick bass playing by Thomas Lindberg.&lt;/p&gt;
 
-&lt;h4&gt;Analysis&lt;/h4&gt;
+&lt;h3 id=&quot;analysis&quot;&gt;Analysis&lt;/h3&gt;
 
-&lt;p&gt;This piece is a rare five-voice fugue, meaning there are up to five independent melodies happening in parallel. Most composers hesitate to write five-voice fugues (Bach only has a handful to his name): they tend to border on a &quot;chorale&quot; like sound, which can sound overly &quot;vertical&quot; and suffer from a lack of true polyphony. On top of that, most fugue subject are either too busy or have to wide of a tonal range to accommodate for five voices. &quot;Oops!... I Did It Again&quot; is slow enough (I slowed it down to 60bpm) and compact enough (within a sixth) that I decided to throw caution to the wind and give five voices a shot. Here&#39;s what the subject looks like on paper:&lt;/p&gt;
+&lt;p&gt;This piece is a rare five-voice fugue, meaning there are up to five independent melodies happening in parallel. Most composers hesitate to write five-voice fugues (Bach only has a handful to his name): they tend to border on a &amp;quot;chorale&amp;quot; like sound, which can sound overly &amp;quot;vertical&amp;quot; and suffer from a lack of true polyphony. On top of that, most fugue subject are either too busy or have to wide of a tonal range to accommodate for five voices. &amp;quot;Oops!... I Did It Again&amp;quot; is slow enough (I slowed it down to 60bpm) and compact enough (within a sixth) that I decided to throw caution to the wind and give five voices a shot. Here&amp;#39;s what the subject looks like on paper:&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt=&quot;IBW Oops I Did It Again Subject&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/bach-oops-subject.png&quot;&gt;&lt;p&gt;Subject, in C# minor: i V i VII III i E: V I&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/bach-oops-subject.png&quot; alt=&quot;IBW Oops I Did It Again Subject&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Subject, in C# minor: i V i VII III i E: V I&lt;/p&gt;
+
 &lt;p&gt;The &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue#The_exposition&quot;&gt;tonal answer&lt;/a&gt; is in the &lt;a href=&quot;http://en.wikipedia.org/wiki/Relative_key&quot;&gt;relative major&lt;/a&gt;:&lt;/p&gt;
-&lt;img alt=&quot;IBW Oops I Did It Again Answer&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/10/bach-oops-answer.png&quot;&gt;&lt;p&gt;Answer, in E major: I V I vi c#: iidim V&lt;/p&gt;
-&lt;p&gt;The exposition makes use of two &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue#The_exposition&quot;&gt;countersubjects&lt;/a&gt;, but only countersubject 2 is reused in the development section:&lt;/p&gt;&lt;img alt=&quot;IBW Oops I Did It Again Countersubject 1&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/bach-oops-cs1.png&quot;&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/10/bach-oops-answer.png&quot; alt=&quot;IBW Oops I Did It Again Answer&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Answer, in E major: I V I vi c#: iidim V&lt;/p&gt;
+
+&lt;p&gt;The exposition makes use of two &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue#The_exposition&quot;&gt;countersubjects&lt;/a&gt;, but only countersubject 2 is reused in the development section:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/bach-oops-cs1.png&quot; alt=&quot;IBW Oops I Did It Again Countersubject 1&quot;&gt;&lt;/p&gt;
+
 &lt;p&gt;Countersubject 1&lt;/p&gt;
-&lt;img alt=&quot;bach-oops-IBW Oops I Did It Again Countersubject 2&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/bach-oops-cs2.png&quot;&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/bach-oops-cs2.png&quot; alt=&quot;bach-oops-IBW Oops I Did It Again Countersubject 2&quot;&gt;&lt;/p&gt;
+
 &lt;p&gt;Countersubject 2&lt;/p&gt;
+
 &lt;p&gt;The tonal outline of the piece is:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;(mm1) C# minor&lt;/li&gt;
-&lt;li&gt;(~mm18) E major&lt;/li&gt;
-&lt;li&gt;(~mm21) A major&lt;/li&gt;
-&lt;li&gt;(~mm24) F# minor&lt;/li&gt;
-&lt;li&gt;(~mm27) A major&lt;/li&gt;
-&lt;li&gt;(mm33) C# minor&lt;/li&gt;
-&lt;li&gt;(mm44) D# minor&lt;/li&gt;
-&lt;li&gt;(mm49) B major&lt;/li&gt;
-&lt;li&gt;(mm52) C# minor&lt;/li&gt;
-&lt;/ul&gt;&lt;div id=&quot;score&quot;&gt;&lt;h4&gt;View the Score&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.noteflight.com/scores/view/9cf8626d7922a021768e972251f9d4edc61a6975&quot;&gt;View the full score here&lt;/a&gt; on Noteflight.&lt;/p&gt;&lt;iframe src=&quot;http://www.noteflight.com/embed/9cf8626d7922a021768e972251f9d4edc61a6975?scale=1&quot; style=&quot;height:500px; width:100%&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h4&gt;Tweet me!&lt;/h4&gt;
-&lt;p&gt;Oops!... You tweeted me again: &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  (mm1) C# minor&lt;/li&gt;
+&lt;li&gt;  (~mm18) E major&lt;/li&gt;
+&lt;li&gt;  (~mm21) A major&lt;/li&gt;
+&lt;li&gt;  (~mm24) F# minor&lt;/li&gt;
+&lt;li&gt;  (~mm27) A major&lt;/li&gt;
+&lt;li&gt;  (mm33) C# minor&lt;/li&gt;
+&lt;li&gt;  (mm44) D# minor&lt;/li&gt;
+&lt;li&gt;  (mm49) B major&lt;/li&gt;
+&lt;li&gt;  (mm52) C# minor&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;the-score&quot;&gt;The Score&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.noteflight.com/scores/view/9cf8626d7922a021768e972251f9d4edc61a6975&quot;&gt;View the full score here&lt;/a&gt; on Noteflight.&lt;/p&gt;
+
+&lt;iframe src=&quot;http://www.noteflight.com/embed/9cf8626d7922a021768e972251f9d4edc61a6975?scale=1&quot; style=&quot;height:500px; width:100%&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;tweet-me&quot;&gt;Tweet me!&lt;/h3&gt;
+
+&lt;p&gt;Oops!... You tweeted me again: &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Aug 2014 06:00:00 +0000</pubDate>
         <link>http://bignimbus.github.io/music/if-bach-wrote-oops-i-did-it-again</link>
