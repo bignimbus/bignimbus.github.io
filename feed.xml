@@ -5,14 +5,14 @@
     <description>thoughts on code, music and education</description>
     <link>http://bignimbus.github.io/</link>
     <atom:link href="http://bignimbus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Apr 2016 03:54:11 +0000</pubDate>
-    <lastBuildDate>Sat, 16 Apr 2016 03:54:11 +0000</lastBuildDate>
+    <pubDate>Sat, 16 Apr 2016 05:35:52 +0000</pubDate>
+    <lastBuildDate>Sat, 16 Apr 2016 05:35:52 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
         <title>An Overlooked Benefit of rem in CSS</title>
         <description>&lt;p&gt;
-Should I use &lt;code&gt;rem&lt;/code&gt;, &lt;code&gt;px&lt;/code&gt;, or (gasp!) &lt;code&gt;em&lt;/code&gt;?  This debate has lots of nuance and I&#39;m not here to choose one for you.  I&#39;ve read a lot of good material on the subject thanks in part to my wondeful coworker Moises Montenegro, including &lt;a href=&quot;http://benfrain.com/just-use-pixels/&quot;&gt;this&lt;/a&gt; and also &lt;a href=&quot;https://mindtheshift.wordpress.com/2015/04/02/r-i-p-rem-viva-css-reference-pixel/&quot;&gt;this&lt;/a&gt; (both articles favor &lt;code&gt;px&lt;/code&gt;).  Much of the discussion centers around the nuts and bolts of how the browser interprets each unit, but I&#39;d like to add another dimension to this discussion: that of payload weight.
+Should I use &lt;code&gt;rem&lt;/code&gt;, &lt;code&gt;px&lt;/code&gt;, or (gasp!) &lt;code&gt;em&lt;/code&gt;?  This debate has lots of nuance and I&#39;m not here to choose one for you.  I&#39;ve read a lot of good material on the subject thanks in part to my wondeful coworker Moises Montenegro, including &lt;a href=&quot;https://benfrain.com/just-use-pixels/&quot;&gt;this&lt;/a&gt; and also &lt;a href=&quot;https://mindtheshift.wordpress.com/2015/04/02/r-i-p-rem-viva-css-reference-pixel/&quot;&gt;this&lt;/a&gt; (both articles favor &lt;code&gt;px&lt;/code&gt;).  Much of the discussion centers around the nuts and bolts of how the browser interprets each unit, but I&#39;d like to add another dimension to this discussion: that of payload weight.
 
 &lt;/p&gt;&lt;p&gt;
 Note: this article assumes that you are using some sort of CSS preprocessing: perhaps Sass, LESS or Stylus.  
@@ -530,7 +530,7 @@ I once used WordPress to publish a blog, and why not?  It was and is the go-to C
 As if on cue, my installation suffered a security failure and some jerk broke into my server (quite easily) and inserted a bunch of adware on my site.  That was my sign: I exported my WordPress DB, temporarily shut down my blog and searched for another solution.  I didn’t want to host a framework built on PHP - the risks seemed too high, particularly when considering that WordPress is also built on PHP.
 &lt;/p&gt;
 
-&lt;h4&gt;What I needed&lt;/h4&gt;
+&lt;h3&gt;What I needed&lt;/h3&gt;
 
 &lt;p&gt;
 Out of the box, my new system needed to have:
@@ -541,7 +541,7 @@ Out of the box, my new system needed to have:
 My fondest wish was to spin up some static page generation magic using node and some interesting modules I’ve come across, but my cheap-o shared server doesn’t support node.  I also strongly considered &lt;a href=&quot;//help.github.com/articles/using-jekyll-with-pages/&quot;&gt;Github’s Jekyll&lt;/a&gt;.  In the end, though, I decided to use &lt;a href=&quot;//tumblr.com&quot;&gt;Tumblr&lt;/a&gt;.
 &lt;/p&gt;
 
-&lt;h4&gt;How I did it&lt;/h4&gt;
+&lt;h3&gt;How I did it&lt;/h3&gt;
 
 &lt;p&gt;
 I recently refactored my site as an exercise in building a Backbone app.  One of the nice things about working with Backbone is its elegant way of hooking into APIs and modifying data structures via the &lt;code&gt;parse&lt;/code&gt; method.  Using the a simple GET request to &lt;a href=&quot;https://www.tumblr.com/docs/en/api/v1&quot;&gt;Tumblr’s v1 API&lt;/a&gt;, I pull down a well-structured JSON blob with all the data I need to populate a template.  There’s barely any parsing to be done.  Observe:
@@ -587,16 +587,16 @@ Tumblr’s API is good enough, but I also wanted to create a browse page.  As it
     &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4&gt;What the user sees&lt;/h4&gt;
+&lt;h3&gt;What the user sees&lt;/h3&gt;
 
 &lt;p&gt;
 Right now, it’s pretty basic (I have plans - big plans!).  There are two views: single post, and browse.  Browse can show all of my blog posts, or indexed by tag.
 &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/media/blog-post.png&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/media/blog-browse.png&quot;&gt;&lt;p&gt;
+&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/media/blog-post.png&quot; alt=&quot;Blog post&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/media/blog-browse.png&quot; alt=&quot;Blog browse&quot;&gt;&lt;p&gt;
 So, for the time being, this solution serves my purpose. I&amp;#39;m no longer hosting a security risk on my site, and I actually get more control over my content than if I had continued using WordPress.
 &lt;/p&gt;
-&lt;h4&gt;Tweet me&lt;/h4&gt;
+&lt;h3&gt;Tweet me&lt;/h3&gt;
 &lt;p&gt;
 &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;
 &lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
@@ -637,20 +637,18 @@ I&#39;m not that innocent&quot;
 
 &lt;h3 id=&quot;if-bach-wrote-oops-i-did-it-again&quot;&gt;If Bach Wrote... Oops!... I Did It Again&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://jdauriemma.com/audio/mp3/002IfBachWroteOopsIDidItAgain.mp3&quot;&gt;&lt;img src=&quot;http://cdn.flaticon.com/png/256/375.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+&lt;p&gt;&lt;a href=&quot;http://jdauriemma.com/audio/mp3/002IfBachWroteOopsIDidItAgain.mp3&quot;&gt;&lt;img src=&quot;http://cdn.flaticon.com/png/256/375.png&quot; alt=&quot;If Bach Wrote... Oops!... I Did It Again&quot;&gt;&lt;br&gt;
 If Bach Wrote... Oops!... I Did It Again&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;triumphant-return&quot;&gt;Triumphant Return&lt;/h3&gt;
 
-&lt;p&gt;I apologize for my long hiatus on new posts - lots of new and exciting things are happening in my personal life right now and I&amp;#39;ve had to put writing on the back burner for a bit. But enough about me. &lt;a href=&quot;http://bignimbus.github.io/tag/ifbachwrote/&quot;&gt;If Bach Wrote...&lt;/a&gt; (IBW) is a personal project of mine where I regularly pick an iconic tune from pop culture, extract melodic material from it, and compose a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;fugue&lt;/a&gt; with that melody as the &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;subject&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I apologize for my long hiatus on new posts - lots of new and exciting things are happening in my personal life right now and I&amp;#39;ve had to put writing on the back burner for a bit. But enough about me. &lt;a href=&quot;http://bignimbus.github.io/tag/ifbachwrote&quot;&gt;If Bach Wrote...&lt;/a&gt; (IBW) is a personal project of mine where I regularly pick an iconic tune from pop culture, extract melodic material from it, and compose a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;fugue&lt;/a&gt; with that melody as the &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;subject&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;So far I&amp;#39;ve tackled &lt;a href=&quot;http://jdauriemma.com/blog/if-bach-wrote-dont-stop-believin&quot;&gt;Journey&lt;/a&gt; and &lt;a href=&quot;http://jdauriemma.com/blog/if-bach-wrote-turn-down-for-what/&quot;&gt;Lil Jon&lt;/a&gt;, and I&amp;#39;ve been pretty surprised with the large audience both pieces have acquired (relative to what I&amp;#39;m used to). If you&amp;#39;ve listened to those two pieces, thank you! Who knew that &lt;a href=&quot;http://en.wikipedia.org/wiki/Polyphony&quot;&gt;polyphony&lt;/a&gt; could still be popular in the 21st century?&lt;/p&gt;
+&lt;p&gt;So far I&amp;#39;ve tackled &lt;a href=&quot;http://bignimbus.github.io/music/if-bach-wrote-dont-stop-believin&quot;&gt;Journey&lt;/a&gt; and &lt;a href=&quot;http://bignimbus.github.io/music/if-bach-wrote-turn-down-for-what&quot;&gt;Lil Jon&lt;/a&gt;, and I&amp;#39;ve been pretty surprised with the large audience both pieces have acquired (relative to what I&amp;#39;m used to). If you&amp;#39;ve listened to those two pieces, thank you! Who knew that &lt;a href=&quot;http://en.wikipedia.org/wiki/Polyphony&quot;&gt;polyphony&lt;/a&gt; could still be popular in the 21st century?&lt;/p&gt;
 
 &lt;h3 id=&quot;the-original&quot;&gt;The Original&lt;/h3&gt;
 
-&lt;p&gt;For you music readers: &lt;a href=&quot;#score&quot;&gt;view the score&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Bubblegum pop is often given the cold shoulder by musicologists, but the refrain of &amp;quot;Oops!... I Did It Again&amp;quot; makes for a fascinating fugue subject. &lt;a href=&quot;http://grooveshark.com/#!/s/Oops+I+Did+It+Again/2M1Qyi?src=5&quot;&gt;Listen here&lt;/a&gt; - you can skip to 0:50 to hear the refrain, but you&amp;#39;d be missing out on some slick bass playing by Thomas Lindberg.&lt;/p&gt;
+&lt;p&gt;Bubblegum pop is often given the cold shoulder by musicologists, but the refrain of &amp;quot;Oops!... I Did It Again&amp;quot; makes for a fascinating fugue subject. &lt;a href=&quot;https://youtu.be/HMUDVMiITOU&quot;&gt;Listen here&lt;/a&gt; - you can skip to 0:50 to hear the refrain, but you&amp;#39;d be missing out on some slick bass playing by Thomas Lindberg.&lt;/p&gt;
 
 &lt;h3 id=&quot;analysis&quot;&gt;Analysis&lt;/h3&gt;
 
@@ -729,20 +727,20 @@ Going anywhere&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Admit it, you were singing along! Not to dismiss the importance of good lyrics, I&amp;#39;ve always been more attached to melodies, harmonies and bass lines than lead vocals; I learned all the notes in this song long before I knew all the words. Whether you love Journey&amp;#39;s lyrics, instrumentals, or hate Journey entirely, I hope that you enjoy this version of &amp;quot;If Bach Wrote.&amp;quot;&lt;/p&gt;
 
-&lt;h4 id=&quot;if-bach-wrote-don-39-t-stop-believin-39&quot;&gt;If Bach Wrote... Don&amp;#39;t Stop Believin&amp;#39;&lt;/h4&gt;
+&lt;h3 id=&quot;if-bach-wrote-don-39-t-stop-believin-39&quot;&gt;If Bach Wrote... Don&amp;#39;t Stop Believin&amp;#39;&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://jdauriemma.com/audio/mp3/001IfBachWroteDontStopBelievin.mp3&quot;&gt;&lt;img src=&quot;http://cdn.flaticon.com/png/256/375.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+&lt;p&gt;&lt;a href=&quot;http://jdauriemma.com/audio/mp3/001IfBachWroteDontStopBelievin.mp3&quot;&gt;&lt;img src=&quot;http://cdn.flaticon.com/png/256/375.png&quot; alt=&quot;If Bach Wrote... Don&amp;#39;t Stop Believin&amp;#39;&quot;&gt;&lt;br&gt;
 If Bach Wrote &amp;quot;Don&amp;#39;t Stop Believin&amp;#39;&amp;quot;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;welcome-back&quot;&gt;Welcome back...&lt;/h4&gt;
+&lt;h3 id=&quot;welcome-back&quot;&gt;Welcome back...&lt;/h3&gt;
 
 &lt;p&gt;To the second installment of &lt;a href=&quot;http://jdauriemma.com/blog/tag/if-bach-wrote/&quot;&gt;If Bach Wrote...&lt;/a&gt; (IBW). If Bach Wrote... (IBW) is a personal project of mine where I regularly pick an iconic tune from pop culture, extract melodic material from it, and compose a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;fugue&lt;/a&gt; with that melody as the &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;subject&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;A handful of weeks ago I did a &lt;a href=&quot;http://en.wikipedia.org/wiki/Polyphony&quot;&gt;polyphonic&lt;/a&gt; treatment of Lil Jon and DJ Snake&amp;#39;s &lt;a href=&quot;http://jdauriemma.com/blog/if-bach-wrote-turn-down-for-what/&quot;&gt;&amp;quot;Turn Down for What&amp;quot;&lt;/a&gt; and was pleasantly surprised by the number of hits it got. People more or less had nice things to say about it, too. So, if you listened: thank you!&lt;/p&gt;
 
-&lt;h4 id=&quot;original&quot;&gt;Original&lt;/h4&gt;
+&lt;h3 id=&quot;original&quot;&gt;Original&lt;/h3&gt;
 
-&lt;p&gt;First, you may want to &lt;a href=&quot;#score&quot;&gt;view the score&lt;/a&gt;. I&amp;#39;m convinced that all American citizens have this song tattooed on their brains, but just in case you want to hear it ooooone moooore tiiiiime, here&amp;#39;s a link to the &lt;a href=&quot;http://grooveshark.com/#!/s/Don+t+Stop+Believin/3WbLGn?src=5&quot;&gt;original recording&lt;/a&gt;. I decided to take the left-hand half of the piano part from the intro as this fugue&amp;#39;s subject and &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;answer&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;First, you may want to &lt;a href=&quot;#score&quot;&gt;view the score&lt;/a&gt;. I&amp;#39;m convinced that all American citizens have this song tattooed on their brains, but just in case you want to hear it ooooone moooore tiiiiime, here&amp;#39;s a link to the &lt;a href=&quot;https://youtu.be/1k8craCGpgs&quot;&gt;original recording&lt;/a&gt;. I decided to take the left-hand half of the piano part from the intro as this fugue&amp;#39;s subject and &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;answer&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;In notation:&lt;/p&gt;
 
@@ -783,13 +781,13 @@ If Bach Wrote &amp;quot;Don&amp;#39;t Stop Believin&amp;#39;&amp;quot;&lt;/a&gt;
 
 &lt;div id=&quot;score&quot;&gt;
 
-#### View the score
+### View the score
 
 [View the full score here](http://www.noteflight.com/scores/view/19e01ff4d09ce892f791521745374d2d004f6197) on Noteflight.
 
 &lt;iframe src=&quot;http://www.noteflight.com/embed/19e01ff4d09ce892f791521745374d2d004f6197?scale=1&quot; style=&quot;width:100%;height:500px&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 
-&lt;h4 id=&quot;tweet-me&quot;&gt;Tweet me!&lt;/h4&gt;
+&lt;h3 id=&quot;tweet-me&quot;&gt;Tweet me!&lt;/h3&gt;
 
 &lt;p&gt;I&amp;#39;m on the Twitter: &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;. Say hey!&lt;/p&gt;
 </description>
@@ -808,17 +806,17 @@ If Bach Wrote &amp;quot;Don&amp;#39;t Stop Believin&amp;#39;&amp;quot;&lt;/a&gt;
     
       <item>
         <title>If Bach Wrote... &quot;Turn Down for What&quot;</title>
-        <description>&lt;h4 id=&quot;how-to-write-a-really-boring-music-blog&quot;&gt;How to Write a Really Boring Music Blog&lt;/h4&gt;
+        <description>&lt;h3 id=&quot;how-to-write-a-really-boring-music-blog&quot;&gt;How to Write a Really Boring Music Blog&lt;/h3&gt;
 
 &lt;p&gt;When I started this blog a few weeks ago, I resolved to blog about all my interests, not just programming. This obviously presents a challenge: holding an audience whilst writing about a wide variety of mostly unrelated subjects. I love listening to and composing music, so my first thought was to regularly write music reviews and occasionally post an original composition whenever I feel like writing one. Both of those options now seem really uninteresting and offer nothing new in terms of interesting content.&lt;/p&gt;
 
-&lt;p&gt;The question lingered: how do I blog about music in a way that&amp;#39;&amp;#39;s potentially interesting to myself and my intended audience (the internet)? The answer is around 300 years old. I am a huge Bach fan. Not only do I like listening to his music, I also enjoy composing polyphonic music that imitates Bach&amp;#39;&amp;#39;s style. I have composed more than a handful of fugues (&lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;what&amp;#39;&amp;#39;s a fugue?&lt;/a&gt;) in my life and some of them have turned out halfway decent. These fugues are also completely uninteresting to everyone else except music theory nerds.&lt;/p&gt;
+&lt;p&gt;The question lingered: how do I blog about music in a way that&amp;#39;s potentially interesting to myself and my intended audience (the internet)? The answer is around 300 years old. I am a huge Bach fan. Not only do I like listening to his music, I also enjoy composing polyphonic music that imitates Bach&amp;#39;s style. I have composed more than a handful of fugues (&lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;what&amp;#39;s a fugue?&lt;/a&gt;) in my life and some of them have turned out halfway decent. These fugues are also completely uninteresting to everyone else except music theory nerds.&lt;/p&gt;
 
 &lt;p&gt;But lots of people like rap and pop music, so what if I could marry my interest in composing in a centuries-old idiom without boring everyone to death? Ladies and gentlemen, I give you...&lt;/p&gt;
 
-&lt;h4 id=&quot;if-bach-wrote&quot;&gt;If Bach Wrote...&lt;/h4&gt;
+&lt;h3 id=&quot;if-bach-wrote&quot;&gt;If Bach Wrote...&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://jdauriemma.com/audio/mp3/000IfBachWroteTurnDownforWhat.mp3&quot;&gt;&lt;img src=&quot;http://cdn.flaticon.com/png/256/375.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+&lt;p&gt;&lt;a href=&quot;http://jdauriemma.com/audio/mp3/000IfBachWroteTurnDownforWhat.mp3&quot;&gt;&lt;img src=&quot;http://cdn.flaticon.com/png/256/375.png&quot; alt=&quot;If Bach Wrote... Turn Down for What&quot;&gt;&lt;br&gt;
 If Bach Wrote &amp;quot;Turn Down for What&amp;quot;&lt;/a&gt;&lt;a href=&quot;http://www.noteflight.com/scores/view/52c241c3b178ed536a2ca961994176a5f0536125&quot;&gt;&lt;br&gt;
 View the full score here&lt;/a&gt;&lt;/p&gt;
 
@@ -846,13 +844,13 @@ View the full score here&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Most fugues in the minor mode opt for a tonal answer in the relative major or dominant; this, however, answers in the submediant. The piece wastes little time progressing into the development section after the third voice restates the subject. Here is the full audio:&lt;/p&gt;
 
-&lt;h4 id=&quot;final-product&quot;&gt;Final Product&lt;/h4&gt;
+&lt;h3 id=&quot;final-product&quot;&gt;Final Product&lt;/h3&gt;
 
 &lt;iframe height=&quot;500px&quot; src=&quot;http://www.noteflight.com/embed/52c241c3b178ed536a2ca961994176a5f0536125?scale=1&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
 
-&lt;h4 id=&quot;feedback-please&quot;&gt;Feedback, Please!&lt;/h4&gt;
+&lt;h3 id=&quot;feedback-please&quot;&gt;Feedback, Please!&lt;/h3&gt;
 
-&lt;p&gt;Please let me know whether you enjoyed this labor of love/crunk. Tweet me! &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;.&lt;a href=&quot;null&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please let me know whether you enjoyed this labor of love/crunk. Tweet me! &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Jun 2014 06:00:00 +0000</pubDate>
         <link>http://bignimbus.github.io/music/if-bach-wrote-turn-down-for-what</link>

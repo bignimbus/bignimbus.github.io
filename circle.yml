@@ -11,7 +11,7 @@ general:
 
 test:
   override:
-    - echo "test"
+    - echo 'test'
 
 deployment:
   automerge-staging:
