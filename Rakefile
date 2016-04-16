@@ -18,11 +18,14 @@ task :generate do
 end
 
 task :test do
-  HTMLProofer.check_directory("./_site", assume_extension: true).run
+  HTMLProofer.check_directory("./_site",
+    assume_extension: true,
+    http_status_ignore: [999, 0]
+  ).run
 end
 
 desc "Generate and publish blog to gh-pages"
-task :publish => [:generate] do
+task :publish => [:generate, :test] do
   Dir.mktmpdir do |tmp|
     cp_r "_site/.", tmp
 
