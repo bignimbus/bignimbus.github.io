@@ -25,18 +25,18 @@ Going anywhere"
 
 Admit it, you were singing along! Not to dismiss the importance of good lyrics, I've always been more attached to melodies, harmonies and bass lines than lead vocals; I learned all the notes in this song long before I knew all the words. Whether you love Journey's lyrics, instrumentals, or hate Journey entirely, I hope that you enjoy this version of "If Bach Wrote."
 
-#### If Bach Wrote... Don't Stop Believin'
+### If Bach Wrote... Don't Stop Believin'
 
 [![](http://cdn.flaticon.com/png/256/375.png)  
 If Bach Wrote "Don't Stop Believin'"](http://jdauriemma.com/audio/mp3/001IfBachWroteDontStopBelievin.mp3)
 
-#### Welcome back...
+### Welcome back...
 
 To the second installment of [If Bach Wrote...](http://jdauriemma.com/blog/tag/if-bach-wrote/) (IBW). If Bach Wrote... (IBW) is a personal project of mine where I regularly pick an iconic tune from pop culture, extract melodic material from it, and compose a [fugue](http://en.wikipedia.org/wiki/Fugue) with that melody as the [subject](http://jan.ucc.nau.edu/tas3/fugueanatomy.html).
 
 A handful of weeks ago I did a [polyphonic](http://en.wikipedia.org/wiki/Polyphony) treatment of Lil Jon and DJ Snake's ["Turn Down for What"](http://jdauriemma.com/blog/if-bach-wrote-turn-down-for-what/) and was pleasantly surprised by the number of hits it got. People more or less had nice things to say about it, too. So, if you listened: thank you!
 
-#### Original
+### Original
 
 First, you may want to [view the score](#score). I'm convinced that all American citizens have this song tattooed on their brains, but just in case you want to hear it ooooone moooore tiiiiime, here's a link to the [original recording](http://grooveshark.com/#!/s/Don+t+Stop+Believin/3WbLGn?src=5). I decided to take the left-hand half of the piano part from the intro as this fugue's subject and [answer](http://jan.ucc.nau.edu/tas3/fugueanatomy.html).
 
@@ -77,12 +77,12 @@ The tonal outline of the piece is:
 
 <div id="score">
 
-#### View the score
+### View the score
 
 [View the full score here](http://www.noteflight.com/scores/view/19e01ff4d09ce892f791521745374d2d004f6197) on Noteflight.
 
 <iframe src="http://www.noteflight.com/embed/19e01ff4d09ce892f791521745374d2d004f6197?scale=1" style="width:100%;height:500px"></iframe></div>
 
-#### Tweet me!
+### Tweet me!
 
 I'm on the Twitter: [@jbones3000](https://twitter.com/jbones3000). Say hey!

@@ -15,7 +15,7 @@ I once used WordPress to publish a blog, and why not?  It was and is the go-to C
 <p>
 As if on cue, my installation suffered a security failure and some jerk broke into my server (quite easily) and inserted a bunch of adware on my site.  That was my sign: I exported my WordPress DB, temporarily shut down my blog and searched for another solution.  I didn’t want to host a framework built on PHP - the risks seemed too high, particularly when considering that WordPress is also built on PHP.
 </p>
-<h4>What I needed</h4>
+<h3>What I needed</h3>
 <p>
 Out of the box, my new system needed to have:
 </p><ul><li>A stable, modern API</li>
@@ -24,7 +24,7 @@ Out of the box, my new system needed to have:
 </ul><p>
 My fondest wish was to spin up some static page generation magic using node and some interesting modules I’ve come across, but my cheap-o shared server doesn’t support node.  I also strongly considered <a href="//help.github.com/articles/using-jekyll-with-pages/">Github’s Jekyll</a>.  In the end, though, I decided to use <a href="//tumblr.com">Tumblr</a>.
 </p>
-<h4>How I did it</h4>
+<h3>How I did it</h3>
 <p>
 I recently refactored my site as an exercise in building a Backbone app.  One of the nice things about working with Backbone is its elegant way of hooking into APIs and modifying data structures via the <code>parse</code> method.  Using the a simple GET request to <a href="https://www.tumblr.com/docs/en/api/v1">Tumblr’s v1 API</a>, I pull down a well-structured JSON blob with all the data I need to populate a template.  There’s barely any parsing to be done.  Observe:
 </p>
@@ -71,14 +71,14 @@ define([], function () {
     });
 });
 ```
-<h4>What the user sees</h4>
+<h3>What the user sees</h3>
 <p>
 Right now, it’s pretty basic (I have plans - big plans!).  There are two views: single post, and browse.  Browse can show all of my blog posts, or indexed by tag.
 </p>
 <img src="http://jdauriemma.startlogic.com/home/media/blog-post.png"><br><img src="http://jdauriemma.startlogic.com/home/media/blog-browse.png"><p>
 So, for the time being, this solution serves my purpose. I'm no longer hosting a security risk on my site, and I actually get more control over my content than if I had continued using WordPress.
 </p>
-<h4>Tweet me</h4>
+<h3>Tweet me</h3>
 <p>
 <a href="https://twitter.com/jbones3000">@jbones3000</a>
 </p></p>

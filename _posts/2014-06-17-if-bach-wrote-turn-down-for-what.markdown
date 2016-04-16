@@ -8,7 +8,7 @@ tags: ['ifbachwrote', 'music']
 excerpt: The first installment of my "If Bach Wrote" series.  A fugue based on the synthesizer part in Lil' Jon and DJ Snake's hit "Turn Down for What."
 permalink: /:categories/:title
 ---
-#### How to Write a Really Boring Music Blog
+### How to Write a Really Boring Music Blog
 
 When I started this blog a few weeks ago, I resolved to blog about all my interests, not just programming. This obviously presents a challenge: holding an audience whilst writing about a wide variety of mostly unrelated subjects. I love listening to and composing music, so my first thought was to regularly write music reviews and occasionally post an original composition whenever I feel like writing one. Both of those options now seem really uninteresting and offer nothing new in terms of interesting content.
 
@@ -16,7 +16,7 @@ The question lingered: how do I blog about music in a way that''s potentially in
 
 But lots of people like rap and pop music, so what if I could marry my interest in composing in a centuries-old idiom without boring everyone to death? Ladies and gentlemen, I give you...
 
-#### If Bach Wrote...
+### If Bach Wrote...
 
 [![](http://cdn.flaticon.com/png/256/375.png)  
 If Bach Wrote "Turn Down for What"](http://jdauriemma.com/audio/mp3/000IfBachWroteTurnDownforWhat.mp3)[  
@@ -44,10 +44,10 @@ _Tonal answer in E minor: iio - (v)_
 
 Most fugues in the minor mode opt for a tonal answer in the relative major or dominant; this, however, answers in the submediant. The piece wastes little time progressing into the development section after the third voice restates the subject. Here is the full audio:
 
-#### Final Product
+### Final Product
 
 <iframe height="500px" src="http://www.noteflight.com/embed/52c241c3b178ed536a2ca961994176a5f0536125?scale=1" width="100%"></iframe>
 
-#### Feedback, Please!
+### Feedback, Please!
 
 Please let me know whether you enjoyed this labor of love/crunk. Tweet me! [@jbones3000](https://twitter.com/jbones3000).[](null)
