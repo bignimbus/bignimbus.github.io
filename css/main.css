@@ -284,11 +284,16 @@ pre {
   margin-left: 0;
   list-style: none; }
   .post-list > li {
+    box-shadow: 0 3px 3px #ccc;
     clear: both;
     margin: 0 auto 60px;
+    padding: 16px;
     position: relative;
     text-align: center;
+    transition: box-shadow .3s;
     width: 75%; }
+    .post-list > li:hover {
+      box-shadow: 0 16px 20px #ccc; }
     @media screen and (max-width: 600px) {
       .post-list > li {
         width: auto; } }
@@ -635,3 +640,10 @@ a {
   border-color: #00c363; }
 .main-nav li:nth-child(4n):hover, .main-nav li:nth-child(4n):active {
   border-color: #fee04f; }
+
+.blog-tagline span {
+  display: inline-block;
+  transform: rotate(0);
+  transition: transform .3s; }
+  .blog-tagline span:hover {
+    transform: rotate(15deg); }

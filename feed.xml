@@ -5,8 +5,8 @@
     <description>thoughts on code, music and education</description>
     <link>http://bignimbus.github.io/</link>
     <atom:link href="http://bignimbus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 Apr 2016 04:41:30 +0000</pubDate>
-    <lastBuildDate>Fri, 15 Apr 2016 04:41:30 +0000</lastBuildDate>
+    <pubDate>Sat, 16 Apr 2016 03:54:11 +0000</pubDate>
+    <lastBuildDate>Sat, 16 Apr 2016 03:54:11 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
@@ -715,39 +715,83 @@ If Bach Wrote... Oops!... I Did It Again&lt;/a&gt;&lt;/p&gt;
     
       <item>
         <title>If Bach Wrote... &quot;Don&#39;t Stop Believin&#39;&quot;</title>
-        <description>&lt;pre&gt;&lt;br&gt;&lt;br&gt;&quot;Just a small town girl&lt;br&gt;&lt;br&gt;Living in a lonely world&lt;br&gt;&lt;br&gt;She took the midnight train&lt;br&gt;&lt;br&gt;Going anywhere&quot;&lt;br&gt;&lt;br&gt;          -Journey&lt;br&gt;&lt;br&gt;&lt;/pre&gt;
+        <description>&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;
+&quot;Just a small town girl  
 
-&lt;p&gt;Admit it, you were singing along! Not to dismiss the importance of good lyrics, I&#39;ve always been more attached to melodies, harmonies and bass lines than lead vocals; I learned all the notes in this song long before I knew all the words. Whether you love Journey&#39;s lyrics, instrumentals, or hate Journey entirely, I hope that you enjoy this version of &quot;If Bach Wrote.&quot;&lt;/p&gt;&lt;h4&gt;If Bach Wrote... Don&#39;t Stop Believin&#39;&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;http://jdauriemma.com/audio/mp3/001IfBachWroteDontStopBelievin.mp3&quot;&gt;&lt;img src=&quot;http://cdn.flaticon.com/png/256/375.png&quot;&gt;&lt;br&gt;If Bach Wrote &quot;Don&#39;t Stop Believin&#39;&quot;&lt;/a&gt;
-&lt;/p&gt;&lt;h4&gt;Welcome back...&lt;/h4&gt;
+Living in a lonely world  
+
+She took the midnight train  
+
+Going anywhere&quot;  
+
+          -Journey  
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Admit it, you were singing along! Not to dismiss the importance of good lyrics, I&amp;#39;ve always been more attached to melodies, harmonies and bass lines than lead vocals; I learned all the notes in this song long before I knew all the words. Whether you love Journey&amp;#39;s lyrics, instrumentals, or hate Journey entirely, I hope that you enjoy this version of &amp;quot;If Bach Wrote.&amp;quot;&lt;/p&gt;
+
+&lt;h4 id=&quot;if-bach-wrote-don-39-t-stop-believin-39&quot;&gt;If Bach Wrote... Don&amp;#39;t Stop Believin&amp;#39;&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jdauriemma.com/audio/mp3/001IfBachWroteDontStopBelievin.mp3&quot;&gt;&lt;img src=&quot;http://cdn.flaticon.com/png/256/375.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+If Bach Wrote &amp;quot;Don&amp;#39;t Stop Believin&amp;#39;&amp;quot;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;welcome-back&quot;&gt;Welcome back...&lt;/h4&gt;
+
 &lt;p&gt;To the second installment of &lt;a href=&quot;http://jdauriemma.com/blog/tag/if-bach-wrote/&quot;&gt;If Bach Wrote...&lt;/a&gt; (IBW). If Bach Wrote... (IBW) is a personal project of mine where I regularly pick an iconic tune from pop culture, extract melodic material from it, and compose a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;fugue&lt;/a&gt; with that melody as the &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;subject&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;A handful of weeks ago I did a &lt;a href=&quot;http://en.wikipedia.org/wiki/Polyphony&quot;&gt;polyphonic&lt;/a&gt; treatment of Lil Jon and DJ Snake&#39;s &lt;a href=&quot;http://jdauriemma.com/blog/if-bach-wrote-turn-down-for-what/&quot;&gt;&quot;Turn Down for What&quot;&lt;/a&gt; and was pleasantly surprised by the number of hits it got. People more or less had nice things to say about it, too. So, if you listened: thank you!&lt;/p&gt;
+&lt;p&gt;A handful of weeks ago I did a &lt;a href=&quot;http://en.wikipedia.org/wiki/Polyphony&quot;&gt;polyphonic&lt;/a&gt; treatment of Lil Jon and DJ Snake&amp;#39;s &lt;a href=&quot;http://jdauriemma.com/blog/if-bach-wrote-turn-down-for-what/&quot;&gt;&amp;quot;Turn Down for What&amp;quot;&lt;/a&gt; and was pleasantly surprised by the number of hits it got. People more or less had nice things to say about it, too. So, if you listened: thank you!&lt;/p&gt;
 
-&lt;h4&gt;Original&lt;/h4&gt;
+&lt;h4 id=&quot;original&quot;&gt;Original&lt;/h4&gt;
 
-&lt;p&gt;First, you may want to &lt;a href=&quot;#score&quot;&gt;view the score&lt;/a&gt;. I&#39;m convinced that all American citizens have this song tattooed on their brains, but just in case you want to hear it ooooone moooore tiiiiime, here&#39;s a link to the &lt;a href=&quot;http://grooveshark.com/#!/s/Don+t+Stop+Believin/3WbLGn?src=5&quot;&gt;original recording&lt;/a&gt;. I decided to take the left-hand half of the piano part from the intro as this fugue&#39;s subject and &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;answer&lt;/a&gt;.
-&lt;/p&gt;&lt;p&gt;In notation:&lt;/p&gt;
+&lt;p&gt;First, you may want to &lt;a href=&quot;#score&quot;&gt;view the score&lt;/a&gt;. I&amp;#39;m convinced that all American citizens have this song tattooed on their brains, but just in case you want to hear it ooooone moooore tiiiiime, here&amp;#39;s a link to the &lt;a href=&quot;http://grooveshark.com/#!/s/Don+t+Stop+Believin/3WbLGn?src=5&quot;&gt;original recording&lt;/a&gt;. I decided to take the left-hand half of the piano part from the intro as this fugue&amp;#39;s subject and &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;answer&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt=&quot;IBW Don&#39;t Stop Believin Subject&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.15.57-PM.png&quot;&gt;&lt;p&gt;Subject, in E major: I V vi IV&lt;/p&gt;&lt;p&gt;
-&lt;img alt=&quot;IBW Don&#39;t Stop Believin Answer&quot; class=&quot;size-full wp-image-494&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.16.18-PM.png&quot;&gt;&lt;/p&gt;&lt;p&gt;Tonal Answer, in E major: V ii-V42 IV V6&lt;/p&gt;
+&lt;p&gt;In notation:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.15.57-PM.png&quot; alt=&quot;IBW Don&amp;#39;t Stop Believin Subject&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Subject, in E major: I V vi IV&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.16.18-PM.png&quot; alt=&quot;IBW Don&amp;#39;t Stop Believin Answer&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Tonal Answer, in E major: V ii-V42 IV V6&lt;/p&gt;
+
 &lt;p&gt;This fugue makes use of two &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;countersubjects&lt;/a&gt;:&lt;/p&gt;
-&lt;img alt=&quot;Countersubject 1&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.25.36-PM.png&quot;&gt;&lt;p&gt;Countersubject 1&lt;/p&gt;
-&lt;img alt=&quot;Countersubject 2&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.25.55-PM.png&quot;&gt;&lt;p&gt;Countersubject 2, free counterpoint thereafter&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.25.36-PM.png&quot; alt=&quot;Countersubject 1&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Countersubject 1&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.25.55-PM.png&quot; alt=&quot;Countersubject 2&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Countersubject 2, free counterpoint thereafter&lt;/p&gt;
+
 &lt;p&gt;You may notice that Countersubject sounds a tiny bit like the right-hand piano part of the song - this was unintentional but welcome.&lt;/p&gt;
+
 &lt;p&gt;The exposition is strict with very little free counterpoint, so it&amp;#39;s over fairly quickly for a four-voice fugue. The development begins in measure 17. The subject is stated many times throughout the piece per se, in simplified rhythms, &lt;a href=&quot;http://composerstoolbox.wordpress.com/2011/09/26/tool-17-augmentation-and-diminution/&quot;&gt;augmented&lt;/a&gt;, and &lt;a href=&quot;http://en.wikipedia.org/wiki/Inversion_(music)&quot;&gt;inverted&lt;/a&gt;. I am particularly proud of measures 49-59, where the subject is iterated concurrently per se and in augmentation.&lt;/p&gt;
+
 &lt;p&gt;The tonal outline of the piece is:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;(mm1) E major&lt;/li&gt;
-&lt;li&gt;(mm~25) C# minor&lt;/li&gt;
-&lt;li&gt;(mm35) A major&lt;/li&gt;
-&lt;li&gt;(mm41) F# minor&lt;/li&gt;
-&lt;li&gt;(mm45) A major&lt;/li&gt;
-&lt;li&gt;(mm49) D major&lt;/li&gt;
-&lt;li&gt;(mm53) C# minor (Not quite what Bach would do, but I couldn&amp;#39;t resist)
-&lt;/li&gt;&lt;li&gt;(mm60) E major&lt;/li&gt;
-&lt;/ul&gt;&lt;div id=&quot;score&quot;&gt;&lt;h4&gt;View the score&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;http://www.noteflight.com/scores/view/19e01ff4d09ce892f791521745374d2d004f6197&quot;&gt;View the full score here&lt;/a&gt; on Noteflight.&lt;/p&gt;&lt;iframe src=&quot;http://www.noteflight.com/embed/19e01ff4d09ce892f791521745374d2d004f6197?scale=1&quot; style=&quot;width:100%;height:500px&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-&lt;h4&gt;Tweet me!&lt;/h4&gt;
-&lt;p&gt;I&amp;#39;m on the Twitter: &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;. Say hey!&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  (mm1) E major&lt;/li&gt;
+&lt;li&gt;  (mm~25) C# minor&lt;/li&gt;
+&lt;li&gt;  (mm35) A major&lt;/li&gt;
+&lt;li&gt;  (mm41) F# minor&lt;/li&gt;
+&lt;li&gt;  (mm45) A major&lt;/li&gt;
+&lt;li&gt;  (mm49) D major&lt;/li&gt;
+&lt;li&gt;  (mm53) C# minor (Not quite what Bach would do, but I couldn&amp;#39;t resist)&lt;/li&gt;
+&lt;li&gt;  (mm60) E major&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div id=&quot;score&quot;&gt;
+
+#### View the score
+
+[View the full score here](http://www.noteflight.com/scores/view/19e01ff4d09ce892f791521745374d2d004f6197) on Noteflight.
+
+&lt;iframe src=&quot;http://www.noteflight.com/embed/19e01ff4d09ce892f791521745374d2d004f6197?scale=1&quot; style=&quot;width:100%;height:500px&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;tweet-me&quot;&gt;Tweet me!&lt;/h4&gt;
+
+&lt;p&gt;I&amp;#39;m on the Twitter: &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;. Say hey!&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Aug 2014 06:00:00 +0000</pubDate>
         <link>http://bignimbus.github.io/music/if-bach-wrote-dont-stop-believin</link>
@@ -764,35 +808,51 @@ If Bach Wrote... Oops!... I Did It Again&lt;/a&gt;&lt;/p&gt;
     
       <item>
         <title>If Bach Wrote... &quot;Turn Down for What&quot;</title>
-        <description>&lt;h4&gt;How to Write a Really Boring Music Blog&lt;/h4&gt;
+        <description>&lt;h4 id=&quot;how-to-write-a-really-boring-music-blog&quot;&gt;How to Write a Really Boring Music Blog&lt;/h4&gt;
 
 &lt;p&gt;When I started this blog a few weeks ago, I resolved to blog about all my interests, not just programming. This obviously presents a challenge: holding an audience whilst writing about a wide variety of mostly unrelated subjects. I love listening to and composing music, so my first thought was to regularly write music reviews and occasionally post an original composition whenever I feel like writing one. Both of those options now seem really uninteresting and offer nothing new in terms of interesting content.&lt;/p&gt;
 
-&lt;p&gt;The question lingered: how do I blog about music in a way that&#39;&#39;s potentially interesting to myself and my intended audience (the internet)? The answer is around 300 years old. I am a huge Bach fan. Not only do I like listening to his music, I also enjoy composing polyphonic music that imitates Bach&#39;&#39;s style. I have composed more than a handful of fugues (&lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;what&#39;&#39;s a fugue?&lt;/a&gt;) in my life and some of them have turned out halfway decent. These fugues are also completely uninteresting to everyone else except music theory nerds.&lt;/p&gt;
+&lt;p&gt;The question lingered: how do I blog about music in a way that&amp;#39;&amp;#39;s potentially interesting to myself and my intended audience (the internet)? The answer is around 300 years old. I am a huge Bach fan. Not only do I like listening to his music, I also enjoy composing polyphonic music that imitates Bach&amp;#39;&amp;#39;s style. I have composed more than a handful of fugues (&lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;what&amp;#39;&amp;#39;s a fugue?&lt;/a&gt;) in my life and some of them have turned out halfway decent. These fugues are also completely uninteresting to everyone else except music theory nerds.&lt;/p&gt;
 
 &lt;p&gt;But lots of people like rap and pop music, so what if I could marry my interest in composing in a centuries-old idiom without boring everyone to death? Ladies and gentlemen, I give you...&lt;/p&gt;
 
-&lt;h4&gt;If Bach Wrote...&lt;/h4&gt;
+&lt;h4 id=&quot;if-bach-wrote&quot;&gt;If Bach Wrote...&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://jdauriemma.com/audio/mp3/000IfBachWroteTurnDownforWhat.mp3&quot;&gt;&lt;img src=&quot;http://cdn.flaticon.com/png/256/375.png&quot;&gt;&lt;br&gt;If Bach Wrote &quot;Turn Down for What&quot;&lt;/a&gt; &lt;a href=&quot;http://www.noteflight.com/scores/view/52c241c3b178ed536a2ca961994176a5f0536125&quot;&gt;&lt;br&gt;View the full score here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://jdauriemma.com/audio/mp3/000IfBachWroteTurnDownforWhat.mp3&quot;&gt;&lt;img src=&quot;http://cdn.flaticon.com/png/256/375.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+If Bach Wrote &amp;quot;Turn Down for What&amp;quot;&lt;/a&gt;&lt;a href=&quot;http://www.noteflight.com/scores/view/52c241c3b178ed536a2ca961994176a5f0536125&quot;&gt;&lt;br&gt;
+View the full score here&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;This series will be a semi-regular (monthly maybe?) series in which I take a given Top 40 Song, extract melodies from that song, and compose a fugue based on that melody. The title will always be: &quot;If Bach Wrote... [Song Title].&quot; Without further ado:&lt;/p&gt;
+&lt;p&gt;This series will be a semi-regular (monthly maybe?) series in which I take a given Top 40 Song, extract melodies from that song, and compose a fugue based on that melody. The title will always be: &amp;quot;If Bach Wrote... [Song Title].&amp;quot; Without further ado:&lt;/p&gt;
 
-&lt;h3&gt;If Bach Wrote &quot;Turn Down for What&quot;&lt;/h3&gt;
+&lt;h3 id=&quot;if-bach-wrote-quot-turn-down-for-what-quot&quot;&gt;If Bach Wrote &amp;quot;Turn Down for What&amp;quot;&lt;/h3&gt;
 
-&lt;p&gt;Lil Jon and DJ Snake released &quot;Turn Down for What&quot; in late 2013 and has since gone platinum and hit #1 on two US Billboard charts. It also has a synthesizer ostinato that is absolutely entrancing:&lt;/p&gt;
+&lt;p&gt;Lil Jon and DJ Snake released &amp;quot;Turn Down for What&amp;quot; in late 2013 and has since gone platinum and hit #1 on two US Billboard charts. It also has a synthesizer ostinato that is absolutely entrancing:&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Audio Clip: Lil Jon / DJ Snake &quot;Turn Down for What&quot; (original)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Audio Clip: Lil Jon / DJ Snake &amp;quot;Turn Down for What&amp;quot; (original)&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/06/turndownclip.mp3&quot;&gt;Synth Line&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;This synth ostinato will serve as the fugue&amp;#39;s &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;subject&lt;/a&gt;. I simplified the &lt;a href=&quot;http://en.wikipedia.org/wiki/Syncopation&quot;&gt;syncopation&lt;/a&gt; in the rhythm in order to accommodate the Baroque idiom:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Fugue subject&quot; class=&quot;size-full wp-image-101&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/06/turndown01.jpg&quot;&gt;&lt;br&gt;&lt;em&gt;Fugue subject in E minor: i (VI) (V)&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;  &lt;a href=&quot;http://jdauriemma.com/blog/wp-content/uploads/2014/06/turndownclip.mp3&quot;&gt;Synth Line&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This synth ostinato will serve as the fugue&amp;#39;s &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;subject&lt;/a&gt;. I simplified the &lt;a href=&quot;http://en.wikipedia.org/wiki/Syncopation&quot;&gt;syncopation&lt;/a&gt; in the rhythm in order to accommodate the Baroque idiom:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/06/turndown01.jpg&quot; alt=&quot;Fugue subject&quot;&gt;&lt;br&gt;
+&lt;em&gt;Fugue subject in E minor: i (VI) (V)&lt;/em&gt;&lt;/p&gt;
+
 &lt;p&gt;I am using a &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;&amp;quot;tonal answer&amp;quot;&lt;/a&gt; that is a bit unconventional:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Tonal answer in G minor: ii-dim&quot; class=&quot;size-full wp-image-102&quot; src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/06/turndown02.jpg&quot;&gt;&lt;br&gt;&lt;em&gt;Tonal answer in E minor: iio - (v)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/06/turndown02.jpg&quot; alt=&quot;Tonal answer in G minor: ii-dim&quot;&gt;&lt;br&gt;
+&lt;em&gt;Tonal answer in E minor: iio - (v)&lt;/em&gt;&lt;/p&gt;
+
 &lt;p&gt;Most fugues in the minor mode opt for a tonal answer in the relative major or dominant; this, however, answers in the submediant. The piece wastes little time progressing into the development section after the third voice restates the subject. Here is the full audio:&lt;/p&gt;
-&lt;h4&gt;Final Product&lt;/h4&gt;
-&lt;p&gt;&lt;iframe height=&quot;500px&quot; src=&quot;http://www.noteflight.com/embed/52c241c3b178ed536a2ca961994176a5f0536125?scale=1&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h4&gt;Feedback, Please!&lt;/h4&gt;
-&lt;p&gt;Please let me know whether you enjoyed this labor of love/crunk. Tweet me! &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;.&lt;a href=&quot;null&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;final-product&quot;&gt;Final Product&lt;/h4&gt;
+
+&lt;iframe height=&quot;500px&quot; src=&quot;http://www.noteflight.com/embed/52c241c3b178ed536a2ca961994176a5f0536125?scale=1&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
+
+&lt;h4 id=&quot;feedback-please&quot;&gt;Feedback, Please!&lt;/h4&gt;
+
+&lt;p&gt;Please let me know whether you enjoyed this labor of love/crunk. Tweet me! &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;.&lt;a href=&quot;null&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Jun 2014 06:00:00 +0000</pubDate>
         <link>http://bignimbus.github.io/music/if-bach-wrote-turn-down-for-what</link>
