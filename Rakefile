@@ -1,7 +1,7 @@
 require "rubygems"
 require "tmpdir"
-
 require "bundler/setup"
+require 'html-proofer'
 require "jekyll"
 
 
@@ -17,6 +17,9 @@ task :generate do
   })).process
 end
 
+task :test do
+  HTMLProofer.check_directory("./_site", assume_extension: true).run
+end
 
 desc "Generate and publish blog to gh-pages"
 task :publish => [:generate] do

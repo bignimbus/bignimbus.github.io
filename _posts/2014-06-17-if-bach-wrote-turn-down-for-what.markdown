@@ -18,7 +18,7 @@ But lots of people like rap and pop music, so what if I could marry my interest 
 
 ### If Bach Wrote...
 
-[![](http://cdn.flaticon.com/png/256/375.png)  
+[![If Bach Wrote... Turn Down for What](http://cdn.flaticon.com/png/256/375.png)  
 If Bach Wrote "Turn Down for What"](http://jdauriemma.com/audio/mp3/000IfBachWroteTurnDownforWhat.mp3)[  
 View the full score here](http://www.noteflight.com/scores/view/52c241c3b178ed536a2ca961994176a5f0536125)
 
@@ -50,4 +50,4 @@ Most fugues in the minor mode opt for a tonal answer in the relative major or do
 
 ### Feedback, Please!
 
-Please let me know whether you enjoyed this labor of love/crunk. Tweet me! [@jbones3000](https://twitter.com/jbones3000).[](null)
+Please let me know whether you enjoyed this labor of love/crunk. Tweet me! [@jbones3000](https://twitter.com/jbones3000).

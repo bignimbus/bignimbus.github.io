@@ -10,7 +10,7 @@ permalink: /:categories/:title
 ---
 
 <p>
-Should I use <code>rem</code>, <code>px</code>, or (gasp!) <code>em</code>?  This debate has lots of nuance and I'm not here to choose one for you.  I've read a lot of good material on the subject thanks in part to my wondeful coworker Moises Montenegro, including <a href="http://benfrain.com/just-use-pixels/">this</a> and also <a href="https://mindtheshift.wordpress.com/2015/04/02/r-i-p-rem-viva-css-reference-pixel/">this</a> (both articles favor <code>px</code>).  Much of the discussion centers around the nuts and bolts of how the browser interprets each unit, but I'd like to add another dimension to this discussion: that of payload weight.
+Should I use <code>rem</code>, <code>px</code>, or (gasp!) <code>em</code>?  This debate has lots of nuance and I'm not here to choose one for you.  I've read a lot of good material on the subject thanks in part to my wondeful coworker Moises Montenegro, including <a href="https://benfrain.com/just-use-pixels/">this</a> and also <a href="https://mindtheshift.wordpress.com/2015/04/02/r-i-p-rem-viva-css-reference-pixel/">this</a> (both articles favor <code>px</code>).  Much of the discussion centers around the nuts and bolts of how the browser interprets each unit, but I'd like to add another dimension to this discussion: that of payload weight.
 
 </p><p>
 Note: this article assumes that you are using some sort of CSS preprocessing: perhaps Sass, LESS or Stylus.  

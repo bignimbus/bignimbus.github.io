@@ -30,20 +30,18 @@ In my teen years I was too busy listening to Limp Bizkit to notice the hidden ge
 
 ### If Bach Wrote... Oops!... I Did It Again
 
-[![](http://cdn.flaticon.com/png/256/375.png)  
+[![If Bach Wrote... Oops!... I Did It Again](http://cdn.flaticon.com/png/256/375.png)  
 If Bach Wrote... Oops!... I Did It Again](http://jdauriemma.com/audio/mp3/002IfBachWroteOopsIDidItAgain.mp3)
 
 ### Triumphant Return
 
-I apologize for my long hiatus on new posts - lots of new and exciting things are happening in my personal life right now and I've had to put writing on the back burner for a bit. But enough about me. [If Bach Wrote...]({{ site.url }}/tag/ifbachwrote/) (IBW) is a personal project of mine where I regularly pick an iconic tune from pop culture, extract melodic material from it, and compose a [fugue](http://en.wikipedia.org/wiki/Fugue) with that melody as the [subject](http://jan.ucc.nau.edu/tas3/fugueanatomy.html).
+I apologize for my long hiatus on new posts - lots of new and exciting things are happening in my personal life right now and I've had to put writing on the back burner for a bit. But enough about me. [If Bach Wrote...]({{ site.url }}/tag/ifbachwrote) (IBW) is a personal project of mine where I regularly pick an iconic tune from pop culture, extract melodic material from it, and compose a [fugue](http://en.wikipedia.org/wiki/Fugue) with that melody as the [subject](http://jan.ucc.nau.edu/tas3/fugueanatomy.html).
 
-So far I've tackled [Journey](http://jdauriemma.com/blog/if-bach-wrote-dont-stop-believin) and [Lil Jon](http://jdauriemma.com/blog/if-bach-wrote-turn-down-for-what/), and I've been pretty surprised with the large audience both pieces have acquired (relative to what I'm used to). If you've listened to those two pieces, thank you! Who knew that [polyphony](http://en.wikipedia.org/wiki/Polyphony) could still be popular in the 21st century?
+So far I've tackled [Journey]({{ site.url }}/music/if-bach-wrote-dont-stop-believin) and [Lil Jon]({{ site.url }}/music/if-bach-wrote-turn-down-for-what), and I've been pretty surprised with the large audience both pieces have acquired (relative to what I'm used to). If you've listened to those two pieces, thank you! Who knew that [polyphony](http://en.wikipedia.org/wiki/Polyphony) could still be popular in the 21st century?
 
 ### The Original
 
-For you music readers: [view the score](#score).
-
-Bubblegum pop is often given the cold shoulder by musicologists, but the refrain of "Oops!... I Did It Again" makes for a fascinating fugue subject. [Listen here](http://grooveshark.com/#!/s/Oops+I+Did+It+Again/2M1Qyi?src=5) - you can skip to 0:50 to hear the refrain, but you'd be missing out on some slick bass playing by Thomas Lindberg.
+Bubblegum pop is often given the cold shoulder by musicologists, but the refrain of "Oops!... I Did It Again" makes for a fascinating fugue subject. [Listen here](https://youtu.be/HMUDVMiITOU) - you can skip to 0:50 to hear the refrain, but you'd be missing out on some slick bass playing by Thomas Lindberg.
 
 ### Analysis
 

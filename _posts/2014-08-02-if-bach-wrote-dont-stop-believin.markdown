@@ -27,7 +27,7 @@ Admit it, you were singing along! Not to dismiss the importance of good lyrics, 
 
 ### If Bach Wrote... Don't Stop Believin'
 
-[![](http://cdn.flaticon.com/png/256/375.png)  
+[![If Bach Wrote... Don't Stop Believin'](http://cdn.flaticon.com/png/256/375.png)  
 If Bach Wrote "Don't Stop Believin'"](http://jdauriemma.com/audio/mp3/001IfBachWroteDontStopBelievin.mp3)
 
 ### Welcome back...
@@ -38,7 +38,7 @@ A handful of weeks ago I did a [polyphonic](http://en.wikipedia.org/wiki/Polypho
 
 ### Original
 
-First, you may want to [view the score](#score). I'm convinced that all American citizens have this song tattooed on their brains, but just in case you want to hear it ooooone moooore tiiiiime, here's a link to the [original recording](http://grooveshark.com/#!/s/Don+t+Stop+Believin/3WbLGn?src=5). I decided to take the left-hand half of the piano part from the intro as this fugue's subject and [answer](http://jan.ucc.nau.edu/tas3/fugueanatomy.html).
+First, you may want to [view the score](#score). I'm convinced that all American citizens have this song tattooed on their brains, but just in case you want to hear it ooooone moooore tiiiiime, here's a link to the [original recording](https://youtu.be/1k8craCGpgs). I decided to take the left-hand half of the piano part from the intro as this fugue's subject and [answer](http://jan.ucc.nau.edu/tas3/fugueanatomy.html).
 
 In notation:
 
