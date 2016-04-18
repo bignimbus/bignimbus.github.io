@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 Monaco, Consolas, "Lucida Console", monospace;
+  font: 400 16px/1.5 "Cousine", Monaco, Consolas, "Lucida Console", monospace;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
