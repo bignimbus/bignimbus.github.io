@@ -267,12 +267,13 @@
   width: 100px;
 
   img {
+    height: 102%;
     left: 50%;
     margin: 0;
+    max-width: initial;
     position: absolute;
-    top: 50%;
+    top: 49%;
     transform: translate(-50%, -50%);
-    width: 100%;
     z-index: 1;
   }
 
