@@ -30,8 +30,7 @@ In my teen years I was too busy listening to Limp Bizkit to notice the hidden ge
 
 ### If Bach Wrote... Oops!... I Did It Again
 
-[![If Bach Wrote... Oops!... I Did It Again](http://cdn.flaticon.com/png/256/375.png)  
-If Bach Wrote... Oops!... I Did It Again](http://jdauriemma.com/audio/mp3/002IfBachWroteOopsIDidItAgain.mp3)
+{% include audio.html url='http://jdauriemma.com/audio/mp3/002IfBachWroteOopsIDidItAgain' formats='mp3 ogg' %}
 
 ### Triumphant Return
 

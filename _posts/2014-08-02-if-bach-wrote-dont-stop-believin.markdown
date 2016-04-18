@@ -27,8 +27,7 @@ Admit it, you were singing along! Not to dismiss the importance of good lyrics, 
 
 ### If Bach Wrote... Don't Stop Believin'
 
-[![If Bach Wrote... Don't Stop Believin'](http://cdn.flaticon.com/png/256/375.png)  
-If Bach Wrote "Don't Stop Believin'"](http://jdauriemma.com/audio/mp3/001IfBachWroteDontStopBelievin.mp3)
+{% include audio.html url='http://jdauriemma.com/audio/mp3/001IfBachWroteDontStopBelievin' formats='mp3 ogg' %}
 
 ### Welcome back...
 

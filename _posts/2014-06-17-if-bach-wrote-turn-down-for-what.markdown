@@ -18,9 +18,8 @@ But lots of people like rap and pop music, so what if I could marry my interest 
 
 ### If Bach Wrote...
 
-[![If Bach Wrote... Turn Down for What](http://cdn.flaticon.com/png/256/375.png)  
-If Bach Wrote "Turn Down for What"](http://jdauriemma.com/audio/mp3/000IfBachWroteTurnDownforWhat.mp3)[  
-View the full score here](http://www.noteflight.com/scores/view/52c241c3b178ed536a2ca961994176a5f0536125)
+{% include audio.html url='http://jdauriemma.startlogic.com/home/audio/mp3/000IfBachWroteTurnDownforWhat' formats='mp3 ogg' %}
+[View the full score here](http://www.noteflight.com/scores/view/52c241c3b178ed536a2ca961994176a5f0536125)
 
 This series will be a semi-regular (monthly maybe?) series in which I take a given Top 40 Song, extract melodies from that song, and compose a fugue based on that melody. The title will always be: "If Bach Wrote... [Song Title]." Without further ado:
 

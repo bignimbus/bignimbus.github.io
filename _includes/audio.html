@@ -1,0 +1,7 @@
+{% assign arr = include.formats | split: ' ' %}
+<audio class="site-player" controls="" preload="none">
+  {% for format in arr %}
+  <source src="{{ include.url | replace: 'mp3', format }}.{{ format }}" type="audio/{{ format | replace: 'mp3', 'mpeg' }}">
+  {% endfor %}
+  <span>Your browser does not support the audio element.</span>
+</audio>
