@@ -13,6 +13,10 @@ layout: default
   </header>
   <div class="post-content" itemprop="articleBody">
     {{ content }}
+    {% if page.cta %}
+    <h3>Keep the conversation going</h3>
+    <p>I really appreciate feedback from anyone and everyone who reads my posts, so please feel free to say hi <a href="https://twitter.com/jbones3000" target="_blank">@jbones3000</a> and keep the conversation going.</p>
+    {% endif %}
   </div>
   {% if page.attributions %}
   <footer>
