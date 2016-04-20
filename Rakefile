@@ -8,6 +8,13 @@ require "jekyll"
 # Change your GitHub reponame
 GITHUB_REPONAME = "bignimbus/bignimbus.github.io"
 
+desc 'Optimize images'
+task :optimize_images do
+  system 'mogrify -resize "800" ./assets/images/featured/*.jpg'
+  system 'mogrify -resize "800" ./assets/images/featured/*.png'
+  system 'mogrify -resize "x100" -path ./assets/images/featured/thumbnails/ ./assets/images/featured/*.jpg'
+  system 'mogrify -resize "x100" -path ./assets/images/featured/thumbnails/ ./assets/images/featured/*.png'
+end
 
 desc "Generate blog files"
 task :generate do
