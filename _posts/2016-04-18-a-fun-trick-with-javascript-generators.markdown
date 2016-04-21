@@ -5,7 +5,7 @@ date:   2016-04-18 00:00:00 -0600
 featured_image: factory-1311075-1279x850.jpg
 categories: programming
 tags: ['javascript']
-excerpt: 
+excerpt: One of my favorite new additions to JavaScript in ES2015 is the generator function.  The expressive capabilities of these functions are significant.  Here are a few ways to use them in modern JavaScript applications.
 permalink: /:categories/:title
 cta: true
 attributions: [{asset_name: 'Hero image', asset_url: 'http://www.freeimages.com/photo/factory-1311075', author: Ehsan Namavar, license_name: 'FreeImages.com Content License'}]
