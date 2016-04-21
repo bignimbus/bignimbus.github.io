@@ -210,7 +210,7 @@
   list-style: none;
 
   > li {
-    box-shadow: 0 3px 3px #ccc;
+    box-shadow: 0 3px 3px #ccc, 0 0 3px #ccc;
     clear: both;
     margin: 0 auto $spacing-unit * 2;
     padding: 16px;
@@ -220,7 +220,7 @@
     width: 75%;
 
     &:hover {
-      box-shadow: 0 16px 20px #ccc;
+      box-shadow: 0 16px 20px #ccc, 0 0 3px #ccc;
     }
 
     @include media-query($on-palm) {
@@ -228,6 +228,7 @@
     }
 
     p {
+      margin-top: 8px;
       text-align: justify;
     }
   }
