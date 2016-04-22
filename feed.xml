@@ -5,12 +5,12 @@
     <description>thoughts on code, music and education</description>
     <link>http://bignimbus.github.io/</link>
     <atom:link href="http://bignimbus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Apr 2016 02:37:57 +0000</pubDate>
-    <lastBuildDate>Fri, 22 Apr 2016 02:37:57 +0000</lastBuildDate>
+    <pubDate>Fri, 22 Apr 2016 02:52:37 +0000</pubDate>
+    <lastBuildDate>Fri, 22 Apr 2016 02:52:37 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
-        <title>A few tricks with JavaScript generator functions</title>
+        <title>A few uses for JavaScript generator functions</title>
         <description>&lt;p&gt;Many modern browsers and runtimes are in substantial compliance with the ECMAScript2015 spec.  One of my favorite new additions to JavaScript in ES2015 is the generator function.  The expressive capabilities of these functions are significant.  &lt;a href=&quot;http://www.2ality.com/2015/03/es6-generators.html&quot;&gt;Axel Rauschmayer wrote a great, in-depth article&lt;/a&gt; discussing generators, what they are, and how they can be used in JavaScript.  For those who are pretty comfortable using generators, this next part is for you.  Here are a couple of tricks, along with some basic examples of how they might be relevant to a modern JavaScript application.&lt;/p&gt;
 
 &lt;h3 id=&quot;composing-large-data-structures-with-generators&quot;&gt;Composing large data structures with generators&lt;/h3&gt;
@@ -128,8 +128,8 @@
 &lt;p&gt;* DISCLAIMER: I am not a 90s industrial metal fan&lt;/p&gt;
 </description>
         <pubDate>Mon, 18 Apr 2016 06:00:00 +0000</pubDate>
-        <link>http://bignimbus.github.io/programming/a-fun-trick-with-javascript-generators</link>
-        <guid isPermaLink="true">http://bignimbus.github.io/programming/a-fun-trick-with-javascript-generators</guid>
+        <link>http://bignimbus.github.io/programming/a-few-uses-for-javascript-generators</link>
+        <guid isPermaLink="true">http://bignimbus.github.io/programming/a-few-uses-for-javascript-generators</guid>
         
         <category>javascript</category>
         

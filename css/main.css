@@ -12,7 +12,7 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: 400 16px/1.5 "Cousine", Monaco, Consolas, "Lucida Console", monospace;
-  color: #111;
+  color: #333;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -87,7 +87,7 @@ code {
   padding: 1px 5px; }
 
 pre {
-  border-left: 2px solid #000;
+  border-left: 2px solid #333;
   padding: 8px 12px;
   overflow-x: auto; }
   pre > code {
@@ -169,13 +169,13 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
+    color: #333;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
   @media screen and (max-width: 600px) {
     .site-nav {
-      background-color: #000;
+      background-color: #333;
       position: absolute;
       top: 9px;
       right: 15px;
@@ -211,7 +211,7 @@ pre {
  */
 .site-footer {
   background: linear-gradient(#fff, #ccc);
-  color: #000;
+  color: #333;
   padding: 30px 0;
   position: relative;
   z-index: 1; }
@@ -345,7 +345,7 @@ pre {
     z-index: 0; }
 
 .tags {
-  color: #555;
+  color: #777;
   font-family: press-start;
   font-size: 14px;
   letter-spacing: -1px;
@@ -355,7 +355,7 @@ pre {
     display: inline-block; }
     .tags li a {
       border-bottom: 0;
-      color: #555;
+      color: #777;
       text-decoration: none; }
 
 .featured-image-container {
@@ -372,7 +372,7 @@ pre {
     flex-flow: row wrap;
     justify-content: space-around; }
   .main-nav li {
-    border: 2px solid #000;
+    border: 2px solid #333;
     box-sizing: border-box;
     flex: 0 1 125px;
     margin: 16px 4px;
@@ -399,7 +399,7 @@ h1, h2, h3, h4, h5, h6,
   vertical-align: middle; }
 
 .blog-tagline {
-  text-shadow: 1px 2px 1px #000; }
+  text-shadow: 1px 2px 1px #333; }
 
 h1 {
   font-size: 1.5rem; }
@@ -435,7 +435,7 @@ li span {
     color: #fee04f; }
 
 a {
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #333;
   text-decoration: none; }
   a.no-underline, a.blog-title {
     border-bottom: 0; }
@@ -446,7 +446,7 @@ a {
   z-index: 0; }
 
 .page-content a {
-  color: #000; }
+  color: #333; }
   .page-content a.color-0 {
     border-color: #ff2313; }
     .page-content a.color-0:hover, .page-content a.color-0:active {
@@ -464,11 +464,11 @@ a {
     .page-content a.color-3:hover, .page-content a.color-3:active {
       color: #fee04f; }
   .page-content a:hover, .page-content a:active {
-    color: #000; }
+    color: #333; }
 
 .site-footer a {
   border-bottom: 0;
-  color: #000;
+  color: #333;
   text-decoration: none; }
 
 /* scss-lint:disable ColorVariable, HexLength, HexNotation */
