@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A few tricks with JavaScript generator functions
-date:   2016-04-18 00:00:00 -0600
+title: A few uses for JavaScript generator functions
+date:   2016-04-21 00:00:00 -0600
 featured_image: factory-1311075-1279x850.jpg
 categories: programming
 tags: ['javascript']
