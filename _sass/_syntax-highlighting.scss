@@ -1,7 +1,7 @@
 /* scss-lint:disable ColorVariable, HexLength, HexNotation */
-.highlight .hll { background-color: #ffffcc }
+//.highlight .hll { background-color: #ffffcc }
 .highlight .c { color: $color-2 } /* Comment */
-.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .err { border: 1px solid $color-3 } /* Error */
 .highlight .k { color: $color-1 } /* Keyword */
 .highlight .cm { color: $color-2 } /* Comment.Multiline */
 .highlight .cp { color: $color-1 } /* Comment.Preproc */
@@ -17,18 +17,20 @@
 .highlight .kn { color: $color-1 } /* Keyword.Namespace */
 .highlight .kp { color: $color-1 } /* Keyword.Pseudo */
 .highlight .kr { color: $color-1 } /* Keyword.Reserved */
-.highlight .kt { color: lighten($color-1, 10%) } /* Keyword.Type */
-.highlight .s { color: color-0 } /* Literal.String */
-.highlight .nc { color: lighten($color-1, 10%) } /* Name.Class */
+.highlight .kt { color: $color-0 } /* Keyword.Type */
+//.highlight .nx { font-weight: bold } /* Keyword.Type */
+.highlight .nb { font-weight: bold } /* Keyword.Type */
+.highlight .s { color: $color-0 } /* Literal.String */
+.highlight .nc { color: $color-0 } /* Name.Class */
 .highlight .ow { color: $color-1 } /* Operator.Word */
-.highlight .sb { color: color-0 } /* Literal.String.Backtick */
-.highlight .sc { color: color-0 } /* Literal.String.Char */
-.highlight .sd { color: color-0 } /* Literal.String.Doc */
-.highlight .s2 { color: color-0 } /* Literal.String.Double */
-.highlight .se { color: color-0 } /* Literal.String.Escape */
-.highlight .sh { color: color-0 } /* Literal.String.Heredoc */
-.highlight .si { color: color-0 } /* Literal.String.Interpol */
-.highlight .sx { color: color-0 } /* Literal.String.Other */
-.highlight .sr { color: color-0 } /* Literal.String.Regex */
-.highlight .s1 { color: color-0 } /* Literal.String.Single */
-.highlight .ss { color: color-0 } /* Literal.String.Symbol */
+.highlight .sb { color: $color-0 } /* Literal.String.Backtick */
+.highlight .sc { color: $color-0 } /* Literal.String.Char */
+.highlight .sd { color: $color-0 } /* Literal.String.Doc */
+.highlight .s2 { color: $color-0 } /* Literal.String.Double */
+.highlight .se { color: $color-0 } /* Literal.String.Escape */
+.highlight .sh { color: $color-0 } /* Literal.String.Heredoc */
+.highlight .si { color: $color-0 } /* Literal.String.Interpol */
+.highlight .sx { color: $color-0 } /* Literal.String.Other */
+.highlight .sr { color: $color-0 } /* Literal.String.Regex */
+.highlight .s1 { color: $color-0 } /* Literal.String.Single */
+.highlight .ss { color: $color-0 } /* Literal.String.Symbol */
