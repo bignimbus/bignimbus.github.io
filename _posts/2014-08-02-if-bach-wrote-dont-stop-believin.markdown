@@ -31,9 +31,9 @@ Admit it, you were singing along! Not to dismiss the importance of good lyrics, 
 
 ### Welcome back...
 
-To the second installment of [If Bach Wrote...](http://jdauriemma.com/blog/tag/if-bach-wrote/) (IBW). If Bach Wrote... (IBW) is a personal project of mine where I regularly pick an iconic tune from pop culture, extract melodic material from it, and compose a [fugue](http://en.wikipedia.org/wiki/Fugue) with that melody as the [subject](http://jan.ucc.nau.edu/tas3/fugueanatomy.html).
+To the second installment of [If Bach Wrote...]({{ site.url }}/tag/ifbachwrote/) (IBW). If Bach Wrote... (IBW) is a personal project of mine where I regularly pick an iconic tune from pop culture, extract melodic material from it, and compose a [fugue](http://en.wikipedia.org/wiki/Fugue) with that melody as the [subject](http://jan.ucc.nau.edu/tas3/fugueanatomy.html).
 
-A handful of weeks ago I did a [polyphonic](http://en.wikipedia.org/wiki/Polyphony) treatment of Lil Jon and DJ Snake's ["Turn Down for What"](http://jdauriemma.com/blog/if-bach-wrote-turn-down-for-what/) and was pleasantly surprised by the number of hits it got. People more or less had nice things to say about it, too. So, if you listened: thank you!
+A handful of weeks ago I did a [polyphonic](http://en.wikipedia.org/wiki/Polyphony) treatment of Lil Jon and DJ Snake's ["Turn Down for What"]({{ site.url }}/music/if-bach-wrote-turn-down-for-what) and was pleasantly surprised by the number of hits it got. People more or less had nice things to say about it, too. So, if you listened: thank you!
 
 ### Original
 

@@ -29,7 +29,7 @@ Lil Jon and DJ Snake released "Turn Down for What" in late 2013 and has since go
 
 _Audio Clip: Lil Jon / DJ Snake "Turn Down for What" (original)_
 
-*   [Synth Line](http://jdauriemma.com/blog/wp-content/uploads/2014/06/turndownclip.mp3)
+*   [Synth Line](http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/06/turndownclip.mp3)
 
 This synth ostinato will serve as the fugue's [subject](http://jan.ucc.nau.edu/tas3/fugueanatomy.html). I simplified the [syncopation](http://en.wikipedia.org/wiki/Syncopation) in the rhythm in order to accommodate the Baroque idiom:
 

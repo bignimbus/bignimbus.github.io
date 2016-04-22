@@ -10,7 +10,7 @@ attributions: [{asset_name: 'Hero image', asset_url: 'https://www.flickr.com/pho
 permalink: /:categories/:title
 ---
 
-<p><a href="http://jdauriemma.com/blog_how-to-make-teaching-a-better-career-part-1">The first part of this list</a> generated a lot of support from teachers and former teachers alike.  Thanks to all for a great discussion.
+<p><a href="{{ site.url }}/education/how-to-make-teaching-a-better-career-part-1">The first part of this list</a> generated a lot of support from teachers and former teachers alike.  Thanks to all for a great discussion.
 
 </p><p>
 Teachers enter their profession for a variety of reasons, so this list isn't intended to be exhaustive or representative of all teachers' priorities or preferences in their work environment.  I am trying, however, to capture some of the struggles that I have read about, observed and experienced during my six-year teaching career and beyond.  Without further ado, items 1-5 in How to Make Teaching a Better Career:
