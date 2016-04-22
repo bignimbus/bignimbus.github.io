@@ -19,7 +19,7 @@
   }
 
   function toggleHash () {
-    window.location.hash = window.location.hash ? '' : 'menu';
+    window.location.hash = window.location.hash.replace('#', '') ? '' : 'menu';
   }
 
   function toggleMenuState () {
