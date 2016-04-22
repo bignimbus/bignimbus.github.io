@@ -27,7 +27,8 @@ end
 task :test do
   HTMLProofer.check_directory("./_site",
     assume_extension: true,
-    http_status_ignore: [999, 0]
+    http_status_ignore: [999, 0],
+    url_ignore: [/https?:\/\/bignimbus\.github\.io.*/]
   ).run
 end
 
