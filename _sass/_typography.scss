@@ -1,6 +1,9 @@
 @font-face {
   font-family: press-start;
-  src: url('/assets/fonts/press-start/PressStart2P.ttf')  format('truetype');
+  src: url('/assets/fonts/press-start/PressStart2P.eot');
+  src: url('/assets/fonts/press-start/PressStart2P.ttf')  format('truetype'),
+    url('/assets/fonts/press-start/PressStart2P.woff')  format('woff'),
+    url('/assets/fonts/press-start/PressStart2P.eot#iefix')  format('embedded-opentype');
 }
 
 h1, h2, h3, h4, h5, h6,
