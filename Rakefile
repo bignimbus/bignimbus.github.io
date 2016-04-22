@@ -10,8 +10,8 @@ GITHUB_REPONAME = "bignimbus/bignimbus.github.io"
 
 desc 'Optimize images'
 task :optimize_images do
-  system 'mogrify -resize "800" ./assets/images/featured/*.jpg'
-  system 'mogrify -resize "800" ./assets/images/featured/*.png'
+  system 'mogrify -filter Triangle -define filter:support=2 -unsharp 0.25x0.08+8.3+0.045 -dither None -posterize 136 -quality 82 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace none -colorspace sRGB ./assets/images/featured/*.jpg'
+  system 'mogrify -filter Triangle -define filter:support=2 -unsharp 0.25x0.08+8.3+0.045 -dither None -posterize 136 -quality 82 -define jpeg:fancy-upsampling=off -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all -interlace none -colorspace sRGB ./assets/images/featured/*.png'
   system 'mogrify -resize "x100" -path ./assets/images/featured/thumbnails/ ./assets/images/featured/*.jpg'
   system 'mogrify -resize "x100" -path ./assets/images/featured/thumbnails/ ./assets/images/featured/*.png'
 end
