@@ -59,7 +59,7 @@
     }
 
     @include media-query($on-palm) {
-        background-color: #000;
+        background-color: $text-color;
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
@@ -112,7 +112,7 @@
  */
 .site-footer {
   background: linear-gradient(#fff, #ccc);
-  color: #000;
+  color: $text-color;
   padding: $spacing-unit 0;
   position: relative;
   z-index: 1;
@@ -290,7 +290,7 @@
 }
 
 .tags {
-  color: #555;
+  color: #777;
   font-family: $accent-font;
   font-size: 14px;
   letter-spacing: -1px;
@@ -302,7 +302,7 @@
 
     a {
       border-bottom: 0;
-      color: #555;
+      color: #777;
       text-decoration: none;
     }
   }
@@ -328,7 +328,7 @@
   }
 
   li {
-    border: 2px solid #000;
+    border: 2px solid $text-color;
     box-sizing: border-box;
     flex: 0 1 125px;
     margin: 16px 4px;
