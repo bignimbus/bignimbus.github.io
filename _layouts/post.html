@@ -23,7 +23,7 @@ layout: default
     <h5>Attributions</h5>
       <ul>
         {% for a in page.attributions %}
-        <li>The {{ a.asset_name }} is credited to <a href="{{ a.asset_url }}">{{ a.author}}</a>{% if a.license_name %} under the <a href="{{ a.license_url }}">{{ a.license_name }}</a>{% endif %}.</li>
+        <li>The {{ a.asset_name }} is credited to <a href="{{ a.asset_url }}">{{ a.author}}</a>{% if a.license_name %} under the {% if a.license_url %}<a href="{{ a.license_url }}">{% endif %}{{ a.license_name }}{% if a.license_url %}</a>{% endif %}{% endif %}.</li>
         {% endfor %}
       </ul>
   </footer>
