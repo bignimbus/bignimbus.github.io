@@ -13,7 +13,8 @@
     > section:first-child {
       left: -100%;
       padding-top: 30px;
-      position: absolute;
+      position: fixed;
+      top: 56px;
     }
   }
 }
