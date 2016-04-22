@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'github-pages'
+gem 'jekyll-paginate'
+gem 'jekyll-archives'
+gem 'rake'
+gem 'html-proofer', '~> 3.0', '>= 3.0.2'
