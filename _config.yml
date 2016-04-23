@@ -27,6 +27,7 @@ sass:
 gems:
   - jekyll-archives
   - jekyll-paginate
+  - jekyll-sitemap
 paginate: 10
 jekyll-archives:
   enabled:
