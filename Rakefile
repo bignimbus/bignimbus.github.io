@@ -29,7 +29,7 @@ task :test do
     assume_extension: true,
     http_status_ignore: [999, 0],
     file_ignore: [/\d\d\d\.html/],
-    url_ignore: [/https?:\/\/bignimbus\.github\.io.*/]
+    url_ignore: [/https?:\/\/bignimbus\.github\.io.*/, /https?:\/\/www\.freeimages\.com.*/]
   ).run
 end
 
