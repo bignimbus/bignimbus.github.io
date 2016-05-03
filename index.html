@@ -4,7 +4,7 @@ layout: default
 <div class="home">
   <ul class="post-list">
     {% for post in site.posts %}
-      {% include post-fragment.html %}
+      {% include post-fragment.html post = post %}
     {% endfor %}
   </ul>
 </div>

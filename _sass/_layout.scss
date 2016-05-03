@@ -124,10 +124,11 @@
 }
 
 .contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-    text-align: center;
+.social-media-list,
+.related-posts > ul {
+  list-style: none;
+  margin-left: 0;
+  text-align: center;
 }
 
 .social-media-list {
@@ -203,6 +204,18 @@
   overflow: hidden;
   padding: $spacing-unit 0 0;
   position: relative;
+}
+
+.related-posts {
+  li {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+
+    @include media-query($on-palm) {
+      width: 100%;
+    }
+  }
 }
 
 .post-list {

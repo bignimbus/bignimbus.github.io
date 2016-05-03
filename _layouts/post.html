@@ -20,7 +20,7 @@ layout: default
   </div>
   {% if page.attributions %}
   <footer>
-    <h5>Attributions</h5>
+    <h3>Attributions</h3>
       <ul>
         {% for a in page.attributions %}
         <li>The {{ a.asset_name }} is credited to <a href="{{ a.asset_url }}">{{ a.author}}</a>{% if a.license_name %} under the {% if a.license_url %}<a href="{{ a.license_url }}">{% endif %}{{ a.license_name }}{% if a.license_url %}</a>{% endif %}{% endif %}.</li>
@@ -28,5 +28,33 @@ layout: default
       </ul>
   </footer>
   {% endif %}
-
 </article>
+<footer class="related-posts">
+  <h3>Related</h3>
+  <ul>
+    {% assign one = 'false' %}
+    {% assign two = 'false' %}
+    {% for post in site.related_posts %}
+      {% assign match = false %}
+      {% for category in post.categories %}
+        {% if page.categories contains category %}
+          {% assign match = true %}
+        {% endif %}
+      {% endfor %}
+      {% if match %}
+        {% if !one == 'false' %}
+          {% assign one = post %}
+        {% elsif one != 'false' and two == 'false' %}
+          {% assign two = post %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% if one != 'false' %}
+      {% include post-fragment.html post = one short = true %}
+    {% endif %}
+    {% if two != 'false' %}
+      {% include post-fragment.html post = two short = true %}
+    {% endif %}
+  </ul>
+</footer>

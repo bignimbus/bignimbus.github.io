@@ -11,7 +11,7 @@ layout: default
   </h2>
   <ul class="post-list">
     {% for post in page.posts %}
-      {% include post-fragment.html %}
+      {% include post-fragment.html post = post %}
     {% endfor %}
   </ul>
 </div>
