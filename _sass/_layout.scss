@@ -341,3 +341,13 @@
   margin: 16px 0;
   width: 100%;
 }
+
+figure.music {
+  figcaption {
+    font-style: italic;
+  }
+
+  img {
+    max-height: 100px;
+  }
+}
