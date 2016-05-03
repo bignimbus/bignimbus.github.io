@@ -221,7 +221,8 @@ pre {
   margin-bottom: 15px; }
 
 .contact-list,
-.social-media-list {
+.social-media-list,
+.related-posts > ul {
   list-style: none;
   margin-left: 0;
   text-align: center; }
@@ -279,6 +280,14 @@ pre {
   overflow: hidden;
   padding: 30px 0 0;
   position: relative; }
+
+.related-posts li {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%; }
+  @media screen and (max-width: 600px) {
+    .related-posts li {
+      width: 100%; } }
 
 .post-list {
   margin-left: 0;
