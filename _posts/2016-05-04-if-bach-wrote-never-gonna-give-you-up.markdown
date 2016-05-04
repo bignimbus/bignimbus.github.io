@@ -70,3 +70,5 @@ The [countersubjects](http://en.wikipedia.org/wiki/Fugue#The_exposition):
 
 ### Full score
 <iframe style="height: 300px; width: 100%;" src="https://www.noteflight.com/embed/52a4b121e0aaebe232780b5584ceaa3ac085c460?scale=1&app=html5"></iframe>
+
+Or view and listen to [the full score here](https://www.noteflight.com/scores/view/52a4b121e0aaebe232780b5584ceaa3ac085c460).
