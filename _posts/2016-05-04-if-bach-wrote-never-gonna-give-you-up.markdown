@@ -21,7 +21,6 @@ And desert you
 My colleague, Dan, recently changed our conference call hold music to Rick Astley's 1987 hit, "Never Gonna Give You Up."  Little did he know that I had been sitting on an almost-finished homage to Mr. Astley for the better part of two years.  A new job and a new child later, I've finally put the finishing touches on "If Bach Wrote.... Never Gonna Give You Up."  I take great pleasure in being able to do a completely original Rick Roll of the internet.
 
 ### Full audio
-{% assign url = site.url + '/assets/audio/if-bach-wrote-never-gonna-give-you-up' %}
 {% include audio.html url = '/assets/audio/if-bach-wrote-never-gonna-give-you-up' formats = 'mp3 ogg' %}
 
 ### The original
