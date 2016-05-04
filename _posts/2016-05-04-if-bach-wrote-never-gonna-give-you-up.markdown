@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  If Bach Wrote... "Never Gonna Give You Up"
-date:   2016-05-02 00:00:00 -0600
-featured_image:
+date:   2016-05-04 00:00:00 -0600
+featured_image: bach-rick.jpg
 categories: music
 tags: ['ifbachwrote', 'music']
 excerpt: Rick Rolling is Bach and more Baroque than ever.
