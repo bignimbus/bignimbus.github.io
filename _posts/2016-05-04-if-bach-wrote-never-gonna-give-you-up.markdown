@@ -18,7 +18,7 @@ And desert you
 - Stock Aitken Waterman, as performed by Rick Astley
 ```
 
-Just the other day, my colleague, Dan, changed our conference call hold music to Rick Astley's 1987 hit, "Never Gonna Give You Up."  This filled me with joy because Dan didn't know that I've been sitting on this composition for the better part of two years.  A new job and a new child later, and I've finally gotten to finish "If Bach Wrote.... Never Gonna Give You Up."  I take great pleasure in being able to do a completely original Rick Roll of the internet.
+My colleague, Dan, recently changed our conference call hold music to Rick Astley's 1987 hit, "Never Gonna Give You Up."  Little did he know that I had been sitting on an almost-finished homage to Mr. Astley for the better part of two years.  A new job and a new child later, I've finally put the finishing touches on "If Bach Wrote.... Never Gonna Give You Up."  I take great pleasure in being able to do a completely original Rick Roll of the internet.
 
 ### Full audio
 {% assign url = site.url + '/assets/audio/if-bach-wrote-never-gonna-give-you-up' %}
