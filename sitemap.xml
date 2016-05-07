@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://jdauriemma.com/music/if-bach-wrote-never-gonna-give-you-up</loc>
+<lastmod>2016-05-07T06:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>http://jdauriemma.com/programming/a-few-uses-for-javascript-generators</loc>
 <lastmod>2016-04-21T06:00:00+00:00</lastmod>
 </url>
@@ -44,6 +48,6 @@
 </url>
 <url>
 <loc>http://jdauriemma.com/google81125189f823d83b.html</loc>
-<lastmod>2016-05-03T04:36:42+00:00</lastmod>
+<lastmod>2016-05-07T21:20:16+00:00</lastmod>
 </url>
 </urlset>

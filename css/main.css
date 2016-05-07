@@ -79,7 +79,7 @@ blockquote {
  */
 pre,
 code {
-  font-size: 15px;
+  font-size: 0.9rem;
   border-radius: 3px; }
 
 code {
@@ -391,6 +391,11 @@ pre {
 .site-player {
   margin: 16px 0;
   width: 100%; }
+
+figure.music figcaption {
+  font-style: italic; }
+figure.music img {
+  max-height: 100px; }
 
 @keyframes slide {
   from {
