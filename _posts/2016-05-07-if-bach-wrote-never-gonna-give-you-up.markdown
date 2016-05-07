@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  If Bach Wrote... "Never Gonna Give You Up"
+title:  If Bach Wrote Never Gonna Give You Up
 date:   2016-05-07 00:00:00 -0600
 featured_image: bach-rick.jpg
 categories: music

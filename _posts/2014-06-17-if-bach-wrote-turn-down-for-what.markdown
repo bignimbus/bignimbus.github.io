@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  If Bach Wrote... "Turn Down for What"
+title:  If Bach Wrote Turn Down for What
 date:   2014-06-17 00:00:00 -0600
 featured_image: bachliljon.jpg
 categories: music
@@ -16,14 +16,14 @@ The question lingered: how do I blog about music in a way that's potentially int
 
 But lots of people like rap and pop music, so what if I could marry my interest in composing in a centuries-old idiom without boring everyone to death? Ladies and gentlemen, I give you...
 
-### If Bach Wrote...
+### Full Audio
 
 {% include audio.html url='http://jdauriemma.startlogic.com/home/audio/mp3/000IfBachWroteTurnDownforWhat' formats='mp3 ogg' %}
 [View the full score here](http://www.noteflight.com/scores/view/52c241c3b178ed536a2ca961994176a5f0536125)
 
 This series will be a semi-regular (monthly maybe?) series in which I take a given Top 40 Song, extract melodies from that song, and compose a fugue based on that melody. The title will always be: "If Bach Wrote... [Song Title]." Without further ado:
 
-### If Bach Wrote "Turn Down for What"
+### Analysis
 
 Lil Jon and DJ Snake released "Turn Down for What" in late 2013 and has since gone platinum and hit #1 on two US Billboard charts. It also has a synthesizer ostinato that is absolutely entrancing:
 

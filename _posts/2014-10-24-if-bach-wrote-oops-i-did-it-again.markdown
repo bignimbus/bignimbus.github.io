@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  If Bach Wrote... "Oops!... I Did It Again"
+title:  If Bach Wrote Oops!... I Did It Again
 date:   2014-08-02 00:00:00 -0600
 featured_image: bach-britney.jpg
 categories: music
@@ -28,7 +28,7 @@ I'm not that innocent"
 
 In my teen years I was too busy listening to Limp Bizkit to notice the hidden gem in Britney's 2000 hit, "Oops!... I Did It Again." Now, no one will ever repeat that fateful mistake again. You're welcome, America.
 
-### If Bach Wrote... Oops!... I Did It Again
+### Full Audio
 
 {% include audio.html url='http://jdauriemma.startlogic.com/home/audio/mp3/002IfBachWroteOopsIDidItAgain' formats='mp3 ogg' %}
 

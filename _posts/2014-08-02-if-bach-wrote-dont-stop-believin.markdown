@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  If Bach Wrote... "Don't Stop Believin'"
+title:  If Bach Wrote Don't Stop Believin'
 date:   2014-08-02 00:00:00 -0600
 featured_image: bach-journey.jpg
 categories: music
@@ -25,7 +25,7 @@ Going anywhere"
 
 Admit it, you were singing along! Not to dismiss the importance of good lyrics, I've always been more attached to melodies, harmonies and bass lines than lead vocals; I learned all the notes in this song long before I knew all the words. Whether you love Journey's lyrics, instrumentals, or hate Journey entirely, I hope that you enjoy this version of "If Bach Wrote."
 
-### If Bach Wrote... Don't Stop Believin'
+### Full Audio
 
 {% include audio.html url='http://jdauriemma.startlogic.com/home/audio/mp3/001IfBachWroteDontStopBelievin' formats='mp3 ogg' %}
 
