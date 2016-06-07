@@ -3,16 +3,16 @@
   <channel>
     <title>Jeffrey Auriemma&#39;s Blog</title>
     <description>thoughts on code, music and education</description>
-    <link>http://jdauriemma.com/</link>
-    <atom:link href="http://jdauriemma.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 07 May 2016 21:29:28 +0000</pubDate>
-    <lastBuildDate>Sat, 07 May 2016 21:29:28 +0000</lastBuildDate>
+    <link>https://jdauriemma.com/</link>
+    <atom:link href="https://jdauriemma.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 07 Jun 2016 19:38:03 +0000</pubDate>
+    <lastBuildDate>Tue, 07 Jun 2016 19:38:03 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       
       <item>
         <title>If Bach Wrote Never Gonna Give You Up</title>
-        <description>&lt;img src=&quot;http://jdauriemma.com/assets/images/featured/bach-rick.jpg&quot; alt=&quot;If Bach Wrote Never Gonna Give You Up&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;Never gonna give you up
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/bach-rick.jpg&quot; alt=&quot;If Bach Wrote Never Gonna Give You Up&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;Never gonna give you up
 Never gonna let you down
 Never gonna run around
 And desert you
@@ -37,7 +37,7 @@ And desert you
 
 &lt;h3 id=&quot;about-this-series&quot;&gt;About this series&lt;/h3&gt;
 
-&lt;p&gt;For those who aren&amp;#39;t familiar, this piece is part of a series of fugues called &lt;a href=&quot;http://jdauriemma.com/tag/ifbachwrote&quot;&gt;If Bach Wrote&lt;/a&gt;.  The premise is simple: extract a memorable tune (or tunes) from pop music with minimal alteration, and write a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;fugue&lt;/a&gt; with that tune as the &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;subject&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For those who aren&amp;#39;t familiar, this piece is part of a series of fugues called &lt;a href=&quot;https://jdauriemma.com/tag/ifbachwrote&quot;&gt;If Bach Wrote&lt;/a&gt;.  The premise is simple: extract a memorable tune (or tunes) from pop music with minimal alteration, and write a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;fugue&lt;/a&gt; with that tune as the &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;subject&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;analysis&quot;&gt;Analysis&lt;/h3&gt;
 
@@ -92,8 +92,8 @@ And desert you
 &lt;p&gt;Or view and listen to &lt;a href=&quot;https://www.noteflight.com/scores/view/52a4b121e0aaebe232780b5584ceaa3ac085c460&quot;&gt;the full score here&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sat, 07 May 2016 06:00:00 +0000</pubDate>
-        <link>http://jdauriemma.com/music/if-bach-wrote-never-gonna-give-you-up</link>
-        <guid isPermaLink="true">http://jdauriemma.com/music/if-bach-wrote-never-gonna-give-you-up</guid>
+        <link>https://jdauriemma.com/music/if-bach-wrote-never-gonna-give-you-up</link>
+        <guid isPermaLink="true">https://jdauriemma.com/music/if-bach-wrote-never-gonna-give-you-up</guid>
         
         <category>ifbachwrote</category>
         
@@ -107,7 +107,7 @@ And desert you
       
       <item>
         <title>A few uses for JavaScript generator functions</title>
-        <description>&lt;img src=&quot;http://jdauriemma.com/assets/images/featured/factory-1311075-1279x850.jpg&quot; alt=&quot;A few uses for JavaScript generator functions&quot;&gt;&lt;p&gt;Many modern browsers and runtimes are in substantial compliance with the ECMAScript2015 spec.  One of my favorite new additions to JavaScript in ES2015 is the generator function.  The expressive capabilities of these functions are significant.  &lt;a href=&quot;http://www.2ality.com/2015/03/es6-generators.html&quot;&gt;Axel Rauschmayer wrote a great, in-depth article&lt;/a&gt; discussing generators, what they are, and how they can be used in JavaScript.  For those who are pretty comfortable using generators, this next part is for you.  Here are a couple of tricks, along with some basic examples of how they might be relevant to a modern JavaScript application.&lt;/p&gt;
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/factory-1311075-1279x850.jpg&quot; alt=&quot;A few uses for JavaScript generator functions&quot;&gt;&lt;p&gt;Many modern browsers and runtimes are in substantial compliance with the ECMAScript2015 spec.  One of my favorite new additions to JavaScript in ES2015 is the generator function.  The expressive capabilities of these functions are significant.  &lt;a href=&quot;http://www.2ality.com/2015/03/es6-generators.html&quot;&gt;Axel Rauschmayer wrote a great, in-depth article&lt;/a&gt; discussing generators, what they are, and how they can be used in JavaScript.  For those who are pretty comfortable using generators, this next part is for you.  Here are a couple of tricks, along with some basic examples of how they might be relevant to a modern JavaScript application.&lt;/p&gt;
 
 &lt;h3 id=&quot;composing-large-data-structures-with-generators&quot;&gt;Composing large data structures with generators&lt;/h3&gt;
 
@@ -224,8 +224,8 @@ And desert you
 &lt;p&gt;* DISCLAIMER: I am not a 90s industrial metal fan&lt;/p&gt;
 </description>
         <pubDate>Thu, 21 Apr 2016 06:00:00 +0000</pubDate>
-        <link>http://jdauriemma.com/programming/a-few-uses-for-javascript-generators</link>
-        <guid isPermaLink="true">http://jdauriemma.com/programming/a-few-uses-for-javascript-generators</guid>
+        <link>https://jdauriemma.com/programming/a-few-uses-for-javascript-generators</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/a-few-uses-for-javascript-generators</guid>
         
         <category>javascript</category>
         
@@ -237,7 +237,7 @@ And desert you
       
       <item>
         <title>An Overlooked Benefit of rem in CSS</title>
-        <description>&lt;img src=&quot;http://jdauriemma.com/assets/images/featured/sk3UnQy.jpg&quot; alt=&quot;An Overlooked Benefit of rem in CSS&quot;&gt;&lt;p&gt;
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/sk3UnQy.jpg&quot; alt=&quot;An Overlooked Benefit of rem in CSS&quot;&gt;&lt;p&gt;
 Should I use &lt;code&gt;rem&lt;/code&gt;, &lt;code&gt;px&lt;/code&gt;, or (gasp!) &lt;code&gt;em&lt;/code&gt;?  This debate has lots of nuance and I&#39;m not here to choose one for you.  I&#39;ve read a lot of good material on the subject thanks in part to my wondeful coworker Moises Montenegro, including &lt;a href=&quot;https://benfrain.com/just-use-pixels/&quot;&gt;this&lt;/a&gt; and also &lt;a href=&quot;https://mindtheshift.wordpress.com/2015/04/02/r-i-p-rem-viva-css-reference-pixel/&quot;&gt;this&lt;/a&gt; (both articles favor &lt;code&gt;px&lt;/code&gt;).  Much of the discussion centers around the nuts and bolts of how the browser interprets each unit, but I&#39;d like to add another dimension to this discussion: that of payload weight.
 
 &lt;/p&gt;&lt;p&gt;
@@ -445,8 +445,8 @@ How are you using &lt;code&gt;px&lt;/code&gt; or &lt;code&gt;rem&lt;/code&gt; in
 &lt;/p&gt;
 </description>
         <pubDate>Sun, 20 Dec 2015 06:00:00 +0000</pubDate>
-        <link>http://jdauriemma.com/programming/an-overlooked-benefit-of-rem-in-css</link>
-        <guid isPermaLink="true">http://jdauriemma.com/programming/an-overlooked-benefit-of-rem-in-css</guid>
+        <link>https://jdauriemma.com/programming/an-overlooked-benefit-of-rem-in-css</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/an-overlooked-benefit-of-rem-in-css</guid>
         
         <category>css</category>
         
@@ -460,7 +460,7 @@ How are you using &lt;code&gt;px&lt;/code&gt; or &lt;code&gt;rem&lt;/code&gt; in
       
       <item>
         <title>How to Make Teaching a Better Career, Part 2</title>
-        <description>&lt;img src=&quot;http://jdauriemma.com/assets/images/featured/8104594017_c418712932_z.jpg&quot; alt=&quot;How to Make Teaching a Better Career, Part 2&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://jdauriemma.com/education/how-to-make-teaching-a-better-career-part-1&quot;&gt;The first part of this list&lt;/a&gt; generated a lot of support from teachers and former teachers alike.  Thanks to all for a great discussion.
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/8104594017_c418712932_z.jpg&quot; alt=&quot;How to Make Teaching a Better Career, Part 2&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://jdauriemma.com/education/how-to-make-teaching-a-better-career-part-1&quot;&gt;The first part of this list&lt;/a&gt; generated a lot of support from teachers and former teachers alike.  Thanks to all for a great discussion.
 
 &lt;/p&gt;&lt;p&gt;
 Teachers enter their profession for a variety of reasons, so this list isn&#39;t intended to be exhaustive or representative of all teachers&#39; priorities or preferences in their work environment.  I am trying, however, to capture some of the struggles that I have read about, observed and experienced during my six-year teaching career and beyond.  Without further ado, items 1-5 in How to Make Teaching a Better Career:
@@ -542,8 +542,8 @@ But for nine weeks(!) I couldn&#39;t use the internet for at least part of the s
 Feel free to tweet me &lt;a href=&quot;http://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt; for a friendly chat about this or any other subject.  Though I have left my education career and am very happy in my new career, education is still a very strong personal interest of mine.  Teachers: you are awesome!&lt;/p&gt;
 </description>
         <pubDate>Wed, 16 Dec 2015 06:00:00 +0000</pubDate>
-        <link>http://jdauriemma.com/education/how-to-make-teaching-a-better-career-part-2</link>
-        <guid isPermaLink="true">http://jdauriemma.com/education/how-to-make-teaching-a-better-career-part-2</guid>
+        <link>https://jdauriemma.com/education/how-to-make-teaching-a-better-career-part-2</link>
+        <guid isPermaLink="true">https://jdauriemma.com/education/how-to-make-teaching-a-better-career-part-2</guid>
         
         <category>teaching</category>
         
@@ -557,7 +557,7 @@ Feel free to tweet me &lt;a href=&quot;http://twitter.com/jbones3000&quot;&gt;@j
       
       <item>
         <title>Block Helpers in Ruby on Rails</title>
-        <description>&lt;img src=&quot;http://jdauriemma.com/assets/images/featured/OCD3Hwk.png&quot; alt=&quot;Block Helpers in Ruby on Rails&quot;&gt;&lt;p&gt;I&amp;#39;m still pretty new at Ruby, but my coworker and all-around good guy Derek Schaefer pointed this tip out to me when reviewing a recent pull request of mine.
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/OCD3Hwk.png&quot; alt=&quot;Block Helpers in Ruby on Rails&quot;&gt;&lt;p&gt;I&amp;#39;m still pretty new at Ruby, but my coworker and all-around good guy Derek Schaefer pointed this tip out to me when reviewing a recent pull request of mine.
 &lt;h3&gt;Context&lt;/h3&gt;
 &lt;p&gt;
 I am trying to show a visual element side-by-side with a corresponding CSS code snippet.  Using rouge, I apply syntax highlighting to a plain text code sample.
@@ -618,8 +618,8 @@ Anything to add?  Tweet me &lt;a href=&quot;http://twitter.com/jbones3000&quot;&
 &lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Dec 2015 06:00:00 +0000</pubDate>
-        <link>http://jdauriemma.com/programming/block-helpers-in-ruby-on-rails</link>
-        <guid isPermaLink="true">http://jdauriemma.com/programming/block-helpers-in-ruby-on-rails</guid>
+        <link>https://jdauriemma.com/programming/block-helpers-in-ruby-on-rails</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/block-helpers-in-ruby-on-rails</guid>
         
         <category>ruby</category>
         
@@ -633,7 +633,7 @@ Anything to add?  Tweet me &lt;a href=&quot;http://twitter.com/jbones3000&quot;&
       
       <item>
         <title>How to Make Teaching a Better Career, Part 1</title>
-        <description>&lt;img src=&quot;http://jdauriemma.com/assets/images/featured/Applauding_Teacher.jpg&quot; alt=&quot;How to Make Teaching a Better Career, Part 1&quot;&gt;&lt;p&gt;We all want young people to have a great education in the United States.  Beyond that, the diversity of viewpoints on how to improve education in our country is breathtaking.  No matter what your views are, though, one crucial point in every plan is ensuring that we attract and keep high-quality teachers in the classroom.  Right now, that vital component to good education is in trouble: teacher &lt;strong&gt;turnover is high and job satisfaction is low&lt;/strong&gt;.  If we expect to retain a competent, effective workforce in our public schools for generations to come, we must make significant changes in how we treat the professionals to whom we entrust our young peoples&amp;#39; minds.
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/Applauding_Teacher.jpg&quot; alt=&quot;How to Make Teaching a Better Career, Part 1&quot;&gt;&lt;p&gt;We all want young people to have a great education in the United States.  Beyond that, the diversity of viewpoints on how to improve education in our country is breathtaking.  No matter what your views are, though, one crucial point in every plan is ensuring that we attract and keep high-quality teachers in the classroom.  Right now, that vital component to good education is in trouble: teacher &lt;strong&gt;turnover is high and job satisfaction is low&lt;/strong&gt;.  If we expect to retain a competent, effective workforce in our public schools for generations to come, we must make significant changes in how we treat the professionals to whom we entrust our young peoples&amp;#39; minds.
 &lt;/p&gt;
 &lt;p&gt;
 This list is by no means exhaustive, but I will draw on my personal experience as a former public school teacher as well as some relevant data points to make ten suggestions to improve the teaching profession.  Here we go:
@@ -737,8 +737,8 @@ I plan to publish the top five soon.  In the meantime, please feel free to tweet
 &lt;/p&gt;
 </description>
         <pubDate>Wed, 14 Oct 2015 06:00:00 +0000</pubDate>
-        <link>http://jdauriemma.com/education/how-to-make-teaching-a-better-career-part-1</link>
-        <guid isPermaLink="true">http://jdauriemma.com/education/how-to-make-teaching-a-better-career-part-1</guid>
+        <link>https://jdauriemma.com/education/how-to-make-teaching-a-better-career-part-1</link>
+        <guid isPermaLink="true">https://jdauriemma.com/education/how-to-make-teaching-a-better-career-part-1</guid>
         
         <category>teaching</category>
         
@@ -752,7 +752,7 @@ I plan to publish the top five soon.  In the meantime, please feel free to tweet
       
       <item>
         <title>Tumblr as a CMS</title>
-        <description>&lt;img src=&quot;http://jdauriemma.com/assets/images/featured/tcms.png&quot; alt=&quot;Tumblr as a CMS&quot;&gt;&lt;p&gt;
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/tcms.png&quot; alt=&quot;Tumblr as a CMS&quot;&gt;&lt;p&gt;
 I once used WordPress to publish a blog, and why not?  It was and is the go-to CMS and had syndication, organization and a robust community out of the box.  A few months back I was warned about the security risks, but I lazily carried on.
 &lt;/p&gt;
 
@@ -832,8 +832,8 @@ So, for the time being, this solution serves my purpose. I&amp;#39;m no longer h
 &lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Mar 2015 06:00:00 +0000</pubDate>
-        <link>http://jdauriemma.com/programming/tumblr-as-a-cms</link>
-        <guid isPermaLink="true">http://jdauriemma.com/programming/tumblr-as-a-cms</guid>
+        <link>https://jdauriemma.com/programming/tumblr-as-a-cms</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/tumblr-as-a-cms</guid>
         
         <category>javascript</category>
         
@@ -849,7 +849,7 @@ So, for the time being, this solution serves my purpose. I&amp;#39;m no longer h
       
       <item>
         <title>If Bach Wrote Oops!... I Did It Again</title>
-        <description>&lt;img src=&quot;http://jdauriemma.com/assets/images/featured/bach-britney.jpg&quot; alt=&quot;If Bach Wrote Oops!... I Did It Again&quot;&gt;&lt;p&gt;You can&amp;#39;t un-see that image.&lt;/p&gt;
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/bach-britney.jpg&quot; alt=&quot;If Bach Wrote Oops!... I Did It Again&quot;&gt;&lt;p&gt;You can&amp;#39;t un-see that image.&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;&quot;Oops!...I did it again  
 
 I played with your heart, got lost in the game  
@@ -879,9 +879,9 @@ I&#39;m not that innocent&quot;
 
 &lt;h3 id=&quot;triumphant-return&quot;&gt;Triumphant Return&lt;/h3&gt;
 
-&lt;p&gt;I apologize for my long hiatus on new posts - lots of new and exciting things are happening in my personal life right now and I&amp;#39;ve had to put writing on the back burner for a bit. But enough about me. &lt;a href=&quot;http://jdauriemma.com/tag/ifbachwrote&quot;&gt;If Bach Wrote...&lt;/a&gt; (IBW) is a personal project of mine where I regularly pick an iconic tune from pop culture, extract melodic material from it, and compose a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;fugue&lt;/a&gt; with that melody as the &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;subject&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I apologize for my long hiatus on new posts - lots of new and exciting things are happening in my personal life right now and I&amp;#39;ve had to put writing on the back burner for a bit. But enough about me. &lt;a href=&quot;https://jdauriemma.com/tag/ifbachwrote&quot;&gt;If Bach Wrote...&lt;/a&gt; (IBW) is a personal project of mine where I regularly pick an iconic tune from pop culture, extract melodic material from it, and compose a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;fugue&lt;/a&gt; with that melody as the &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;subject&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;So far I&amp;#39;ve tackled &lt;a href=&quot;http://jdauriemma.com/music/if-bach-wrote-dont-stop-believin&quot;&gt;Journey&lt;/a&gt; and &lt;a href=&quot;http://jdauriemma.com/music/if-bach-wrote-turn-down-for-what&quot;&gt;Lil Jon&lt;/a&gt;, and I&amp;#39;ve been pretty surprised with the large audience both pieces have acquired (relative to what I&amp;#39;m used to). If you&amp;#39;ve listened to those two pieces, thank you! Who knew that &lt;a href=&quot;http://en.wikipedia.org/wiki/Polyphony&quot;&gt;polyphony&lt;/a&gt; could still be popular in the 21st century?&lt;/p&gt;
+&lt;p&gt;So far I&amp;#39;ve tackled &lt;a href=&quot;https://jdauriemma.com/music/if-bach-wrote-dont-stop-believin&quot;&gt;Journey&lt;/a&gt; and &lt;a href=&quot;https://jdauriemma.com/music/if-bach-wrote-turn-down-for-what&quot;&gt;Lil Jon&lt;/a&gt;, and I&amp;#39;ve been pretty surprised with the large audience both pieces have acquired (relative to what I&amp;#39;m used to). If you&amp;#39;ve listened to those two pieces, thank you! Who knew that &lt;a href=&quot;http://en.wikipedia.org/wiki/Polyphony&quot;&gt;polyphony&lt;/a&gt; could still be popular in the 21st century?&lt;/p&gt;
 
 &lt;h3 id=&quot;the-original&quot;&gt;The Original&lt;/h3&gt;
 
@@ -936,8 +936,8 @@ I&#39;m not that innocent&quot;
 &lt;p&gt;Oops!... You tweeted me again: &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Aug 2014 06:00:00 +0000</pubDate>
-        <link>http://jdauriemma.com/music/if-bach-wrote-oops-i-did-it-again</link>
-        <guid isPermaLink="true">http://jdauriemma.com/music/if-bach-wrote-oops-i-did-it-again</guid>
+        <link>https://jdauriemma.com/music/if-bach-wrote-oops-i-did-it-again</link>
+        <guid isPermaLink="true">https://jdauriemma.com/music/if-bach-wrote-oops-i-did-it-again</guid>
         
         <category>ifbachwrote</category>
         
@@ -951,7 +951,7 @@ I&#39;m not that innocent&quot;
       
       <item>
         <title>If Bach Wrote Don&#39;t Stop Believin&#39;</title>
-        <description>&lt;img src=&quot;http://jdauriemma.com/assets/images/featured/bach-journey.jpg&quot; alt=&quot;If Bach Wrote Don&#39;t Stop Believin&#39;&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/bach-journey.jpg&quot; alt=&quot;If Bach Wrote Don&#39;t Stop Believin&#39;&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;
 &quot;Just a small town girl  
 
 Living in a lonely world  
@@ -978,9 +978,9 @@ Going anywhere&quot;
 
 &lt;h3 id=&quot;welcome-back&quot;&gt;Welcome back...&lt;/h3&gt;
 
-&lt;p&gt;To the second installment of &lt;a href=&quot;http://jdauriemma.com/tag/ifbachwrote/&quot;&gt;If Bach Wrote...&lt;/a&gt; (IBW). If Bach Wrote... (IBW) is a personal project of mine where I regularly pick an iconic tune from pop culture, extract melodic material from it, and compose a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;fugue&lt;/a&gt; with that melody as the &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;subject&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To the second installment of &lt;a href=&quot;https://jdauriemma.com/tag/ifbachwrote/&quot;&gt;If Bach Wrote...&lt;/a&gt; (IBW). If Bach Wrote... (IBW) is a personal project of mine where I regularly pick an iconic tune from pop culture, extract melodic material from it, and compose a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;fugue&lt;/a&gt; with that melody as the &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;subject&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;A handful of weeks ago I did a &lt;a href=&quot;http://en.wikipedia.org/wiki/Polyphony&quot;&gt;polyphonic&lt;/a&gt; treatment of Lil Jon and DJ Snake&amp;#39;s &lt;a href=&quot;http://jdauriemma.com/music/if-bach-wrote-turn-down-for-what&quot;&gt;&amp;quot;Turn Down for What&amp;quot;&lt;/a&gt; and was pleasantly surprised by the number of hits it got. People more or less had nice things to say about it, too. So, if you listened: thank you!&lt;/p&gt;
+&lt;p&gt;A handful of weeks ago I did a &lt;a href=&quot;http://en.wikipedia.org/wiki/Polyphony&quot;&gt;polyphonic&lt;/a&gt; treatment of Lil Jon and DJ Snake&amp;#39;s &lt;a href=&quot;https://jdauriemma.com/music/if-bach-wrote-turn-down-for-what&quot;&gt;&amp;quot;Turn Down for What&amp;quot;&lt;/a&gt; and was pleasantly surprised by the number of hits it got. People more or less had nice things to say about it, too. So, if you listened: thank you!&lt;/p&gt;
 
 &lt;h3 id=&quot;original&quot;&gt;Original&lt;/h3&gt;
 
@@ -1036,8 +1036,8 @@ Going anywhere&quot;
 &lt;p&gt;I&amp;#39;m on the Twitter: &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;. Say hey!&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Aug 2014 06:00:00 +0000</pubDate>
-        <link>http://jdauriemma.com/music/if-bach-wrote-dont-stop-believin</link>
-        <guid isPermaLink="true">http://jdauriemma.com/music/if-bach-wrote-dont-stop-believin</guid>
+        <link>https://jdauriemma.com/music/if-bach-wrote-dont-stop-believin</link>
+        <guid isPermaLink="true">https://jdauriemma.com/music/if-bach-wrote-dont-stop-believin</guid>
         
         <category>ifbachwrote</category>
         
@@ -1051,7 +1051,7 @@ Going anywhere&quot;
       
       <item>
         <title>If Bach Wrote Turn Down for What</title>
-        <description>&lt;img src=&quot;http://jdauriemma.com/assets/images/featured/bachliljon.jpg&quot; alt=&quot;If Bach Wrote Turn Down for What&quot;&gt;&lt;h3 id=&quot;how-to-write-a-really-boring-music-blog&quot;&gt;How to Write a Really Boring Music Blog&lt;/h3&gt;
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/bachliljon.jpg&quot; alt=&quot;If Bach Wrote Turn Down for What&quot;&gt;&lt;h3 id=&quot;how-to-write-a-really-boring-music-blog&quot;&gt;How to Write a Really Boring Music Blog&lt;/h3&gt;
 
 &lt;p&gt;When I started this blog a few weeks ago, I resolved to blog about all my interests, not just programming. This obviously presents a challenge: holding an audience whilst writing about a wide variety of mostly unrelated subjects. I love listening to and composing music, so my first thought was to regularly write music reviews and occasionally post an original composition whenever I feel like writing one. Both of those options now seem really uninteresting and offer nothing new in terms of interesting content.&lt;/p&gt;
 
@@ -1105,8 +1105,8 @@ Going anywhere&quot;
 &lt;p&gt;Please let me know whether you enjoyed this labor of love/crunk. Tweet me! &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Jun 2014 06:00:00 +0000</pubDate>
-        <link>http://jdauriemma.com/music/if-bach-wrote-turn-down-for-what</link>
-        <guid isPermaLink="true">http://jdauriemma.com/music/if-bach-wrote-turn-down-for-what</guid>
+        <link>https://jdauriemma.com/music/if-bach-wrote-turn-down-for-what</link>
+        <guid isPermaLink="true">https://jdauriemma.com/music/if-bach-wrote-turn-down-for-what</guid>
         
         <category>ifbachwrote</category>
         
