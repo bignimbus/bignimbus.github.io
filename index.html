@@ -9,11 +9,11 @@ layout: default
   </ul>
   <!-- Pagination links -->
   {% if paginator.total_pages > 1 %}
-  <div class="pagination">
+  <nav class="pagination">
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span class="fa fa-arrow-left"></span> Prev</a>
     {% else %}
-      <span>&laquo; Prev</span>
+      <span><span class="fa fa-arrow-left"></span> Prev</span>
     {% endif %}
 
     {% for page in (1..paginator.total_pages) %}
@@ -27,10 +27,10 @@ layout: default
     {% endfor %}
 
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next <span class="fa fa-arrow-right"></span></a>
     {% else %}
-      <span>Next &raquo;</span>
+      <span>Next <span class="fa fa-arrow-right"></span></span>
     {% endif %}
-  </div>
+  </nav>
   {% endif %}
 </div>
