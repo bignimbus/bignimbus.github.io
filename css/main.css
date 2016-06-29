@@ -671,3 +671,7 @@ a {
   transition: transform .3s; }
   .blog-tagline span:hover {
     transform: rotate(15deg); }
+
+nav.pagination {
+  font-size: 1.2rem;
+  text-align: center; }

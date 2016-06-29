@@ -5,9 +5,27 @@
     <description>thoughts on code, music and education</description>
     <link>https://jdauriemma.com/</link>
     <atom:link href="https://jdauriemma.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Jun 2016 19:38:03 +0000</pubDate>
-    <lastBuildDate>Tue, 07 Jun 2016 19:38:03 +0000</lastBuildDate>
+    <pubDate>Tue, 28 Jun 2016 21:45:25 +0000</pubDate>
+    <lastBuildDate>Tue, 28 Jun 2016 21:45:25 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
+    
+      
+      <item>
+        <title>Using Jekyll Plugins with GitHub Pages</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/jekyll-logo-dark-solid.png&quot; alt=&quot;Using Jekyll Plugins with GitHub Pages&quot;&gt;&lt;p&gt;Read my &lt;a href=&quot;http://blog.opternative.com/engineering/using-jekyll-plugins-with-github-pages&quot;&gt;Opternative blog post here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 28 Jun 2016 06:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/programming/using-jekyll-plugins-with-github-pages</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/using-jekyll-plugins-with-github-pages</guid>
+        
+        <category>ruby</category>
+        
+        <category>jekyll</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
     
       
       <item>
@@ -1038,75 +1056,6 @@ Going anywhere&quot;
         <pubDate>Sat, 02 Aug 2014 06:00:00 +0000</pubDate>
         <link>https://jdauriemma.com/music/if-bach-wrote-dont-stop-believin</link>
         <guid isPermaLink="true">https://jdauriemma.com/music/if-bach-wrote-dont-stop-believin</guid>
-        
-        <category>ifbachwrote</category>
-        
-        <category>music</category>
-        
-        
-        <category>music</category>
-        
-      </item>
-    
-      
-      <item>
-        <title>If Bach Wrote Turn Down for What</title>
-        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/bachliljon.jpg&quot; alt=&quot;If Bach Wrote Turn Down for What&quot;&gt;&lt;h3 id=&quot;how-to-write-a-really-boring-music-blog&quot;&gt;How to Write a Really Boring Music Blog&lt;/h3&gt;
-
-&lt;p&gt;When I started this blog a few weeks ago, I resolved to blog about all my interests, not just programming. This obviously presents a challenge: holding an audience whilst writing about a wide variety of mostly unrelated subjects. I love listening to and composing music, so my first thought was to regularly write music reviews and occasionally post an original composition whenever I feel like writing one. Both of those options now seem really uninteresting and offer nothing new in terms of interesting content.&lt;/p&gt;
-
-&lt;p&gt;The question lingered: how do I blog about music in a way that&amp;#39;s potentially interesting to myself and my intended audience (the internet)? The answer is around 300 years old. I am a huge Bach fan. Not only do I like listening to his music, I also enjoy composing polyphonic music that imitates Bach&amp;#39;s style. I have composed more than a handful of fugues (&lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;what&amp;#39;s a fugue?&lt;/a&gt;) in my life and some of them have turned out halfway decent. These fugues are also completely uninteresting to everyone else except music theory nerds.&lt;/p&gt;
-
-&lt;p&gt;But lots of people like rap and pop music, so what if I could marry my interest in composing in a centuries-old idiom without boring everyone to death? Ladies and gentlemen, I give you...&lt;/p&gt;
-
-&lt;h3 id=&quot;full-audio&quot;&gt;Full Audio&lt;/h3&gt;
-
-&lt;audio class=&quot;site-player&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;
-  
-  &lt;source src=&quot;http://jdauriemma.startlogic.com/home/audio/mp3/000IfBachWroteTurnDownforWhat.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
-  
-  &lt;source src=&quot;http://jdauriemma.startlogic.com/home/audio/ogg/000IfBachWroteTurnDownforWhat.ogg&quot; type=&quot;audio/ogg&quot;&gt;
-  
-  &lt;span&gt;Your browser does not support the audio element.&lt;/span&gt;
-&lt;/audio&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.noteflight.com/scores/view/52c241c3b178ed536a2ca961994176a5f0536125&quot;&gt;View the full score here&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This series will be a semi-regular (monthly maybe?) series in which I take a given Top 40 Song, extract melodies from that song, and compose a fugue based on that melody. The title will always be: &amp;quot;If Bach Wrote... [Song Title].&amp;quot; Without further ado:&lt;/p&gt;
-
-&lt;h3 id=&quot;analysis&quot;&gt;Analysis&lt;/h3&gt;
-
-&lt;p&gt;Lil Jon and DJ Snake released &amp;quot;Turn Down for What&amp;quot; in late 2013 and has since gone platinum and hit #1 on two US Billboard charts. It also has a synthesizer ostinato that is absolutely entrancing:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Audio Clip: Lil Jon / DJ Snake &amp;quot;Turn Down for What&amp;quot; (original)&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;  &lt;a href=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/06/turndownclip.mp3&quot;&gt;Synth Line&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This synth ostinato will serve as the fugue&amp;#39;s &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;subject&lt;/a&gt;. I simplified the &lt;a href=&quot;http://en.wikipedia.org/wiki/Syncopation&quot;&gt;syncopation&lt;/a&gt; in the rhythm in order to accommodate the Baroque idiom:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/06/turndown01.jpg&quot; alt=&quot;Fugue subject&quot;&gt;&lt;br&gt;
-&lt;em&gt;Fugue subject in E minor: i (VI) (V)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;I am using a &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;&amp;quot;tonal answer&amp;quot;&lt;/a&gt; that is a bit unconventional:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/06/turndown02.jpg&quot; alt=&quot;Tonal answer in G minor: ii-dim&quot;&gt;&lt;br&gt;
-&lt;em&gt;Tonal answer in E minor: iio - (v)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Most fugues in the minor mode opt for a tonal answer in the relative major or dominant; this, however, answers in the submediant. The piece wastes little time progressing into the development section after the third voice restates the subject. Here is the full audio:&lt;/p&gt;
-
-&lt;h3 id=&quot;final-product&quot;&gt;Final Product&lt;/h3&gt;
-
-&lt;iframe height=&quot;500px&quot; src=&quot;http://www.noteflight.com/embed/52c241c3b178ed536a2ca961994176a5f0536125?scale=1&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&quot;feedback-please&quot;&gt;Feedback, Please!&lt;/h3&gt;
-
-&lt;p&gt;Please let me know whether you enjoyed this labor of love/crunk. Tweet me! &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 17 Jun 2014 06:00:00 +0000</pubDate>
-        <link>https://jdauriemma.com/music/if-bach-wrote-turn-down-for-what</link>
-        <guid isPermaLink="true">https://jdauriemma.com/music/if-bach-wrote-turn-down-for-what</guid>
         
         <category>ifbachwrote</category>
         
