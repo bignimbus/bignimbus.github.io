@@ -78,9 +78,9 @@ The tonal outline of the piece is:
 
 ### View the score
 
-[View the full score here](http://www.noteflight.com/scores/view/19e01ff4d09ce892f791521745374d2d004f6197) on Noteflight.
+[View the full score here](https://www.noteflight.com/scores/view/19e01ff4d09ce892f791521745374d2d004f6197) on Noteflight.
 
-<iframe src="http://www.noteflight.com/embed/19e01ff4d09ce892f791521745374d2d004f6197?scale=1" style="width:100%;height:500px"></iframe></div>
+<iframe src="https://www.noteflight.com/embed/19e01ff4d09ce892f791521745374d2d004f6197?scale=1" style="width:100%;height:500px"></iframe></div>
 
 ### Tweet me!
 

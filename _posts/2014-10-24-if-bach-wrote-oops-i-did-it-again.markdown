@@ -80,9 +80,9 @@ The tonal outline of the piece is:
 
 ### The Score
 
-[View the full score here](http://www.noteflight.com/scores/view/9cf8626d7922a021768e972251f9d4edc61a6975) on Noteflight.
+[View the full score here](https://www.noteflight.com/scores/view/9cf8626d7922a021768e972251f9d4edc61a6975) on Noteflight.
 
-<iframe src="http://www.noteflight.com/embed/9cf8626d7922a021768e972251f9d4edc61a6975?scale=1" style="height:500px; width:100%"></iframe>
+<iframe src="https://www.noteflight.com/embed/9cf8626d7922a021768e972251f9d4edc61a6975?scale=1" style="height:500px; width:100%"></iframe>
 
 ### Tweet me!
 
