@@ -5,8 +5,8 @@
     <description>thoughts on code, music and education</description>
     <link>https://jdauriemma.com/</link>
     <atom:link href="https://jdauriemma.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Feb 2017 20:58:13 +0000</pubDate>
-    <lastBuildDate>Wed, 22 Feb 2017 20:58:13 +0000</lastBuildDate>
+    <pubDate>Thu, 09 Mar 2017 17:56:07 +0000</pubDate>
+    <lastBuildDate>Thu, 09 Mar 2017 17:56:07 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       
@@ -841,7 +841,7 @@ Tumblr’s API is good enough, but I also wanted to create a browse page.  As it
 Right now, it’s pretty basic (I have plans - big plans!).  There are two views: single post, and browse.  Browse can show all of my blog posts, or indexed by tag.
 &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/media/blog-post.png&quot; alt=&quot;Blog post&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/media/blog-browse.png&quot; alt=&quot;Blog browse&quot;&gt;&lt;p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/legacy/blog-post.png&quot; alt=&quot;Blog post&quot;&gt;&lt;br&gt;&lt;img src=&quot;/assets/legacy/blog-browse.png&quot; alt=&quot;Blog browse&quot;&gt;&lt;p&gt;
 So, for the time being, this solution serves my purpose. I&amp;#39;m no longer hosting a security risk on my site, and I actually get more control over my content than if I had continued using WordPress.
 &lt;/p&gt;
 &lt;h3&gt;Tweet me&lt;/h3&gt;
@@ -888,9 +888,9 @@ I&#39;m not that innocent&quot;
 
 &lt;audio class=&quot;site-player&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;
   
-  &lt;source src=&quot;http://jdauriemma.startlogic.com/home/audio/mp3/002IfBachWroteOopsIDidItAgain.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
+  &lt;source src=&quot;/assets/audio/002IfBachWroteOopsIDidItAgain.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
   
-  &lt;source src=&quot;http://jdauriemma.startlogic.com/home/audio/ogg/002IfBachWroteOopsIDidItAgain.ogg&quot; type=&quot;audio/ogg&quot;&gt;
+  &lt;source src=&quot;/assets/audio/002IfBachWroteOopsIDidItAgain.ogg&quot; type=&quot;audio/ogg&quot;&gt;
   
   &lt;span&gt;Your browser does not support the audio element.&lt;/span&gt;
 &lt;/audio&gt;
@@ -909,23 +909,23 @@ I&#39;m not that innocent&quot;
 
 &lt;p&gt;This piece is a rare five-voice fugue, meaning there are up to five independent melodies happening in parallel. Most composers hesitate to write five-voice fugues (Bach only has a handful to his name): they tend to border on a &amp;quot;chorale&amp;quot; like sound, which can sound overly &amp;quot;vertical&amp;quot; and suffer from a lack of true polyphony. On top of that, most fugue subject are either too busy or have to wide of a tonal range to accommodate for five voices. &amp;quot;Oops!... I Did It Again&amp;quot; is slow enough (I slowed it down to 60bpm) and compact enough (within a sixth) that I decided to throw caution to the wind and give five voices a shot. Here&amp;#39;s what the subject looks like on paper:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/bach-oops-subject.png&quot; alt=&quot;IBW Oops I Did It Again Subject&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/legacy/bach-oops-subject.png&quot; alt=&quot;IBW Oops I Did It Again Subject&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;Subject, in C# minor: i V i VII III i E: V I&lt;/p&gt;
 
 &lt;p&gt;The &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue#The_exposition&quot;&gt;tonal answer&lt;/a&gt; is in the &lt;a href=&quot;http://en.wikipedia.org/wiki/Relative_key&quot;&gt;relative major&lt;/a&gt;:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/10/bach-oops-answer.png&quot; alt=&quot;IBW Oops I Did It Again Answer&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/legacy/bach-oops-answer.png&quot; alt=&quot;IBW Oops I Did It Again Answer&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;Answer, in E major: I V I vi c#: iidim V&lt;/p&gt;
 
 &lt;p&gt;The exposition makes use of two &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue#The_exposition&quot;&gt;countersubjects&lt;/a&gt;, but only countersubject 2 is reused in the development section:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/bach-oops-cs1.png&quot; alt=&quot;IBW Oops I Did It Again Countersubject 1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/legacy/bach-oops-cs1.png&quot; alt=&quot;IBW Oops I Did It Again Countersubject 1&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;Countersubject 1&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/bach-oops-cs2.png&quot; alt=&quot;bach-oops-IBW Oops I Did It Again Countersubject 2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/legacy/bach-oops-cs2.png&quot; alt=&quot;bach-oops-IBW Oops I Did It Again Countersubject 2&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;Countersubject 2&lt;/p&gt;
 
@@ -987,9 +987,9 @@ Going anywhere&quot;
 
 &lt;audio class=&quot;site-player&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;
   
-  &lt;source src=&quot;http://jdauriemma.startlogic.com/home/audio/mp3/001IfBachWroteDontStopBelievin.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
+  &lt;source src=&quot;/assets/audio/001IfBachWroteDontStopBelievin.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
   
-  &lt;source src=&quot;http://jdauriemma.startlogic.com/home/audio/ogg/001IfBachWroteDontStopBelievin.ogg&quot; type=&quot;audio/ogg&quot;&gt;
+  &lt;source src=&quot;/assets/audio/001IfBachWroteDontStopBelievin.ogg&quot; type=&quot;audio/ogg&quot;&gt;
   
   &lt;span&gt;Your browser does not support the audio element.&lt;/span&gt;
 &lt;/audio&gt;
@@ -1006,21 +1006,21 @@ Going anywhere&quot;
 
 &lt;p&gt;In notation:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.15.57-PM.png&quot; alt=&quot;IBW Don&amp;#39;t Stop Believin Subject&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/legacy/Screen-Shot-2014-08-01-at-5.15.57-PM.png&quot; alt=&quot;IBW Don&amp;#39;t Stop Believin Subject&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;Subject, in E major: I V vi IV&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.16.18-PM.png&quot; alt=&quot;IBW Don&amp;#39;t Stop Believin Answer&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/legacy/Screen-Shot-2014-08-01-at-5.16.18-PM.png&quot; alt=&quot;IBW Don&amp;#39;t Stop Believin Answer&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;Tonal Answer, in E major: V ii-V42 IV V6&lt;/p&gt;
 
 &lt;p&gt;This fugue makes use of two &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;countersubjects&lt;/a&gt;:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.25.36-PM.png&quot; alt=&quot;Countersubject 1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/legacy/Screen-Shot-2014-08-01-at-5.25.36-PM.png&quot; alt=&quot;Countersubject 1&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;Countersubject 1&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.25.55-PM.png&quot; alt=&quot;Countersubject 2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/legacy/Screen-Shot-2014-08-01-at-5.25.55-PM.png&quot; alt=&quot;Countersubject 2&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;Countersubject 2, free counterpoint thereafter&lt;/p&gt;
 
