@@ -30,7 +30,7 @@ In my teen years I was too busy listening to Limp Bizkit to notice the hidden ge
 
 ### Full Audio
 
-{% include audio.html url='http://jdauriemma.startlogic.com/home/audio/mp3/002IfBachWroteOopsIDidItAgain' formats='mp3 ogg' %}
+{% include audio.html url='/assets/audio/002IfBachWroteOopsIDidItAgain' formats='mp3 ogg' %}
 
 ### Triumphant Return
 
@@ -46,23 +46,23 @@ Bubblegum pop is often given the cold shoulder by musicologists, but the refrain
 
 This piece is a rare five-voice fugue, meaning there are up to five independent melodies happening in parallel. Most composers hesitate to write five-voice fugues (Bach only has a handful to his name): they tend to border on a "chorale" like sound, which can sound overly "vertical" and suffer from a lack of true polyphony. On top of that, most fugue subject are either too busy or have to wide of a tonal range to accommodate for five voices. "Oops!... I Did It Again" is slow enough (I slowed it down to 60bpm) and compact enough (within a sixth) that I decided to throw caution to the wind and give five voices a shot. Here's what the subject looks like on paper:
 
-![IBW Oops I Did It Again Subject](http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/bach-oops-subject.png)
+![IBW Oops I Did It Again Subject](/assets/legacy/bach-oops-subject.png)
 
 Subject, in C# minor: i V i VII III i E: V I
 
 The [tonal answer](http://en.wikipedia.org/wiki/Fugue#The_exposition) is in the [relative major](http://en.wikipedia.org/wiki/Relative_key):
 
-![IBW Oops I Did It Again Answer](http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/10/bach-oops-answer.png)
+![IBW Oops I Did It Again Answer](/assets/legacy/bach-oops-answer.png)
 
 Answer, in E major: I V I vi c#: iidim V
 
 The exposition makes use of two [countersubjects](http://en.wikipedia.org/wiki/Fugue#The_exposition), but only countersubject 2 is reused in the development section:
 
-![IBW Oops I Did It Again Countersubject 1](http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/bach-oops-cs1.png)
+![IBW Oops I Did It Again Countersubject 1](/assets/legacy/bach-oops-cs1.png)
 
 Countersubject 1
 
-![bach-oops-IBW Oops I Did It Again Countersubject 2](http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/bach-oops-cs2.png)
+![bach-oops-IBW Oops I Did It Again Countersubject 2](/assets/legacy/bach-oops-cs2.png)
 
 Countersubject 2
 

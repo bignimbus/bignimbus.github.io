@@ -18,7 +18,7 @@ But lots of people like rap and pop music, so what if I could marry my interest 
 
 ### Full Audio
 
-{% include audio.html url='http://jdauriemma.startlogic.com/home/audio/mp3/000IfBachWroteTurnDownforWhat' formats='mp3 ogg' %}
+{% include audio.html url='/assets/audio/000IfBachWroteTurnDownforWhat' formats='mp3 ogg' %}
 [View the full score here](https://www.noteflight.com/scores/view/52c241c3b178ed536a2ca961994176a5f0536125)
 
 This series will be a semi-regular (monthly maybe?) series in which I take a given Top 40 Song, extract melodies from that song, and compose a fugue based on that melody. The title will always be: "If Bach Wrote... [Song Title]." Without further ado:
@@ -29,16 +29,16 @@ Lil Jon and DJ Snake released "Turn Down for What" in late 2013 and has since go
 
 _Audio Clip: Lil Jon / DJ Snake "Turn Down for What" (original)_
 
-*   [Synth Line](http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/06/turndownclip.mp3)
+*   [Synth Line](/assets/legacy/turndownclip.mp3)
 
 This synth ostinato will serve as the fugue's [subject](http://jan.ucc.nau.edu/tas3/fugueanatomy.html). I simplified the [syncopation](http://en.wikipedia.org/wiki/Syncopation) in the rhythm in order to accommodate the Baroque idiom:
 
-![Fugue subject](http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/06/turndown01.jpg)  
+![Fugue subject](/assets/legacy/turndown01.jpg)  
 _Fugue subject in E minor: i (VI) (V)_
 
 I am using a ["tonal answer"](http://jan.ucc.nau.edu/tas3/fugueanatomy.html) that is a bit unconventional:
 
-![Tonal answer in G minor: ii-dim](http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/06/turndown02.jpg)  
+![Tonal answer in G minor: ii-dim](/assets/legacy/turndown02.jpg)  
 _Tonal answer in E minor: iio - (v)_
 
 Most fugues in the minor mode opt for a tonal answer in the relative major or dominant; this, however, answers in the submediant. The piece wastes little time progressing into the development section after the third voice restates the subject. Here is the full audio:

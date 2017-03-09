@@ -27,7 +27,7 @@ Admit it, you were singing along! Not to dismiss the importance of good lyrics, 
 
 ### Full Audio
 
-{% include audio.html url='http://jdauriemma.startlogic.com/home/audio/mp3/001IfBachWroteDontStopBelievin' formats='mp3 ogg' %}
+{% include audio.html url='/assets/audio/001IfBachWroteDontStopBelievin' formats='mp3 ogg' %}
 
 ### Welcome back...
 
@@ -41,21 +41,21 @@ First, you may want to [view the score](#score). I'm convinced that all American
 
 In notation:
 
-![IBW Don't Stop Believin Subject](http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.15.57-PM.png)
+![IBW Don't Stop Believin Subject](/assets/legacy/Screen-Shot-2014-08-01-at-5.15.57-PM.png)
 
 Subject, in E major: I V vi IV
 
-![IBW Don't Stop Believin Answer](http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.16.18-PM.png)
+![IBW Don't Stop Believin Answer](/assets/legacy/Screen-Shot-2014-08-01-at-5.16.18-PM.png)
 
 Tonal Answer, in E major: V ii-V42 IV V6
 
 This fugue makes use of two [countersubjects](http://jan.ucc.nau.edu/tas3/fugueanatomy.html):
 
-![Countersubject 1](http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.25.36-PM.png)
+![Countersubject 1](/assets/legacy/Screen-Shot-2014-08-01-at-5.25.36-PM.png)
 
 Countersubject 1
 
-![Countersubject 2](http://jdauriemma.startlogic.com/home/blog/wp-content/uploads/2014/08/Screen-Shot-2014-08-01-at-5.25.55-PM.png)
+![Countersubject 2](/assets/legacy/Screen-Shot-2014-08-01-at-5.25.55-PM.png)
 
 Countersubject 2, free counterpoint thereafter
 
