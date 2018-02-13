@@ -3,8 +3,8 @@ layout: post
 title:  How to Make Teaching a Better Career, Part 2
 date:   2015-12-16 00:00:00 -0600
 featured_image: 8104594017_c418712932_z.jpg
-categories: education
-tags: ['teaching', 'politics']
+categories: misc
+tags: ['education', 'teaching', 'politics']
 excerpt: Attracting and retaining great teachers in our schools is more difficult than ever.  Here is part two of my list of 10 solutions.
 attributions: [{asset_name: 'Hero image', asset_url: 'https://www.flickr.com/photos/cali4beach/', author: cali4beach, license_name: 'Creative Commons License', license_url: 'https://creativecommons.org/licenses/by/2.0/#'}]
 permalink: /:categories/:title
