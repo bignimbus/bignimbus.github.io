@@ -397,6 +397,17 @@ figure.music figcaption {
 figure.music img {
   max-height: 100px; }
 
+.figures {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -4px;
+  width: 100%; }
+  .figures__figure {
+    flex: 1 1 362px;
+    margin-left: 4px; }
+    .figures__figure img {
+      width: 100%; }
+
 @keyframes slide {
   from {
     height: auto; }
