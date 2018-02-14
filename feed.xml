@@ -5,9 +5,33 @@
     <description>thoughts on code, music and education</description>
     <link>https://jdauriemma.com/</link>
     <atom:link href="https://jdauriemma.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 13 Feb 2018 18:27:41 +0000</pubDate>
-    <lastBuildDate>Tue, 13 Feb 2018 18:27:41 +0000</lastBuildDate>
+    <pubDate>Wed, 14 Feb 2018 23:10:46 +0000</pubDate>
+    <lastBuildDate>Wed, 14 Feb 2018 23:10:46 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
+    
+      
+      <item>
+        <title>Hillel Wayne: Modeling Redux with TLA+</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/tla.jpg&quot; alt=&quot;Hillel Wayne: Modeling Redux with TLA+&quot;&gt;&lt;p&gt;A colleague that I met in a regional tech community, &lt;a href=&quot;https://www.hillelwayne.com&quot;&gt;Hillel Wayne&lt;/a&gt;, recently solicited some feedback on the Redux portions of this informative piece on using &lt;a href=&quot;https://en.wikipedia.org/wiki/TLA%2B&quot;&gt;TLA+&lt;/a&gt; to model &lt;a href=&quot;https://redux.js.org/&quot;&gt;Redux&lt;/a&gt;.  I obliged him, and learned a lot about TLA+ in the process!&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s worth a read:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.hillelwayne.com/post/tla-redux/&quot;&gt;Modeling Redux with TLA+&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 14 Feb 2018 06:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/programming/modeling-redux-with-tla-plus</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/modeling-redux-with-tla-plus</guid>
+        
+        <category>javascript</category>
+        
+        <category>tlaplus</category>
+        
+        <category>redux</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
     
       
       <item>
@@ -996,108 +1020,6 @@ So, for the time being, this solution serves my purpose. I&amp;#39;m no longer h
         
         
         <category>programming</category>
-        
-      </item>
-    
-      
-      <item>
-        <title>If Bach Wrote Oops!... I Did It Again</title>
-        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/bach-britney.jpg&quot; alt=&quot;If Bach Wrote Oops!... I Did It Again&quot;&gt;&lt;p&gt;You can&amp;#39;t un-see that image.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;&quot;Oops!...I did it again  
-
-I played with your heart, got lost in the game  
-
-Oh baby, baby  
-
-Oops!...You think I&#39;m in love  
-
-That I&#39;m sent from above  
-
-I&#39;m not that innocent&quot;  
-
-      - Britney Spears  
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;In my teen years I was too busy listening to Limp Bizkit to notice the hidden gem in Britney&amp;#39;s 2000 hit, &amp;quot;Oops!... I Did It Again.&amp;quot; Now, no one will ever repeat that fateful mistake again. You&amp;#39;re welcome, America.&lt;/p&gt;
-
-&lt;h3 id=&quot;full-audio&quot;&gt;Full Audio&lt;/h3&gt;
-
-&lt;audio class=&quot;site-player&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;
-  
-  &lt;source src=&quot;/assets/audio/002IfBachWroteOopsIDidItAgain.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
-  
-  &lt;source src=&quot;/assets/audio/002IfBachWroteOopsIDidItAgain.ogg&quot; type=&quot;audio/ogg&quot;&gt;
-  
-  &lt;span&gt;Your browser does not support the audio element.&lt;/span&gt;
-&lt;/audio&gt;
-
-&lt;h3 id=&quot;triumphant-return&quot;&gt;Triumphant Return&lt;/h3&gt;
-
-&lt;p&gt;I apologize for my long hiatus on new posts - lots of new and exciting things are happening in my personal life right now and I&amp;#39;ve had to put writing on the back burner for a bit. But enough about me. &lt;a href=&quot;https://jdauriemma.com/tag/ifbachwrote&quot;&gt;If Bach Wrote...&lt;/a&gt; (IBW) is a personal project of mine where I regularly pick an iconic tune from pop culture, extract melodic material from it, and compose a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;fugue&lt;/a&gt; with that melody as the &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;subject&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;So far I&amp;#39;ve tackled &lt;a href=&quot;https://jdauriemma.com/music/if-bach-wrote-dont-stop-believin&quot;&gt;Journey&lt;/a&gt; and &lt;a href=&quot;https://jdauriemma.com/music/if-bach-wrote-turn-down-for-what&quot;&gt;Lil Jon&lt;/a&gt;, and I&amp;#39;ve been pretty surprised with the large audience both pieces have acquired (relative to what I&amp;#39;m used to). If you&amp;#39;ve listened to those two pieces, thank you! Who knew that &lt;a href=&quot;http://en.wikipedia.org/wiki/Polyphony&quot;&gt;polyphony&lt;/a&gt; could still be popular in the 21st century?&lt;/p&gt;
-
-&lt;h3 id=&quot;the-original&quot;&gt;The Original&lt;/h3&gt;
-
-&lt;p&gt;Bubblegum pop is often given the cold shoulder by musicologists, but the refrain of &amp;quot;Oops!... I Did It Again&amp;quot; makes for a fascinating fugue subject. &lt;a href=&quot;https://youtu.be/HMUDVMiITOU&quot;&gt;Listen here&lt;/a&gt; - you can skip to 0:50 to hear the refrain, but you&amp;#39;d be missing out on some slick bass playing by Thomas Lindberg.&lt;/p&gt;
-
-&lt;h3 id=&quot;analysis&quot;&gt;Analysis&lt;/h3&gt;
-
-&lt;p&gt;This piece is a rare five-voice fugue, meaning there are up to five independent melodies happening in parallel. Most composers hesitate to write five-voice fugues (Bach only has a handful to his name): they tend to border on a &amp;quot;chorale&amp;quot; like sound, which can sound overly &amp;quot;vertical&amp;quot; and suffer from a lack of true polyphony. On top of that, most fugue subject are either too busy or have to wide of a tonal range to accommodate for five voices. &amp;quot;Oops!... I Did It Again&amp;quot; is slow enough (I slowed it down to 60bpm) and compact enough (within a sixth) that I decided to throw caution to the wind and give five voices a shot. Here&amp;#39;s what the subject looks like on paper:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/legacy/bach-oops-subject.png&quot; alt=&quot;IBW Oops I Did It Again Subject&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;Subject, in C# minor: i V i VII III i E: V I&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue#The_exposition&quot;&gt;tonal answer&lt;/a&gt; is in the &lt;a href=&quot;http://en.wikipedia.org/wiki/Relative_key&quot;&gt;relative major&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/legacy/bach-oops-answer.png&quot; alt=&quot;IBW Oops I Did It Again Answer&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;Answer, in E major: I V I vi c#: iidim V&lt;/p&gt;
-
-&lt;p&gt;The exposition makes use of two &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue#The_exposition&quot;&gt;countersubjects&lt;/a&gt;, but only countersubject 2 is reused in the development section:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/legacy/bach-oops-cs1.png&quot; alt=&quot;IBW Oops I Did It Again Countersubject 1&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;Countersubject 1&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/legacy/bach-oops-cs2.png&quot; alt=&quot;bach-oops-IBW Oops I Did It Again Countersubject 2&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;Countersubject 2&lt;/p&gt;
-
-&lt;p&gt;The tonal outline of the piece is:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;  (mm1) C# minor&lt;/li&gt;
-&lt;li&gt;  (~mm18) E major&lt;/li&gt;
-&lt;li&gt;  (~mm21) A major&lt;/li&gt;
-&lt;li&gt;  (~mm24) F# minor&lt;/li&gt;
-&lt;li&gt;  (~mm27) A major&lt;/li&gt;
-&lt;li&gt;  (mm33) C# minor&lt;/li&gt;
-&lt;li&gt;  (mm44) D# minor&lt;/li&gt;
-&lt;li&gt;  (mm49) B major&lt;/li&gt;
-&lt;li&gt;  (mm52) C# minor&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;the-score&quot;&gt;The Score&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.noteflight.com/scores/view/9cf8626d7922a021768e972251f9d4edc61a6975&quot;&gt;View the full score here&lt;/a&gt; on Noteflight.&lt;/p&gt;
-
-&lt;iframe src=&quot;https://www.noteflight.com/embed/9cf8626d7922a021768e972251f9d4edc61a6975?scale=1&quot; style=&quot;height:500px; width:100%&quot;&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&quot;tweet-me&quot;&gt;Tweet me!&lt;/h3&gt;
-
-&lt;p&gt;Oops!... You tweeted me again: &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 02 Aug 2014 06:00:00 +0000</pubDate>
-        <link>https://jdauriemma.com/music/if-bach-wrote-oops-i-did-it-again</link>
-        <guid isPermaLink="true">https://jdauriemma.com/music/if-bach-wrote-oops-i-did-it-again</guid>
-        
-        <category>ifbachwrote</category>
-        
-        <category>music</category>
-        
-        
-        <category>music</category>
         
       </item>
     
