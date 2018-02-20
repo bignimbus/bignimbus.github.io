@@ -10,7 +10,7 @@ exclude: [Rakefile, vendor]
 # Site settings
 title: Jeffrey Auriemma's Blog
 email: jdauriemma@gmail.com
-description: thoughts on code, music and education
+description: thoughts on code, music, misc.
 url: "https://jdauriemma.com" # the base hostname & protocol for your site
 twitter_username: jbones3000
 github_username: bignimbus
