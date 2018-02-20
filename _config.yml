@@ -14,6 +14,7 @@ description: thoughts on code, music, misc.
 url: "https://jdauriemma.com" # the base hostname & protocol for your site
 twitter_username: jbones3000
 github_username: bignimbus
+mastodon_username: bignimbus
 linkedin_username: jeffreyauriemma
 logo: "/assets/images/avatar.png"
 
