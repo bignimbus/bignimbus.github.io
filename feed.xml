@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jeffrey Auriemma&#39;s Blog</title>
-    <description>thoughts on code, music and education</description>
+    <description>thoughts on code, music, misc.</description>
     <link>https://jdauriemma.com/</link>
     <atom:link href="https://jdauriemma.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Feb 2018 23:10:46 +0000</pubDate>
-    <lastBuildDate>Wed, 14 Feb 2018 23:10:46 +0000</lastBuildDate>
+    <pubDate>Tue, 20 Feb 2018 03:18:00 +0000</pubDate>
+    <lastBuildDate>Tue, 20 Feb 2018 03:18:00 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       
