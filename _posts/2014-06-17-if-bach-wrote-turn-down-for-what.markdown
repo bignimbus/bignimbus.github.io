@@ -6,7 +6,6 @@ featured_image: bachliljon.jpg
 categories: music
 tags: ['ifbachwrote', 'music']
 excerpt: The first installment of my "If Bach Wrote" series.  A fugue based on the synthesizer part in Lil' Jon and DJ Snake's hit "Turn Down for What."
-permalink: /:categories/:title
 ---
 ### How to Write a Really Boring Music Blog
 

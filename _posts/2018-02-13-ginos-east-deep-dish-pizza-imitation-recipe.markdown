@@ -6,7 +6,6 @@ featured_image: deep-dish-pizza.jpg
 categories: misc
 tags: ['food', 'recipe', 'pizza']
 excerpt: After months of experimenting, I share my recipe for a faithful interpretation of Gino's East deep dish pizza
-permalink: /:categories/:title
 cta: true
 ---
 

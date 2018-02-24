@@ -7,7 +7,6 @@ categories: misc
 tags: ['education', 'teaching', 'politics']
 excerpt: Attracting and retaining great teachers in our schools is more difficult than ever.  Here is part two of my list of 10 solutions.
 attributions: [{asset_name: 'Hero image', asset_url: 'https://www.flickr.com/photos/cali4beach/', author: cali4beach, license_name: 'Creative Commons License', license_url: 'https://creativecommons.org/licenses/by/2.0/#'}]
-permalink: /:categories/:title
 ---
 
 <p><a href="{{ site.url }}/education/how-to-make-teaching-a-better-career-part-1">The first part of this list</a> generated a lot of support from teachers and former teachers alike.  Thanks to all for a great discussion.

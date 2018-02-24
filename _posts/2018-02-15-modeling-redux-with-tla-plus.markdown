@@ -6,7 +6,6 @@ featured_image: tla.jpg
 categories: programming
 tags: ['javascript', 'tlaplus', 'redux']
 excerpt: Hillel Wayne wrote this excellent and instructive piece that helps us grok TLA+ by implementing a Redux clone in that language
-permalink: /:categories/:title
 cta: false
 attributions: [{asset_name: 'Hero image', asset_url: 'https://www.hillelwayne.com/post/tla-redux/redux-1.png', author: Hillel Wayne }]
 ---

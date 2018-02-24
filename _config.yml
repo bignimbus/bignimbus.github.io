@@ -30,6 +30,7 @@ gems:
   - jekyll-paginate
   - jekyll-sitemap
 paginate: 10
+permalink: /:categories/:title/
 jekyll-archives:
   enabled:
     - categories

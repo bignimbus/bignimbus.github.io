@@ -6,7 +6,6 @@ featured_image: bach-rick.jpg
 categories: music
 tags: ['ifbachwrote', 'music']
 excerpt: Rick Rolling is Bach and more Baroque than ever.
-permalink: /:categories/:title
 cta: true
 ---
 

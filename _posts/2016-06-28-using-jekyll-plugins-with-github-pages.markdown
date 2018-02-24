@@ -6,7 +6,6 @@ featured_image: jekyll-logo-dark-solid.png
 categories: programming
 tags: ['ruby', 'jekyll']
 excerpt: My latest post on the Opternative Blog.  Use this workaround to include your favorite Jekyll plugins painlessly with GitHub Pages hosting.
-permalink: /:categories/:title
 cta: false
 attributions: [{asset_name: 'Hero image', asset_url: 'https://github.com/jekyll/brand/blob/master/jekyll-logo-dark-solid.png', author: Coby Chapple, license_name: 'MIT License'}]
 ---

@@ -6,7 +6,6 @@ featured_image: OCD3Hwk.png
 categories: programming
 tags: ['ruby', 'rails']
 excerpt: "From a Rails newcomer's point of view: how to use block helpers effectively."
-permalink: /:categories/:title
 ---
 
 I'm still pretty new at Ruby, but my coworker and all-around good guy Derek Schaefer pointed this tip out to me when reviewing a recent pull request of mine.

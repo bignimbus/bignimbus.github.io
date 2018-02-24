@@ -6,7 +6,6 @@ featured_image: bach-journey.jpg
 categories: music
 tags: ['ifbachwrote', 'music']
 excerpt: A Bach-like fugue based on the piano/bass melody in the iconic "Don't Stop Believin'" by Journey.  Recording, score and analysis within.
-permalink: /:categories/:title
 ---
 
 ```
