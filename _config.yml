@@ -5,7 +5,11 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-exclude: [Rakefile, vendor]
+exclude:
+  - Rakefile
+  - vendor
+  - resume.json
+  - node_modules
 
 # Site settings
 title: Jeffrey Auriemma's Blog
