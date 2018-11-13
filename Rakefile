@@ -47,10 +47,11 @@ task :publish => [:generate, :test] do
     system 'git config --global user.name "Jeff Auriemma"'
     system "git remote add origin https://github.com/#{GITHUB_REPONAME}.git"
     system "git checkout -b staging-build"
+    system "git fetch"
+    system "git checkout origin/staging .circleci"
     system "git add ."
     message = "Site updated at #{Time.now.utc}"
     system "git commit -m #{message.inspect}"
-    system "git fetch"
     system "git merge -s ours origin/staging-build --no-edit --allow-unrelated-histories"
     system "git push origin staging-build"
 
