@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jeffrey Auriemma&#39;s Blog</title>
+    <description>thoughts on code, music, misc.</description>
+    <link>https://jdauriemma.com/</link>
+    <atom:link href="https://jdauriemma.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 13 Nov 2018 06:28:58 +0000</pubDate>
+    <lastBuildDate>Tue, 13 Nov 2018 06:28:58 +0000</lastBuildDate>
+    <generator>Jekyll v3.0.3</generator>
+    
+      
+      <item>
+        <title>Hillel Wayne: Modeling Redux with TLA+</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/tla.jpg&quot; alt=&quot;Hillel Wayne: Modeling Redux with TLA+&quot;&gt;&lt;p&gt;A colleague that I met in a regional tech community, &lt;a href=&quot;https://www.hillelwayne.com&quot;&gt;Hillel Wayne&lt;/a&gt;, recently solicited some feedback on the Redux portions of this informative piece on using &lt;a href=&quot;https://en.wikipedia.org/wiki/TLA%2B&quot;&gt;TLA+&lt;/a&gt; to model &lt;a href=&quot;https://redux.js.org/&quot;&gt;Redux&lt;/a&gt;.  I obliged him, and learned a lot about TLA+ in the process!&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s worth a read:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.hillelwayne.com/post/tla-redux/&quot;&gt;Modeling Redux with TLA+&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 14 Feb 2018 06:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/programming/modeling-redux-with-tla-plus</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/modeling-redux-with-tla-plus</guid>
+        
+        <category>javascript</category>
+        
+        <category>tlaplus</category>
+        
+        <category>redux</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      
+      <item>
+        <title>Gino&#39;s East Deep Dish Pizza Imitation Recipe</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/deep-dish-pizza.jpg&quot; alt=&quot;Gino&#39;s East Deep Dish Pizza Imitation Recipe&quot;&gt;&lt;p&gt;Ever since I moved out of Chicago, I&amp;#39;ve missed Gino&amp;#39;s East pizza.  In particular, I loved indulging in their classic deep dish with spicy sausage and green peppers.  Don&amp;#39;t get me wrong&amp;mdash;the New York metro area has amazing pizza, but deep dish is basically non-existant.
+I&amp;#39;ve been spending the past year or so trying to make a convincing facsimile of the Gino&amp;#39;s recipe at home.  I cross-referenced at least a dozen recipes from various corners of the internet.  None of them got it right.  The best recipe I found was a clipping that a coworker shared with me from a recipe book of his.  But that recipe still fell short on the crust.
+As of this past weekend, however, I am finally confident that I&amp;#39;ve crafted a recipe that is every bit as delicious, if not a bit more labor-intensive, than the average slice of Gino&amp;#39;s East fresh out of their ovens.  Here it goes:&lt;/p&gt;
+
+&lt;h2 id=&quot;the-recipe&quot;&gt;The Recipe&lt;/h2&gt;
+
+&lt;p&gt;Makes two 9&amp;quot; deep dish pizzas.  If you are prepping constantly, it takes about two hours minimum.  Add some extra time if this is your first attempt.&lt;/p&gt;
+
+&lt;h3 id=&quot;hardware-etc&quot;&gt;Hardware, etc.&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2 cake/pie pans, 9&amp;quot; each&lt;/li&gt;
+&lt;li&gt;2 large bowls&lt;/li&gt;
+&lt;li&gt;1 sauce pan&lt;/li&gt;
+&lt;li&gt;1 cheese grater&lt;/li&gt;
+&lt;li&gt;Plastic wrap&lt;/li&gt;
+&lt;li&gt;1 skillet (if sausage is a topping)&lt;/li&gt;
+&lt;li&gt;1 brush (optional, but makes life easier)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;dough-ingredients&quot;&gt;Dough ingredients&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;3 cups all-purpose flour&lt;/li&gt;
+&lt;li&gt;1 cup water&lt;/li&gt;
+&lt;li&gt;1 packet OR 2 1/4 teaspoons yeast&lt;/li&gt;
+&lt;li&gt;1/2 cup cornmeal&lt;/li&gt;
+&lt;li&gt;2 tablespoons corn oil&lt;/li&gt;
+&lt;li&gt;1 teaspoon salt&lt;/li&gt;
+&lt;li&gt;1/2 teaspoon sugar&lt;/li&gt;
+&lt;li&gt;(set aside the corn oil bottle, you will need some extra later)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sauce-ingredients&quot;&gt;Sauce ingredients&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1 can (28 oz) San Marzano tomatoes&lt;/li&gt;
+&lt;li&gt;4 garlic cloves&lt;/li&gt;
+&lt;li&gt;2 tablespoons unsalted butter&lt;/li&gt;
+&lt;li&gt;1/4 cup grated onion&lt;/li&gt;
+&lt;li&gt;2 tablespoons coarsely chopped fresh basil and/or oregano&lt;/li&gt;
+&lt;li&gt;Dried oregano, to taste&lt;/li&gt;
+&lt;li&gt;Dried basil, to taste&lt;/li&gt;
+&lt;li&gt;Ground black pepper, to taste&lt;/li&gt;
+&lt;li&gt;Salt, to taste (kosher salt recommended)&lt;/li&gt;
+&lt;li&gt;1 tablespoon olive oil&lt;/li&gt;
+&lt;li&gt;1/2 teaspoon sugar&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cheese-and-toppings&quot;&gt;Cheese and toppings&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1 lb fresh mozzarella cheese, grated. Don&amp;#39;t use the cheap stuff, don&amp;#39;t use pre-shredded, for the love of everything holy&lt;/li&gt;
+&lt;li&gt;1/4 cup parmesan and/or asiago, grated&lt;/li&gt;
+&lt;li&gt;1 bell pepper (optional)&lt;/li&gt;
+&lt;li&gt;1 package of spicy Italian sausage (optional)&lt;/li&gt;
+&lt;li&gt;Really anything else you can think of, but I usually limit it to sausage and peppers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;make-the-dough&quot;&gt;Make the dough&lt;/h3&gt;
+
+&lt;p&gt;Combine the flour, cornmeal, and salt in a big bowl. Heat up 1 cup of water so that it&amp;#39;s not hot, but not room temperature either. Get it warm. Transfer the water into a small bowl. Stir the yeast and sugar into the water. You&amp;#39;ll know the yeast is active when the mixture begins to foam and bubble&amp;mdash;that will take about 5-10 minutes.&lt;/p&gt;
+
+&lt;p&gt;Transfer the water/yeast/sugar mixture into a separate big bowl. Add the corn oil. Wash your hands and thoroughly dry them.&lt;/p&gt;
+
+&lt;p&gt;Slowly add the flour/cornmeal/salt mixture into the wet bowl. Stir the mixture with one hand, using the other to keep the bowl stable. Keep the gooey stuff off the sides of the bowl, trying to keep as much of the mixture together as one blob. It will start to congeal. Once the dry stuff is integrated into the blob, add more. The dough is ready to rise when it&amp;#39;s moist, but not sticky. Add flour if it&amp;#39;s too sticky, add water if it&amp;#39;s too dry. Knead the dough for a few minutes, but you don&amp;#39;t have to get carried away with it.&lt;/p&gt;
+
+&lt;p&gt;The bowl that held the dry stuff is now empty. Using a brush, or your hand, coat the inside of the bowl with corn oil. Pat the dough into a ball, then put it inside the bowl. Cover completely with plastic wrap and set aside to let rise at room temperature for 45-60 minutes.&lt;/p&gt;
+
+&lt;h3 id=&quot;make-the-sauce&quot;&gt;Make the sauce&lt;/h3&gt;
+
+&lt;p&gt;Crush the San Marzano tomatoes in a big bowl. Chop the garlic. Chop the fresh herbs. Grate the onion - use the largest holes to avoid it being too soupy. In a saucepan over medium heat, melt the butter. Once melted, add onion and fresh herbs and cook until liquid is evaporated and the onion is golden brown. Add garlic and cook until fragrant, maximum 30 seconds. Stir in tomatoes and sugar, increase heat to high and bring to a simmer. Then bring the heat to medium-low and let simmer for 20-30 minutes (about 2 1/2 cups should remain after the sauce reduces). Turn off the heat, and stir in olive oil, dried herbs, pepper, and salt to taste. Let sit, stirring every now and then.&lt;/p&gt;
+
+&lt;p&gt;Preheat the oven to 425 degrees, rack on the bottom.&lt;/p&gt;
+
+&lt;h3 id=&quot;prep-the-toppings&quot;&gt;Prep the toppings&lt;/h3&gt;
+
+&lt;p&gt;Grate the cheeses. Cut any toppings to your liking. Keep in mind that any topping pieces should be cut into smaller pieces, 1&amp;quot; diameter tops. Otherwise the pizza&amp;#39;s texture makes it hard to get a good sauce/cheese/topping ratio each bite.&lt;/p&gt;
+
+&lt;p&gt;For sausage, you should cook it in advance. Heat a (preferably cast-iron) skillet to medium, add your cooking spray of choice if needed, brown the sausage for 5 minutes on both sides, turning often. Add 1/2 cup water, cover the skillet, reduce heat to medium-low, and let simmer for 15 minutes. Cut the sausage into 1/2 - 1&amp;quot; bits.
+&lt;div class=&quot;figures&quot;&gt;
+  &lt;figure class=&quot;figures__figure&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/ginos-east-deep-dish-pizza-imitation-recipe/adding-the-toppings.jpg&quot; alt=&quot;two pans with dough and cheese. One has sausage and peppers in it&quot;&gt;
+    &lt;figcaption&gt;Cheese and toppings first: literally the opposite of most other pizza styles&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure class=&quot;figures__figure&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/ginos-east-deep-dish-pizza-imitation-recipe/adding-the-sauce.jpg&quot; alt=&quot;two pans with sauce on top&quot;&gt;
+    &lt;figcaption&gt;If you need to spread the sauce around manually, don&amp;#39;t be shy&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;assemble-the-pizzas&quot;&gt;Assemble the pizzas&lt;/h3&gt;
+
+&lt;p&gt;Using a brush or your hand, line each deep dish with corn oil. Don&amp;#39;t be shy. Sprinkle some corn meal onto your work surface. Take the risen dough out of the bowl and separate into two equal halves. For each half, on your prepared surface, hand-flatten and roll out to be as large as your dishes, plus a few inches in diameter. It&amp;#39;s easier to make it too wide than not wide enough.&lt;/p&gt;
+
+&lt;p&gt;For each half, transfer the flattened dough to a deep dish. Use your fingers to conform the dough to the contour of the dish, and use your thumbs to make sure that the dough goes all the way up the side of the dish without falling over the edge. Presentation counts, try to clean up any &amp;quot;hills and valleys&amp;quot; at the edges - the dough&amp;#39;s edge should be as smooth as the curve of the dish. Try to repair any holes in the dough. Brush the dough with corn oil - not too much.&lt;/p&gt;
+
+&lt;p&gt;Sprinkle the grated mozzarella evenly on the dough. Next, add any toppings. Then, add the sauce and spread evenly over the top of all the cheese and toppings. Sprinkle the parmesan/asiago on top, to taste.&lt;/p&gt;
+
+&lt;h3 id=&quot;cook&quot;&gt;Cook&lt;/h3&gt;
+
+&lt;p&gt;Cook for 25-35 minutes on the bottom rack at 425 degrees. The pizza is done when the mozzarella bubbles up to the top. Let sit for two minutes before serving.
+&lt;div class=&quot;figures&quot;&gt;
+  &lt;figure class=&quot;figures__figure&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/ginos-east-deep-dish-pizza-imitation-recipe/sausage-peppers-slice.jpg&quot; alt=&quot;slice of spicy sausage and peppers deep dish pizza&quot;&gt;
+    &lt;figcaption&gt;Spicy sausage and peppers&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure class=&quot;figures__figure&quot;&gt;
+    &lt;img src=&quot;/assets/images/posts/ginos-east-deep-dish-pizza-imitation-recipe/cheese-slice.jpg&quot; alt=&quot;slice of cheese deep dish pizza&quot;&gt;
+    &lt;figcaption&gt;Cheese&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Feb 2018 05:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/misc/ginos-east-deep-dish-pizza-imitation-recipe</link>
+        <guid isPermaLink="true">https://jdauriemma.com/misc/ginos-east-deep-dish-pizza-imitation-recipe</guid>
+        
+        <category>food</category>
+        
+        <category>recipe</category>
+        
+        <category>pizza</category>
+        
+        
+        <category>misc</category>
+        
+      </item>
+    
+      
+      <item>
+        <title>Using Jekyll Plugins with GitHub Pages</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/jekyll-logo-dark-solid.png&quot; alt=&quot;Using Jekyll Plugins with GitHub Pages&quot;&gt;&lt;p&gt;Read my &lt;a href=&quot;http://blog.opternative.com/engineering/using-jekyll-plugins-with-github-pages&quot;&gt;Opternative blog post here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 28 Jun 2016 06:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/programming/using-jekyll-plugins-with-github-pages</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/using-jekyll-plugins-with-github-pages</guid>
+        
+        <category>ruby</category>
+        
+        <category>jekyll</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      
+      <item>
+        <title>If Bach Wrote Never Gonna Give You Up</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/bach-rick.jpg&quot; alt=&quot;If Bach Wrote Never Gonna Give You Up&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;Never gonna give you up
+Never gonna let you down
+Never gonna run around
+And desert you
+- Stock Aitken Waterman, as performed by Rick Astley
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;My colleague, Dan, recently changed our conference call hold music to Rick Astley&amp;#39;s 1987 hit, &amp;quot;Never Gonna Give You Up.&amp;quot;  Little did he know that I had been sitting on an almost-finished homage to Mr. Astley for the better part of two years.  A new job and a new child later, I&amp;#39;ve finally put the finishing touches on &amp;quot;If Bach Wrote.... Never Gonna Give You Up.&amp;quot;  I take great pleasure in being able to do a completely original Rick Roll of the internet.&lt;/p&gt;
+
+&lt;h3 id=&quot;full-audio&quot;&gt;Full audio&lt;/h3&gt;
+
+&lt;audio class=&quot;site-player&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;
+  
+  &lt;source src=&quot;/assets/audio/if-bach-wrote-never-gonna-give-you-up.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
+  
+  &lt;source src=&quot;/assets/audio/if-bach-wrote-never-gonna-give-you-up.ogg&quot; type=&quot;audio/ogg&quot;&gt;
+  
+  &lt;span&gt;Your browser does not support the audio element.&lt;/span&gt;
+&lt;/audio&gt;
+
+&lt;h3 id=&quot;the-original&quot;&gt;The original&lt;/h3&gt;
+
+&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dQw4w9WgXcQ&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;about-this-series&quot;&gt;About this series&lt;/h3&gt;
+
+&lt;p&gt;For those who aren&amp;#39;t familiar, this piece is part of a series of fugues called &lt;a href=&quot;https://jdauriemma.com/tag/ifbachwrote&quot;&gt;If Bach Wrote&lt;/a&gt;.  The premise is simple: extract a memorable tune (or tunes) from pop music with minimal alteration, and write a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;fugue&lt;/a&gt; with that tune as the &lt;a href=&quot;http://jan.ucc.nau.edu/tas3/fugueanatomy.html&quot;&gt;subject&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;analysis&quot;&gt;Analysis&lt;/h3&gt;
+
+&lt;p&gt;This is a three-voice fugue in the key that Astley sang it: A-flat major (!?).  I made one key modification: the &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_signature&quot;&gt;time signature&lt;/a&gt;.  Instead of the standard 4/4 time signature, I opted to go with 3/8.  It just sounds more like a Baroque dance this way, and allowed me to take advantage of the &amp;quot;bouncy&amp;quot; nature of the rhythms.&lt;/p&gt;
+
+&lt;h4 id=&quot;themes&quot;&gt;Themes&lt;/h4&gt;
+
+&lt;p&gt;I chose the melody of the chorus as a subject:
+&lt;figure class=&quot;music&quot;&gt;
+  &lt;img src=&quot;/assets/images/posts/if-bach-wrote-never-gonna-give-you-up/subject.png&quot; alt=&quot;subject&quot;&gt;
+  &lt;figcaption&gt;bass clef; Ab major&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue#The_exposition&quot;&gt;tonal answer&lt;/a&gt;:
+&lt;figure class=&quot;music&quot;&gt;
+  &lt;img src=&quot;/assets/images/posts/if-bach-wrote-never-gonna-give-you-up/answer.png&quot; alt=&quot;answer&quot;&gt;
+  &lt;figcaption&gt;treble clef; Ab major&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue#The_exposition&quot;&gt;countersubjects&lt;/a&gt;:
+&lt;figure class=&quot;music&quot;&gt;
+  &lt;img src=&quot;/assets/images/posts/if-bach-wrote-never-gonna-give-you-up/countersubject.png&quot; alt=&quot;countersubject&quot;&gt;
+  &lt;figcaption&gt;bass clef; Ab major&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;passages-of-note&quot;&gt;Passages of note&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;mm78: the subject is stated in double augmentation, and several times thereafter&lt;/li&gt;
+&lt;li&gt;mm133: the subject is stated in B-flat minor with a B-flat pedal tone in voice III&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;tonal-outline&quot;&gt;Tonal outline&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;mm1: A-flat major&lt;/li&gt;
+&lt;li&gt;mm34: F minor&lt;/li&gt;
+&lt;li&gt;mm43: A-flat major&lt;/li&gt;
+&lt;li&gt;mm51: D-flat major&lt;/li&gt;
+&lt;li&gt;mm78: E-flat major&lt;/li&gt;
+&lt;li&gt;mm99: F minor&lt;/li&gt;
+&lt;li&gt;mm121: A-flat major&lt;/li&gt;
+&lt;li&gt;mm124: D-flat major&lt;/li&gt;
+&lt;li&gt;mm133: B-flat minor&lt;/li&gt;
+&lt;li&gt;mm160: A-flat major&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;full-score&quot;&gt;Full score&lt;/h3&gt;
+
+&lt;iframe style=&quot;height: 300px; width: 100%;&quot; src=&quot;https://www.noteflight.com/embed/52a4b121e0aaebe232780b5584ceaa3ac085c460?scale=1&amp;app=html5&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Or view and listen to &lt;a href=&quot;https://www.noteflight.com/scores/view/52a4b121e0aaebe232780b5584ceaa3ac085c460&quot;&gt;the full score here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 07 May 2016 06:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/music/if-bach-wrote-never-gonna-give-you-up</link>
+        <guid isPermaLink="true">https://jdauriemma.com/music/if-bach-wrote-never-gonna-give-you-up</guid>
+        
+        <category>ifbachwrote</category>
+        
+        <category>music</category>
+        
+        
+        <category>music</category>
+        
+      </item>
+    
+      
+      <item>
+        <title>A few uses for JavaScript generator functions</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/factory-1311075-1279x850.jpg&quot; alt=&quot;A few uses for JavaScript generator functions&quot;&gt;&lt;p&gt;Many modern browsers and runtimes are in substantial compliance with the ECMAScript2015 spec.  One of my favorite new additions to JavaScript in ES2015 is the generator function.  The expressive capabilities of these functions are significant.  &lt;a href=&quot;http://www.2ality.com/2015/03/es6-generators.html&quot;&gt;Axel Rauschmayer wrote a great, in-depth article&lt;/a&gt; discussing generators, what they are, and how they can be used in JavaScript.  For those who are pretty comfortable using generators, this next part is for you.  Here are a couple of tricks, along with some basic examples of how they might be relevant to a modern JavaScript application.&lt;/p&gt;
+
+&lt;h3 id=&quot;composing-large-data-structures-with-generators&quot;&gt;Composing large data structures with generators&lt;/h3&gt;
+
+&lt;p&gt;Conventional structures such as arrays and objects can use lots of memory when the data set is unconventionally large.  Here&amp;#39;s an array containing every possible latitude and longitude on Earth, incremented by 0.1.  For those who can&amp;#39;t count that fast, that&amp;#39;s an array of 6,485,401 arrays of two floating-point numbers.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;getCoords&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;coords&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[];&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;90&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;90&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lon&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;180&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lon&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;180&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;coords&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;lon&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;parseFloat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lon&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;lat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;parseFloat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;coords&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;In Chromium v. 52.0.2707.0 (64-bit), the coords array took up roughly half a gigabyte of memory.  Here&amp;#39;s the same data, expressed as a generator function:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;coords&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;90&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;90&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lon&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;180&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lon&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;180&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;yield&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;lon&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;parseFloat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lon&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;lat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;parseFloat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;In the same browser, this took up about one kilobyte of memory.  Because generator functions are evaluted only when they are incremented, you avoid having to store all of your data in memory.  This is called &lt;a href=&quot;http://odetocode.com/blogs/scott/archive/2015/03/09/lazy-evaluation-of-generators-in-es6.aspx&quot;&gt;lazy evaluation&lt;/a&gt;, and it is key to understanding the fundamental difference between generators and traditional JavaScript objects.&lt;/p&gt;
+
+&lt;p&gt;Iterating over millions of data points will still consume considerable CPU resources, but the savings in memory can open up new possibilities.  The above code snippet is a generalized use case, but you may find the lazy evalution paradigm to be indispensible when working with large data sets on the client or in Node.&lt;/p&gt;
+
+&lt;h3 id=&quot;recursion-in-generators&quot;&gt;Recursion in generators&lt;/h3&gt;
+
+&lt;p&gt;It is possible to use recursion inside a generator function with the use of the &lt;code&gt;*&lt;/code&gt; sigil after your &lt;code&gt;yield&lt;/code&gt; statement.  &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield*&quot;&gt;MDN goes into more detail&lt;/a&gt; on how this works.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lyrics&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;du&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;hast&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;mich&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// context: https://www.youtube.com/watch?v=W3q8Od5qJio&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// you should probably wear headphones&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rammstein&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;singThis&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;yield&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;singThis&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;// yield * yields all the yield statements of the specified generator.&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// In this case, the generator is rammstein itself.  This is a simple&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// example of using recursion in a generator function&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;yield&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rammstein&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;singThis&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;shift&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()}&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;karaokeMachine&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;songGenerator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// iterates over all the yield statements in the rammstein generator&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;word&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;songGenerator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// bind a copy of the lyrics array to the first argument of the rammstein generator&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rammsteinIterable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rammstein&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lyrics&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]));&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;karaokeMachine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rammsteinIterable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;90s industrial metal fans* rejoice!  Again, this is a simple example for demonstration purposes.  I&amp;#39;m working on something at the moment that will help demonstrate the power of this pattern, but it&amp;#39;s not quite finished yet.  More to come.&lt;/p&gt;
+
+&lt;h3 id=&quot;custom-iterators&quot;&gt;Custom iterators&lt;/h3&gt;
+
+&lt;p&gt;Let&amp;#39;s say you&amp;#39;re making an app that is a calendar of concerts at which 90s industrial metal bands* are playing.  The API response contains an array of objects, each object representing a concert that is happening in the current calendar year.  Something like this:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;data&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;concerts&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;timestamp&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1461011753&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;bands&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;rammstein&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;location&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;41.8851600&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;-87.6607320&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;timestamp&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1461875683&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;bands&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;rob zombie&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;marilyn manson&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;location&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;42.8851600&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;-87.6607320&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;timestamp&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1487453724&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;bands&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;nine inch nails&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;location&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;41.8851600&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;-86.6607320&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Let&amp;#39;s parse this data structure:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;concerts&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;concerts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// pretend we have a template for this example&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;template&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;concerts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;It would be simple enough to put a comparison inside your template or in your parse function to only display dates that are in the future, but where&amp;#39;s the fun in that?  Let&amp;#39;s compose an object with an iterator instead!&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;concertFactory&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;concerts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{};&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Symbol&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;iterator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;concert&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;concerts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;concert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;yield&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;concert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;concerts&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;concertFactory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;concerts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;template&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;concerts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;So, why choose this option over &lt;code&gt;Array.prototype.map&lt;/code&gt;?  In many cases, the difference is negligible and it comes down to a matter of taste.  Ask yourself these questions:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Do I want to preserve the original data structure without redundancy?&lt;/li&gt;
+&lt;li&gt;Do your users need up-to-the-second updates?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If the answer to either of these questions is &amp;quot;yes,&amp;quot; consider using generator functions to compose custom iterators over your data set.  Speaking to point 1, composing an iteration protocol will conform to data immutability best practices.  Say you want to show 90s industrial metal fans* the total number of concerts for a calendar year; all you need to do is get the &lt;code&gt;length&lt;/code&gt; of the source data set, which has not changed.  Point 2 is all about &lt;em&gt;when&lt;/em&gt; the iterator is invoked.  &lt;code&gt;Array.prototype.map&lt;/code&gt; callbacks are put into the event loop immediately.  Generators, on the other hand, are lazy-evaluted: the date comparison happens at the precise moment your app renders the data.  In a reactive template or socket.io app, this may be a relevant concern.&lt;/p&gt;
+
+&lt;p&gt;* DISCLAIMER: I am not a 90s industrial metal fan&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Apr 2016 06:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/programming/a-few-uses-for-javascript-generators</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/a-few-uses-for-javascript-generators</guid>
+        
+        <category>javascript</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      
+      <item>
+        <title>An Overlooked Benefit of rem in CSS</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/sk3UnQy.jpg&quot; alt=&quot;An Overlooked Benefit of rem in CSS&quot;&gt;&lt;p&gt;
+Should I use &lt;code&gt;rem&lt;/code&gt;, &lt;code&gt;px&lt;/code&gt;, or (gasp!) &lt;code&gt;em&lt;/code&gt;?  This debate has lots of nuance and I&#39;m not here to choose one for you.  I&#39;ve read a lot of good material on the subject thanks in part to my wondeful coworker Moises Montenegro, including &lt;a href=&quot;https://benfrain.com/just-use-pixels/&quot;&gt;this&lt;/a&gt; and also &lt;a href=&quot;https://mindtheshift.wordpress.com/2015/04/02/r-i-p-rem-viva-css-reference-pixel/&quot;&gt;this&lt;/a&gt; (both articles favor &lt;code&gt;px&lt;/code&gt;).  Much of the discussion centers around the nuts and bolts of how the browser interprets each unit, but I&#39;d like to add another dimension to this discussion: that of payload weight.
+
+&lt;/p&gt;&lt;p&gt;
+Note: this article assumes that you are using some sort of CSS preprocessing: perhaps Sass, LESS or Stylus.  
+&lt;/p&gt;
+
+&lt;h3&gt;A note about CSS weight&lt;/h3&gt;
+
+&lt;p&gt;
+When writing preprocessed CSS, consider the output of what you&#39;re writing: it&#39;s usually quite predictable.  For example: deep nesting tends to produce larger CSS files.  Consider:
+&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;cm&quot;&gt;/* style.scss */&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nc&quot;&gt;.another-container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;.standard-heading&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#fff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;c&quot;&gt;/* style.css size: 85B */&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.container&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.another-container&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.standard-heading&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#fff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;
+Assuming &lt;code&gt;.standard-heading&lt;/code&gt; is used in the same context everywhere on the page, it is better not to nest it so deep.  Our file becomes lighter weight and our stylesheet more reusable:
+&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.standard-heading&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#fff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;c&quot;&gt;/* style.css size: 55B */&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.standard-heading&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#fff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;
+Of course, saving 30 bytes is nothing to write home about.  But keeping these possible savings in mind while writing your application&#39;s stylesheets can significantly lighten your CSS payload, keeping page load times down and user experience positive.
+&lt;/p&gt;
+
+&lt;h3&gt;Responsive design and media queries&lt;/h3&gt;
+
+&lt;p&gt;
+OK, so let&#39;s add some design requirements into the mix.  What if your requirement is to scale down font sizes when the viewport is narrower than &lt;code&gt;460px&lt;/code&gt;?  Here are two approaches:
+&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;cm&quot;&gt;/* style.scss */&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;$base-font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$small-font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;14px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$mobile-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;460px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;@mixin&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;standard-fonts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$base-font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;h2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;h3&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;footer&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;.8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;@include&lt;/span&gt; &lt;span class=&quot;nd&quot;&gt;standard-fonts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;@media&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;only&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;screen&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$mobile-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;@include&lt;/span&gt; &lt;span class=&quot;nd&quot;&gt;standard-fonts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$small-font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;c&quot;&gt;/* style.css size: 354B */&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;48px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;h2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;32px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;h3&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;24px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;footer&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;12.8px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;@media&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;only&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;screen&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;460px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;14px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;42px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;h2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;28px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;h3&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;21px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;footer&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;11.2px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;
+This first approach is simple and effective.  We have satisfied the requirement and our mobile users are experiencing wonderfully optimized font sizes.  We are using &lt;code&gt;px&lt;/code&gt;, which is universally supported in all browsers.  Why rock the boat?  Consider this:
+&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;cm&quot;&gt;/* style.scss */&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;$mobile-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;460px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;@media&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;only&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;screen&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$mobile-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;14px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;h2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;h3&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;.5rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;footer&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;.8rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;c&quot;&gt;/* style.css size: 251B */&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;@media&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;only&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;screen&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;460px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;14px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;h2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;h3&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.5rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;footer&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;.8rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;
+The original example using &lt;code&gt;px&lt;/code&gt; totaled 354 bytes of CSS.  The &lt;code&gt;rem&lt;/code&gt; example totaled 251 bytes of CSS.  In this context, &lt;code&gt;rem&lt;/code&gt; allowed us a way to scale our fonts in a media query without the use of redundant CSS output.  These simple optimizations could mean serious reductions in CSS payload when applied to an entire code base.  Of course, if you need to support &amp;lt;=IE8, you&#39;re out of luck - &lt;code&gt;rem&lt;/code&gt; is IE9 and up.
+&lt;/p&gt;
+
+&lt;h3&gt;Rem can help in unexpected ways&lt;/h3&gt;
+
+&lt;p&gt;
+Consider the benefits &lt;code&gt;rem&lt;/code&gt; can offer your stylesheets, particularly when scaling values.  You could potentially shave many kB while writing arguably more elegant CSS.
+&lt;/p&gt;
+
+&lt;h3&gt;Tweet your thoughts&lt;/h3&gt;
+
+&lt;p&gt;
+How are you using &lt;code&gt;px&lt;/code&gt; or &lt;code&gt;rem&lt;/code&gt; in your stylesheets?  Let me know &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;!
+&lt;/p&gt;
+</description>
+        <pubDate>Sun, 20 Dec 2015 06:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/programming/an-overlooked-benefit-of-rem-in-css</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/an-overlooked-benefit-of-rem-in-css</guid>
+        
+        <category>css</category>
+        
+        <category>scss</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      
+      <item>
+        <title>How to Make Teaching a Better Career, Part 2</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/8104594017_c418712932_z.jpg&quot; alt=&quot;How to Make Teaching a Better Career, Part 2&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://jdauriemma.com/education/how-to-make-teaching-a-better-career-part-1&quot;&gt;The first part of this list&lt;/a&gt; generated a lot of support from teachers and former teachers alike.  Thanks to all for a great discussion.
+
+&lt;/p&gt;&lt;p&gt;
+Teachers enter their profession for a variety of reasons, so this list isn&#39;t intended to be exhaustive or representative of all teachers&#39; priorities or preferences in their work environment.  I am trying, however, to capture some of the struggles that I have read about, observed and experienced during my six-year teaching career and beyond.  Without further ado, items 1-5 in How to Make Teaching a Better Career:
+&lt;/p&gt;
+
+&lt;h3&gt;5. Value all specialties equally&lt;/h3&gt;
+
+&lt;p&gt;
+Having been a music teacher, this one hits close to home for me.  All teachers, though, feel the negative effects of the &lt;em&gt;de facto&lt;/em&gt; teaching hierarchy.  &lt;strong&gt;There is an unsaid rule in nearly all schools that the most valuable instructional time is that in which students are receiving direct instruction in English literacy or mathematics&lt;/strong&gt;.  Perhaps &quot;unsaid&quot; is not the appropriate term, since many school cultures make no pretense about the primacy of those subjects.  The reasons for this are numerous and complicated, but researchers have yet to determine whether there is a correlation between instructional minutes and measurable educational outcomes.  In the meantime, common sense and surveys tell us that when there is an imbalance of authority or priorities between teachers and their colleagues, the work environment suffers.
+&lt;/p&gt;
+
+&lt;p&gt;
+First of all, math and literacy teachers are the object of the most scrutiny by administrators and school boards.  Their lesson plans are tightly managed, their classes watched like hawks and their quantitiative data studied carefully.  In contrast, less-tested or not-tested subject specialties are often given significantly less thought or feedback.  Their plans are not frequently read; their methodology is not proactively critiqued; their classes are rarely visited or observed.  This imbalance is not fair to either side, particularly when there is no empirical reason to do so.  There is, however, a political reason for this imbalance, having to do with test culture, funding formulas, and misplaced confidence in standardized testing.  More on that later.
+&lt;/p&gt;
+
+&lt;p&gt;
+It doesn&#39;t take a genius to understand the impact that this imbalance has on morale.  Literacy and math teachers are much more exposed and subject to criticism; other subjects feel neglected or fear for the continued funding of their teaching position or programs.  Overstressed or underappreciated teachers tend to leave: correcting this imbalance will help keep our teachers happy and in the workforce.
+&lt;/p&gt;
+
+&lt;h3&gt;4. Evaluate teachers based on what they do&lt;/h3&gt;
+
+&lt;p&gt;
+Everyone wants to get rid of Bad Teachers.  Bad Teachers are... bad.  Unfortunately, most folks don&#39;t have a clear idea of what constitutes a Bad Teacher.  Still, there has been a good deal of public discussion lately about teacher evalution systems, or teacher accountability (a term loaded with passive aggression).  Soapbox: teachers have always been accountable to their students, the families of their students, their colleagues and their administrators.  I digress.  If you know a teacher, talk to them about how they are evaluated, and please get back to me with the number of times they roll their eyes.  In many districts across the US, teachers&#39; continued employment is dependant on a formula that carries the veneer of legitimacy and objectivity but is, in reality, a convoluted time suck with little relevance to the craft of teaching.  Convoluted time suck is not a good teacher retention tool.
+&lt;/p&gt;
+
+&lt;p&gt;
+Let me go further in depth.  Most public school districts are now using a formula based on wide-eyed optimist education researchers, well-meaning but ignorant philanthropists (rhymes with Pill Skates), and opportunistic politicians.  Compliance with these systems, in my conservative estimate, has probably collectively cost millions of productivity hours.  Hours that could have been spent teaching, planning, or doing otherwise meaningful work.  These formulae are usually based on a weighted average of standardized test scores, some sort of curated before-and-after test score, classroom observations and, in some cases, surveys of students and families.  Sounds really thorough right?  In reality, it&#39;s nothing more than a very, very expensive way to do the same things that educators have been doing for years.
+&lt;/p&gt;
+
+&lt;p&gt;
+  The standardized test criterion is woefully reflective of the worst possible priorities.  There is literally nothing that you can infer with any degree of significance from one teacher&#39;s students&#39; standardized tests scores in one year.  Zero.  Nada.  Worse yet, only two subjects are typically associated with these scores.  As a music teacher, my teacher score was based on literacy standardized test scores for the &lt;em&gt;entire school&lt;/em&gt;.  It&#39;s insulting.  The before-and-after assessment refers to giving one&#39;s class a test in the beginning of the year (before) and then a similar or identical test at the end of the year (after) to determine the &quot;value add&quot; that the teacher had on that class&#39;s acheivement.  Seems reasonable, until you account for the fact that the teachers themselves give the assessments and grade the assessments.  &lt;strong&gt;If they trust teachers with all that resposibility, why the heck can&#39;t they trust teachers to do their jobs&lt;/strong&gt;?  The assumptions just don&#39;t add up.  And finally: observations.  No matter how much training you do, observations are subjective and prone to high variability.  They are probably the most relevant way to judge teachers, but the fact remains that observations can and do get manipulated by biased observers.  Oh, well!
+&lt;/p&gt;
+
+&lt;p&gt;
+Teacher evaluation is unfortunately very short on substance.  Let&#39;s take a fresh look on what, if anything, these newfangled approaches are really adding to the efficacy of our teaching workforce.  Most teachers don&#39;t see it, and that is beyond frustrating when their paychecks and professional pride are on the line.
+&lt;/p&gt;
+
+&lt;h3&gt;3. Stop test culture&lt;/h3&gt;
+
+&lt;p&gt;
+Standardized tests offer very little utility in the classroom.  Students hate them.  Teachers hate them.  &lt;strong&gt;Standardized tests are poor predictors of just about everything you&#39;d want a young person to know upon graduating high school&lt;/strong&gt;.  Since No Child Left Behind and Race to the Top, a bipartisan coalition of corporations and politicians are systematically organizing our public schools around standardized test administration and outcomes.  This is insane, and teachers know it.
+&lt;/p&gt;
+
+&lt;p&gt;
+Since there has been plenty written on this subject at greater depth and breadth than I could hope to use, I&#39;ll let Google do the heavy lifting for interested readers.  But I&#39;d like to share an anecdote from my own experience as a music teacher to drive the point home.  Much of my curriculum in grades 6, 7, and 8 centered around the use of the web.  Since I didn&#39;t have a music room, and most other methods of making music require equipment and soundproofing that our school did not have access to, our laptop cart became the most important musical instrument for these young people.  I found webapps that were instructive and engaging and put together the most meaningful and personal projects I could for my students.
+&lt;/p&gt;
+
+&lt;p&gt;
+But for nine weeks(!) I couldn&#39;t use the internet for at least part of the school day.  That&#39;s right, as recently as 2014, students in my Chicago public school could not use the internet as part of instruction because it would take away bandwidth from other students who were taking district-mandated standardized testing.  Nine school weeks equals 25% of total school days.  This is simply wrong.  Not only were my students being robbed of a valuable resource, my lesson planning became fragmented and I felt anything but respected and supported as an educated professional.  I know I am not alone in having a story about how standardized testing negatively affected my morale in the workplace.
+&lt;/p&gt;
+
+&lt;h3&gt;2. Enforce chain of command&lt;/h3&gt;
+
+&lt;p&gt;
+  Chain of command is the principle that problems should be addressed directly with the involved parties first, then escalated if a satisfactory solution cannot be found.  For example, if your neighbor is being too loud, knock on their door and ask them to keep it down before calling the cops.  It&#39;s hard to respect the chain of command: it means being proactive and looking problems straight in the eyes.   But it&#39;s important.  Parents: if you have a problem, tell the teacher.  Don&#39;t run and tattle to the principal first.  But, even more importantly:
+&lt;/p&gt;
+
+&lt;p&gt;
+  Administrators, do not allow parents to talk to you about an issue with a teacher without uttering the following: &quot;have you spoken to the teacher about it?  Where?  When?  How?&quot;  School administrations are the solution to the problem, and the good news is that the solution means less work for you: &lt;strong&gt;stop micromanaging your teachers&#39; decisions&lt;/strong&gt;.  Furthermore, stop entertaining demands to change grades or re-take tests.  Stop changing or micro-managing discipline choices &lt;em&gt;ex post facto&lt;/em&gt;.  It might not make the angry parent happy, but you will be doing a service to your teachers and the school community by preserving the autonomy and authority of all the adults in the school.  There is a time and a place to help your teachers make sound educational choices, but if you find yourself doing it in the middle of a problem all you&#39;ll be doing is frustrating your teacher and telling families that they can push around your faculty.
+&lt;/p&gt;
+
+&lt;h3&gt;1. Meaningfully address poverty and racism&lt;/h3&gt;
+
+&lt;p&gt;
+  Racism and poverty are perhaps the largest and most overlooked influences on our system.
+&lt;/p&gt;
+
+&lt;p&gt;
+  Many politicians bemoan our test score deficiencies relative to other nations.  What they don&#39;t say is that our affluent, white public schools are virtually at parity with the rest of the world.  We are providing for those students just fine; it is our students who are of color or living in poverty (or both) that have been underserved.  Poverty is the strongest predictor of nearly all quantified educational outcomes, and this manifests itself in numerous ways throughout the public schools.  In addition, race is correlated with harsher disciplinary action in public schools.  This may add context to why a disproportionately larger amount of the teaching workforce is white as compared with the general population of the US.  This is a very important issue that is bigger than the education industry, but it is number one on this list because poverty and racism are regrettably influential in public schools and are proving to be very difficult to fix.
+&lt;/p&gt;
+
+&lt;p&gt;
+  Instead of looking at our society and understanding the complex, insitutional reasons for our perceieved problems in the public schools, though, we have gone ahead and made life much more difficult for so many educators and students.  If we fix this problem - the unequal treatment of poor and/or black and Latino students - teachers will find a much more satisfying work environment.  After all, equal opportunity for every student is perhaps the loftiest goal of education and perhaps the reason why most teachers got into this profession to begin with.
+&lt;/p&gt;
+
+&lt;h3&gt;Keep the conversation going&lt;/h3&gt;
+
+&lt;p&gt;
+Feel free to tweet me &lt;a href=&quot;http://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt; for a friendly chat about this or any other subject.  Though I have left my education career and am very happy in my new career, education is still a very strong personal interest of mine.  Teachers: you are awesome!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 Dec 2015 06:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/misc/how-to-make-teaching-a-better-career-part-2</link>
+        <guid isPermaLink="true">https://jdauriemma.com/misc/how-to-make-teaching-a-better-career-part-2</guid>
+        
+        <category>education</category>
+        
+        <category>teaching</category>
+        
+        <category>politics</category>
+        
+        
+        <category>misc</category>
+        
+      </item>
+    
+      
+      <item>
+        <title>Block Helpers in Ruby on Rails</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/OCD3Hwk.png&quot; alt=&quot;Block Helpers in Ruby on Rails&quot;&gt;&lt;p&gt;I&amp;#39;m still pretty new at Ruby, but my coworker and all-around good guy Derek Schaefer pointed this tip out to me when reviewing a recent pull request of mine.
+&lt;h3&gt;Context&lt;/h3&gt;
+&lt;p&gt;
+I am trying to show a visual element side-by-side with a corresponding CSS code snippet.  Using rouge, I apply syntax highlighting to a plain text code sample.
+&lt;/p&gt;
+&lt;img src=&quot;https://i.imgur.com/MNTgWYK.png&quot; alt=&quot;Visual Element&quot;&gt;&lt;h3&gt;Before&lt;/h3&gt;
+&lt;p&gt;
+My first approach was ugly.  It looked something like this:
+&lt;/p&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-erb&quot; data-lang=&quot;erb&quot;&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- view.html.erb --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;section&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;code-sample&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;&amp;lt;%=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;highlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&#39;.example {
+  color: $example-color;
+}&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;&#39;scss&#39;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;%&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/section&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# helper.rb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;highlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;language&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;no&quot;&gt;Rouge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;highlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;language&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;downcase&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;html&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html_safe&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;
+Notice how I had to break the indentation in the markup, and how ugly the arguments look.  It was a pain in the neck to write (particularly in my auto-indenting vim setup), and is not pleasant to look at.
+&lt;/p&gt;
+
+&lt;h3&gt;After&lt;/h3&gt;
+
+&lt;p&gt;
+There is a better way!  The &lt;code&gt;&amp;amp;block&lt;/code&gt; keyword allows you to capture a blob of ruby code as a string, resulting in a much prettier way of handling complex content.  Observe:
+&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-erb&quot; data-lang=&quot;erb&quot;&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- view.html.erb --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;section&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;code-sample&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;cp&quot;&gt;&amp;lt;%=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;highlight&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;scss&#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;%&amp;gt;&lt;/span&gt;
+      .example {
+        color: $example-color;
+      }
+    &lt;span class=&quot;cp&quot;&gt;&amp;lt;%&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;%&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/section&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# helper.rb&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;highlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;language&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;amp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;amp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;strip_heredoc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;strip&lt;/span&gt;
+  &lt;span class=&quot;no&quot;&gt;Rouge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;highlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;language&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;downcase&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;html&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html_safe&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;
+This approach is much more intuitive and nicer-looking.  Thanks to Derek for a great tip.  For a more in-depth look at blocks and their general use in ruby, &lt;a href=&quot;http://stackoverflow.com/questions/814739/whats-this-block-in-ruby-and-how-does-it-get-passed-in-a-method-here&quot;&gt;this Stack Overflow thread&lt;/a&gt; had some good information.
+&lt;/p&gt;
+
+&lt;h3&gt;Keep the conversation going&lt;/h3&gt;
+
+&lt;p&gt;
+Anything to add?  Tweet me &lt;a href=&quot;http://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;!
+&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Dec 2015 06:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/programming/block-helpers-in-ruby-on-rails</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/block-helpers-in-ruby-on-rails</guid>
+        
+        <category>ruby</category>
+        
+        <category>rails</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      
+      <item>
+        <title>How to Make Teaching a Better Career, Part 1</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/Applauding_Teacher.jpg&quot; alt=&quot;How to Make Teaching a Better Career, Part 1&quot;&gt;&lt;p&gt;We all want young people to have a great education in the United States.  Beyond that, the diversity of viewpoints on how to improve education in our country is breathtaking.  No matter what your views are, though, one crucial point in every plan is ensuring that we attract and keep high-quality teachers in the classroom.  Right now, that vital component to good education is in trouble: teacher &lt;strong&gt;turnover is high and job satisfaction is low&lt;/strong&gt;.  If we expect to retain a competent, effective workforce in our public schools for generations to come, we must make significant changes in how we treat the professionals to whom we entrust our young peoples&amp;#39; minds.
+&lt;/p&gt;
+&lt;p&gt;
+This list is by no means exhaustive, but I will draw on my personal experience as a former public school teacher as well as some relevant data points to make ten suggestions to improve the teaching profession.  Here we go:
+&lt;/p&gt;
+&lt;h3&gt;10. More prep time&lt;/h3&gt;&lt;p&gt;
+Sources vary on the exact number, but American teachers are in front of students for more hours than teachers in most/all other countries (depending on your data source).  Most American teachers are in front of students all day, save for a short &amp;quot;prep&amp;quot; period (30-45 minutes) and lunch.  If you still don&amp;#39;t see why that&amp;#39;s an issue, imagine you are a project manager who is literally in meetings for the entire work day, yet you are still responsible for a significant amount of employee evaluations, compliance paperwork, phone calls, clerical work and more.  Is a half hour really a reasonable about of time for one to accomplish these tasks?  Here, I&amp;#39;ll make it simple.
+&lt;/p&gt;
+&lt;h4&gt;What you think teachers do&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;Teach lesson&lt;/li&gt;
+&lt;li&gt;Grade papers&lt;/li&gt;
+&lt;/ul&gt;&lt;h4&gt;What teachers actually do&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;Teach lesson&lt;/li&gt;
+&lt;li&gt;Brady hit Jordan; need to fill out a form (yes, really) so that I can send Brady to the office&lt;/li&gt;
+&lt;li&gt;No administrator in the building; Brady gets bounced back to class in the middle of the most complicated part of the lesson&lt;/li&gt;
+&lt;li&gt;Crap, Brady is acting out again because there is literally no immediate consequence for his actions&lt;/li&gt;
+&lt;li&gt;Spend prep giving Brady a meaningful consequence for his actions while trying to get his parents on the phone but they changed their number and the secretary is out sick today so no phone number and oh god what is life&lt;/li&gt;
+&lt;li&gt;Grade papers&lt;/li&gt;
+&lt;li&gt;Write note to Brady&amp;#39;s parents&lt;/li&gt;
+&lt;li&gt;Principal is back&lt;/li&gt;
+&lt;li&gt;Stay after school to talk to principal about Brady&lt;/li&gt;
+&lt;li&gt;Grade papers&lt;/li&gt;
+&lt;li&gt;Modify lesson plans&lt;/li&gt;
+&lt;li&gt;Write another lesson plan just for Brady because he missed the whole lesson and when he doesn&amp;#39;t know what&amp;#39;s going on he hits people&lt;/li&gt;
+&lt;li&gt;Complete random pointless task forced upon you by some idiot in your state&amp;#39;s captial that is a glorified TPS Report.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+A teacher has a steady amount of predictable tasks to complete that are essential to learning, for instance: regular contact with families, grading student work, and creating assessments.  But with the thinning of support staff and the huge expansion of administrators&amp;#39; job responsibilities, more and more administrative and clerical work is hoisted onto the teacher.  This contributes to burnout and increases turnover rates.  &lt;strong&gt;If we allocate a realistic amount of prep time for teachers, it will improve their satisfaction with their jobs.&lt;/strong&gt;
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;h3&gt;9. Embrace portability&lt;/h3&gt;
+
+&lt;p&gt;
+It is becoming rare in the private sector to stay with one company for decades.  Whether this is a good thing is in the eye of the beholder, but one thing is clear: &lt;strong&gt;there is nothing to gain and much to lose by leaving one teaching job for another.&lt;/strong&gt;  Heaven forbid you move to another state where the license requirements are different and you have to deal with the education world&#39;s version of the DMV in order to do the same job you&#39;ve already been doing for years.
+&lt;/p&gt;
+
+&lt;p&gt;
+&quot;But teachers get great pensions!&quot;  Unless, for some reason, they don&#39;t stay in the same place for 25 years.  Imagine that!  I&#39;ve paid into two public pension programs.  When I left each, I was able to withdraw just a tiny bit more than the amount of cash I contributed.  I don&#39;t think my gains exceeded inflation.  That&#39;s a tough pill to swallow - as someone who has moved across the country, this was a big issue that I never really anticipated as a college student.  State and municipal pensions are designed for people who stay in one place, and many talented people don&#39;t fit that description.  The profession is alienating them, and not just with outdated retirement plans.
+&lt;/p&gt;
+
+&lt;p&gt;
+Seniority is the largest determinant of teacher pay.  The more years you have in a given district, the more dollars you take home each paycheck.  When you leave District A to teach for District B, you don&#39;t take your seniority with you.  District B will grant you a fraction of your seniority based on a formula that was determined in a smokey room filled with union bosses and politicians.  This is 99% certain to result in a pay cut.  The teacher will also forfeit their tenure by leaving.  This is the opposite of how it should work.  If you want to encourage a working environment that values teachers, &lt;strong&gt;stop penalizing them for leaving their jobs.&lt;/strong&gt;  It doesn&#39;t stop there: a teacher with &lt;em&gt;too much seniority&lt;/em&gt; or &lt;em&gt;too much education(!)&lt;/em&gt; can become radioactive, involuntarily pricing themselves out of job mobility even if they are willing to take a pay cut!  The way salary tables are determined today, a worker cannot try to cut their asking rate in order to secure a new position in a better environment.
+&lt;/p&gt;
+
+&lt;p&gt;
+It&#39;s not talked about often, but employee mobility is a deterrent against bad management.  It keeps everyone from taking each other for granted and encourages compromise.  Today, public school teachers have zero credibility when they threaten to quit, because administrations know that they hold all the power.  The grass is never greener on the other side.  Personally speaking, if teaching were a more portable career I may never have started looking for a new career.
+&lt;/p&gt;
+
+&lt;h3&gt;8. Distributed budgeting&lt;/h3&gt;
+
+&lt;p&gt;
+Raise your hand if you can name a teacher with a donorschoose grant pending or completed in the past year.  OK, put it down.  &lt;strong&gt;Where the hell did we go wrong as a society when we decided teachers need to spend their precious free time seeking patronage?&lt;/strong&gt;  And yes, often times these donorschoose grants are for NEEDS.
+&lt;/p&gt;
+
+&lt;p&gt;
+As far as I know, public school budgets are released to the public every year.  This does not mean anyone actually knows how the district is spending money.  Here&#39;s a hint: so much of it is flushed down the drain.  Most of the waste comes in the form of political patronage - I won&#39;t address that here.  There is still a shameful amount of money that is spent needlessly by school districts, though.
+&lt;/p&gt;
+
+&lt;p&gt;
+Some of the purchases make sense.  Writing implements, paper, printers, copiers, maintenance, and IT are examples of essential purchases that benefit the school and make sense to purchase en masse.  But there is a great deal of money being spent paying full price (or more) from state-approved vendors on bulk purchases of things that many teachers just don&#39;t use.  Meanwhile, stuff that teachers actually do use is often purchased with teachers&#39; personal checking accounts, and are often not reimbursed.  Imagine if instead of purchasing 100 smart boards, a district actually took those moneys and let teachers allocate them to the purchase of the goods that made sense for their particular classrooms?  Teachers are amazing bargain shoppers, they will make district dollars go a lot further than a bulk PO can.
+&lt;/p&gt;
+
+&lt;h3&gt;7. Sensible teacher education&lt;/h3&gt;
+
+&lt;p&gt;
+Many people are surprised when they learn that the vast majority of the hours spent preparing education majors in college is on concerns other than teaching.  This is probably a good thing, because many professors lost touch with the realities of contemporary public school education the moment they cashed their first paycheck from the university.  Still, with student teaching sometimes being as brief as 4 months long in some states, many teachers feel unprepared for their first professional position.
+&lt;/p&gt;
+
+&lt;p&gt;
+Sure, mentorship programs exist.  I was lucky enough to share a room with a great teacher my first two years on the job, so I had someone with more expertise to lean on.  But for every story like mine, there are many more where a new teacher is matched up with a veteran that does not have the time nor incentive to effectively mentor their protege.  Feeling unprepared and unsupported contributes negatively to job satisfaction.  &lt;strong&gt;Dissatisfied teachers quit&lt;/strong&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;
+The solution is related to number 10.  Teachers need more time budgeted during the work day in order to accommodate the long list of responsibilities they have that don&#39;t involve being in front of a class.  Mentoring new teachers would certainly fall under this umbrella.
+&lt;/p&gt;
+
+&lt;h3&gt;6. Protect tenure&lt;/h3&gt;
+
+&lt;p&gt;
+Before you get out your torches and pitchforks, hear me out on this one.  &lt;strong&gt;Tenure is one of the most universally misunderstood and vilified aspects of public service today&lt;/strong&gt;.  It&#39;s also a very important protection that ensures that personnel decisions are made for educational and professional reasons and not for political reasons or nepotism.  For those of you who don&#39;t know, public school teacher tenure is a guarantee of due process as a precondition for dismissal from a teaching position.  Different jurisdictions have varying rules for how exactly this is implemented, but it essentially means that firing a tenured teacher requires a paper trail and a hearing proving the teacher is not doing their job up to standards.
+&lt;/p&gt;
+
+&lt;p&gt;
+&quot;Well, that&#39;s not what I heard.&quot;  You&#39;re right, it&#39;s not.  Tenure is not a lifetime employment guarantee, nor is it a license to slack off.  &quot;But why do you get due process?  I don&#39;t get due process when I get laid off.&quot;  Good question!  First of all, teacher layoffs happen.  In the unlikely event that the entire non-tenured workforce is laid off, that doesn&#39;t prevent a district from laying off tenured teachers.  Where I taught, such a dismissal is called a Reduction In Force (RIF).  So tenure doesn&#39;t prevent a district from responding to declining enrollment, per se.
+&lt;/p&gt;
+
+&lt;p&gt;
+&quot;But why do you get due process?  If my boss wants to fire me, I get fired.&quot;  Well, it depends.  The private sector has rules governing employment termination, and corporate HR offices have their own governance regarding the same.  Teachers aren&#39;t seasonal workers, they&#39;re not contractors, and they&#39;re not wage workers.  They are credentialed, salaried professionals working a permanent position.  Due process is not all that different from certain hurdles that are commonplace in private sector full-time employment.
+&lt;/p&gt;
+
+&lt;p&gt;
+Because public education is built on the unfortunate assumption that teachers want to stay put (see #9), teachers often outlast their administrators, Board of Education personnel and municipal government officers.  The longer a teacher stays, the more expensive they become, and the more value they add to the students and community (this has been studied).  They also tend to become very steadfast advocates for the communities in which they&#39;ve invested their careers.  &lt;strong&gt;Teachers with high seniority make nice targets for penny-pinching politicians or new administrators who value compliance more than principled disagreement&lt;/strong&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;
+And therein lies the moral hazard: without tenure it would be way too easy to just fire the teacher who disagrees with the principal over the new schedule, or the union rep, or the one on top of the salary guide.  If that practice became commonplace it would demoralize and destabilize the profession.  So I say: if public school teachers are to be compensated according to seniority, and if public school teachers are to be punished for changing jobs (see #9), and if public school teachers are to adhere to educational best practices and not the whims of the administrator or trend du jour, then public school teachers should be able to earn tenure after a certain amount of time.
+&lt;/p&gt;
+
+&lt;h3&gt;The rest... coming soon!&lt;/h3&gt;
+
+&lt;p&gt;
+I plan to publish the top five soon.  In the meantime, please feel free to tweet your feedback &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;!
+&lt;/p&gt;
+</description>
+        <pubDate>Wed, 14 Oct 2015 06:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/misc/how-to-make-teaching-a-better-career-part-1</link>
+        <guid isPermaLink="true">https://jdauriemma.com/misc/how-to-make-teaching-a-better-career-part-1</guid>
+        
+        <category>education</category>
+        
+        <category>teaching</category>
+        
+        <category>politics</category>
+        
+        
+        <category>misc</category>
+        
+      </item>
+    
+      
+      <item>
+        <title>Tumblr as a CMS</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/tcms.png&quot; alt=&quot;Tumblr as a CMS&quot;&gt;&lt;p&gt;
+I once used WordPress to publish a blog, and why not?  It was and is the go-to CMS and had syndication, organization and a robust community out of the box.  A few months back I was warned about the security risks, but I lazily carried on.
+&lt;/p&gt;
+
+&lt;p&gt;
+As if on cue, my installation suffered a security failure and some jerk broke into my server (quite easily) and inserted a bunch of adware on my site.  That was my sign: I exported my WordPress DB, temporarily shut down my blog and searched for another solution.  I didn’t want to host a framework built on PHP - the risks seemed too high, particularly when considering that WordPress is also built on PHP.
+&lt;/p&gt;
+
+&lt;h3&gt;What I needed&lt;/h3&gt;
+
+&lt;p&gt;
+Out of the box, my new system needed to have:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;A stable, modern API&lt;/li&gt;
+&lt;li&gt;Syndication&lt;/li&gt;
+&lt;li&gt;Security&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+My fondest wish was to spin up some static page generation magic using node and some interesting modules I’ve come across, but my cheap-o shared server doesn’t support node.  I also strongly considered &lt;a href=&quot;//help.github.com/articles/using-jekyll-with-pages/&quot;&gt;Github’s Jekyll&lt;/a&gt;.  In the end, though, I decided to use &lt;a href=&quot;//tumblr.com&quot;&gt;Tumblr&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;h3&gt;How I did it&lt;/h3&gt;
+
+&lt;p&gt;
+I recently refactored my site as an exercise in building a Backbone app.  One of the nice things about working with Backbone is its elegant way of hooking into APIs and modifying data structures via the &lt;code&gt;parse&lt;/code&gt; method.  Using the a simple GET request to &lt;a href=&quot;https://www.tumblr.com/docs/en/api/v1&quot;&gt;Tumblr’s v1 API&lt;/a&gt;, I pull down a well-structured JSON blob with all the data I need to populate a template.  There’s barely any parsing to be done.  Observe:
+&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// collections/blog-posts.js&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;define&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;models/post&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;PostModel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s1&quot;&gt;&#39;use strict&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Backbone&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Collection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;extend&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+        &lt;span class=&quot;s2&quot;&gt;&quot;model&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PostModel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;s2&quot;&gt;&quot;url&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;php/data/tumblr.json&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;s2&quot;&gt;&quot;parse&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;posts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;
+Tumblr’s API is good enough, but I also wanted to create a browse page.  As it stands, there’s no thumbnail or snippet text that we get for free with each post.  So, every blog post model comes with these methods:
+&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// &amp;lt;a href=&quot;https://github.com/bignimbus/jdauriemma.com/blob/master/js/models/post.js&quot;&amp;gt;https://github.com/bignimbus/jdauriemma.com/blob/master/js/models/post.js&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// models/post.js&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;define&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([],&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s1&quot;&gt;&#39;use strict&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Backbone&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;extend&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+        &lt;span class=&quot;s2&quot;&gt;&quot;initialize&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setHeroImage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setTextSnippet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+        &lt;span class=&quot;s2&quot;&gt;&quot;setHeroImage&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;post&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;regular-body&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+                &lt;span class=&quot;nx&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;slice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;indexOf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;&amp;amp;lt;img &#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;slice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;indexOf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;&amp;amp;gt;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;heroImage&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+        &lt;span class=&quot;s2&quot;&gt;&quot;setTextSnippet&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;post&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;regular-body&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+                &lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/&amp;amp;lt;p&amp;amp;gt;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;((?:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;.|&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;[\r\n])&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;?)&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;&amp;amp;lt;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\/&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;p&amp;amp;gt;/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;exec&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;amp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;amp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&amp;amp;lt;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;(?:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;.|&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n)&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;&amp;amp;gt;/gm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;slice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;...&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;snippet&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;What the user sees&lt;/h3&gt;
+
+&lt;p&gt;
+Right now, it’s pretty basic (I have plans - big plans!).  There are two views: single post, and browse.  Browse can show all of my blog posts, or indexed by tag.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/legacy/blog-post.png&quot; alt=&quot;Blog post&quot;&gt;&lt;br&gt;&lt;img src=&quot;/assets/legacy/blog-browse.png&quot; alt=&quot;Blog browse&quot;&gt;&lt;p&gt;
+So, for the time being, this solution serves my purpose. I&amp;#39;m no longer hosting a security risk on my site, and I actually get more control over my content than if I had continued using WordPress.
+&lt;/p&gt;
+&lt;h3&gt;Tweet me&lt;/h3&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;
+&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 Mar 2015 06:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/programming/tumblr-as-a-cms</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/tumblr-as-a-cms</guid>
+        
+        <category>javascript</category>
+        
+        <category>backbone</category>
+        
+        <category>blogging</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+  </channel>
+</rss>
