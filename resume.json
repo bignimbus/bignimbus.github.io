@@ -96,18 +96,18 @@
   "education": [
     {
       "institution": "The College of New Jersey (Ewing, NJ)",
-      "area": "Music Education",
       "studyType": "Bachelor of Music",
       "startDate": "2004-08",
       "endDate": "2008-05",
       "courses": [
+        "Music Education",
         "Magna cum laude"
       ]
     }
   ],
   "skills": [
     {
-      "name": "Engineering leadership",
+      "name": "Leadership",
       "level": "",
       "keywords": [
         "Public speaking",
