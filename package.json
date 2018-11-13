@@ -1,0 +1,29 @@
+{
+  "name": "bignimbus.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hackmyresume": "hackmyresume",
+    "resume:build:md": "hackmyresume build resume.json TO resume.md",
+    "resume:build:pdf": "PATH=$PATH:node_modules/wkhtmltopdf-installer/vendor hackmyresume build resume.json TO resume.pdf -t node_modules/jsonresume-theme-stackoverflow-bignimbus",
+    "resume:build:html": "hackmyresume build resume.json TO resume.html -t node_modules/jsonresume-theme-stackoverflow-bignimbus",
+    "resume:build": "npm run resume:build:pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bignimbus/bignimbus.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bignimbus/bignimbus.github.io/issues"
+  },
+  "homepage": "https://github.com/bignimbus/bignimbus.github.io#readme",
+  "devDependencies": {
+    "hackmyresume": "1.9.0-beta",
+    "jsonresume-theme-stackoverflow-bignimbus": "github:bignimbus/jsonresume-theme-stackoverflow#master",
+    "wkhtmltopdf-installer": "^0.3.2"
+  },
+  "dependencies": {}
+}

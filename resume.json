@@ -1,0 +1,185 @@
+{
+  "basics": {
+    "name": "Jeffrey Auriemma",
+    "label": "Web Developer and Leader",
+    "summary": "My coworkers would describe me as outgoing, personable and passionate about user interfaces. Developing software is hard and expensive, but conversation is easy and cheap. In the planning process, I try to be a part of the conversation early to get a handle on the business case for the feature. This helps me deliver software that has the highest impact at the lowest cost possible.  As a former teacher and musician, I know how important communication and creativity are to the success of the team. An ideal role would put me in a position to mentor, manage, and recruit teammates while shipping features to production.",
+    "website": "https://jdauriemma.com",
+    "phone": "201-400-7501",
+    "email": "jdauriemma@gmail.com",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Harrisburg",
+      "countryCode": "",
+      "region": "Pennsylvania"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "bignimbus",
+        "url": "https://github.com/bignimbus"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Opternative",
+      "website": "https://opternative.com",
+      "position": "Senior Software Engineer",
+      "startDate": "2018-01-01",
+      "summary": "",
+      "highlights": [
+        "Key contributor and innovator to the development of \"Single Device Over Refraction,\" the first-ever application of pure HTML5 technology to create a 100% voice user interface on the web available to the public",
+        "Create, evangelize, and mantain modern front-end architecture for various production features and applications",
+        "Rapidly prototype cutting-edge user interfaces early in a product's lifecycle to ensure designers and other stakeholders can agree on a consistent vision that takes full advantage of the web browser's capabilities",
+        "Advise other engineers on database schema and data modeling best practices",
+        "Contribute to candidate interviews, colleague evaluations, and personnel decision-making",
+        "Overhaul team metrics gathering by collecting and gathering qualitative and quantitative information pertaining to the software engineering process",
+        "Mentor and teach teammates through one-on-one sessions and group lunch-and-learns on a variety of software development best practices, with an emphasis on front-end development techniques",
+        "Contribute patches to under-maintained open-source projects to drive company initiatives forward without having to reinvent the wheel (and improving company visibility to the developer community)",
+        "Drive revenue by mining production data and third-party analytics services to identify opportunities and implement solutions to improve outcomes for users",
+        "Facilitate international expansion by coordinating technical management of static assets and translation dictionaries for English, Spanish, and German"
+      ]
+    },
+    {
+      "company": "Opternative",
+      "position": "Software Engineer",
+      "startDate": "2015-08-03",
+      "endDate": "2018-01-01",
+      "summary": "",
+      "highlights": [
+        "Pushed and empowered teammates to incorporate principles in the Agile Manifesto in different aspects of the software development lifecycle",
+        "Proactively improved low-level code quality and consistency by implementing git hooks, linters, and documentation for Ruby, JavaScript, and CSS/Sass/SCSS",
+        "As the first remote-only employee, established a model for effective off-site collaboration within the engineering team and throughout the rest of the company",
+        "Designed, developed, and deployed the first iteration of the Opternative Engineering Blog (currently offline, version 2 coming soon)",
+        "Audited entire marketing site for accessiblity issues, reported findings to the team, created user stories for actionable items, and executed those items to ensure compliance and broad usability",
+        "Quarterbacked transition from Angular 1.2 + Sprokets to React + Babel + Webpack and other modern UI development best practices",
+        "Planned and taught a biweekly \"learn to code\" course for non-engineering colleagues",
+        "Generate technical specifications, detailed implementation plans, user stories, and estimates for large units of work",
+        "Created the company's first live style guide to facilitate higher-quality design-developer interactions, code reuse, and UI consistency"
+      ]
+    },
+    {
+      "company": "Discovery Education",
+      "website": "https://discoveryeducation.com",
+      "position": "Junior Front End Developer",
+      "startDate": "2014-07-01",
+      "endDate": "2015-07-31",
+      "summary": "",
+      "highlights": [
+        "Developed prototype and production code for a distributed, infographic-heavy data visualization feature",
+        "Conceived, built, and deployed a \"Styleguide as a Service\" for bootstrapping new applications and rapid prototyping with a small team of designers and developers",
+        "Develop and maintain features and unit tests in a variety of education webapps using Backbone, Marionette, and ColdFusion",
+        "Improved software development speeds by identifying areas of high technical debt and refactoring those to comply with team norms and best practices"
+      ]
+    },
+    {
+      "company": "Chicago Public Schools",
+      "position": "Music Teacher; Arts Liaison",
+      "startDate": "2012-08-01",
+      "endDate": "2014-06-30",
+      "summary": "",
+      "highlights": [
+      ]
+    },
+    {
+      "company": "South Brunswick Public Schools",
+      "position": "Music Teacher",
+      "startDate": "2008-08-01",
+      "endDate": "2012-06-30",
+      "summary": "",
+      "highlights": [
+      ]
+    }
+
+  ],
+  "education": [
+    {
+      "institution": "The College of New Jersey (Ewing, NJ)",
+      "area": "Music Education",
+      "studyType": "Bachelor of Music",
+      "startDate": "2004-08",
+      "endDate": "2008-05",
+      "courses": [
+        "Magna cum laude"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Engineering leadership",
+      "level": "",
+      "keywords": [
+        "Public speaking",
+        "Training",
+        "Removing bias from hiring process",
+        "Software fundamentals",
+        "Agile",
+        "Performance rubrics",
+        "TDD"
+      ]
+    },
+    {
+      "name": "UI development",
+      "level": "",
+      "keywords": [
+        "JavaScript",
+        "HTML 5",
+        "ES6+",
+        "React",
+        "Web Audio API",
+        "Media Streams",
+        "Jest",
+        "Jasmine",
+        "Angular.js",
+        "jQuery",
+        "Sass",
+        "LESS",
+        "Stylus",
+        "CSS/SVG/SMIL animations",
+        "BEM"
+      ]
+    },
+    {
+      "name": "Server development",
+      "level": "",
+      "keywords": [
+        "Node.js",
+        "Express",
+        "Ruby",
+        "Rails",
+        "RSpec",
+        "PostgreSQL",
+        "GraphQL",
+        "Socket.io",
+        "WebRTC",
+        "Webpack",
+        "Babel"
+      ]
+    },
+    {
+      "name": "Web platform",
+      "level": "",
+      "keywords": [
+        "Accessibility",
+        "Internationalization",
+        "Dev tools",
+        "Responsive design",
+        "Performance optimization",
+        "Browser compatibility"
+      ]
+    }
+  ],
+  "volunteer": [
+  ],
+  "awards": [
+  ],
+  "publications": [
+  ],
+  "interests": [
+  ],
+  "references": [
+  ],
+  "languages": [
+  ]
+}

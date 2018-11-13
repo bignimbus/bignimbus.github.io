@@ -18,6 +18,7 @@ end
 
 desc "Generate blog files"
 task :generate do
+  system 'npm run resume:build'
   Jekyll::Site.new(Jekyll.configuration({
     "source"      => ".",
     "destination" => "_site"
@@ -50,7 +51,7 @@ task :publish => [:generate, :test] do
     message = "Site updated at #{Time.now.utc}"
     system "git commit -m #{message.inspect}"
     system "git fetch"
-    system "git merge -s ours origin/staging-build --no-edit"
+    system "git merge -s ours origin/staging-build --no-edit --allow-unrelated-histories"
     system "git push origin staging-build"
 
     Dir.chdir pwd
