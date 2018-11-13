@@ -12,7 +12,7 @@ exclude:
   - vendor
   - resume.json
   - node_modules
-  - resume.pdf.html
+  - assets/resume.pdf.html
   - package.json
   - package-lock.json
 
