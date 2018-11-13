@@ -6,7 +6,7 @@
   "scripts": {
     "hackmyresume": "hackmyresume",
     "resume:build:md": "hackmyresume build resume.json TO resume.md",
-    "resume:build:pdf": "PATH=$PATH:node_modules/wkhtmltopdf-installer/vendor hackmyresume build resume.json TO resume.pdf -t node_modules/jsonresume-theme-stackoverflow-bignimbus",
+    "resume:build:pdf": "PATH=$PATH:node_modules/wkhtmltopdf-installer/vendor hackmyresume build resume.json TO assets/resume.pdf -t node_modules/jsonresume-theme-stackoverflow-bignimbus",
     "resume:build:html": "hackmyresume build resume.json TO resume.html -t node_modules/jsonresume-theme-stackoverflow-bignimbus",
     "resume:build": "npm run resume:build:pdf"
   },

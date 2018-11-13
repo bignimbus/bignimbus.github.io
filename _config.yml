@@ -12,6 +12,7 @@ exclude:
   - vendor
   - resume.json
   - node_modules
+  - resume.pdf.html
   - package.json
   - package-lock.json
 
