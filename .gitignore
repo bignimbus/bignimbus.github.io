@@ -4,3 +4,4 @@ _site
 *.sw*
 .DS_Store
 node_modules/
+resume.pdf*

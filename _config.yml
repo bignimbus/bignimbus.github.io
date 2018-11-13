@@ -7,9 +7,13 @@
 
 exclude:
   - Rakefile
+  - Gemfile
+  - Gemfile.lock
   - vendor
   - resume.json
   - node_modules
+  - package.json
+  - package-lock.json
 
 # Site settings
 title: Jeffrey Auriemma's Blog
