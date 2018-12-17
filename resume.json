@@ -23,8 +23,8 @@
   },
   "work": [
     {
-      "company": "Opternative",
-      "website": "https://opternative.com",
+      "company": "Visibly (formerly Opternative)",
+      "website": "https://govisibly.com",
       "position": "Senior Software Engineer",
       "startDate": "2018-01-01",
       "summary": "",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "company": "Opternative",
+      "company": "Visibly (formerly Opternative)",
       "position": "Software Engineer",
       "startDate": "2015-08-03",
       "endDate": "2018-01-01",
@@ -51,7 +51,7 @@
         "Pushed and empowered teammates to incorporate principles in the Agile Manifesto in different aspects of the software development lifecycle",
         "Proactively improved low-level code quality and consistency by implementing git hooks, linters, and documentation for Ruby, JavaScript, and CSS/Sass/SCSS",
         "As the first remote-only employee, established a model for effective off-site collaboration within the engineering team and throughout the rest of the company",
-        "Designed, developed, and deployed the first iteration of the Opternative Engineering Blog (currently offline, version 2 coming soon)",
+        "Designed, developed, and deployed the first iteration of the company's Engineering Blog (currently offline, version 2 coming soon)",
         "Audited entire marketing site for accessiblity issues, reported findings to the team, created user stories for actionable items, and executed those items to ensure compliance and broad usability",
         "Quarterbacked transition from Angular 1.2 + Sprokets to React + Babel + Webpack and other modern UI development best practices",
         "Planned and taught a biweekly \"learn to code\" course for non-engineering colleagues",
