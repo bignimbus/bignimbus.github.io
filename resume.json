@@ -1,15 +1,15 @@
 {
   "basics": {
     "name": "Jeffrey Auriemma",
-    "label": "Web Developer and Leader",
-    "summary": "My coworkers would describe me as outgoing, personable and passionate about user interfaces. Developing software is hard and expensive, but conversation is easy and cheap. In the planning process, I try to be a part of the conversation early to get a handle on the business case for the feature. This helps me deliver software that has the highest impact at the lowest cost possible.  As a former teacher and musician, I know how important communication and creativity are to the success of the team. An ideal role would put me in a position to mentor, manage, and recruit teammates while shipping features to production.",
+    "label": "Software Engineer && Manager",
+    "summary": "My colleagues would describe me as outgoing, personable and passionate about great software and frictionless user interfaces. Developing software is hard and expensive, but conversation is easy and cheap. In the planning process, I try to be a part of the conversation early to get a handle on the business case for the feature. This helps my team deliver software that has the highest impact at the lowest cost possible.  As a former teacher and musician, I know how important communication and creativity are to the success of the group. This has been a key influence on my style as a manager, mentor, and contributor to a variety of projects across a variety of systems during my tenure at Visibly.",
     "website": "https://jdauriemma.com",
     "phone": "201-400-7501",
     "email": "jdauriemma@gmail.com",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Harrisburg",
+      "city": "Hershey",
       "countryCode": "",
       "region": "Pennsylvania"
     },
@@ -25,8 +25,23 @@
     {
       "company": "Visibly (formerly Opternative)",
       "website": "https://govisibly.com",
+      "position": "Senior Engineer && Manager",
+      "startDate": "2019-01-31",
+      "summary": "",
+      "highlights": [
+        "Manage software engineer evaluations, compensation packages, and professional development for a small team",
+        "Responsible for technical implementation of projects: empower direct reports to take on user stories with autonomy that play to their strengths and foster new skills where possible, make key technical contributions where appropriate, and meet key timelines in close coordination with stakeholders",
+        "Overhaul software engineering recruitment and interview process",
+        "Work closely with product owners, designers, and project managers to identify key decision-making criteria, including long-term app architecture implications, precise estimates, and domain knowledge-related nuances",
+        "Lead biweekly sprint retrospective for all engineering and product personnel focusing on continuous improvement of process and product"
+      ]
+    },
+    {
+      "company": "Visibly (formerly Opternative)",
+      "website": "https://govisibly.com",
       "position": "Senior Software Engineer",
       "startDate": "2018-01-01",
+      "endDate": "2019-01-30",
       "summary": "",
       "highlights": [
         "Key contributor and innovator to the development of \"Single Device Over Refraction,\" the first-ever application of pure HTML5 technology to create a 100% voice user interface on the web available to the public",
