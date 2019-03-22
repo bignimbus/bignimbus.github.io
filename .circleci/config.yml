@@ -11,20 +11,8 @@ jobs:
       - image: circleci/node:10.11
     steps:
       - checkout
-      - restore_cache:
-          key: bundle-cache-{{ checksum "Gemfile.lock" }}
       - run: bundle install --path vendor/bundle
-      - save_cache:
-          key: bundle-cache-{{ checksum "Gemfile.lock" }}
-          paths:
-            - vendor/bundle
-      - restore_cache:
-          key: node-cache-{{ checksum "package-lock.json" }}
       - run: npm install --verbose
-      - save_cache:
-          key: node-cache-{{ checksum "package-lock.json" }}
-          paths:
-            - node_modules
       - run: bundle exec rake publish
 workflows:
   version: 2
