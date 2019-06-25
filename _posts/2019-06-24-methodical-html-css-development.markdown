@@ -68,8 +68,20 @@ predictable, and manageable progress.
 ## What you need to know
 
 A methodical approach to HTML and CSS development rests on a foundational understanding of
-CSS's `display` property. I cannot overstate how important this concept is. Here's the lowdown:
+CSS's `display` property. I cannot overstate how important this concept is.
 
 ### Inline elements
+
+Inline elements can be simply described as "linear." By default, they will take as much
+horizontal space as necessary until reaching the maximum width allowed by their container,
+at which point they will overflow into a line break. Conceptually, inline elements have
+no set height or width; instead, they will take up only the space that they require.
+Properties that are idiomatic of inline elements include, but are not limited to:
+
+- `font` properties
+- `line-height`
+- `color`
+- `letter-spacing`
+- `text-decoration`
 
 ### Block elements
