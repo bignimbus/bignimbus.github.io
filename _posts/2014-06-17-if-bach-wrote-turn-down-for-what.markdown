@@ -31,7 +31,7 @@ _Audio Clip: Lil Jon / DJ Snake "Turn Down for What" (original)_
 
 *   [Synth Line](/assets/legacy/turndownclip.mp3)
 
-This synth ostinato will serve as the fugue's [subject](http://jan.ucc.nau.edu/tas3/fugueanatomy.html). I simplified the [syncopation](http://en.wikipedia.org/wiki/Syncopation) in the rhythm in order to accommodate the Baroque idiom:
+This synth ostinato will serve as the fugue's [subject](https://www3.northern.edu/wieland/theory/form/fugue.htm). I simplified the [syncopation](http://en.wikipedia.org/wiki/Syncopation) in the rhythm in order to accommodate the Baroque idiom:
 
 ![Fugue subject](/assets/legacy/turndown01.jpg)  
 _Fugue subject in E minor: i (VI) (V)_
