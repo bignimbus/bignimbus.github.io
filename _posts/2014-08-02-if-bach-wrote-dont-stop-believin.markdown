@@ -37,7 +37,7 @@ A handful of weeks ago I did a [polyphonic](http://en.wikipedia.org/wiki/Polypho
 
 ### Original
 
-First, you may want to [view the score](#score). I'm convinced that all American citizens have this song tattooed on their brains, but just in case you want to hear it ooooone moooore tiiiiime, here's a link to the [original recording](https://youtu.be/1k8craCGpgs). I decided to take the left-hand half of the piano part from the intro as this fugue's subject and [answer](http://jan.ucc.nau.edu/tas3/fugueanatomy.html).
+First, you may want to [view the score](#score). I'm convinced that all American citizens have this song tattooed on their brains, but just in case you want to hear it ooooone moooore tiiiiime, here's a link to the [original recording](https://youtu.be/1k8craCGpgs). I decided to take the left-hand half of the piano part from the intro as this fugue's subject and answer.
 
 In notation:
 
@@ -49,7 +49,7 @@ Subject, in E major: I V vi IV
 
 Tonal Answer, in E major: V ii-V42 IV V6
 
-This fugue makes use of two [countersubjects](http://jan.ucc.nau.edu/tas3/fugueanatomy.html):
+This fugue makes use of two countersubjects:
 
 ![Countersubject 1](/assets/legacy/Screen-Shot-2014-08-01-at-5.25.36-PM.png)
 

@@ -36,9 +36,9 @@ This synth ostinato will serve as the fugue's [subject](https://www3.northern.ed
 ![Fugue subject](/assets/legacy/turndown01.jpg)  
 _Fugue subject in E minor: i (VI) (V)_
 
-I am using a ["tonal answer"](http://jan.ucc.nau.edu/tas3/fugueanatomy.html) that is a bit unconventional:
+I am using a "tonal answer" that is a bit unconventional:
 
-![Tonal answer in G minor: ii-dim](/assets/legacy/turndown02.jpg)  
+![Tonal answer in G minor: ii-dim](/assets/legacy/turndown02.jpg)
 _Tonal answer in E minor: iio - (v)_
 
 Most fugues in the minor mode opt for a tonal answer in the relative major or dominant; this, however, answers in the submediant. The piece wastes little time progressing into the development section after the third voice restates the subject. Here is the full audio:
