@@ -13,6 +13,8 @@ jobs:
       - image: circleci/node:10.11
     steps:
       - checkout
+      - run: gem update
+      - run: gem install bundler
       - run: bundle install --path vendor/bundle
       - run: npm install --verbose
       - run: bundle exec rake publish
