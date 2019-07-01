@@ -3,13 +3,13 @@ jobs:
   dummy:
     docker:
       - image: circleci/ruby:2.3-node
-        environment:
-          BUNDLER_VERSION: 2.0.2
     steps:
       - run: echo 'wack'
   build:
     docker:
       - image: circleci/ruby:2.3-node
+        environment:
+          BUNDLER_VERSION: 2.0.2
       - image: circleci/node:10.11
     steps:
       - checkout
