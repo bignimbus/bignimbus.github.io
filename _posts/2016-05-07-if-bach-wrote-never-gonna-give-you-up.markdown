@@ -27,7 +27,7 @@ My colleague, Dan, recently changed our conference call hold music to Rick Astle
 <iframe width="420" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
 
 ### About this series
-For those who aren't familiar, this piece is part of a series of fugues called [If Bach Wrote]({{ site.url }}/tag/ifbachwrote).  The premise is simple: extract a memorable tune (or tunes) from pop music with minimal alteration, and write a [fugue](http://en.wikipedia.org/wiki/Fugue) with that tune as the [subject](http://jan.ucc.nau.edu/tas3/fugueanatomy.html).
+For those who aren't familiar, this piece is part of a series of fugues called [If Bach Wrote]({{ site.url }}/tag/ifbachwrote).  The premise is simple: extract a memorable tune (or tunes) from pop music with minimal alteration, and write a [fugue](http://en.wikipedia.org/wiki/Fugue) with that tune as the [subject](https://www3.northern.edu/wieland/theory/form/fugue.htm).
 
 ### Analysis
 This is a three-voice fugue in the key that Astley sang it: A-flat major (!?).  I made one key modification: the [time signature](https://en.wikipedia.org/wiki/Time_signature).  Instead of the standard 4/4 time signature, I opted to go with 3/8.  It just sounds more like a Baroque dance this way, and allowed me to take advantage of the "bouncy" nature of the rhythms.
