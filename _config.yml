@@ -30,6 +30,9 @@ logo: "/assets/images/avatar.png"
 
 # Build settings
 markdown: redcarpet
+
+# Latent semantic indexing for related posts
+lsi: true
 redcarpet:
   extensions:
     - with_toc_data
