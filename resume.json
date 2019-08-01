@@ -2,7 +2,7 @@
   "basics": {
     "name": "Jeffrey Auriemma",
     "label": "Software Engineer && Manager",
-    "summary": "My colleagues would describe me as outgoing, personable and passionate about great software and frictionless user interfaces. Developing software is hard and expensive, but conversation is easy and cheap. In the planning process, I try to be a part of the conversation early to get a handle on the business case for the feature. This helps my team deliver software that has the highest impact at the lowest cost possible.  As a former teacher and musician, I know how important communication and creativity are to the success of the group. This has been a key influence on my style as a manager, mentor, and contributor to a variety of projects across a variety of systems during my tenure at Visibly.",
+    "summary": "My colleagues would describe me as outgoing, personable and passionate about great software and frictionless user experiences. Developing software is hard and expensive, but conversation is easy and cheap. In the planning process, I try to be a part of the conversation early to get a handle on the business case for the feature. This helps my team deliver software that has the highest impact at the lowest cost possible.  As a former teacher and musician, I know how important communication and creativity are to the success of the group. This has been a key influence on my style as a manager, mentor, and contributor to a variety of projects across a variety of systems during my career.",
     "website": "https://jdauriemma.com",
     "email": "jeff@auriemma.xyz",
     "location": {
@@ -23,12 +23,11 @@
   "work": [
     {
       "company": "Visibly (formerly Opternative)",
-      "website": "https://govisibly.com",
       "position": "Senior Engineer && Manager",
       "startDate": "2019-01-31",
       "summary": "",
       "highlights": [
-        "Manage software engineer evaluations, compensation packages, and professional development for a small team",
+        "Manage software engineer evaluations, compensation packages, and professional development for a small team while making daily contributions to production code",
         "Responsible for technical implementation of projects: empower direct reports to take on user stories with autonomy that play to their strengths and foster new skills where possible, make key technical contributions where appropriate, and meet key timelines in close coordination with stakeholders",
         "Overhaul software engineering recruitment and interview process",
         "Work closely with product owners, designers, and project managers to identify key decision-making criteria, including long-term app architecture implications, precise estimates, and domain knowledge-related nuances",
@@ -37,7 +36,6 @@
     },
     {
       "company": "Visibly (formerly Opternative)",
-      "website": "https://govisibly.com",
       "position": "Senior Software Engineer",
       "startDate": "2018-01-01",
       "endDate": "2019-01-30",
