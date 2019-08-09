@@ -217,6 +217,7 @@ Behold:
   <div style="display: flex; flex-wrap: wrap">
     <section>
       <img
+        async=on
         style="display: block; max-height: 300px"
         alt="Cat with text on a small screen"
         src="/assets/images/posts/methodical-html-css-development/mobile-comp.jpg"
@@ -224,6 +225,7 @@ Behold:
     </section>
     <section>
       <img
+        async=on
         style="display: block; max-height: 300px"
         alt="Cat with text on a large screen"
         src="/assets/images/posts/methodical-html-css-development/desktop-comp.jpg"
