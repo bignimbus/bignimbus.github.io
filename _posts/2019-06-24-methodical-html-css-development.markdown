@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "How to write HTML and CSS correctly the first time"
+title: "A methodology for removing HTML and CSS frustration"
 date:   2019-06-24 00:00:00 -0600
-featured_image: tla.jpg
+featured_image: car-mirror.jpg
 categories: programming
 tags: ['html', 'css']
 excerpt: Beginners and experts alike can run in circles trying to make their user interface look the way it's supposed to look. A methodical approach to HTML and CSS will remove this agitation and keep you making steady progress.
 permalink: /:categories/:title
 cta: true
+attributions: [{asset_name: 'Hero image', asset_url: 'https://unsplash.com/photos/ujz7MdiCXug', author: JD Weiher }]
 ---
 
 <em>
