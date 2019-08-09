@@ -96,7 +96,20 @@ at which point they will overflow into a line break (by default). Conceptually, 
 elements have no set height or width; instead, they will take up only the space that
 they require.
 
-**(image goes here)**
+<div class="figures">
+  <figure class="figures__figure">
+    <img
+      alt="horizontal rectangles wrapping to two lines"
+      src="/assets/images/posts/methodical-html-css-development/inline.svg"
+      style="display: block; margin-left: auto; margin-right: auto; max-width: 350px;"
+    />
+    <figcaption style="text-align: center;">
+      <span style="font-style: italic;">
+        A representation of inline content wrapping to a new line
+      </span>
+    </figcaption>
+  </figure>
+</div>
 
 ### Block elements
 
@@ -105,7 +118,22 @@ more intuitively than inline elements in the web browser, which is an inherently
 two-dimensional medium. These types of elements are the ones that respect
 the __CSS box model__: they have defined width, height, positioning, and spacing.
 
-**(image goes here)**
+
+<div class="figures">
+  <figure class="figures__figure">
+    <img
+      alt="horizontal rectangles wrapping to two lines"
+      src="https://mdn.mozillademos.org/files/13647/box-model-standard-small.png"
+      style="display: block; margin-left: auto; margin-right: auto; max-width: 500px;"
+    />
+    <figcaption style="text-align: center;">
+      <span style="font-style: italic;">
+        The CSS Box Model.<br>
+        Attribution: <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model">Mozilla Contributors</a>
+      </span>
+    </figcaption>
+  </figure>
+</div>
 
 ### Caveat emptor
 
