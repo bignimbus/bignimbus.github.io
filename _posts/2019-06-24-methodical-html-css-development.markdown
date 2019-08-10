@@ -99,6 +99,7 @@ they require.
 <div class="figures">
   <figure class="figures__figure">
     <img
+      async=on
       alt="horizontal rectangles wrapping to two lines"
       src="/assets/images/posts/methodical-html-css-development/inline.svg"
       style="display: block; margin-left: auto; margin-right: auto; max-width: 350px;"
@@ -122,6 +123,7 @@ the __CSS box model__: they have defined width, height, positioning, and spacing
 <div class="figures">
   <figure class="figures__figure">
     <img
+      async=on
       alt="horizontal rectangles wrapping to two lines"
       src="https://mdn.mozillademos.org/files/13647/box-model-standard-small.png"
       style="display: block; margin-left: auto; margin-right: auto; max-width: 500px;"
@@ -230,6 +232,7 @@ ol' block elements.
 <div class="figures">
   <figure class="figures__figure">
     <img
+      async=on
       alt="CSS values displayed in the dev tools element inspector"
       src="/assets/images/posts/methodical-html-css-development/ua-stylesheet.jpg"
       style="display: block; margin-left: auto; margin-right: auto; max-width: 500px;"
@@ -552,6 +555,7 @@ export default App;
 <div class="figures">
   <figure class="figures__figure">
     <img
+      async=on
       alt="screenshot of UI after step 3"
       src="/assets/images/posts/methodical-html-css-development/wip.jpg"
     />
@@ -1182,6 +1186,7 @@ size you support!
   <div style="display: flex; flex-wrap: wrap; justify-content: center;">
     <section>
       <img
+        async=on
         style="display: block; max-height: 400px"
         alt="Cat with text on a small screen"
         src="/assets/images/posts/methodical-html-css-development/mobile-comp.jpg"
@@ -1439,6 +1444,7 @@ export default App;
   <div style="display: flex; flex-wrap: wrap; justify-content: center;">
     <section>
       <img
+        async=on
         style="display: block; max-height: 300px"
         alt="Cat with text on a large screen"
         src="/assets/images/posts/methodical-html-css-development/desktop-comp.jpg"
