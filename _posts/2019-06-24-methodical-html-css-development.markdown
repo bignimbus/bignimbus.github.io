@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "How to write HTML and CSS correctly the first time"
+title: "A methodology for removing HTML and CSS frustration"
 date:   2019-06-24 00:00:00 -0600
-featured_image: tla.jpg
+featured_image: car-mirror.jpg
 categories: programming
 tags: ['html', 'css']
 excerpt: Beginners and experts alike can run in circles trying to make their user interface look the way it's supposed to look. A methodical approach to HTML and CSS will remove this agitation and keep you making steady progress.
 permalink: /:categories/:title
 cta: true
+attributions: [{asset_name: 'Hero image', asset_url: 'https://unsplash.com/photos/ujz7MdiCXug', author: JD Weiher }]
 ---
 
 <em>
@@ -95,7 +96,20 @@ at which point they will overflow into a line break (by default). Conceptually, 
 elements have no set height or width; instead, they will take up only the space that
 they require.
 
-**(image goes here)**
+<div class="figures">
+  <figure class="figures__figure">
+    <img
+      alt="horizontal rectangles wrapping to two lines"
+      src="/assets/images/posts/methodical-html-css-development/inline.svg"
+      style="display: block; margin-left: auto; margin-right: auto; max-width: 350px;"
+    />
+    <figcaption style="text-align: center;">
+      <span style="font-style: italic;">
+        A representation of inline content wrapping to a new line
+      </span>
+    </figcaption>
+  </figure>
+</div>
 
 ### Block elements
 
@@ -104,7 +118,22 @@ more intuitively than inline elements in the web browser, which is an inherently
 two-dimensional medium. These types of elements are the ones that respect
 the __CSS box model__: they have defined width, height, positioning, and spacing.
 
-**(image goes here)**
+
+<div class="figures">
+  <figure class="figures__figure">
+    <img
+      alt="horizontal rectangles wrapping to two lines"
+      src="https://mdn.mozillademos.org/files/13647/box-model-standard-small.png"
+      style="display: block; margin-left: auto; margin-right: auto; max-width: 500px;"
+    />
+    <figcaption style="text-align: center;">
+      <span style="font-style: italic;">
+        The CSS Box Model.<br>
+        Attribution: <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model">Mozilla Contributors</a>
+      </span>
+    </figcaption>
+  </figure>
+</div>
 
 ### Caveat emptor
 
@@ -217,6 +246,7 @@ Behold:
   <div style="display: flex; flex-wrap: wrap">
     <section>
       <img
+        async=on
         style="display: block; max-height: 300px"
         alt="Cat with text on a small screen"
         src="/assets/images/posts/methodical-html-css-development/mobile-comp.jpg"
@@ -224,6 +254,7 @@ Behold:
     </section>
     <section>
       <img
+        async=on
         style="display: block; max-height: 300px"
         alt="Cat with text on a large screen"
         src="/assets/images/posts/methodical-html-css-development/desktop-comp.jpg"
@@ -1417,6 +1448,25 @@ cross-section of possible content.
 Have you been checking your UI in multiple browsers throughout this
 process?  If not, better fire up Safari and IE and get to work now
 before you deploy your 🔥 HTML and CSS to production.
+
+## Summary
+
+We started by incrementally turning raw content into idiomatic,
+valid, and accessible markup.  Inline content was properly enclosed
+in `span`s and/or other proper elements.  Block content was properly
+enclosed in one of the many different types of tags that HTML5 gives
+us for a number or purposes.  Block-like elements such as inputs
+and images were coerced into becoming block elements with their own
+purpose-driven, self-contained layouts within.  Support for
+progressively wider screen sizes was incrementally added inside of
+media query scopes so as to avoid introducing regressions into our
+source code.
+
+As with any simplified example, real-world workflows will necessarily
+vary with the types of interfaces the developer is working on.  The
+principles set forth in this article, though, will provide a sensible
+guideline for safeguarding against common frustrations endemic
+to front-end development.
 
 ## Wrapping it up
 

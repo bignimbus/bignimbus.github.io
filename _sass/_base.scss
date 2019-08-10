@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 1.5;
 }
 
 
@@ -83,6 +83,19 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
+}
+
+h2 {
+    line-height: 1.1; 
+    padding-top: 20px;
+}
+
+h3 {
+    padding-top: 16px;
+}
+
+h4, h5, h6 {
+    padding-top: 4px;
 }
 
 
