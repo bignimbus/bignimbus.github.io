@@ -12,8 +12,8 @@ attributions: [{asset_name: 'Hero image', asset_url: 'https://unsplash.com/photo
 ---
 
 <em>
-**Note:** I have distilled this article down to a single reference page should
-you require a more succinct reference.  [The pdf can be found here](#).
+**Note:** I have distilled this article down to a single page should
+you require succinct reference.  [The pdf can be found here](#).
 </em>
 
 Programming is difficult. Seasoned professionals can struggle for months trying to turn
@@ -290,6 +290,9 @@ For simplicity's sake, we won't be listing all the different quantitative values
 ### Step 1: Content
 
 Get all the content on the page, with the bare minimum of markup necessary.
+Media tags and form element tags will be necessary, but nothing more - we
+simply want to write no more HTML than is absolutely necessary to display
+the elements with which we will be working.
 
 ```jsx
 import React from 'react';
