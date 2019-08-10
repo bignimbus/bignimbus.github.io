@@ -227,7 +227,20 @@ height, width, and to behave predictably in a layout that supports multiple scre
 sizes, the only sensible course of action is to treat these elements as plain
 ol' block elements.
 
-** img here? **
+<div class="figures">
+  <figure class="figures__figure">
+    <img
+      alt="CSS values displayed in the dev tools element inspector"
+      src="/assets/images/posts/methodical-html-css-development/ua-stylesheet.jpg"
+      style="display: block; margin-left: auto; margin-right: auto; max-width: 500px;"
+    />
+    <figcaption style="text-align: center;">
+      <span style="font-style: italic;">
+        Chromium 76 UA stylesheet values for an HTML button
+      </span>
+    </figcaption>
+  </figure>
+</div>
 
 ## Seven step method
 
