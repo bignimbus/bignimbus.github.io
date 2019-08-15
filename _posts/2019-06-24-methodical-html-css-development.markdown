@@ -11,40 +11,11 @@ cta: true
 attributions: [{asset_name: 'Hero image', asset_url: 'https://unsplash.com/photos/ujz7MdiCXug', author: JD Weiher }]
 ---
 
-<em>
-**Note:** I have distilled this article down to a single page should
-you require succinct reference.  [The pdf can be found here](#).
-</em>
-
-Programming is difficult. Seasoned professionals can struggle for months trying to turn
-input X into output Y. More often than not,
-these computing tasks get so complex that developers use other programs in order to
-test their own programs. These tools
-can automate tasks such as unit testing, integration testing, and end-to-end testing, which
-can grant us a sense of security: if the test suite is
-well-written, then we can be fairly confident that our program meets its requirements
-if every test is passing.
-
-HTML and CSS offer no such comfort. Robust test suites for validating colors, fonts,
-positioning, and other peculiar aspects of user interfaces simply don't exist. Just as
-da Vinci couldn't ask a machine whether _Mona Lisa_ was ready for the public - though I'm
-sure he probably sketched such a machine at some point - UI developers must also determine
-the correctness of their work by manually inspecting it. Instead of a single canvas, however,
-we must check our work on a variety of media, any or all of: phones, tablets, laptops,
-desktops, screen readers, smart TVs and game consoles. The lack of computable acceptance
-criteria and the diversity of media that can view an hypertext document makes coding
-HTML and CSS a frustratingly imprecise art.
-
-There is no reason to despair, though. Despite HTML and CSS's limitations, we can borrow
-ideas from programming best practices in order to add structure to the UI development
-process. Whether you're a dyed-in-the-wool front-end developer,
-a hobbyist, a designer who dabbles, or a project manager that needs to ship an A/B test every
-now and then, a methodical approach can keep you reasonably certain that the code you're
-writing now is not messing up the code you've already written.
-
-## Sample workflow
-
-In the past, my workflow looked a bit like this:
+Maybe you're a developer.  Maybe you're a designer.  Maybe
+you're a software project manager.  Chances are that you're writing
+at least a bit of HTML and/or CSS during a typical work week.  What's
+your workflow for that? If you're like most honest people, your answer
+is: "it depends."  In the past, my workflow looked a bit like this:
 
 1. Do the thing
 2. Do another thing
@@ -56,23 +27,66 @@ In the past, my workflow looked a bit like this:
 
 ...
 
-83\. Done! Just don't ask how
+42\. Done! Just don't ask how
 
-Maybe yours is similar? If it's working for you, that's great! The
-rest of this article is probably not for you. But if you're tired of tying your virtual
-shoelaces together, there are three ways to make this process less painful:
+Maybe this sounds familiar? If it's working for you, that's great! The
+rest of this article is probably not for you. But if you're tired of tying your
+virtual shoelaces together, there are two ways to make this process less painful:
 
-1. Get better at HTML
-2. Get better at CSS
-3. Structure your workflow to minimize having to go back and fix things that were working fine before
+1. Get better at HTML and CSS
+2. Structure your workflow to minimize having to go back and fix things that were working fine before
 
-Options 1 and 2 will work very well. Fluency with HTML and CSS will grant you much more
-understanding and command of the web browser and reduce the amount of times you run into
-dead ends in the development process. Improving your fluency will also facilitate quick
+Option 1 will work very well. Fluency with HTML and CSS will grant you much more
+command over the web browser and reduce the amount of times you run into
+dead ends in the development process. Improving your skills will also facilitate quick
 recovery from setbacks. But absent
 a reliable workflow, setbacks are still inevitable. In the swirling vortex of uncertainty
 that is user interface development, a structured approach is the key to sustainable,
 predictable, and manageable progress.
+
+## Why HTML and CSS can be so frustrating
+
+Let's get one thing out of the way: coding can be frustrating no matter what you're
+trying to build.  HTML and CSS, though, are frustrating in ways that are distinct
+from other software-creation tasks.  And that frustration isn't unique to a single
+type of worker.  If you're used to creating interfaces in a
+GUI or WYSIWYG such as those provided by Adobe, InVision, and others, using a text
+editor in order to express your ideas may feel cumbersome and opaque.
+If you're
+a software developer, you may be more comfortable creating things that operate
+in a world of black-and-white: either the program works according to spec or it
+doesn't.
+
+Remember, coding in HTML and CSS produces a
+formatted, styled document; coding in a programming language produces a program.
+Because these media are so different, it's only natural that folks who have put
+a lot of time into the latter might find the former to feel like a chore.
+
+That's not to say programming isn't difficult. Seasoned professionals can
+struggle for months trying to turn
+input X into output Y.  At the end of the day, though, programmers can
+rely on tools such as unit tests, integration tests, and end-to-end
+tests in order to remove uncertainty from the creative process.  If your
+test suite is well-written and all the tests pass, then the team can be
+fairly confident that the program meets its requirements.
+
+HTML and CSS offer no such comfort. Robust test suites for
+validating colors, fonts,
+positioning, and other peculiar aspects of user interfaces simply don't exist. Just as
+da Vinci couldn't ask a machine whether _Mona Lisa_ was ready for the public - though I'm
+sure he probably sketched such a machine at some point - UI developers must also determine
+the correctness of their work by manually inspecting it. Instead of a single canvas, however,
+we must check our work on a variety of media, any or all of: phones, tablets, laptops,
+desktops, screen readers, smart TVs and game consoles. The lack of computable acceptance
+criteria and the diversity of media that can view a hypertext document makes
+HTML and CSS a frustratingly imprecise art.
+
+There is no reason to despair, though. Despite HTML and CSS's limitations, we can borrow
+ideas from programming best practices in order to add structure to the UI development
+process. Whether you're a dyed-in-the-wool front-end developer,
+a hobbyist, a designer who dabbles, or a project manager that needs to ship an A/B test every
+now and then, a methodical approach can keep you reasonably certain that the code you're
+writing now is not messing up the code you've already written.
 
 ## What you need to know
 
@@ -86,7 +100,8 @@ refresher, here's to what I'm referring:
 }
 ```
 Though `block` is one of many possible values that can be assigned to an element's
-`display` property, we will focus on inline and block (including block-like) elements.
+`display` property, we will focus on `inline` and `block` (including "block-like")
+elements.
 
 ### Inline elements
 
@@ -117,7 +132,9 @@ they require.
 Block elements are not linear; in fact, they are rectangles. As such, they often behave
 more intuitively than inline elements in the web browser, which is an inherently
 two-dimensional medium. These types of elements are the ones that respect
-the __CSS box model__: they have defined width, height, positioning, and spacing.
+the
+[CSS box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model):
+they have defined width, height, positioning, and spacing.
 
 
 <div class="figures">
@@ -144,10 +161,8 @@ reminder, though: there
 are many other possible values for `display`. A few possibilities include:
 `inline-block`, `table`, `flex`, `grid`, and `inline-flex`.
 These types of elements, however, will
-generally fall under one of the two semantic categories we previously discussed. If
-you're not much of a
-CSS aficionado, please understand that you can ignore the rest of this paragraph as it
-is not essential to understanding the main point of this piece. According to the
+generally fall under one of the two semantic categories we previously discussed.
+According to the
 [W3C spec](https://www.w3.org/TR/css-display-3/#the-display-properties), CSS3's
 `display` property is overloaded. There are _inner display types_ and
 _outer display types_. In most cases, your favorite `display` value is actually `block` on
@@ -158,7 +173,6 @@ the rest of your day nerding out inside the W3C spec but we have a job to do, so
 let's move on. Suffice it to say that, despite the diversity in the CSS3 specification for
 `display`, boiling down our process to `inline` and `block` elements is sufficient for all
 but the most arcane of edge cases.
-
 
 ### Inline vs. block idioms
 
@@ -174,10 +188,10 @@ elements, then we'll unpack what this means for your user interface development 
       </th>
     </tr>
     <tr>
-      <th>
+      <th style="width: 50%;">
         Inline
       </th>
-      <th>
+      <th style="width: 50%;">
         Block
       </th>
     </tr>
@@ -245,7 +259,7 @@ ol' block elements.
   </figure>
 </div>
 
-## Seven step method
+## Methodical UI in seven steps
 
 With our inline vs. block distinction fresh in our minds, let's walk through seven steps
 that will guide us through UI development using HTML and CSS with minimal frustration.
@@ -327,7 +341,7 @@ your feature, the least-disruptive choice would be to hardcode the most complex
 content that is possible given the requirements.
 
 By getting your final (or one possible version of the final) content all on the page, we
-ensure that we are not forgetting anything. Don't forget to include any content
+ensure that we are not forgetting anything.  Include any content
 that is breakpoint-specific; if something is shown on wide screens but not small screens,
 include it on the page here. We can work on media queries and hide/show logic later in
 the process.
@@ -424,8 +438,8 @@ to work with, ensuring the best fit for your media on a variety of screen sizes.
 3. Text nodes must be direct descendants of inline elements and must never be direct
 descendants of block elements.  Remember that inline and block elements are fundamentally
 different and should be styled as such.  We will style the text content using
-a class we will assign the inline `span` element, and we will style the box surrounding that
-text via a class we will assign the block `h1` element:
+a selector given to the `span` (inline) element, and we will style the box surrounding
+that text via a selector assigned to the `h1` (block) element:
 
     ```html
     <!-- not recommended -->
@@ -452,20 +466,20 @@ don't put an `inline` element next to a `block` element:
     ```html
     <!-- not recommended -->
     <div>
-      <section>
+      <section> <!-- block sibling -->
         <img src="/bar.png" />
       </section>
-      <span>
+      <span> <!-- inline sibling -->
         Bar
       </span>
     </div>
 
     <!-- recommended -->
     <div>
-      <section>
+      <section> <!-- block sibling -->
         <img src="/bar.png" />
       </section>
-      <section>
+      <section> <!-- block sibling -->
         <span>
           Bar
         </span>
@@ -748,7 +762,7 @@ follow the guidelines set forth earlier in this article with regard to
 
 Getting down into the details of all the possibilities here might make this
 already-long article even longer, so I will save that subtopic for a
-future post.  Image/media position is a fairly well-tread subject in the
+future post.  Image/media positioning is a fairly well-tread subject in the
 community so I'm confident you as the reader will navigate that successfully.
 I would, however, like to get in a word about buttons.  As a refresher,
 let's take a look at a sample button:
@@ -823,6 +837,7 @@ breaking a layout down the line.  That's why we have the extra `div` inside:
   outline: none;
   margin: 0 auto;
   padding: 0;
+  position: relative;
   width: 100%;
 }
 
@@ -1475,9 +1490,9 @@ before you deploy your 🔥 HTML and CSS to production.
 
 We started by incrementally turning raw content into idiomatic,
 valid, and accessible markup.  Inline content was properly enclosed
-in `span`s and/or other proper elements.  Block content was properly
+in `span`s and/or other appropriate elements.  Block content was duly
 enclosed in one of the many different types of tags that HTML5 gives
-us for a number or purposes.  Block-like elements such as inputs
+us for a number of purposes.  Block-like elements such as inputs
 and images were coerced into becoming block elements with their own
 purpose-driven, self-contained layouts within.  Support for
 progressively wider screen sizes was incrementally added inside of
@@ -1492,8 +1507,7 @@ to front-end development.
 
 ## Wrapping it up
 
-Because this article is rather wordy, I've distilled these procedures
-down to a single, printable page for quick reference.  I am eager to
+I am eager to
 learn whether this process has helped anyone in real life, so please
 don't hesitate to reach out and start a dialogue on what's working
 and what isn't.
