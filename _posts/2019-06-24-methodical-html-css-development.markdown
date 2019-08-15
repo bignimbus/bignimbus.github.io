@@ -12,7 +12,7 @@ attributions: [{asset_name: 'Hero image', asset_url: 'https://unsplash.com/photo
 ---
 
 Maybe you're a developer.  Maybe you're a designer.  Maybe
-you're a software project manager.  Chances are that you're writing
+you're a software project manager.  Chances are that you're dealing with
 at least a bit of HTML and/or CSS during a typical work week.  What's
 your workflow for that? If you're like most honest people, your answer
 is: "it depends."  In the past, my workflow looked a bit like this:
