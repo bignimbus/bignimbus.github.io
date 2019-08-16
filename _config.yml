@@ -38,7 +38,8 @@ redcarpet:
     - with_toc_data
 sass:
   sass_dir: _sass
-gems:
+  style: compressed
+plugins:
   - jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
