@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "A methodology for removing HTML and CSS frustration"
-date:   2019-06-24 00:00:00 -0600
+title: "Methodical UI: removing frustration from HTML and CSS development"
+date:   2019-08-16 00:12:58 -0400
 featured_image: car-mirror.jpg
 categories: programming
 tags: ['html', 'css']
-excerpt: Beginners and experts alike can run in circles trying to make their user interface look the way it's supposed to look. A methodical approach to HTML and CSS will remove this agitation and keep you making steady progress.
+excerpt: A 7-step process for removing frustration from the process of developing UIs with HTML and CSS.
 permalink: /:categories/:title
 cta: true
 attributions: [{asset_name: 'Hero image', asset_url: 'https://unsplash.com/photos/ujz7MdiCXug', author: JD Weiher }]
@@ -1511,6 +1511,12 @@ I am eager to
 learn whether this process has helped anyone in real life, so please
 don't hesitate to reach out and start a dialogue on what's working
 and what isn't.
+
+I would like to acknolwedge
+[Joseph Alfonso](http://josephalfonso.com/)'s
+contributions - his perspective helped to polish the prose
+in this article.
+
 
 <style>
 pre,
