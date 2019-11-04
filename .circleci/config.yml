@@ -1,0 +1,35 @@
+version: 2
+jobs:
+  dummy:
+    docker:
+      - image: circleci/ruby:2.3-node
+    steps:
+      - run: echo 'wack'
+  build:
+    docker:
+      - image: circleci/ruby:2.3-node
+        environment:
+          BUNDLER_VERSION: 2.0.2
+      - image: circleci/node:10.11
+    steps:
+      - checkout
+      - run: gem update
+      - run: gem install bundler
+      - run: bundle install --path vendor/bundle
+      - run: npm install --verbose
+      - run: bundle exec rake publish
+workflows:
+  version: 2
+  test-and-build:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - staging
+      - dummy:
+          filters:
+            branches:
+              only:
+                - staging-build
+                - master
