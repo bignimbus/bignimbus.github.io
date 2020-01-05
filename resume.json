@@ -22,9 +22,22 @@
   },
   "work": [
     {
+      "company": "Handshake",
+      "position": "Senior Software Engineer",
+      "startDate": "2019-08-26",
+      "summary": "",
+      "highlights": [
+        "Design and document Ruby and TypeScript architecture for text translations and date/time formatting to support international expansion on a fixed timeline",
+        "Work with marketing and product stakeholders to implement an MVP referral program through a vendor, driving direct-to-consumer cost per acquisition downward",
+        "Support transition from Enzyme to React Testing Library by helping to give a component unit testing workshop for colleagues",
+        "Give talks on product and general software engineering topics for engineering, design, and product peers"
+      ]
+    },
+    {
       "company": "Visibly (formerly Opternative)",
       "position": "Senior Engineer && Manager",
       "startDate": "2019-01-31",
+      "endDate": "2019-08-03",
       "summary": "",
       "highlights": [
         "Manage software engineer evaluations, compensation packages, and professional development for a small team while making daily contributions to production code",
@@ -132,7 +145,8 @@
         "Agile",
         "Performance rubrics",
         "TDD",
-        "One-on-ones"
+        "One-on-ones",
+        "Technical writing"
       ]
     },
     {
@@ -140,20 +154,16 @@
       "level": "",
       "keywords": [
         "JavaScript",
+        "TypeScript",
         "HTML 5",
-        "ES6+",
+        "CSS + preprocessors",
         "React",
         "Web Audio API",
         "Media Streams",
         "Jest",
-        "Jasmine",
         "Angular.js",
         "jQuery",
-        "Sass",
-        "LESS",
-        "Stylus",
-        "CSS/SVG/SMIL animations",
-        "BEM"
+        "CSS/SVG/SMIL animations"
       ]
     },
     {
@@ -161,7 +171,6 @@
       "level": "",
       "keywords": [
         "Node.js",
-        "Express",
         "Ruby",
         "Rails",
         "RSpec",
