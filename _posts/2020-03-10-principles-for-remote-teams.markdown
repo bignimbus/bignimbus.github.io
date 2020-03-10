@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Principles for an Effective Distributed Team
-date:   2020-03-10 00:11:45 -0400
+date:   2020-03-10 00:12:10 -0400
 featured_image: home-office.jpg
 categories: misc
 tags: ['remote', 'management']
 excerpt: It's 2020 and people work from home.  These principles have helped my teammates and I do good work together despite not being colocated.
 permalink: /:categories/:title
 cta: true
-attributions: [{asset_name: 'Hero image', asset_url: 'https://www.behance.net/gallery/57305999/HOME-OFFICE-INTERIORS', author: Marcin Mierzyński }]
+attributions: [{asset_name: 'Hero image', asset_url: 'https://www.pexels.com/photo/laptop-on-white-desk-3740747/', author: bongkarn thanyakij}]
 ---
 
 It's 2020 and [people work from home](https://www.cnbc.com/2018/05/30/70-percent-of-people-globally-work-remotely-at-least-once-a-week-iwg-study.html).  The benefits are intuitive: commutes are often risky and can be a waste of time and natural resources; plus removing geographical barriers can increase the size of the recruitment pipeline.
