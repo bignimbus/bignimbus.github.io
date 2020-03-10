@@ -53,8 +53,8 @@ Ideally, the answer is "yes," but if not, everyone needs to pitch in (within rea
 This can be burdensome, but it's far less disruptive than an information deficit that leads to a defect in the product.
 
 As important as A/V quality is, telepresence is not the same as physical prescence.  In fact, telepresence is a skill that can be
-cultivated and improved with enough care and attention.  Avoid switching between screen-sharing and the camera.  Instead,
-consider using two devices: one for the camera and microphone, and another for presenting if necessary.  Keeping the camera and
+cultivated and improved with enough care and attention.
+Keeping the camera and
 microphone on is a good practice, but don't be alarmed or judgmental of teammates who switch off sometimes.  There's a difference
 between being physically together in the same space and having your head on a large-screen television for all to see up-close.
 To avoid falling into the trap of "multitasking" and other attention-draining activities during video conferences, try not touching
