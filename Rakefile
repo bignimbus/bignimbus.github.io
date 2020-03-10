@@ -33,7 +33,7 @@ task :test do
     url_ignore: [
       /https?:\/\/jdauriemma\.com.*/,
       /https?:\/\/www\.freeimages\.com.*/,
-      /https:\/\/pexels\.com\/photo\/laptop-on-white-desk-3740747\//
+      /https:\/\/www\.pexels\.com\/photo\/laptop-on-white-desk-3740747\//
     ]
   ).run
 end
