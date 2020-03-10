@@ -30,7 +30,11 @@ task :test do
     assume_extension: true,
     http_status_ignore: [999, 0],
     file_ignore: [/\d\d\d\.html/],
-    url_ignore: [/https?:\/\/jdauriemma\.com.*/, /https?:\/\/www\.freeimages\.com.*/]
+    url_ignore: [
+      /https?:\/\/jdauriemma\.com.*/,
+      /https?:\/\/www\.freeimages\.com.*/,
+      /https:\/\/pexels\.com\/photo\/laptop-on-white-desk-3740747\//
+    ]
   ).run
 end
 
