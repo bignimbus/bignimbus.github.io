@@ -157,3 +157,7 @@ before sending an IM your way.  Find ways to respond, even if it's a triage mess
 
 #### Children and animals...
 ... can be welcome "guest stars" on camera.  They can also be a distraction.  Always be mindful of the context and purpose.
+
+## Acknowledgements
+
+Lydia Nash and Ayo Jimoh proofread and contributed ideas to this post.  Thank you!
