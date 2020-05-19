@@ -29,7 +29,7 @@ Makes two 9" deep dish pizzas.  If you are prepping constantly, it takes about t
 * 1 brush (optional, but makes life easier)
 
 ### Dough ingredients
-* 3 cups all-purpose flour
+* 2 1/2 cups all-purpose flour
 * 1 cup water
 * 1 packet OR 2 1/4 teaspoons yeast
 * 1/2 cup cornmeal
