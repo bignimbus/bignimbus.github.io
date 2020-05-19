@@ -5,9 +5,45 @@
     <description>thoughts on code, music, misc.</description>
     <link>https://jdauriemma.com/</link>
     <atom:link href="https://jdauriemma.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 May 2020 04:00:28 +0000</pubDate>
-    <lastBuildDate>Tue, 19 May 2020 04:00:28 +0000</lastBuildDate>
+    <pubDate>Tue, 19 May 2020 04:29:11 +0000</pubDate>
+    <lastBuildDate>Tue, 19 May 2020 04:29:11 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      
+      <item>
+        <title>Pop-Punk: a vim color scheme</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/pop-punk.png&quot; alt=&quot;Pop-Punk: a vim color scheme&quot;&gt;&lt;p&gt;I&amp;#39;ve been using the vim text editor for a while now.  I
+know some basic
+&lt;a href=&quot;https://learnvimscriptthehardway.stevelosh.com/&quot;&gt;vimscript&lt;/a&gt;,
+but not much more.  A while ago, I settled on a version of
+the &lt;a href=&quot;https://github.com/gkjgh/cobalt&quot;&gt;cobalt&lt;/a&gt; color scheme
+as my theme of choice.  I made a few tweaks here and there
+over the course of a few years.  It started to become more
+noticeably painful to change colors after a while - sometimes
+I&amp;#39;d update a hex color and forget to update the corresponding
+cterm value.  And as I got deeper into customizing my terminal,
+I got deeper into tweaking my vim setup.  So I decided it was
+high time to solidify all the tweaks I made into a coherent
+color scheme (with a matching airline theme).&lt;/p&gt;
+
+&lt;p&gt;So, here&amp;#39;s
+&lt;a href=&quot;https://github.com/bignimbus/pop-punk.vim&quot;&gt;pop-punk.vim&lt;/a&gt;:
+a dark, high-contrast color scheme that retains a sense of
+fun and character.  If you&amp;#39;re a vim user, I&amp;#39;d love to hear
+what you think of it!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 May 2020 04:24:00 +0000</pubDate>
+        <link>https://jdauriemma.com/programming/pop-punk</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/pop-punk</guid>
+        
+        <category>vim</category>
+        
+        <category>airline</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
     
       
       <item>
@@ -2396,82 +2432,6 @@ Feel free to tweet me &lt;a href=&quot;http://twitter.com/jbones3000&quot;&gt;@j
         
         
         <category>misc</category>
-        
-      </item>
-    
-      
-      <item>
-        <title>Block Helpers in Ruby on Rails</title>
-        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/OCD3Hwk.png&quot; alt=&quot;Block Helpers in Ruby on Rails&quot;&gt;&lt;p&gt;I&amp;#39;m still pretty new at Ruby, but my coworker and all-around good guy Derek Schaefer pointed this tip out to me when reviewing a recent pull request of mine.
-&lt;h3&gt;Context&lt;/h3&gt;
-&lt;p&gt;
-I am trying to show a visual element side-by-side with a corresponding CSS code snippet.  Using rouge, I apply syntax highlighting to a plain text code sample.
-&lt;/p&gt;
-&lt;img src=&quot;https://i.imgur.com/MNTgWYK.png&quot; alt=&quot;Visual Element&quot;&gt;&lt;h3&gt;Before&lt;/h3&gt;
-&lt;p&gt;
-My first approach was ugly.  It looked something like this:
-&lt;/p&gt;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-erb&quot; data-lang=&quot;erb&quot;&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- view.html.erb --&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;section&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;code-sample&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;cp&quot;&gt;&amp;lt;%=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;highlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-&lt;span class=&quot;s1&quot;&gt;'.example {
-  color: $example-color;
-}'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-&lt;span class=&quot;s1&quot;&gt;'scss'&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;%&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/section&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# helper.rb&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;highlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;language&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;no&quot;&gt;Rouge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;highlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;language&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;downcase&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'html'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html_safe&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;
-Notice how I had to break the indentation in the markup, and how ugly the arguments look.  It was a pain in the neck to write (particularly in my auto-indenting vim setup), and is not pleasant to look at.
-&lt;/p&gt;
-
-&lt;h3&gt;After&lt;/h3&gt;
-
-&lt;p&gt;
-There is a better way!  The &lt;code&gt;&amp;amp;block&lt;/code&gt; keyword allows you to capture a blob of ruby code as a string, resulting in a much prettier way of handling complex content.  Observe:
-&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-erb&quot; data-lang=&quot;erb&quot;&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- view.html.erb --&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;section&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;code-sample&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;cp&quot;&gt;&amp;lt;%=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;highlight&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'scss'&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;%&amp;gt;&lt;/span&gt;
-      .example {
-        color: $example-color;
-      }
-    &lt;span class=&quot;cp&quot;&gt;&amp;lt;%&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;%&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/section&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# helper.rb&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;highlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;language&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;amp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;amp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;strip_heredoc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;strip&lt;/span&gt;
-  &lt;span class=&quot;no&quot;&gt;Rouge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;highlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;language&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;downcase&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'html'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html_safe&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;
-This approach is much more intuitive and nicer-looking.  Thanks to Derek for a great tip.  For a more in-depth look at blocks and their general use in ruby, &lt;a href=&quot;http://stackoverflow.com/questions/814739/whats-this-block-in-ruby-and-how-does-it-get-passed-in-a-method-here&quot;&gt;this Stack Overflow thread&lt;/a&gt; had some good information.
-&lt;/p&gt;
-
-&lt;h3&gt;Keep the conversation going&lt;/h3&gt;
-
-&lt;p&gt;
-Anything to add?  Tweet me &lt;a href=&quot;http://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;!
-&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 Dec 2015 06:00:00 +0000</pubDate>
-        <link>https://jdauriemma.com/programming/block-helpers-in-ruby-on-rails</link>
-        <guid isPermaLink="true">https://jdauriemma.com/programming/block-helpers-in-ruby-on-rails</guid>
-        
-        <category>ruby</category>
-        
-        <category>rails</category>
-        
-        
-        <category>programming</category>
         
       </item>
     
