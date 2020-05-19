@@ -103,11 +103,11 @@ Sprinkle the grated mozzarella evenly on the dough. Next, add any toppings. Then
 Cook for 25-35 minutes on the bottom rack at 425 degrees. The pizza is done when the mozzarella bubbles up to the top. Let sit for two minutes before serving.
 <div class="figures">
   <figure class="figures__figure">
-    ![slice of spicy sausage and peppers deep dish pizza](/assets/images/posts/ginos-east-deep-dish-pizza-imitation-recipe/sausage-peppers-slice.jpg)
-    <figcaption>Spicy sausage and peppers</figcaption>
+    ![slice of deep dish pizza](/assets/images/posts/ginos-east-deep-dish-pizza-imitation-recipe/slice.jpg)
+    <figcaption>A slice</figcaption>
   </figure>
   <figure class="figures__figure">
-    ![slice of cheese deep dish pizza](/assets/images/posts/ginos-east-deep-dish-pizza-imitation-recipe/cheese-slice.jpg)
-    <figcaption>Cheese</figcaption>
+    ![deep dish pie](/assets/images/posts/ginos-east-deep-dish-pizza-imitation-recipe/pies.jpg)
+    <figcaption>Finished pie</figcaption>
   </figure>
 </div>
