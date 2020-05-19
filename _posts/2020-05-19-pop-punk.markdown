@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Pop-Punk: a vim color scheme"
+date:   2020-05-19 00:24:00 -0400
+featured_image: pop-punk.png
+categories: programming
+tags: ['vim', 'airline']
+excerpt: A brief introduction of my first vim color scheme
+permalink: /:categories/:title
+---
+
+I've been using the vim text editor for a while now.  I
+know some basic
+[vimscript](https://learnvimscriptthehardway.stevelosh.com/),
+but not much more.  A while ago, I settled on a version of
+the [cobalt](https://github.com/gkjgh/cobalt) color scheme
+as my theme of choice.  I made a few tweaks here and there
+over the course of a few years.  It started to become more
+noticeably painful to change colors after a while - sometimes
+I'd update a hex color and forget to update the corresponding
+cterm value.  And as I got deeper into customizing my terminal,
+I got deeper into tweaking my vim setup.  So I decided it was
+high time to solidify all the tweaks I made into a coherent
+color scheme (with a matching airline theme).
+
+So, here's
+[pop-punk.vim](https://github.com/bignimbus/pop-punk.vim):
+a dark, high-contrast color scheme that retains a sense of
+fun and character.  If you're a vim user, I'd love to hear
+what you think of it!
