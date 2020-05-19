@@ -2,12 +2,12 @@ version: 2
 jobs:
   dummy:
     docker:
-      - image: circleci/ruby:2.3-node
+      - image: circleci/ruby:2.7.1-node
     steps:
       - run: echo 'wack'
   build:
     docker:
-      - image: circleci/ruby:2.3-node
+      - image: circleci/ruby:2.7.1-node
         environment:
           BUNDLER_VERSION: 2.0.2
       - image: circleci/node:10.11
