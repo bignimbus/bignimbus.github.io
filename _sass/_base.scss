@@ -134,12 +134,12 @@ code {
 }
 
 pre {
-  border-left: 2px solid $grey-color;
+  background-color: #eee;
   padding: 8px 12px;
   overflow-x: auto;
 
     > code {
-        background: #fff;
+        background: transparent;
         border: 0;
         padding-right: 0;
         padding-left: 0;
