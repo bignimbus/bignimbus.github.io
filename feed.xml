@@ -5,8 +5,8 @@
     <description>thoughts on code, music, misc.</description>
     <link>https://jdauriemma.com/</link>
     <atom:link href="https://jdauriemma.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 29 May 2020 02:37:33 +0000</pubDate>
-    <lastBuildDate>Fri, 29 May 2020 02:37:33 +0000</lastBuildDate>
+    <pubDate>Fri, 29 May 2020 03:58:18 +0000</pubDate>
+    <lastBuildDate>Fri, 29 May 2020 03:58:18 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       
@@ -1967,24 +1967,6 @@ As of this past weekend, however, I am finally confident that I&amp;#39;ve craft
     
       
       <item>
-        <title>Using Jekyll Plugins with GitHub Pages</title>
-        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/jekyll-logo-dark-solid.png&quot; alt=&quot;Using Jekyll Plugins with GitHub Pages&quot;&gt;&lt;p&gt;Read my &lt;a href=&quot;http://blog.opternative.com/engineering/using-jekyll-plugins-with-github-pages&quot;&gt;Opternative blog post here&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 28 Jun 2016 06:00:00 +0000</pubDate>
-        <link>https://jdauriemma.com/programming/using-jekyll-plugins-with-github-pages</link>
-        <guid isPermaLink="true">https://jdauriemma.com/programming/using-jekyll-plugins-with-github-pages</guid>
-        
-        <category>ruby</category>
-        
-        <category>jekyll</category>
-        
-        
-        <category>programming</category>
-        
-      </item>
-    
-      
-      <item>
         <title>If Bach Wrote Never Gonna Give You Up</title>
         <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/bach-rick.jpg&quot; alt=&quot;If Bach Wrote Never Gonna Give You Up&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;Never gonna give you up
 Never gonna let you down
@@ -2210,224 +2192,203 @@ And desert you
     
       
       <item>
-        <title>An Overlooked Benefit of rem in CSS</title>
-        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/sk3UnQy.jpg&quot; alt=&quot;An Overlooked Benefit of rem in CSS&quot;&gt;&lt;p&gt;
-Should I use &lt;code&gt;rem&lt;/code&gt;, &lt;code&gt;px&lt;/code&gt;, or (gasp!) &lt;code&gt;em&lt;/code&gt;?  This debate has lots of nuance and I'm not here to choose one for you.  I've read a lot of good material on the subject thanks in part to my wondeful coworker Moises Montenegro, including &lt;a href=&quot;https://benfrain.com/just-use-pixels/&quot;&gt;this&lt;/a&gt; and also &lt;a href=&quot;https://mindtheshift.wordpress.com/2015/04/02/r-i-p-rem-viva-css-reference-pixel/&quot;&gt;this&lt;/a&gt; (both articles favor &lt;code&gt;px&lt;/code&gt;).  Much of the discussion centers around the nuts and bolts of how the browser interprets each unit, but I'd like to add another dimension to this discussion: that of payload weight.
+        <title>If Bach Wrote Oops!... I Did It Again</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/bach-britney.jpg&quot; alt=&quot;If Bach Wrote Oops!... I Did It Again&quot;&gt;&lt;p&gt;You can&amp;#39;t un-see that image.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;&quot;Oops!...I did it again  
 
-&lt;/p&gt;&lt;p&gt;
-Note: this article assumes that you are using some sort of CSS preprocessing: perhaps Sass, LESS or Stylus.  
-&lt;/p&gt;
+I played with your heart, got lost in the game  
 
-&lt;h3&gt;A note about CSS weight&lt;/h3&gt;
+Oh baby, baby  
 
-&lt;p&gt;
-When writing preprocessed CSS, consider the output of what you're writing: it's usually quite predictable.  For example: deep nesting tends to produce larger CSS files.  Consider:
-&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;cm&quot;&gt;/* style.scss */&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+Oops!...You think I'm in love  
 
-&lt;span class=&quot;nc&quot;&gt;.container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nc&quot;&gt;.another-container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;.standard-heading&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#fff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;c&quot;&gt;/* style.css size: 85B */&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;.container&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.another-container&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.standard-heading&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#fff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+That I'm sent from above  
+
+I'm not that innocent&quot;  
+
+      - Britney Spears  
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;
-Assuming &lt;code&gt;.standard-heading&lt;/code&gt; is used in the same context everywhere on the page, it is better not to nest it so deep.  Our file becomes lighter weight and our stylesheet more reusable:
-&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;p&gt;In my teen years I was too busy listening to Limp Bizkit to notice the hidden gem in Britney&amp;#39;s 2000 hit, &amp;quot;Oops!... I Did It Again.&amp;quot; Now, no one will ever repeat that fateful mistake again. You&amp;#39;re welcome, America.&lt;/p&gt;
 
-&lt;span class=&quot;nc&quot;&gt;.standard-heading&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#fff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;c&quot;&gt;/* style.css size: 55B */&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;.standard-heading&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#fff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;
-Of course, saving 30 bytes is nothing to write home about.  But keeping these possible savings in mind while writing your application's stylesheets can significantly lighten your CSS payload, keeping page load times down and user experience positive.
-&lt;/p&gt;
+&lt;h3 id=&quot;full-audio&quot;&gt;Full Audio&lt;/h3&gt;
 
-&lt;h3&gt;Responsive design and media queries&lt;/h3&gt;
+&lt;audio class=&quot;site-player&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;
+  
+  &lt;source src=&quot;/assets/audio/002IfBachWroteOopsIDidItAgain.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
+  
+  &lt;source src=&quot;/assets/audio/002IfBachWroteOopsIDidItAgain.ogg&quot; type=&quot;audio/ogg&quot;&gt;
+  
+  &lt;span&gt;Your browser does not support the audio element.&lt;/span&gt;
+&lt;/audio&gt;
 
-&lt;p&gt;
-OK, so let's add some design requirements into the mix.  What if your requirement is to scale down font sizes when the viewport is narrower than &lt;code&gt;460px&lt;/code&gt;?  Here are two approaches:
-&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;cm&quot;&gt;/* style.scss */&lt;/span&gt;
+&lt;h3 id=&quot;triumphant-return&quot;&gt;Triumphant Return&lt;/h3&gt;
 
-&lt;span class=&quot;nv&quot;&gt;$base-font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$small-font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;14px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$mobile-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;460px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;p&gt;I apologize for my long hiatus on new posts - lots of new and exciting things are happening in my personal life right now and I&amp;#39;ve had to put writing on the back burner for a bit. But enough about me. &lt;a href=&quot;https://jdauriemma.com/tag/ifbachwrote&quot;&gt;If Bach Wrote...&lt;/a&gt; (IBW) is a personal project of mine where I regularly pick an iconic tune from pop culture, extract melodic material from it, and compose a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;fugue&lt;/a&gt; with that melody as the &lt;a href=&quot;https://www3.northern.edu/wieland/theory/form/fugue.htm&quot;&gt;subject&lt;/a&gt;.&lt;/p&gt;
 
-&lt;span class=&quot;k&quot;&gt;@mixin&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;standard-fonts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$base-font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;p&gt;So far I&amp;#39;ve tackled &lt;a href=&quot;https://jdauriemma.com/music/if-bach-wrote-dont-stop-believin&quot;&gt;Journey&lt;/a&gt; and &lt;a href=&quot;https://jdauriemma.com/music/if-bach-wrote-turn-down-for-what&quot;&gt;Lil Jon&lt;/a&gt;, and I&amp;#39;ve been pretty surprised with the large audience both pieces have acquired (relative to what I&amp;#39;m used to). If you&amp;#39;ve listened to those two pieces, thank you! Who knew that &lt;a href=&quot;http://en.wikipedia.org/wiki/Polyphony&quot;&gt;polyphony&lt;/a&gt; could still be popular in the 21st century?&lt;/p&gt;
 
-  &lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;h3 id=&quot;the-original&quot;&gt;The Original&lt;/h3&gt;
 
-  &lt;span class=&quot;nt&quot;&gt;h2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;p&gt;Bubblegum pop is often given the cold shoulder by musicologists, but the refrain of &amp;quot;Oops!... I Did It Again&amp;quot; makes for a fascinating fugue subject. &lt;a href=&quot;https://youtu.be/HMUDVMiITOU&quot;&gt;Listen here&lt;/a&gt; - you can skip to 0:50 to hear the refrain, but you&amp;#39;d be missing out on some slick bass playing by Thomas Lindberg.&lt;/p&gt;
 
-  &lt;span class=&quot;nt&quot;&gt;h3&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;h3 id=&quot;analysis&quot;&gt;Analysis&lt;/h3&gt;
 
-  &lt;span class=&quot;nt&quot;&gt;footer&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;.8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;p&gt;This piece is a rare five-voice fugue, meaning there are up to five independent melodies happening in parallel. Most composers hesitate to write five-voice fugues (Bach only has a handful to his name): they tend to border on a &amp;quot;chorale&amp;quot; like sound, which can sound overly &amp;quot;vertical&amp;quot; and suffer from a lack of true polyphony. On top of that, most fugue subject are either too busy or have to wide of a tonal range to accommodate for five voices. &amp;quot;Oops!... I Did It Again&amp;quot; is slow enough (I slowed it down to 60bpm) and compact enough (within a sixth) that I decided to throw caution to the wind and give five voices a shot. Here&amp;#39;s what the subject looks like on paper:&lt;/p&gt;
 
-&lt;span class=&quot;k&quot;&gt;@include&lt;/span&gt; &lt;span class=&quot;nd&quot;&gt;standard-fonts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/legacy/bach-oops-subject.png&quot; alt=&quot;IBW Oops I Did It Again Subject&quot;&gt;&lt;/p&gt;
 
-&lt;span class=&quot;k&quot;&gt;@media&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;only&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;screen&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$mobile-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;@include&lt;/span&gt; &lt;span class=&quot;nd&quot;&gt;standard-fonts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$small-font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;c&quot;&gt;/* style.css size: 354B */&lt;/span&gt;
+&lt;p&gt;Subject, in C# minor: i V i VII III i E: V I&lt;/p&gt;
 
-&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;p&gt;The &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue#The_exposition&quot;&gt;tonal answer&lt;/a&gt; is in the &lt;a href=&quot;http://en.wikipedia.org/wiki/Relative_key&quot;&gt;relative major&lt;/a&gt;:&lt;/p&gt;
 
-&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;48px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/legacy/bach-oops-answer.png&quot; alt=&quot;IBW Oops I Did It Again Answer&quot;&gt;&lt;/p&gt;
 
-&lt;span class=&quot;nt&quot;&gt;h2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;32px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;p&gt;Answer, in E major: I V I vi c#: iidim V&lt;/p&gt;
 
-&lt;span class=&quot;nt&quot;&gt;h3&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;24px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;p&gt;The exposition makes use of two &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue#The_exposition&quot;&gt;countersubjects&lt;/a&gt;, but only countersubject 2 is reused in the development section:&lt;/p&gt;
 
-&lt;span class=&quot;nt&quot;&gt;footer&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;12.8px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/legacy/bach-oops-cs1.png&quot; alt=&quot;IBW Oops I Did It Again Countersubject 1&quot;&gt;&lt;/p&gt;
 
-&lt;span class=&quot;k&quot;&gt;@media&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;only&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;screen&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;460px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;14px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;42px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;h2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;28px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;h3&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;21px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;footer&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;11.2px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;
-This first approach is simple and effective.  We have satisfied the requirement and our mobile users are experiencing wonderfully optimized font sizes.  We are using &lt;code&gt;px&lt;/code&gt;, which is universally supported in all browsers.  Why rock the boat?  Consider this:
-&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;cm&quot;&gt;/* style.scss */&lt;/span&gt;
+&lt;p&gt;Countersubject 1&lt;/p&gt;
 
-&lt;span class=&quot;nv&quot;&gt;$mobile-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;460px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/legacy/bach-oops-cs2.png&quot; alt=&quot;bach-oops-IBW Oops I Did It Again Countersubject 2&quot;&gt;&lt;/p&gt;
 
-&lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;p&gt;Countersubject 2&lt;/p&gt;
 
-  &lt;span class=&quot;k&quot;&gt;@media&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;only&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;screen&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$mobile-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;14px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;p&gt;The tonal outline of the piece is:&lt;/p&gt;
 
-&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;  (mm1) C# minor&lt;/li&gt;
+&lt;li&gt;  (~mm18) E major&lt;/li&gt;
+&lt;li&gt;  (~mm21) A major&lt;/li&gt;
+&lt;li&gt;  (~mm24) F# minor&lt;/li&gt;
+&lt;li&gt;  (~mm27) A major&lt;/li&gt;
+&lt;li&gt;  (mm33) C# minor&lt;/li&gt;
+&lt;li&gt;  (mm44) D# minor&lt;/li&gt;
+&lt;li&gt;  (mm49) B major&lt;/li&gt;
+&lt;li&gt;  (mm52) C# minor&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;h3 id=&quot;the-score&quot;&gt;The Score&lt;/h3&gt;
 
-&lt;span class=&quot;nt&quot;&gt;h2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.noteflight.com/scores/view/9cf8626d7922a021768e972251f9d4edc61a6975&quot;&gt;View the full score here&lt;/a&gt; on Noteflight.&lt;/p&gt;
 
-&lt;span class=&quot;nt&quot;&gt;h3&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;.5rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;iframe src=&quot;https://www.noteflight.com/embed/9cf8626d7922a021768e972251f9d4edc61a6975?scale=1&quot; style=&quot;height:500px; width:100%&quot;&gt;&lt;/iframe&gt;
 
-&lt;span class=&quot;nt&quot;&gt;footer&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;.8rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;c&quot;&gt;/* style.css size: 251B */&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;h3 id=&quot;tweet-me&quot;&gt;Tweet me!&lt;/h3&gt;
 
-&lt;span class=&quot;k&quot;&gt;@media&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;only&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;screen&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;460px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;14px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;h2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;h3&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.5rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;footer&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;.8rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;
-The original example using &lt;code&gt;px&lt;/code&gt; totaled 354 bytes of CSS.  The &lt;code&gt;rem&lt;/code&gt; example totaled 251 bytes of CSS.  In this context, &lt;code&gt;rem&lt;/code&gt; allowed us a way to scale our fonts in a media query without the use of redundant CSS output.  These simple optimizations could mean serious reductions in CSS payload when applied to an entire code base.  Of course, if you need to support &amp;lt;=IE8, you're out of luck - &lt;code&gt;rem&lt;/code&gt; is IE9 and up.
-&lt;/p&gt;
-
-&lt;h3&gt;Rem can help in unexpected ways&lt;/h3&gt;
-
-&lt;p&gt;
-Consider the benefits &lt;code&gt;rem&lt;/code&gt; can offer your stylesheets, particularly when scaling values.  You could potentially shave many kB while writing arguably more elegant CSS.
-&lt;/p&gt;
-
-&lt;h3&gt;Tweet your thoughts&lt;/h3&gt;
-
-&lt;p&gt;
-How are you using &lt;code&gt;px&lt;/code&gt; or &lt;code&gt;rem&lt;/code&gt; in your stylesheets?  Let me know &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;!
-&lt;/p&gt;
+&lt;p&gt;Oops!... You tweeted me again: &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 20 Dec 2015 06:00:00 +0000</pubDate>
-        <link>https://jdauriemma.com/programming/an-overlooked-benefit-of-rem-in-css</link>
-        <guid isPermaLink="true">https://jdauriemma.com/programming/an-overlooked-benefit-of-rem-in-css</guid>
+        <pubDate>Sat, 02 Aug 2014 06:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/music/if-bach-wrote-oops-i-did-it-again</link>
+        <guid isPermaLink="true">https://jdauriemma.com/music/if-bach-wrote-oops-i-did-it-again</guid>
         
-        <category>css</category>
+        <category>ifbachwrote</category>
         
-        <category>scss</category>
+        <category>music</category>
         
         
-        <category>programming</category>
+        <category>music</category>
+        
+      </item>
+    
+      
+      <item>
+        <title>If Bach Wrote Don't Stop Believin'</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/bach-journey.jpg&quot; alt=&quot;If Bach Wrote Don't Stop Believin'&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;
+&quot;Just a small town girl  
+
+Living in a lonely world  
+
+She took the midnight train  
+
+Going anywhere&quot;  
+
+          -Journey  
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Admit it, you were singing along! Not to dismiss the importance of good lyrics, I&amp;#39;ve always been more attached to melodies, harmonies and bass lines than lead vocals; I learned all the notes in this song long before I knew all the words. Whether you love Journey&amp;#39;s lyrics, instrumentals, or hate Journey entirely, I hope that you enjoy this version of &amp;quot;If Bach Wrote.&amp;quot;&lt;/p&gt;
+
+&lt;h3 id=&quot;full-audio&quot;&gt;Full Audio&lt;/h3&gt;
+
+&lt;audio class=&quot;site-player&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;
+  
+  &lt;source src=&quot;/assets/audio/001IfBachWroteDontStopBelievin.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
+  
+  &lt;source src=&quot;/assets/audio/001IfBachWroteDontStopBelievin.ogg&quot; type=&quot;audio/ogg&quot;&gt;
+  
+  &lt;span&gt;Your browser does not support the audio element.&lt;/span&gt;
+&lt;/audio&gt;
+
+&lt;h3 id=&quot;welcome-back&quot;&gt;Welcome back...&lt;/h3&gt;
+
+&lt;p&gt;To the second installment of &lt;a href=&quot;https://jdauriemma.com/tag/ifbachwrote/&quot;&gt;If Bach Wrote...&lt;/a&gt; (IBW). If Bach Wrote... (IBW) is a personal project of mine where I regularly pick an iconic tune from pop culture, extract melodic material from it, and compose a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;fugue&lt;/a&gt; with that melody as the &lt;a href=&quot;https://www3.northern.edu/wieland/theory/form/fugue.htm&quot;&gt;subject&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A handful of weeks ago I did a &lt;a href=&quot;http://en.wikipedia.org/wiki/Polyphony&quot;&gt;polyphonic&lt;/a&gt; treatment of Lil Jon and DJ Snake&amp;#39;s &lt;a href=&quot;https://jdauriemma.com/music/if-bach-wrote-turn-down-for-what&quot;&gt;&amp;quot;Turn Down for What&amp;quot;&lt;/a&gt; and was pleasantly surprised by the number of hits it got. People more or less had nice things to say about it, too. So, if you listened: thank you!&lt;/p&gt;
+
+&lt;h3 id=&quot;original&quot;&gt;Original&lt;/h3&gt;
+
+&lt;p&gt;First, you may want to &lt;a href=&quot;#score&quot;&gt;view the score&lt;/a&gt;. I&amp;#39;m convinced that all American citizens have this song tattooed on their brains, but just in case you want to hear it ooooone moooore tiiiiime, here&amp;#39;s a link to the &lt;a href=&quot;https://youtu.be/1k8craCGpgs&quot;&gt;original recording&lt;/a&gt;. I decided to take the left-hand half of the piano part from the intro as this fugue&amp;#39;s subject and answer.&lt;/p&gt;
+
+&lt;p&gt;In notation:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/legacy/Screen-Shot-2014-08-01-at-5.15.57-PM.png&quot; alt=&quot;IBW Don&amp;#39;t Stop Believin Subject&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Subject, in E major: I V vi IV&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/legacy/Screen-Shot-2014-08-01-at-5.16.18-PM.png&quot; alt=&quot;IBW Don&amp;#39;t Stop Believin Answer&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Tonal Answer, in E major: V ii-V42 IV V6&lt;/p&gt;
+
+&lt;p&gt;This fugue makes use of two countersubjects:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/legacy/Screen-Shot-2014-08-01-at-5.25.36-PM.png&quot; alt=&quot;Countersubject 1&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Countersubject 1&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/legacy/Screen-Shot-2014-08-01-at-5.25.55-PM.png&quot; alt=&quot;Countersubject 2&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Countersubject 2, free counterpoint thereafter&lt;/p&gt;
+
+&lt;p&gt;You may notice that Countersubject sounds a tiny bit like the right-hand piano part of the song - this was unintentional but welcome.&lt;/p&gt;
+
+&lt;p&gt;The exposition is strict with very little free counterpoint, so it&amp;#39;s over fairly quickly for a four-voice fugue. The development begins in measure 17. The subject is stated many times throughout the piece per se, in simplified rhythms, &lt;a href=&quot;http://composerstoolbox.wordpress.com/2011/09/26/tool-17-augmentation-and-diminution/&quot;&gt;augmented&lt;/a&gt;, and &lt;a href=&quot;http://en.wikipedia.org/wiki/Inversion_(music)&quot;&gt;inverted&lt;/a&gt;. I am particularly proud of measures 49-59, where the subject is iterated concurrently per se and in augmentation.&lt;/p&gt;
+
+&lt;p&gt;The tonal outline of the piece is:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  (mm1) E major&lt;/li&gt;
+&lt;li&gt;  (mm~25) C# minor&lt;/li&gt;
+&lt;li&gt;  (mm35) A major&lt;/li&gt;
+&lt;li&gt;  (mm41) F# minor&lt;/li&gt;
+&lt;li&gt;  (mm45) A major&lt;/li&gt;
+&lt;li&gt;  (mm49) D major&lt;/li&gt;
+&lt;li&gt;  (mm53) C# minor (Not quite what Bach would do, but I couldn&amp;#39;t resist)&lt;/li&gt;
+&lt;li&gt;  (mm60) E major&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div id=&quot;score&quot;&gt;
+
+### View the score
+
+[View the full score here](https://www.noteflight.com/scores/view/19e01ff4d09ce892f791521745374d2d004f6197) on Noteflight.
+
+&lt;iframe src=&quot;https://www.noteflight.com/embed/19e01ff4d09ce892f791521745374d2d004f6197?scale=1&quot; style=&quot;width:100%;height:500px&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;tweet-me&quot;&gt;Tweet me!&lt;/h3&gt;
+
+&lt;p&gt;I&amp;#39;m on the Twitter: &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;. Say hey!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 02 Aug 2014 06:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/music/if-bach-wrote-dont-stop-believin</link>
+        <guid isPermaLink="true">https://jdauriemma.com/music/if-bach-wrote-dont-stop-believin</guid>
+        
+        <category>ifbachwrote</category>
+        
+        <category>music</category>
+        
+        
+        <category>music</category>
         
       </item>
     
