@@ -1,7 +1,7 @@
 <ul class="tags">
   {% if include.date %}<li class="date">{{ include.date | date: "%B %d, %Y" }}</li>{% endif %}
-  <li class="category"><a href="/category/{{ include.categories }}/">.{{ include.categories }}</a></li>
+    <li class="category"><a href="/category/{{ include.categories }}/"><span aria-label="category"><span aria-hidden="true">#</span></span>{{ include.categories }}</a></li>
   {% for tag in include.tags %}
-    <li><a href="/tag/{{ tag }}/">#{{ tag }}</a></li>
+    <li><a href="/tag/{{ tag }}/"><span aria-label="tag"><span aria-hidden="true">.</span></span>{{ tag }}</a></li>
   {% endfor %}
 </ul>
