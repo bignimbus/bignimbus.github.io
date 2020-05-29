@@ -93,8 +93,8 @@ gradually.  When a team touches a file with which they are
 familiar, paying down the technical debt pointed out by the new
 rule becomes a matter of necessity.  Since (presumably) developers
 are only touching files that are relevant to the work they are
-shipping, the chance of a regression is lower than if some intrepid
-but less-familiar engineer took it upon themselves to try to
-update the whole code base at once.  The total number of violations
-will gradually decrement, and so too will the as-of-now unknown
-pain points that may be associated with fixing them.
+shipping, the chance of a regression is lower than it would be if
+some intrepid but less-familiar engineer took it upon themselves
+to try to update the whole code base at once.  The total number
+of violations will gradually decrement, and so too will the
+as-of-now unknown pain points that may be associated with fixing them.
