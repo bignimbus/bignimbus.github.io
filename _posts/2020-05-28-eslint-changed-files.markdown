@@ -59,7 +59,7 @@ Ok, so the groundwork is there.  Next, I set up a new script in
 ```json
 {
   "scripts": {
-    "lint:transitional": "eslint -c ./.eslintrc.transitional"
+    "lint:transitional": "eslint -c ./.eslintrc.transitional --no-error-on-unmatched-pattern"
   }
 }
 ```
@@ -69,7 +69,11 @@ Ok, so the groundwork is there.  Next, I set up a new script in
 Then, the secret sauce: in the same CI build step as where we run
 `eslint` against our entire frontend codebase, I added a step
 where we run `lint:transitional` only on files that have been
-changed in that particular branch.  `git` to the rescue!
+changed in that particular branch.  `git` to the rescue!  One hiccup
+we ran into is that deleted file paths were being checked, which caused
+`eslint` to return an error code.  Adding `--no-error-on-unmatched-pattern`
+resolved this issue.
+
 
 ```sh
 # get a list of js/ts files that are different from master
