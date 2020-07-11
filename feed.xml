@@ -5,8 +5,8 @@
     <description>thoughts on code, music, misc.</description>
     <link>https://jdauriemma.com/</link>
     <atom:link href="https://jdauriemma.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 29 May 2020 18:18:01 +0000</pubDate>
-    <lastBuildDate>Fri, 29 May 2020 18:18:01 +0000</lastBuildDate>
+    <pubDate>Sat, 11 Jul 2020 03:02:31 +0000</pubDate>
+    <lastBuildDate>Sat, 11 Jul 2020 03:02:31 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       
@@ -53,7 +53,7 @@ the rule so that it&amp;#39;s visible, I also modified the main config:&lt;/p&gt
 &lt;code&gt;package.json&lt;/code&gt;:&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
   &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;lint:transitional&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;eslint -c ./.eslintrc.transitional&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;lint:transitional&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;eslint -c ./.eslintrc.transitional --no-error-on-unmatched-pattern&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
   &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -62,7 +62,10 @@ the rule so that it&amp;#39;s visible, I also modified the main config:&lt;/p&gt
 &lt;p&gt;Then, the secret sauce: in the same CI build step as where we run
 &lt;code&gt;eslint&lt;/code&gt; against our entire frontend codebase, I added a step
 where we run &lt;code&gt;lint:transitional&lt;/code&gt; only on files that have been
-changed in that particular branch.  &lt;code&gt;git&lt;/code&gt; to the rescue!&lt;/p&gt;
+changed in that particular branch.  &lt;code&gt;git&lt;/code&gt; to the rescue!  One hiccup
+we ran into is that deleted file paths were being checked, which caused
+&lt;code&gt;eslint&lt;/code&gt; to return an error code.  Adding &lt;code&gt;--no-error-on-unmatched-pattern&lt;/code&gt;
+resolved this issue.&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;c&quot;&gt;# get a list of js/ts files that are different from master&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;# at the merge-base&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;DIFFED_FILES_TO_LINT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;git diff master... &lt;span class=&quot;nt&quot;&gt;--name-only&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;*.ts&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;*.tsx&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;*.js&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;*.jsx&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;

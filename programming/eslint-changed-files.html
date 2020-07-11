@@ -179,7 +179,7 @@ the rule so that it&#39;s visible, I also modified the main config:</p>
 <code>package.json</code>:</p>
 <div class="highlight"><pre><code class="language-json" data-lang="json"><span class="p">{</span><span class="w">
   </span><span class="s2">"scripts"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="s2">"lint:transitional"</span><span class="p">:</span><span class="w"> </span><span class="s2">"eslint -c ./.eslintrc.transitional"</span><span class="w">
+    </span><span class="s2">"lint:transitional"</span><span class="p">:</span><span class="w"> </span><span class="s2">"eslint -c ./.eslintrc.transitional --no-error-on-unmatched-pattern"</span><span class="w">
   </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div>
@@ -188,7 +188,10 @@ the rule so that it&#39;s visible, I also modified the main config:</p>
 <p>Then, the secret sauce: in the same CI build step as where we run
 <code>eslint</code> against our entire frontend codebase, I added a step
 where we run <code>lint:transitional</code> only on files that have been
-changed in that particular branch.  <code>git</code> to the rescue!</p>
+changed in that particular branch.  <code>git</code> to the rescue!  One hiccup
+we ran into is that deleted file paths were being checked, which caused
+<code>eslint</code> to return an error code.  Adding <code>--no-error-on-unmatched-pattern</code>
+resolved this issue.</p>
 <div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="c"># get a list of js/ts files that are different from master</span>
 <span class="c"># at the merge-base</span>
 <span class="nv">DIFFED_FILES_TO_LINT</span><span class="o">=</span><span class="k">$(</span>git diff master... <span class="nt">--name-only</span> <span class="nt">--</span> <span class="s2">"*.ts"</span> <span class="s2">"*.tsx"</span> <span class="s2">"*.js"</span> <span class="s2">"*.jsx"</span><span class="k">)</span>
