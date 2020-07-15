@@ -2,7 +2,7 @@
   "basics": {
     "name": "Jeffrey Auriemma",
     "label": "Software Engineer && Manager",
-    "summary": "My colleagues would describe me as outgoing, personable and passionate about great software and frictionless user experiences. Developing software is hard and expensive, but conversation is easy and cheap. In the planning process, I try to be a part of the conversation early to get a handle on the business case for the feature. This helps my team deliver software that has the highest impact at the lowest cost possible.  As a former teacher and musician, I know how important communication and creativity are to the success of the group. This has been a key influence on my style as a manager, mentor, and contributor to a variety of projects across a variety of systems during my career.",
+    "summary": "My coworkers would describe me as outgoing, personable and passionate. In the planning process, I try to be a part of product decision-making early to get a handle on the business case for the feature. This helps me deliver software that has the highest impact at the lowest cost possible, anywhere on the stack. While crafting software, I often refer to prior art when justifying design choices.\n\nAs a former teacher and musician, I know how important communication, defined roles, and creativity are to the success of the team. I've managed a small engineering team successfully using these principles. An ideal position would combine IC and leadership responsibilities.",
     "website": "https://jdauriemma.com",
     "email": "jeff@auriemma.xyz",
     "location": {
@@ -23,12 +23,14 @@
   "work": [
     {
       "company": "Handshake",
-      "position": "Senior Software Engineer",
+      "position": "Senior Software Engineer, Intern Manager",
       "startDate": "2019-08-26",
       "summary": "",
       "highlights": [
+        "Design software architecture and implementation plans for user-facing features using PostgreSQL, ElasticSearch, Google Cloud, Ruby on Rails, TypeScript, and React for a product with over 20 million users",
+        "Mentor, onboard, evaluate, and support a software engineering intern",
+        "Serve in the primary on-call rotation, responsible for ensuring prompt resolution of production incidents at all hours",
         "Design and document Ruby and TypeScript architecture for text translations and date/time formatting to support international expansion on a fixed timeline",
-        "Work with marketing and product stakeholders to implement an MVP referral program through a vendor, driving direct-to-consumer cost per acquisition downward",
         "Support transition from Enzyme to React Testing Library by helping to give a component unit testing workshop for colleagues",
         "Give talks on product and general software engineering topics for engineering, design, and product peers"
       ]
@@ -88,7 +90,6 @@
     },
     {
       "company": "Discovery Education",
-      "website": "https://discoveryeducation.com",
       "position": "Junior Front End Developer",
       "startDate": "2014-07-01",
       "endDate": "2015-07-31",
@@ -160,26 +161,26 @@
         "React",
         "Web Audio API",
         "Media Streams",
-        "Jest",
         "Angular.js",
         "jQuery",
         "CSS/SVG/SMIL animations"
       ]
     },
     {
-      "name": "Server development",
+      "name": "Backend development",
       "level": "",
       "keywords": [
         "Node.js",
         "Ruby",
         "Rails",
-        "RSpec",
         "PostgreSQL",
+        "ElasticSearch",
         "GraphQL",
         "Socket.io",
         "WebRTC",
         "Webpack",
-        "Babel"
+        "Babel",
+        "Google Cloud"
       ]
     },
     {
