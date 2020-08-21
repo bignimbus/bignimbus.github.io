@@ -5,9 +5,31 @@
     <description>thoughts on code, music, misc.</description>
     <link>https://jdauriemma.com/</link>
     <atom:link href="https://jdauriemma.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Jul 2020 02:55:15 +0000</pubDate>
-    <lastBuildDate>Wed, 15 Jul 2020 02:55:15 +0000</lastBuildDate>
+    <pubDate>Fri, 21 Aug 2020 04:30:35 +0000</pubDate>
+    <lastBuildDate>Fri, 21 Aug 2020 04:30:35 +0000</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      
+      <item>
+        <title>A low-friction way to do TDD with React</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/tdd-react.png&quot; alt=&quot;A low-friction way to do TDD with React&quot;&gt;&lt;p&gt;I had the honor of writing an article for LogRocket about Using
+React Testing Library to do TDD in a React app.
+&lt;a href=&quot;https://blog.logrocket.com/a-low-friction-way-to-do-tdd-with-react/&quot;&gt;Read it here&lt;/a&gt;!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 21 Aug 2020 04:27:00 +0000</pubDate>
+        <link>https://jdauriemma.com/programming/a-low-friction-way-to-do-tdd-with-react</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/a-low-friction-way-to-do-tdd-with-react</guid>
+        
+        <category>react</category>
+        
+        <category>tdd</category>
+        
+        <category>javascript</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
     
       
       <item>
@@ -2285,106 +2307,6 @@ I'm not that innocent&quot;
         <pubDate>Sat, 02 Aug 2014 06:00:00 +0000</pubDate>
         <link>https://jdauriemma.com/music/if-bach-wrote-oops-i-did-it-again</link>
         <guid isPermaLink="true">https://jdauriemma.com/music/if-bach-wrote-oops-i-did-it-again</guid>
-        
-        <category>ifbachwrote</category>
-        
-        <category>music</category>
-        
-        
-        <category>music</category>
-        
-      </item>
-    
-      
-      <item>
-        <title>If Bach Wrote Don't Stop Believin'</title>
-        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/bach-journey.jpg&quot; alt=&quot;If Bach Wrote Don't Stop Believin'&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;
-&quot;Just a small town girl  
-
-Living in a lonely world  
-
-She took the midnight train  
-
-Going anywhere&quot;  
-
-          -Journey  
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Admit it, you were singing along! Not to dismiss the importance of good lyrics, I&amp;#39;ve always been more attached to melodies, harmonies and bass lines than lead vocals; I learned all the notes in this song long before I knew all the words. Whether you love Journey&amp;#39;s lyrics, instrumentals, or hate Journey entirely, I hope that you enjoy this version of &amp;quot;If Bach Wrote.&amp;quot;&lt;/p&gt;
-
-&lt;h3 id=&quot;full-audio&quot;&gt;Full Audio&lt;/h3&gt;
-
-&lt;audio class=&quot;site-player&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;
-  
-  &lt;source src=&quot;/assets/audio/001IfBachWroteDontStopBelievin.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
-  
-  &lt;source src=&quot;/assets/audio/001IfBachWroteDontStopBelievin.ogg&quot; type=&quot;audio/ogg&quot;&gt;
-  
-  &lt;span&gt;Your browser does not support the audio element.&lt;/span&gt;
-&lt;/audio&gt;
-
-&lt;h3 id=&quot;welcome-back&quot;&gt;Welcome back...&lt;/h3&gt;
-
-&lt;p&gt;To the second installment of &lt;a href=&quot;https://jdauriemma.com/tag/ifbachwrote/&quot;&gt;If Bach Wrote...&lt;/a&gt; (IBW). If Bach Wrote... (IBW) is a personal project of mine where I regularly pick an iconic tune from pop culture, extract melodic material from it, and compose a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;fugue&lt;/a&gt; with that melody as the &lt;a href=&quot;https://www3.northern.edu/wieland/theory/form/fugue.htm&quot;&gt;subject&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A handful of weeks ago I did a &lt;a href=&quot;http://en.wikipedia.org/wiki/Polyphony&quot;&gt;polyphonic&lt;/a&gt; treatment of Lil Jon and DJ Snake&amp;#39;s &lt;a href=&quot;https://jdauriemma.com/music/if-bach-wrote-turn-down-for-what&quot;&gt;&amp;quot;Turn Down for What&amp;quot;&lt;/a&gt; and was pleasantly surprised by the number of hits it got. People more or less had nice things to say about it, too. So, if you listened: thank you!&lt;/p&gt;
-
-&lt;h3 id=&quot;original&quot;&gt;Original&lt;/h3&gt;
-
-&lt;p&gt;First, you may want to &lt;a href=&quot;#score&quot;&gt;view the score&lt;/a&gt;. I&amp;#39;m convinced that all American citizens have this song tattooed on their brains, but just in case you want to hear it ooooone moooore tiiiiime, here&amp;#39;s a link to the &lt;a href=&quot;https://youtu.be/1k8craCGpgs&quot;&gt;original recording&lt;/a&gt;. I decided to take the left-hand half of the piano part from the intro as this fugue&amp;#39;s subject and answer.&lt;/p&gt;
-
-&lt;p&gt;In notation:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/legacy/Screen-Shot-2014-08-01-at-5.15.57-PM.png&quot; alt=&quot;IBW Don&amp;#39;t Stop Believin Subject&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;Subject, in E major: I V vi IV&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/legacy/Screen-Shot-2014-08-01-at-5.16.18-PM.png&quot; alt=&quot;IBW Don&amp;#39;t Stop Believin Answer&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;Tonal Answer, in E major: V ii-V42 IV V6&lt;/p&gt;
-
-&lt;p&gt;This fugue makes use of two countersubjects:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/legacy/Screen-Shot-2014-08-01-at-5.25.36-PM.png&quot; alt=&quot;Countersubject 1&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;Countersubject 1&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/legacy/Screen-Shot-2014-08-01-at-5.25.55-PM.png&quot; alt=&quot;Countersubject 2&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;Countersubject 2, free counterpoint thereafter&lt;/p&gt;
-
-&lt;p&gt;You may notice that Countersubject sounds a tiny bit like the right-hand piano part of the song - this was unintentional but welcome.&lt;/p&gt;
-
-&lt;p&gt;The exposition is strict with very little free counterpoint, so it&amp;#39;s over fairly quickly for a four-voice fugue. The development begins in measure 17. The subject is stated many times throughout the piece per se, in simplified rhythms, &lt;a href=&quot;http://composerstoolbox.wordpress.com/2011/09/26/tool-17-augmentation-and-diminution/&quot;&gt;augmented&lt;/a&gt;, and &lt;a href=&quot;http://en.wikipedia.org/wiki/Inversion_(music)&quot;&gt;inverted&lt;/a&gt;. I am particularly proud of measures 49-59, where the subject is iterated concurrently per se and in augmentation.&lt;/p&gt;
-
-&lt;p&gt;The tonal outline of the piece is:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;  (mm1) E major&lt;/li&gt;
-&lt;li&gt;  (mm~25) C# minor&lt;/li&gt;
-&lt;li&gt;  (mm35) A major&lt;/li&gt;
-&lt;li&gt;  (mm41) F# minor&lt;/li&gt;
-&lt;li&gt;  (mm45) A major&lt;/li&gt;
-&lt;li&gt;  (mm49) D major&lt;/li&gt;
-&lt;li&gt;  (mm53) C# minor (Not quite what Bach would do, but I couldn&amp;#39;t resist)&lt;/li&gt;
-&lt;li&gt;  (mm60) E major&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div id=&quot;score&quot;&gt;
-
-### View the score
-
-[View the full score here](https://www.noteflight.com/scores/view/19e01ff4d09ce892f791521745374d2d004f6197) on Noteflight.
-
-&lt;iframe src=&quot;https://www.noteflight.com/embed/19e01ff4d09ce892f791521745374d2d004f6197?scale=1&quot; style=&quot;width:100%;height:500px&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;tweet-me&quot;&gt;Tweet me!&lt;/h3&gt;
-
-&lt;p&gt;I&amp;#39;m on the Twitter: &lt;a href=&quot;https://twitter.com/jbones3000&quot;&gt;@jbones3000&lt;/a&gt;. Say hey!&lt;/p&gt;
-</description>
-        <pubDate>Sat, 02 Aug 2014 06:00:00 +0000</pubDate>
-        <link>https://jdauriemma.com/music/if-bach-wrote-dont-stop-believin</link>
-        <guid isPermaLink="true">https://jdauriemma.com/music/if-bach-wrote-dont-stop-believin</guid>
         
         <category>ifbachwrote</category>
         
