@@ -45,7 +45,7 @@ function * coords () {
 }
 ```
 
-In the same browser, this took up about one kilobyte of memory.  Because generator functions are evaluted only when they are incremented, you avoid having to store all of your data in memory.  This is called [lazy evaluation](http://odetocode.com/blogs/scott/archive/2015/03/09/lazy-evaluation-of-generators-in-es6.aspx), and it is key to understanding the fundamental difference between generators and traditional JavaScript objects.
+In the same browser, this took up about one kilobyte of memory.  Because generator functions are evaluted only when they are incremented, you avoid having to store all of your data in memory.  This is called lazy evaluation, and it is key to understanding the fundamental difference between generators and traditional JavaScript objects.
 
 Iterating over millions of data points will still consume considerable CPU resources, but the savings in memory can open up new possibilities.  The above code snippet is a generalized use case, but you may find the lazy evalution paradigm to be indispensible when working with large data sets on the client or in Node.
 

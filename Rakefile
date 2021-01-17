@@ -32,6 +32,7 @@ task :test do
     file_ignore: [/\d\d\d\.html/],
     url_ignore: [
       /https?:\/\/jdauriemma\.com.*/,
+      /https?:\/\/twitter\.com.*\/jbones3000/,
       /https?:\/\/www\.freeimages\.com.*/,
       /https:\/\/www\.pexels\.com\/photo\/laptop-on-white-desk-3740747\//
     ]
