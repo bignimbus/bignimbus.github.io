@@ -1,0 +1,1893 @@
+<!DOCTYPE html>
+
+
+<html>
+  
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicon/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-64x64.png" sizes="64x64">
+  <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="msapplication-TileImage" content="/assets/images/favicon/mstile-150x150.png">
+  <meta name="msapplication-square70x70logo" content="/assets/images/favicon/mstile-70x70.png">
+  <meta name="msapplication-square150x150logo" content="/assets/images/favicon/mstile-150x150.png">
+  <meta name="msapplication-square310x310logo" content="/assets/images/favicon/mstile-310x310.png">
+  <meta name="msapplication-wide310x150logo" content="/assets/images/favicon/mstile-310x150.png">
+  <title>Methodical UI: removing frustration from HTML and CSS development</title>
+  <meta name="description" content="A 7-step process for removing frustration from the process of developing UIs with HTML and CSS.">
+<meta property="thumbnail" content="https://jdauriemma.com/assets/images/featured/car-mirror.jpg">
+<meta property="og:title" content="Methodical UI: removing frustration from HTML and CSS development">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://jdauriemma.com/programming/methodical-html-css-development">
+<meta property="og:image" content="https://jdauriemma.com/assets/images/featured/car-mirror.jpg">
+<meta property="og:description" content="A 7-step process for removing frustration from the process of developing UIs with HTML and CSS.">
+<meta property="og:site_name" content="Jeffrey Auriemma's Blog">
+
+
+  <meta property="article:modified_time" content="2019-08-16T04:12:58+00:00">
+  <meta property="article:published_time" content="2019-08-16T04:12:58+00:00">
+  
+  
+  
+
+  
+  <meta property="og:see_also" content="https://jdauriemma.com/programming/a-few-uses-for-javascript-generators">
+  
+  
+    <meta property="og:see_also" content="https://jdauriemma.com/programming/eslint-changed-files">
+  
+
+
+
+  
+  <meta property="article:section" content="programming">
+  
+
+
+
+  
+  <meta property="article:tag" content="html">
+  
+  <meta property="article:tag" content="css">
+  
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@jbones3000">
+<meta name="twitter:title" content="Methodical UI: removing frustration from HTML and CSS development">
+<meta name="twitter:description" content="A 7-step process for removing frustration from the process of developing UIs with HTML and CSS.">
+<meta name="twitter:image" content="https://jdauriemma.com/assets/images/featured/car-mirror.jpg">
+<meta name="twitter:url" content="https://jdauriemma.com/programming/methodical-html-css-development">
+
+<link rel="canonical" href="https://jdauriemma.com/programming/methodical-html-css-development">
+<link rel="alternate" type="application/rss+xml" title="Jeffrey Auriemma's Blog" href="https://jdauriemma.com/feed.xml">
+<meta name="description" content="A 7-step process for removing frustration from the process of developing UIs with HTML and CSS.">
+
+
+
+<link rel="canonical" href="https://jdauriemma.com/programming/methodical-html-css-development">
+
+
+  <link rel="next" href="https://jdauriemma.com/misc/principles-for-remote-teams" title="Principles for an Effective Distributed Team">
+
+
+
+  <link rel="prev" href="https://jdauriemma.com/programming/modeling-redux-with-tla-plus" title="Hillel Wayne: Modeling Redux with TLA+">
+
+
+
+  <link href='https://fonts.googleapis.com/css?family=Cousine:400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="canonical" href="https://jdauriemma.com/programming/methodical-html-css-development">
+  <link rel="stylesheet" href="/assets/css/fork-awesome-1.0.1/css/fork-awesome.min.css">
+  <link rel="alternate" type="application/rss+xml" title="Jeffrey Auriemma's Blog" href="https://jdauriemma.com/feed.xml">
+  <style>
+body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,hr,dl,dd,ol,ul,figure{margin:0;padding:0}body{font:400 16px/1.5 "Cousine",Monaco,Consolas,"Lucida Console",monospace;color:#333;background-color:#fdfdfd;-webkit-text-size-adjust:100%;-webkit-font-feature-settings:"kern" 1;-moz-font-feature-settings:"kern" 1;-o-font-feature-settings:"kern" 1;font-feature-settings:"kern" 1;font-kerning:normal}h1,h2,h3,h4,h5,h6,p,blockquote,pre,ul,ol,dl,figure{margin-bottom:20px}img{max-width:100%;vertical-align:middle}figure>img{display:block}figcaption{font-size:14px}ul,ol{margin-left:30px}li>ul,li>ol{margin-bottom:0}h1,h2,h3,h4,h5,h6{font-weight:400}h2{line-height:1.1;padding-top:20px}h3{padding-top:16px}h4,h5,h6{padding-top:4px}blockquote{color:gray;border-left:4px solid #e6e6e6;padding-left:15px;font-size:18px;letter-spacing:-1px;font-style:italic}blockquote>:last-child{margin-bottom:0}pre,code{font-size:0.9rem;border-radius:3px}code{background:#eee;padding:1px 5px}pre{background-color:#eee;padding:8px 12px;overflow-x:auto}pre>code{background:transparent;border:0;padding-right:0;padding-left:0}.wrapper{max-width:-webkit-calc(800px - (30px * 2));max-width:calc(800px - (30px * 2));margin-right:auto;margin-left:auto;padding-right:30px;padding-left:30px}@media screen and (max-width: 800px){.wrapper{max-width:-webkit-calc(800px - (30px));max-width:calc(800px - (30px));padding-right:15px;padding-left:15px}}.wrapper:after,.footer-col-wrapper:after{content:"";display:table;clear:both}.icon>svg{display:inline-block;width:16px;height:16px;vertical-align:middle}.icon>svg path{fill:gray}@media screen and (max-width: 600px){html{font-size:14px}}.site-header{background:linear-gradient(to bottom, #ccc, #fff);min-height:56px;position:relative;text-align:center}@media screen and (max-width: 600px){.site-header .site-title{letter-spacing:-1px}}.blog-title{cursor:pointer;display:inline-block;font-size:1.5rem;text-decoration:none}.avatar{background:url("/assets/images/avatar.svg");background-repeat:no-repeat;background-size:contain;display:inline-block;height:56px;transition:transform 0.3s, -webkit-transform 0.3s;vertical-align:middle;width:56px}.site-nav{float:right;line-height:56px}.site-nav .menu-icon{display:none}.site-nav .page-link{color:#333;line-height:1.5}.site-nav .page-link:not(:last-child){margin-right:20px}@media screen and (max-width: 600px){.site-nav{background-color:#333;position:absolute;top:9px;right:15px;border:1px solid #e6e6e6;border-radius:5px;text-align:right}.site-nav .menu-icon{display:block;float:right;width:36px;height:26px;line-height:0;padding-top:10px;text-align:center}.site-nav .trigger{clear:both;display:none}.site-nav:hover .trigger{display:block;padding-bottom:5px}.site-nav .page-link{display:block;padding:5px 10px;margin-left:20px}.site-nav .page-link:not(:last-child){margin-right:0}}.home h2{text-align:center}.site-footer{background:linear-gradient(#fff, #ccc);color:#333;padding:30px 0;position:relative;z-index:1}.footer-heading{font-size:18px;margin-bottom:15px}.contact-list,.social-media-list,.related-posts>ul{list-style:none;margin-left:0;text-align:center}.social-media-list li{display:inline-block}.footer-col-wrapper{font-size:15px;color:gray;margin-left:-15px}.footer-col{float:left;margin-bottom:15px;padding-left:15px}.footer-col-1{width:-webkit-calc(35% - (30px / 2));width:calc(35% - (30px / 2))}.footer-col-2{width:-webkit-calc(20% - (30px / 2));width:calc(20% - (30px / 2))}.footer-col-3{width:-webkit-calc(45% - (30px / 2));width:calc(45% - (30px / 2))}@media screen and (max-width: 800px){.footer-col-1,.footer-col-2{width:-webkit-calc(50% - (30px / 2));width:calc(50% - (30px / 2))}.footer-col-3{width:-webkit-calc(100% - (30px / 2));width:calc(100% - (30px / 2))}}@media screen and (max-width: 600px){.footer-col{float:none;width:-webkit-calc(100% - (30px / 2));width:calc(100% - (30px / 2))}}.page-content,#main-content{box-sizing:border-box}#main-content{min-height:calc(100vh - 30px - 56px - 97px)}.page-content{overflow:hidden;padding:30px 0 0;position:relative}.related-posts li{display:inline-block;vertical-align:top;width:48%}@media screen and (max-width: 600px){.related-posts li{width:100%}}.post-list{margin-left:0;list-style:none}.post-list>li{box-shadow:0 3px 3px #ccc, 0 0 3px #ccc;clear:both;margin:0 auto 60px;padding:16px;position:relative;text-align:center;transition:box-shadow .3s;width:75%}.post-list>li:hover{box-shadow:0 16px 20px #ccc, 0 0 3px #ccc}@media screen and (max-width: 600px){.post-list>li{width:auto}}.post-list>li p{margin-top:8px;text-align:justify}.post-meta{font-size:14px;color:gray}.post-header{margin-bottom:30px}.post-title{line-height:1.3}.post-content{margin-bottom:30px}.post-content img{margin-bottom:15px}.thumb-container{background-position:center center;background-size:cover;height:100px;margin:0 auto 16px;position:relative;width:100px}.thumb-container img{height:102%;left:50%;margin:0;max-width:initial;position:absolute;top:49%;transform:translate(-50%, -50%);z-index:1}.thumb-container:after{background-image:radial-gradient(rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 45%, rgba(0,0,0,0.7) 100%);content:' ';display:block;height:100%;position:absolute;width:100%;z-index:0}.tags{color:#777;font-family:press-start;font-size:14px;letter-spacing:-1px;list-style-type:none;margin-left:0}.tags li{display:inline-block}.tags li a{border-bottom:0;color:#777;text-decoration:none}.featured-image-container{width:100%}.featured-image-container img{width:100%}.main-nav{text-align:center}.main-nav ul{align-items:center;box-sizing:border-box;display:flex;flex-flow:row wrap;justify-content:space-around}.main-nav li{border:2px solid #333;box-sizing:border-box;flex:0 1 125px;margin:16px 4px;min-width:20%;padding:4px}.site-player{margin:16px 0;width:100%}figure.music figcaption{font-style:italic}figure.music img{max-height:100px}.figures{display:flex;flex-wrap:wrap;margin:0 -4px;width:100%}.figures__figure{flex:1 1 362px;margin-left:4px}.figures__figure img{width:100%}.copyright{text-align:center}@keyframes slide{from{height:auto}to{height:1px}}@font-face{font-family:press-start;src:url("/assets/fonts/press-start/PressStart2P.eot");src:url("/assets/fonts/press-start/PressStart2P.ttf") format("truetype"),url("/assets/fonts/press-start/PressStart2P.woff") format("woff"),url("/assets/fonts/press-start/PressStart2P.eot#iefix") format("embedded-opentype")}h1,h2,h3,h4,h5,h6,.blog-tagline,.site-title{font-family:press-start;letter-spacing:-1px;vertical-align:middle}.blog-tagline{text-shadow:1px 2px 1px #333}h1{font-size:1.5rem}h2{font-size:1.35rem}h3{font-size:1.2rem}h4{font-family:"Cousine",Monaco,Consolas,"Lucida Console",monospace;font-size:1.1rem;font-weight:bold}h5{font-family:"Cousine",Monaco,Consolas,"Lucida Console",monospace;font-size:1rem;font-weight:bold}h6{font-family:"Cousine",Monaco,Consolas,"Lucida Console",monospace;font-size:0.9rem;font-weight:bold}p,li,pre,code{font-size:1rem}.blog-tagline{letter-spacing:0}.blog-tagline .color-0{color:#ff2313}.blog-tagline .color-1{color:#2869fd}.blog-tagline .color-2{color:#00c363}.blog-tagline .color-3{color:#fee04f}a{border-bottom:2px solid #333;text-decoration:none}a.no-underline,a.blog-title{border-bottom:0}.site-header .blog-title:after{display:none}.site-header a:after{z-index:0}.page-content a{color:#333}.page-content a.color-0{border-color:#ff2313}.page-content a.color-0:hover,.page-content a.color-0:active{color:#ff2313}.page-content a.color-1{border-color:#2869fd}.page-content a.color-1:hover,.page-content a.color-1:active{color:#2869fd}.page-content a.color-2{border-color:#00c363}.page-content a.color-2:hover,.page-content a.color-2:active{color:#00c363}.page-content a.color-3{border-color:#fee04f}.page-content a.color-3:hover,.page-content a.color-3:active{color:#fee04f}.page-content a:hover,.page-content a:active{color:#333}.site-footer a{border-bottom:0;color:#333;text-decoration:none}.highlight .hll{background-color:#ffc}.highlight .c{color:#8f5902;font-style:italic}.highlight .err{color:#a40000;border:1px solid #ef2929}.highlight .g{color:#000}.highlight .k{color:#204a87;font-weight:bold}.highlight .l{color:#000}.highlight .n{color:#000}.highlight .o{color:#ce5c00;font-weight:bold}.highlight .x{color:#000}.highlight .p{color:#000000;font-weight:bold}.highlight .cm{color:#8f5902;font-style:italic}.highlight .cp{color:#8f5902;font-style:italic}.highlight .c1{color:#8f5902;font-style:italic}.highlight .cs{color:#8f5902;font-style:italic}.highlight .gd{color:#a40000}.highlight .ge{color:#000000;font-style:italic}.highlight .gr{color:#ef2929}.highlight .gh{color:#000080;font-weight:bold}.highlight .gi{color:#00A000}.highlight .go{color:#000000;font-style:italic}.highlight .gp{color:#8f5902}.highlight .gs{color:#000000;font-weight:bold}.highlight .gu{color:#800080;font-weight:bold}.highlight .gt{color:#a40000;font-weight:bold}.highlight .kc{color:#204a87;font-weight:bold}.highlight .kd{color:#204a87;font-weight:bold}.highlight .kn{color:#204a87;font-weight:bold}.highlight .kp{color:#204a87;font-weight:bold}.highlight .kr{color:#204a87;font-weight:bold}.highlight .kt{color:#204a87;font-weight:bold}.highlight .ld{color:#000}.highlight .m{color:#0000cf;font-weight:bold}.highlight .s{color:#4e9a06}.highlight .na{color:#c4a000}.highlight .nb{color:#204a87}.highlight .nc{color:#000}.highlight .no{color:#000}.highlight .nd{color:#5c35cc;font-weight:bold}.highlight .ni{color:#ce5c00}.highlight .ne{color:#cc0000;font-weight:bold}.highlight .nf{color:#000}.highlight .nl{color:#f57900}.highlight .nn{color:#000}.highlight .nx{color:#000}.highlight .py{color:#000}.highlight .nt{color:#204a87;font-weight:bold}.highlight .nv{color:#000}.highlight .ow{color:#204a87;font-weight:bold}.highlight .w{color:#f8f8f8;text-decoration:none}.highlight .mf{color:#0000cf;font-weight:bold}.highlight .mh{color:#0000cf;font-weight:bold}.highlight .mi{color:#0000cf;font-weight:bold}.highlight .mo{color:#0000cf;font-weight:bold}.highlight .sb{color:#4e9a06}.highlight .sc{color:#4e9a06}.highlight .sd{color:#8f5902;font-style:italic}.highlight .s2{color:#4e9a06}.highlight .se{color:#4e9a06}.highlight .sh{color:#4e9a06}.highlight .si{color:#4e9a06}.highlight .sx{color:#4e9a06}.highlight .sr{color:#4e9a06}.highlight .s1{color:#4e9a06}.highlight .ss{color:#4e9a06}.highlight .bp{color:#3465a4}.highlight .vc{color:#000}.highlight .vg{color:#000}.highlight .vi{color:#000}.highlight .il{color:#0000cf;font-weight:bold}.show-menu{overflow-y:hidden}.show-menu .avatar{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.show-menu .page-content{height:calc(100vh - 56px);overflow-y:scroll}.show-menu .page-content>section:first-child{left:-100%;padding-top:30px;position:fixed;top:56px}.page-content:after{content:"";display:table;clear:both}.page-content>section{background:#fff;float:left;left:0;position:relative;top:0;width:100%}.page-content>section:first-child{transition:left 0.3s;z-index:2}.page-content>section:last-child{padding-top:30px;position:absolute;text-align:center;z-index:1}.page-content>section nav ul{list-style-type:none;margin-left:0}.main-nav li:nth-child(1n):hover,.main-nav li:nth-child(1n):active{border-color:#ff2313}.main-nav li:nth-child(2n):hover,.main-nav li:nth-child(2n):active{border-color:#2869fd}.main-nav li:nth-child(3n):hover,.main-nav li:nth-child(3n):active{border-color:#00c363}.main-nav li:nth-child(4n):hover,.main-nav li:nth-child(4n):active{border-color:#fee04f}.blog-tagline span{display:inline-block;transform:rotate(0);transition:transform .3s}.blog-tagline span:hover{transform:rotate(15deg)}nav.pagination{font-size:1.2rem;text-align:center}
+
+  </style>
+</head>
+
+  <body>
+    <header class="site-header">
+  <div class="wrapper">
+    <div
+      id="menu-button"
+      aria-pressed="false"
+      aria-label="toggle site menu"
+      tabindex="0"
+      role="button"
+      class="blog-title"
+    >
+      <span class="avatar"></span><span class="blog-tagline"><span class="color-0">b</span><span class="color-1">l</span><span class="color-2">o</span><span class="color-3">g</span></span>
+    </div>
+  </div>
+</header>
+
+    <div class="page-content">
+      <section id="main-content">
+        <div class="wrapper">
+          <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Methodical UI: removing frustration from HTML and CSS development</h1>
+    <p class="post-meta"><ul class="tags">
+  <li class="date">August 16, 2019</li>
+    <li class="category"><a href="/category/programming/"><span aria-label="category"><span aria-hidden="true">#</span></span>programming</a></li>
+  
+    <li><a href="/tag/html/"><span aria-label="tag"><span aria-hidden="true">.</span></span>html</a></li>
+  
+    <li><a href="/tag/css/"><span aria-label="tag"><span aria-hidden="true">.</span></span>css</a></li>
+  
+</ul>
+</p>
+    
+    <div class="featured-image-container">
+      <img src="/assets/images/featured/car-mirror.jpg" alt="Methodical UI: removing frustration from HTML and CSS development">
+    </div>
+    
+  </header>
+  <div class="post-content" itemprop="articleBody">
+    <p>Maybe you&#39;re a developer.  Maybe you&#39;re a designer.  Maybe
+you&#39;re a software project manager.  Chances are that you&#39;re dealing with
+at least a bit of HTML and/or CSS during a typical work week.  What&#39;s
+your workflow for that? If you&#39;re like most honest people, your answer
+is: &quot;it depends.&quot;  In the past, my workflow looked a bit like this:</p>
+
+<ol>
+<li>Do the thing</li>
+<li>Do another thing</li>
+<li>Thing 1 is messed up so I need to do it again but differently now</li>
+<li>Adjust spacing on thing 2</li>
+<li>The way I was gonna do the next thing is now not going to work for some reason</li>
+<li>Coffee</li>
+<li>I have a fantastic idea, it&#39;s gonna work</li>
+</ol>
+
+<p>...</p>
+
+<p>42. Done! Just don&#39;t ask how</p>
+
+<p>Maybe this sounds familiar? If it&#39;s working for you, that&#39;s great! The
+rest of this article is probably not for you. But if you&#39;re tired of tying your
+virtual shoelaces together, there are two ways to make this process less painful:</p>
+
+<ol>
+<li>Get better at HTML and CSS</li>
+<li>Structure your workflow to minimize having to go back and fix things that were working fine before</li>
+</ol>
+
+<p>Option 1 will work very well. Fluency with HTML and CSS will grant you much more
+command over the web browser and reduce the amount of times you run into
+dead ends in the development process. Improving your skills will also facilitate quick
+recovery from setbacks. But absent
+a reliable workflow, setbacks are still inevitable. In the swirling vortex of uncertainty
+that is user interface development, a structured approach is the key to sustainable,
+predictable, and manageable progress.</p>
+
+<h2 id="why-html-and-css-can-be-so-frustrating">Why HTML and CSS can be so frustrating</h2>
+
+<p>Let&#39;s get one thing out of the way: coding can be frustrating no matter what you&#39;re
+trying to build.  HTML and CSS, though, are frustrating in ways that are distinct
+from other software-creation tasks.  And that frustration isn&#39;t unique to a single
+type of worker.  If you&#39;re used to creating interfaces in a
+GUI or WYSIWYG such as those provided by Adobe, InVision, and others, using a text
+editor in order to express your ideas may feel cumbersome and opaque.
+If you&#39;re
+a software developer, you may be more comfortable creating things that operate
+in a world of black-and-white: either the program works according to spec or it
+doesn&#39;t.</p>
+
+<p>Remember, coding in HTML and CSS produces a
+formatted, styled document; coding in a programming language produces a program.
+Because these media are so different, it&#39;s only natural that folks who have put
+a lot of time into the latter might find the former to feel like a chore.</p>
+
+<p>That&#39;s not to say programming isn&#39;t difficult. Seasoned professionals can
+struggle for months trying to turn
+input X into output Y.  At the end of the day, though, programmers can
+rely on tools such as unit tests, integration tests, and end-to-end
+tests in order to remove uncertainty from the creative process.  If your
+test suite is well-written and all the tests pass, then the team can be
+fairly confident that the program meets its requirements.</p>
+
+<p>HTML and CSS offer no such comfort. Robust test suites for
+validating colors, fonts,
+positioning, and other peculiar aspects of user interfaces simply don&#39;t exist. Just as
+da Vinci couldn&#39;t ask a machine whether <em>Mona Lisa</em> was ready for the public - though I&#39;m
+sure he probably sketched such a machine at some point - UI developers must also determine
+the correctness of their work by manually inspecting it. Instead of a single canvas, however,
+we must check our work on a variety of media, any or all of: phones, tablets, laptops,
+desktops, screen readers, smart TVs and game consoles. The lack of computable acceptance
+criteria and the diversity of media that can view a hypertext document makes
+HTML and CSS a frustratingly imprecise art.</p>
+
+<p>There is no reason to despair, though. Despite HTML and CSS&#39;s limitations, we can borrow
+ideas from programming best practices in order to add structure to the UI development
+process. Whether you&#39;re a dyed-in-the-wool front-end developer,
+a hobbyist, a designer who dabbles, or a project manager that needs to ship an A/B test every
+now and then, a methodical approach can keep you reasonably certain that the code you&#39;re
+writing now is not messing up the code you&#39;ve already written.</p>
+
+<h2 id="what-you-need-to-know">What you need to know</h2>
+
+<p>A methodical approach to HTML and CSS development rests on a foundational understanding of
+CSS&#39;s <code>display</code> property. I cannot overstate how important this concept is. As a quick
+refresher, here&#39;s to what I&#39;m referring:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.my-element</span> <span class="p">{</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Though <code>block</code> is one of many possible values that can be assigned to an element&#39;s
+<code>display</code> property, we will focus on <code>inline</code> and <code>block</code> (including &quot;block-like&quot;)
+elements.</p>
+
+<h3 id="inline-elements">Inline elements</h3>
+
+<p>Inline elements can be simply described as &quot;linear.&quot; By default, they will take as much
+horizontal space as necessary until reaching the maximum width allowed by their container,
+at which point they will overflow into a line break (by default). Conceptually, inline
+elements have no set height or width; instead, they will take up only the space that
+they require.</p>
+
+<div class="figures">
+  <figure class="figures__figure">
+    <img
+      async=on
+      alt="horizontal rectangles wrapping to two lines"
+      src="/assets/images/posts/methodical-html-css-development/inline.svg"
+      style="display: block; margin-left: auto; margin-right: auto; max-width: 350px;"
+    />
+    <figcaption style="text-align: center;">
+      <span style="font-style: italic;">
+        A representation of inline content wrapping to a new line
+      </span>
+    </figcaption>
+  </figure>
+</div>
+
+<h3 id="block-elements">Block elements</h3>
+
+<p>Block elements are not linear; in fact, they are rectangles. As such, they often behave
+more intuitively than inline elements in the web browser, which is an inherently
+two-dimensional medium. These types of elements are the ones that respect
+the
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model">CSS box model</a>:
+they have defined width, height, positioning, and spacing.</p>
+
+<div class="figures">
+  <figure class="figures__figure">
+    <img
+      async=on
+      alt="horizontal rectangles wrapping to two lines"
+      src="https://mdn.mozillademos.org/files/13647/box-model-standard-small.png"
+      style="display: block; margin-left: auto; margin-right: auto; max-width: 500px;"
+    />
+    <figcaption style="text-align: center;">
+      <span style="font-style: italic;">
+        The CSS Box Model.<br>
+        Attribution: <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model">Mozilla Contributors</a>
+      </span>
+    </figcaption>
+  </figure>
+</div>
+
+<h3 id="caveat-emptor">Caveat emptor</h3>
+
+<p>Well, that was simple, right? Inline is <em>like a line</em> and block is <em>like a box</em>. As a
+reminder, though: there
+are many other possible values for <code>display</code>. A few possibilities include:
+<code>inline-block</code>, <code>table</code>, <code>flex</code>, <code>grid</code>, and <code>inline-flex</code>.
+These types of elements, however, will
+generally fall under one of the two semantic categories we previously discussed.
+According to the
+<a href="https://www.w3.org/TR/css-display-3/#the-display-properties">W3C spec</a>, CSS3&#39;s
+<code>display</code> property is overloaded. There are <em>inner display types</em> and
+<em>outer display types</em>. In most cases, your favorite <code>display</code> value is actually <code>block</code> on
+the outside and something else on the inside (<code>flex</code> is the poster child for this).
+To complicate things further, there are six types of <code>display</code>
+values: outside, inside, listitem, internal, box, and legacy. Please feel free to spend
+the rest of your day nerding out inside the W3C spec but we have a job to do, so
+let&#39;s move on. Suffice it to say that, despite the diversity in the CSS3 specification for
+<code>display</code>, boiling down our process to <code>inline</code> and <code>block</code> elements is sufficient for all
+but the most arcane of edge cases.</p>
+
+<h3 id="inline-vs-block-idioms">Inline vs. block idioms</h3>
+
+<p>I said before that understanding inline vs. block is the foundational principle of this method.
+Now let&#39;s dive a little deeper into the types of properties that are idiomatic of these
+elements, then we&#39;ll unpack what this means for your user interface development workflow.</p>
+
+<table id="idiomatic-properties-of-element-types" style="width: 100%;">
+  <thead>
+    <tr>
+      <th colspan="2">
+        <strong>Idiomatic properties of element types:</strong>
+      </th>
+    </tr>
+    <tr>
+      <th style="width: 50%;">
+        Inline
+      </th>
+      <th style="width: 50%;">
+        Block
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <ul>
+          <li><code>font*</code></li>
+          <li><code>line-height</code></li>
+          <li><code>color</code></li>
+          <li><code>letter-spacing</code></li>
+          <li><code>text-decoration</code></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><code>background-color</code></li>
+          <li><code>border</code></li>
+          <li><code>bottom | left | right | top</code></li>
+          <li><code>flex</code></li>
+          <li><code>height</code></li>
+          <li><code>margin</code></li>
+          <li><code>padding</code></li>
+          <li><code>position</code></li>
+          <li><code>text-align</code></li>
+          <li><code>transform</code></li>
+          <li><code>width</code></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Now what do we mean when we say &quot;idiomatic?&quot; It&#39;s not like you can&#39;t declare a <code>color</code>
+inside a block-level element, after all. The big idea to take away from this
+not-at-all-exhaustive chart is that block-level elements should be selected for styles
+that target properties of boxes, and inline-level elements should be selected for styles
+that target properties of lines of content (usually text). Adding non-idiomatic
+styles to a given element will create conditions that are ripe for having to go back
+and fix something later.</p>
+
+<h2 id="buttons-media-and-form-elements-are-block-elements">Buttons, media, and form elements are block elements</h2>
+
+<p>You heard me.  User agents typically give these types of elements specialized
+<code>display</code> values, but developers should be wary of passively accepting these
+browser-assigned defaults.  Since we expect images, inputs, and videos to have
+height, width, and to behave predictably in a layout that supports multiple screen
+sizes, the only sensible course of action is to treat these elements as plain
+ol&#39; block elements.</p>
+
+<div class="figures">
+  <figure class="figures__figure">
+    <img
+      async=on
+      alt="CSS values displayed in the dev tools element inspector"
+      src="/assets/images/posts/methodical-html-css-development/ua-stylesheet.jpg"
+      style="display: block; margin-left: auto; margin-right: auto; max-width: 500px;"
+    />
+    <figcaption style="text-align: center;">
+      <span style="font-style: italic;">
+        Chromium 76 UA stylesheet values for an HTML button
+      </span>
+    </figcaption>
+  </figure>
+</div>
+
+<h2 id="methodical-ui-in-seven-steps">Methodical UI in seven steps</h2>
+
+<p>With our inline vs. block distinction fresh in our minds, let&#39;s walk through seven steps
+that will guide us through UI development using HTML and CSS with minimal frustration.
+For the purposes of this example, I will be using
+<a href="https://reactjs.org/docs/introducing-jsx.html">React with JSX</a>.
+It&#39;s very similar to HTML so hopefully nothing gets lost in translation.</p>
+
+<h3 id="example-spec">Example spec</h3>
+
+<p>We will be using this simple design comp as our &quot;spec&quot; to implement using our seven steps.
+Behold:</p>
+
+<figure>
+  <div style="display: flex; flex-wrap: wrap">
+    <section>
+      <img
+        async=on
+        style="display: block; max-height: 300px"
+        alt="Cat with text on a small screen"
+        src="/assets/images/posts/methodical-html-css-development/mobile-comp.jpg"
+      >
+    </section>
+    <section>
+      <img
+        async=on
+        style="display: block; max-height: 300px"
+        alt="Cat with text on a large screen"
+        src="/assets/images/posts/methodical-html-css-development/desktop-comp.jpg"
+      >
+    </section>
+  </div>
+  <figcaption style="text-align: center">
+    <span style="font-style: italic">
+      Ersatz design comp featuring my cat
+    </span>
+  </figcaption>
+</figure>
+
+<p>For simplicity&#39;s sake, we won&#39;t be listing all the different quantitative values like
+<code>font-size</code> - just trust that we&#39;re using the &quot;correct&quot; values in the following demonstration.</p>
+
+<h3 id="step-1-content">Step 1: Content</h3>
+
+<p>Get all the content on the page, with the bare minimum of markup necessary.
+Media tags and form element tags will be necessary, but nothing more - we
+simply want to write no more HTML than is absolutely necessary to display
+the elements with which we will be working.</p>
+<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./pepper.jpg</span><span class="dl">'</span><span class="p">;</span>
+
+<span class="kd">const</span> <span class="nx">App</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="p">(</span>
+    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">img</span>
+        <span class="na">src</span><span class="p">=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
+        <span class="na">alt</span><span class="p">=</span><span class="s">'Pepper'</span>
+      <span class="p">/&gt;</span>
+      Pepper
+      Pepper is a domestic shorthair.  This is funny because she has
+      long hair in real life.  She enjoys being pet until she's done with
+      that and bites me.  She also seems to like meetings, because she
+      joins almost all of them.
+      <span class="p">&lt;</span><span class="nt">button</span>
+        <span class="na">type</span><span class="p">=</span><span class="s">'button'</span>
+      <span class="p">&gt;</span>
+        Pet Pepper
+      <span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">);</span>
+<span class="p">};</span>
+
+<span class="k">export</span> <span class="k">default</span> <span class="nx">App</span><span class="p">;</span>
+</code></pre></div>
+<p>This sounds simple, but your spec may contain dynamic content. If that is the case with
+your feature, the least-disruptive choice would be to hardcode the most complex
+content that is possible given the requirements.</p>
+
+<p>By getting your final (or one possible version of the final) content all on the page, we
+ensure that we are not forgetting anything.  Include any content
+that is breakpoint-specific; if something is shown on wide screens but not small screens,
+include it on the page here. We can work on media queries and hide/show logic later in
+the process.</p>
+
+<h3 id="step-2-semantics">Step 2: Semantics</h3>
+
+<p>Enclose content in semantic HTML tags.  Don&#39;t worry about layout considerations -
+this is where we add anchors, headings, paragraphs, lists, and tables.</p>
+<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./pepper.jpg</span><span class="dl">'</span><span class="p">;</span>
+
+<span class="kd">const</span> <span class="nx">App</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="p">(</span>
+    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">img</span>
+        <span class="na">src</span><span class="p">=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
+        <span class="na">alt</span><span class="p">=</span><span class="s">'Pepper'</span>
+      <span class="p">/&gt;</span>
+      <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>
+        Pepper
+      <span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+        Pepper is a domestic shorthair.  This is funny because she has
+        long hair in real life.  She enjoys being pet until she's done with
+        that and bites me.  She also seems to like meetings, because she
+        joins almost all of them.
+      <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span>
+        <span class="na">type</span><span class="p">=</span><span class="s">'button'</span>
+      <span class="p">&gt;</span>
+        Pet Pepper
+      <span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">);</span>
+<span class="p">};</span>
+
+<span class="k">export</span> <span class="k">default</span> <span class="nx">App</span><span class="p">;</span>
+</code></pre></div>
+<p>Note that we have enclosed the heading text inside an <code>h2</code> tag and the copy text
+inside a <code>p</code> tag.  In so doing, we are making strides toward
+valid and accessible markup.  These tags will be consistent across all breakpoints,
+so there is no need to consider responsiveness at this time.</p>
+
+<h2 id="step-3-layout">Step 3: Layout</h2>
+
+<p>This step is a bit more involved.  We will organize our semantic markup into the
+appropriate layout-oriented tags in order to set ourselves up for success when
+we begin adding stylesheets.  Identify which parts of your markup could be considered
+headers, sections, footers, navigation elements, articles, etc. and wrap them
+in the
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning">appropriate semantic HTML tag</a>.
+Be deliberate about choosing which tag to use, and feel free to use <code>&lt;div&gt;</code> if no
+semantic purpose is evident.  Follow these directives for best results:</p>
+
+<ol>
+<li>Focus on the smallest supported screen width and don&#39;t worry about CSS yet.  The
+page will still look incomplete throughout this step.</li>
+<li><p><span id="media-markup">Media</span> and interactive elements such as images,
+videos, inputs, and selects
+must be wrapped in at least one <code>div</code>.  When in
+doubt, use more wrappers than necessary.  Positioning media elements can be tricky
+down the line, and you&#39;ll be doing yourself a favor by giving yourself some containers
+to work with, ensuring the best fit for your media on a variety of screen sizes.</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- not recommended --&gt;</span>
+<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/foo.jpg"</span> <span class="nt">/&gt;</span>
+
+<span class="c">&lt;!-- recommended --&gt;</span>
+<span class="nt">&lt;section&gt;</span> <span class="c">&lt;!-- will be used to position the element in the document flow --&gt;</span>
+  <span class="nt">&lt;div&gt;</span> <span class="c">&lt;!-- will be used to constrain / crop / letterbox the media to the desired size --&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/foo.jpg"</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/section&gt;</span>
+</code></pre></div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- not recommended --&gt;</span>
+<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"foo"</span><span class="nt">&gt;</span>Foo<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">name=</span><span class="s">"foo"</span> <span class="na">id=</span><span class="s">"foo"</span> <span class="nt">/&gt;</span>
+
+<span class="c">&lt;!-- recommended --&gt;</span>
+<span class="nt">&lt;div&gt;</span>
+  <span class="nt">&lt;section&gt;</span>
+    <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"foo"</span><span class="nt">&gt;</span>Foo<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;/section&gt;</span>
+  <span class="nt">&lt;section&gt;</span>
+    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">name=</span><span class="s">"foo"</span> <span class="na">id=</span><span class="s">"foo"</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;/section&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></li>
+<li><p>Text nodes must be direct descendants of inline elements and must never be direct
+descendants of block elements.  Remember that inline and block elements are fundamentally
+different and should be styled as such.  We will style the text content using
+a selector given to the <code>span</code> (inline) element, and we will style the box surrounding
+that text via a selector assigned to the <code>h1</code> (block) element:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- not recommended --&gt;</span>
+<span class="nt">&lt;h1&gt;</span>
+  Foo
+<span class="nt">&lt;/h1&gt;</span>
+
+<span class="c">&lt;!-- recommended --&gt;</span>
+<span class="nt">&lt;h1&gt;</span>
+  <span class="nt">&lt;span&gt;</span>
+    Foo
+  <span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;/h1&gt;</span>
+</code></pre></div>
+<p>For clarity&#39;s sake, <code>Foo</code> is considered a
+<a href="https://developer.mozilla.org/en-US/docs/Web/API/Text"><em>text node</em></a>.  It&#39;s
+not quite an HTML element, but it is an entity inside the
+<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">DOM</a>.
+When I refer to <em>text nodes</em>, I simply am talking about text content inside
+HTML elements.</p></li>
+<li><p>Sibling elements should never have different <code>display</code> values.  In other words,
+don&#39;t put an <code>inline</code> element next to a <code>block</code> element:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- not recommended --&gt;</span>
+<span class="nt">&lt;div&gt;</span>
+  <span class="nt">&lt;section&gt;</span> <span class="c">&lt;!-- block sibling --&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/bar.png"</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;/section&gt;</span>
+  <span class="nt">&lt;span&gt;</span> <span class="c">&lt;!-- inline sibling --&gt;</span>
+    Bar
+  <span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="c">&lt;!-- recommended --&gt;</span>
+<span class="nt">&lt;div&gt;</span>
+  <span class="nt">&lt;section&gt;</span> <span class="c">&lt;!-- block sibling --&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/bar.png"</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;/section&gt;</span>
+  <span class="nt">&lt;section&gt;</span> <span class="c">&lt;!-- block sibling --&gt;</span>
+    <span class="nt">&lt;span&gt;</span>
+      Bar
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/section&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></li>
+<li><p>A <span id="button-markup">button</span> must have a direct
+descendant that is a <code>div</code>, and that <code>div</code> should
+contain all content inside the button.  We will almost always position that <code>div</code>
+absolutely so that the content of the button doesn&#39;t produce any unexpected layout
+changes.  In other words, we&#39;re making sure if the button breaks, nothing
+else will break as a result:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- not recommended --&gt;</span>
+<span class="nt">&lt;button&gt;</span>
+  Tap me
+<span class="nt">&lt;/button&gt;</span>
+
+<span class="c">&lt;!-- recommended --&gt;</span>
+<span class="nt">&lt;button&gt;</span>
+  <span class="nt">&lt;div&gt;</span>
+    <span class="nt">&lt;span&gt;</span>
+      Tap me
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/button&gt;</span>
+</code></pre></div></li>
+</ol>
+
+<p>Here&#39;s our source code so far:</p>
+<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./pepper.jpg</span><span class="dl">'</span><span class="p">;</span>
+
+<span class="kd">const</span> <span class="nx">App</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="p">(</span>
+    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">img</span>
+              <span class="na">src</span><span class="p">=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
+              <span class="na">alt</span><span class="p">=</span><span class="s">'Pepper'</span>
+            <span class="p">/&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">header</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">span</span><span class="p">&gt;</span>
+                Pepper
+              <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">header</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">span</span><span class="p">&gt;</span>
+                Pepper is a domestic shorthair.  This is funny because she has
+                long hair in real life.  She enjoys being pet until she's done with
+                that and bites me.  She also seems to like meetings, because she
+                joins almost all of them.
+              <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">footer</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">button</span>
+                  <span class="na">type</span><span class="p">=</span><span class="s">'button'</span>
+                <span class="p">&gt;</span>
+                  <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+                    <span class="p">&lt;</span><span class="nt">span</span><span class="p">&gt;</span>
+                      Pet Pepper
+                    <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+                  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+                <span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+              <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">footer</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">);</span>
+<span class="p">};</span>
+
+<span class="k">export</span> <span class="k">default</span> <span class="nx">App</span><span class="p">;</span>
+</code></pre></div>
+<div class="figures">
+  <figure class="figures__figure">
+    <img
+      async=on
+      alt="screenshot of UI after step 3"
+      src="/assets/images/posts/methodical-html-css-development/wip.jpg"
+    />
+    <figcaption style="text-align: center;">
+      <span style="font-style: italic;">
+        Our UI after step 3
+      </span>
+    </figcaption>
+  </figure>
+</div>
+
+<p>The next step is where we begin using CSS.  Word to the wise: <strong>target
+the smallest supported screen size only</strong> during this and subsequent
+steps.  We will add styles for larger screen sizes eventually, but
+this method works best when you complete your small-screen styles first
+and then work your way up to the largest supported screen size.  This
+encourages the developer to confine larger-screen styles inside media
+query scopes, thus reducing the likelihood of having to modify
+previously-written code that was working properly.</p>
+
+<h2 id="step-4-style-inline-elements">Step 4: Style inline elements</h2>
+
+<p>For the smallest supported screen size only, ensure all inline elements are
+styled according to the specification.  Font properties, letter spacing,
+line heights, and colors are all fair game.  The
+<a href="#idiomatic-properties-of-element-types">table</a> earlier in this article
+is a useful resource.</p>
+
+<p>Because we are targeting only these types of styles, it should become more
+apparent why we enclose all text nodes inside a <code>span</code> element:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- not recommended --&gt;</span>
+<span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"heading"</span><span class="nt">&gt;</span>
+  Hello world!
+<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;style&gt;</span>
+<span class="nc">.heading</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#333</span><span class="p">;</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="s2">'Open Sans'</span><span class="p">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">36px</span><span class="p">;</span>
+  <span class="nl">font-weight</span><span class="p">:</span> <span class="nb">bold</span><span class="p">;</span>
+  <span class="nl">letter-spacing</span><span class="p">:</span> <span class="m">1.5px</span><span class="p">;</span>
+  <span class="nl">line-height</span><span class="p">:</span> <span class="m">1.35</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">8px</span> <span class="m">16px</span><span class="p">;</span>
+  <span class="nl">text-align</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">&lt;/style&gt;</span>
+</code></pre></div>
+<p>By putting nine rules inside the <code>.heading</code> selector, we have
+obscured its purpose.  Both the descendant inline text node and
+its containing <code>h1</code> block are being styled and are therefore
+coupled with one another unnecessarily.  We can resolve this issue
+by adding a <code>span</code>:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- recommended --&gt;</span>
+<span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"heading"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"text text--xl"</span><span class="nt">&gt;</span>
+    Hello world!
+  <span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;style&gt;</span>
+<span class="nc">.text</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#333</span><span class="p">;</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="s2">'Open Sans'</span><span class="p">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+  <span class="nl">line-height</span><span class="p">:</span> <span class="m">1.35</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--xl</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">36px</span><span class="p">;</span>
+  <span class="nl">font-weight</span><span class="p">:</span> <span class="nb">bold</span><span class="p">;</span>
+  <span class="nl">letter-spacing</span><span class="p">:</span> <span class="m">1.5px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.heading</span> <span class="p">{</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">8px</span> <span class="m">16px</span><span class="p">;</span>
+  <span class="nl">text-align</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">&lt;/style&gt;</span>
+</code></pre></div>
+<p>By making our selectors more terse and separating the concerns of
+inline vs block styles, we make the stylesheet more readable in a
+way that suggests an intuitive markup structure.  In other words,
+I can read the HTML and have a good clue as to what the CSS is like
+and I can read the CSS and have a good clue as to what the HTML is
+like.</p>
+
+<p>With that principle in mind, let&#39;s take a look at our source code
+now:</p>
+<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./pepper.jpg</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="dl">'</span><span class="s1">./App.css</span><span class="dl">'</span><span class="p">;</span>
+
+<span class="kd">const</span> <span class="nx">App</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="p">(</span>
+    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">img</span>
+              <span class="na">src</span><span class="p">=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
+              <span class="na">alt</span><span class="p">=</span><span class="s">'Pepper'</span>
+            <span class="p">/&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">header</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--copy text--lg'</span><span class="p">&gt;</span>
+                Pepper
+              <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">header</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--copy text--sm'</span><span class="p">&gt;</span>
+                Pepper is a domestic shorthair.  This is funny because she has
+                long hair in real life.  She enjoys being pet until she's done with
+                that and bites me.  She also seems to like meetings, because she
+                joins almost all of them.
+              <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">footer</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">button</span>
+                  <span class="na">type</span><span class="p">=</span><span class="s">'button'</span>
+                <span class="p">&gt;</span>
+                  <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+                    <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--md'</span><span class="p">&gt;</span>
+                      Pet Pepper
+                    <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+                  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+                <span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+              <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">footer</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">);</span>
+<span class="p">};</span>
+
+<span class="k">export</span> <span class="k">default</span> <span class="nx">App</span><span class="p">;</span>
+</code></pre></div><div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.text</span> <span class="p">{</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="s2">'Open Sans'</span><span class="p">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+  <span class="nl">line-height</span><span class="p">:</span> <span class="m">1.5</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--copy</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#333</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--sm</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">16px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--md</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--lg</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">24px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="step-5-style-media-and-interactive-elements">Step 5: Style media and interactive elements</h2>
+
+<p>Buttons, images, videos, inputs, selects, and other types of interactive
+elements aren&#39;t inline elements, nor are they used to structure larger
+layout patterns like some of the more conventional block elements.
+Because these elements are so crucial to building web applications, they
+can also be finicky and inconsistent from browser to browser.  Be sure to
+follow the guidelines set forth earlier in this article with regard to
+<a href="#button-markup">button</a> and <a href="#media-markup">media</a> markup structure.</p>
+
+<p>Getting down into the details of all the possibilities here might make this
+already-long article even longer, so I will save that subtopic for a
+future post.  Image/media positioning is a fairly well-tread subject in the
+community so I&#39;m confident you as the reader will navigate that successfully.
+I would, however, like to get in a word about buttons.  As a refresher,
+let&#39;s take a look at a sample button:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"button__content-container"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"text text--white text--sm"</span><span class="nt">&gt;</span>
+      Tap Me
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/button&gt;</span>
+</code></pre></div>
+<p>This seems like an awful lot of pomp for a simple button.  But what happens
+if we simplify it?  I mean, how bad could the following be?</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"text text--white text--sm"</span><span class="nt">&gt;</span>
+    Tap Me
+  <span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;/button&gt;</span>
+</code></pre></div>
+<p>The answer lies in what happens with your dynamic content, and our conceptual
+modeling of what a <code>button</code> actually represents.  Consider this set of styles:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.button</span> <span class="p">{</span>
+  <span class="nl">appearance</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+  <span class="nl">background-color</span><span class="p">:</span> <span class="m">#00f</span><span class="p">;</span>
+  <span class="nl">border</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+  <span class="nl">border-radius</span><span class="p">:</span> <span class="m">2px</span><span class="p">;</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+  <span class="nl">height</span><span class="p">:</span> <span class="m">24px</span><span class="p">;</span>
+  <span class="nl">outline</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text</span> <span class="p">{</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="s2">'Open Sans'</span><span class="p">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+  <span class="nl">font-weight</span><span class="p">:</span> <span class="nb">normal</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--white</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#fff</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--sm</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">16px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>This would work fine for the time being.  But what happens if you change
+the size of <code>.text--sm</code> from <code>16px</code> to <code>17px</code>?  How would that affect the
+rendered height of your <code>.button</code> or the positioning of the text inside of
+it?  Even if you are fluent in CSS, your code doesn&#39;t make the answer clear
+to the reader, which is a warning sign that you might end up inadvertently
+breaking a layout down the line.  That&#39;s why we have the extra <code>div</code> inside:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.button</span> <span class="p">{</span>
+  <span class="nl">appearance</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+  <span class="nl">background-color</span><span class="p">:</span> <span class="m">#00f</span><span class="p">;</span>
+  <span class="nl">border</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+  <span class="nl">border-radius</span><span class="p">:</span> <span class="m">2px</span><span class="p">;</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+  <span class="nl">height</span><span class="p">:</span> <span class="m">24px</span><span class="p">;</span>
+  <span class="nl">outline</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">position</span><span class="p">:</span> <span class="nb">relative</span><span class="p">;</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c">/* wraps the text content */</span>
+<span class="nc">.button__content-container</span> <span class="p">{</span>
+  <span class="nl">bottom</span><span class="p">:</span> <span class="m">50%</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">8px</span><span class="p">;</span>
+  <span class="nl">position</span><span class="p">:</span> <span class="nb">absolute</span><span class="p">;</span>
+  <span class="nl">right</span><span class="p">:</span> <span class="m">50%</span><span class="p">;</span>
+  <span class="nl">transform</span><span class="p">:</span> <span class="n">translate</span><span class="p">(</span><span class="m">50%</span><span class="p">,</span> <span class="m">50%</span><span class="p">);</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text</span> <span class="p">{</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="s2">'Open Sans'</span><span class="p">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+  <span class="nl">font-weight</span><span class="p">:</span> <span class="nb">normal</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--white</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#fff</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--sm</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">16px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Because our <code>.button__content-container</code> is absolutely positioned and
+centered, any
+change in its descendant elements will not affect the layout of <code>.button</code>.
+Whether it&#39;s dynamic content or a change in font-size or spacing, the
+absolutely-positioned container gives us an insurance policy against
+accidental breakage.</p>
+
+<p>With that note, let&#39;s inspect our source code after step 5:</p>
+<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./pepper.jpg</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="dl">'</span><span class="s1">./App.css</span><span class="dl">'</span><span class="p">;</span>
+
+<span class="kd">const</span> <span class="nx">App</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="p">(</span>
+    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">section</span> <span class="na">className</span><span class="p">=</span><span class="s">'image'</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'image__container'</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">img</span>
+              <span class="na">src</span><span class="p">=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
+              <span class="na">alt</span><span class="p">=</span><span class="s">'Pepper'</span>
+              <span class="na">className</span><span class="p">=</span><span class="s">'image__img'</span>
+            <span class="p">/&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">header</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--copy text--lg'</span><span class="p">&gt;</span>
+                Pepper
+              <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">header</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--copy text--sm'</span><span class="p">&gt;</span>
+                Pepper is a domestic shorthair.  This is funny because she has
+                long hair in real life.  She enjoys being pet until she's done with
+                that and bites me.  She also seems to like meetings, because she
+                joins almost all of them.
+              <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">footer</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'button'</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'button__container'</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">button</span>
+                  <span class="na">type</span><span class="p">=</span><span class="s">'button'</span>
+                  <span class="na">className</span><span class="p">=</span><span class="s">'button__btn'</span>
+                <span class="p">&gt;</span>
+                  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'button__content'</span><span class="p">&gt;</span>
+                    <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--md'</span><span class="p">&gt;</span>
+                      Pet Pepper
+                    <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+                  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+                <span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+              <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">footer</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">);</span>
+<span class="p">};</span>
+
+<span class="k">export</span> <span class="k">default</span> <span class="nx">App</span><span class="p">;</span>
+</code></pre></div><div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.text</span> <span class="p">{</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="s2">'Open Sans'</span><span class="p">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+  <span class="nl">line-height</span><span class="p">:</span> <span class="m">1.5</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--copy</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#333</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--sm</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">16px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--md</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--lg</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">24px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.image__container</span> <span class="p">{</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.image__img</span> <span class="p">{</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.button__container</span> <span class="p">{</span>
+  <span class="nl">height</span><span class="p">:</span> <span class="m">50px</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+  <span class="nl">max-width</span><span class="p">:</span> <span class="m">240px</span><span class="p">;</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.button__btn</span> <span class="p">{</span>
+  <span class="nl">appearance</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="m">#fff</span><span class="p">;</span>
+  <span class="nl">border-color</span><span class="p">:</span> <span class="m">#000</span><span class="p">;</span>
+  <span class="nl">border-style</span><span class="p">:</span> <span class="nb">solid</span><span class="p">;</span>
+  <span class="nl">border-width</span><span class="p">:</span> <span class="m">2px</span><span class="p">;</span>
+  <span class="nl">border-radius</span><span class="p">:</span> <span class="m">3px</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#333</span><span class="p">;</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+  <span class="nl">height</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">position</span><span class="p">:</span> <span class="nb">relative</span><span class="p">;</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.button__btn</span><span class="nd">:focus</span><span class="o">,</span>
+<span class="nc">.button__btn</span><span class="nd">:hover</span> <span class="p">{</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="m">#000</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#fff</span><span class="p">;</span>
+  <span class="nl">outline</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.button__btn</span><span class="nd">:active</span> <span class="p">{</span>
+  <span class="nl">box-shadow</span><span class="p">:</span> <span class="m">0</span> <span class="m">0</span> <span class="m">10px</span> <span class="m">2px</span> <span class="m">#aaa</span><span class="p">;</span>
+  <span class="nl">outline</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.button__content</span> <span class="p">{</span>
+  <span class="nl">bottom</span><span class="p">:</span> <span class="m">50%</span><span class="p">;</span>
+  <span class="nl">position</span><span class="p">:</span> <span class="nb">absolute</span><span class="p">;</span>
+  <span class="nl">text-align</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+  <span class="nl">transform</span><span class="p">:</span> <span class="n">translateY</span><span class="p">(</span><span class="m">50%</span><span class="p">);</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="step-6-style-block-elements">Step 6: Style block elements</h2>
+
+<p>You may notice that we have &quot;started small.&quot;  First, text nodes;
+then, some larger and more complex elements.  This is intentional:
+layouts cannot be adequately styled if their consituent elements
+are not styled.  Many a developer, including myself, have tied
+their shoelaces together by styling their layouts before locking down
+the final dimensions of the content itself.</p>
+
+<p><em>For the smallest supported screen size</em>, ensure your layout-oriented
+block elements are styled with the appropriate values for positioning,
+padding, margins, flex values, and the like.</p>
+
+<p>Our source code so far:</p>
+<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./pepper.jpg</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="dl">'</span><span class="s1">./App.css</span><span class="dl">'</span><span class="p">;</span>
+
+<span class="kd">const</span> <span class="nx">App</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="p">(</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'container'</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'card'</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">section</span> <span class="na">className</span><span class="p">=</span><span class="s">'card__image image'</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'image__container'</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">img</span>
+              <span class="na">src</span><span class="p">=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
+              <span class="na">alt</span><span class="p">=</span><span class="s">'Pepper'</span>
+              <span class="na">className</span><span class="p">=</span><span class="s">'image__img'</span>
+            <span class="p">/&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">section</span> <span class="na">className</span><span class="p">=</span><span class="s">'card__content content'</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">header</span> <span class="na">className</span><span class="p">=</span><span class="s">'content__header'</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">h2</span> <span class="na">className</span><span class="p">=</span><span class="s">'content__heading'</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--copy text--lg'</span><span class="p">&gt;</span>
+                Pepper
+              <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">header</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">p</span> <span class="na">className</span><span class="p">=</span><span class="s">'content__p'</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--copy text--sm'</span><span class="p">&gt;</span>
+                Pepper is a domestic shorthair.  This is funny because she has
+                long hair in real life.  She enjoys being pet until she's done with
+                that and bites me.  She also seems to like meetings, because she
+                joins almost all of them.
+              <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">footer</span> <span class="na">className</span><span class="p">=</span><span class="s">'content__footer'</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'button'</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'button__container'</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">button</span>
+                  <span class="na">type</span><span class="p">=</span><span class="s">'button'</span>
+                  <span class="na">className</span><span class="p">=</span><span class="s">'button__btn'</span>
+                <span class="p">&gt;</span>
+                  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'button__content'</span><span class="p">&gt;</span>
+                    <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--md'</span><span class="p">&gt;</span>
+                      Pet Pepper
+                    <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+                  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+                <span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+              <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">footer</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">);</span>
+<span class="p">};</span>
+
+<span class="k">export</span> <span class="k">default</span> <span class="nx">App</span><span class="p">;</span>
+</code></pre></div><div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.container</span> <span class="p">{</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+  <span class="nl">max-width</span><span class="p">:</span> <span class="m">900px</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">32px</span> <span class="m">32px</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">position</span><span class="p">:</span> <span class="nb">relative</span><span class="p">;</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text</span> <span class="p">{</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="s2">'Open Sans'</span><span class="p">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+  <span class="nl">line-height</span><span class="p">:</span> <span class="m">1.5</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--copy</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#333</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--sm</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">16px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--md</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--lg</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">24px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.card</span> <span class="p">{</span>
+  <span class="nl">border</span><span class="p">:</span> <span class="m">2px</span> <span class="nb">solid</span> <span class="m">#888</span><span class="p">;</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="n">flex</span><span class="p">;</span>
+  <span class="nl">flex-direction</span><span class="p">:</span> <span class="n">column</span><span class="p">;</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.card__image</span> <span class="p">{</span>
+  <span class="nl">flex</span><span class="p">:</span> <span class="m">0</span> <span class="m">1</span> <span class="nb">auto</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.card__content</span> <span class="p">{</span>
+  <span class="nl">flex</span><span class="p">:</span> <span class="m">0</span> <span class="m">1</span> <span class="nb">auto</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">16px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.content__header</span> <span class="p">{</span>
+  <span class="nl">padding-bottom</span><span class="p">:</span> <span class="m">8px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.content__heading</span> <span class="p">{</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.content__footer</span> <span class="p">{</span>
+  <span class="nl">padding-top</span><span class="p">:</span> <span class="m">24px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.image__container</span> <span class="p">{</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.image__img</span> <span class="p">{</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.button__container</span> <span class="p">{</span>
+  <span class="nl">height</span><span class="p">:</span> <span class="m">50px</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+  <span class="nl">max-width</span><span class="p">:</span> <span class="m">240px</span><span class="p">;</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.button__btn</span> <span class="p">{</span>
+  <span class="nl">appearance</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="m">#fff</span><span class="p">;</span>
+  <span class="nl">border-color</span><span class="p">:</span> <span class="m">#000</span><span class="p">;</span>
+  <span class="nl">border-style</span><span class="p">:</span> <span class="nb">solid</span><span class="p">;</span>
+  <span class="nl">border-width</span><span class="p">:</span> <span class="m">2px</span><span class="p">;</span>
+  <span class="nl">border-radius</span><span class="p">:</span> <span class="m">3px</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#333</span><span class="p">;</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+  <span class="nl">height</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">position</span><span class="p">:</span> <span class="nb">relative</span><span class="p">;</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.button__btn</span><span class="nd">:focus</span><span class="o">,</span>
+<span class="nc">.button__btn</span><span class="nd">:hover</span> <span class="p">{</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="m">#000</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#fff</span><span class="p">;</span>
+  <span class="nl">outline</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.button__btn</span><span class="nd">:active</span> <span class="p">{</span>
+  <span class="nl">box-shadow</span><span class="p">:</span> <span class="m">0</span> <span class="m">0</span> <span class="m">10px</span> <span class="m">2px</span> <span class="m">#aaa</span><span class="p">;</span>
+  <span class="nl">outline</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.button__content</span> <span class="p">{</span>
+  <span class="nl">bottom</span><span class="p">:</span> <span class="m">50%</span><span class="p">;</span>
+  <span class="nl">position</span><span class="p">:</span> <span class="nb">absolute</span><span class="p">;</span>
+  <span class="nl">text-align</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+  <span class="nl">transform</span><span class="p">:</span> <span class="n">translateY</span><span class="p">(</span><span class="m">50%</span><span class="p">);</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Your UI should now appear pixel-perfect on the smallest screen
+size you support!</p>
+
+<figure>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+    <section>
+      <img
+        async=on
+        style="display: block; max-height: 400px"
+        alt="Cat with text on a small screen"
+        src="/assets/images/posts/methodical-html-css-development/mobile-comp.jpg"
+      >
+    </section>
+  </div>
+  <figcaption style="text-align: center">
+    <span style="font-style: italic">
+      Pepper on a small screen
+    </span>
+  </figcaption>
+</figure>
+
+<h2 id="step-7-repeat-for-each-breakpoint">Step 7: Repeat for each breakpoint</h2>
+
+<p>Go through
+<a href="#step-4-style-inline-elements">step 4</a>,
+<a href="#step-5-style-media-and-interactive-elements">step 5</a>,
+and <a href="#step-6-style-block-elements">step 6</a>
+again at each specified breakpoint.  Our example spec has a
+single breakpoint, but many designs will specify layouts for
+mobile phone-sized screens, tablet-sized screens, laptop-sized
+screens, and maybe one for extra-wide screens.</p>
+
+<p>Happily, since we are certain our styles for our smallest screen
+work as expected, we can nest all subsequent styles inside a
+media query and be confident that none of the work we&#39;ve done
+so far will be affected by this step:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.text--sm</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">16px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c">/* approx. width of portrait-oriented tablet */</span>
+<span class="k">@media</span> <span class="n">screen</span> <span class="n">and</span> <span class="p">(</span><span class="n">min-width</span><span class="p">:</span> <span class="m">768px</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nc">.text--sm</span> <span class="p">{</span>
+    <span class="c">/* will not affect anything we've already done! 🎉 */</span>
+    <span class="nl">font-size</span><span class="p">:</span> <span class="m">18px</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Our final source code:</p>
+<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">useState</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./pepper.jpg</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="dl">'</span><span class="s1">./App.css</span><span class="dl">'</span><span class="p">;</span>
+
+<span class="kd">const</span> <span class="nx">App</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="p">[</span><span class="nx">pets</span><span class="p">,</span> <span class="nx">addPet</span><span class="p">]</span> <span class="o">=</span> <span class="nx">useState</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+
+  <span class="k">return</span> <span class="p">(</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'container'</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'card'</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">section</span> <span class="na">className</span><span class="p">=</span><span class="s">'card__image image'</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'image__container'</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">img</span>
+              <span class="na">src</span><span class="p">=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
+              <span class="na">alt</span><span class="p">=</span><span class="s">'Pepper'</span>
+              <span class="na">className</span><span class="p">=</span><span class="s">'image__img'</span>
+            <span class="p">/&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">section</span> <span class="na">className</span><span class="p">=</span><span class="s">'card__content content'</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">header</span> <span class="na">className</span><span class="p">=</span><span class="s">'content__header'</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">h2</span> <span class="na">className</span><span class="p">=</span><span class="s">'content__heading'</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--copy text--lg'</span><span class="p">&gt;</span>
+                Pepper
+              <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">header</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">p</span> <span class="na">className</span><span class="p">=</span><span class="s">'content__p'</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--copy text--sm'</span><span class="p">&gt;</span>
+                Pepper is a domestic shorthair.  This is funny because she has
+                long hair in real life.  She enjoys being pet until she's done with
+                that and bites me.  She also seems to like meetings, because she
+                joins almost all of them.
+              <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">footer</span> <span class="na">className</span><span class="p">=</span><span class="s">'content__footer'</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'button'</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'button__container'</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">button</span>
+                  <span class="na">type</span><span class="p">=</span><span class="s">'button'</span>
+                  <span class="na">className</span><span class="p">=</span><span class="s">'button__btn'</span>
+                  <span class="na">onClick</span><span class="p">=</span><span class="si">{</span><span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+                    <span class="kd">const</span> <span class="nx">newPets</span> <span class="o">=</span> <span class="nx">pets</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+                    <span class="nx">addPet</span><span class="p">(</span><span class="nx">newPets</span><span class="p">);</span>
+                    <span class="nx">alert</span><span class="p">(</span><span class="s2">`Pepper successfully petted. Total pets: </span><span class="p">${</span><span class="nx">newPets</span><span class="p">}</span><span class="s2">`</span><span class="p">);</span>
+                  <span class="p">}</span><span class="si">}</span>
+                <span class="p">&gt;</span>
+                  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'button__content'</span><span class="p">&gt;</span>
+                    <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--md'</span><span class="p">&gt;</span>
+                      Pet Pepper
+                    <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+                  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+                <span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+              <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">footer</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">);</span>
+<span class="p">};</span>
+
+<span class="k">export</span> <span class="k">default</span> <span class="nx">App</span><span class="p">;</span>
+</code></pre></div><div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.container</span> <span class="p">{</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+  <span class="nl">max-width</span><span class="p">:</span> <span class="m">900px</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">32px</span> <span class="m">32px</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">position</span><span class="p">:</span> <span class="nb">relative</span><span class="p">;</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text</span> <span class="p">{</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="s2">'Open Sans'</span><span class="p">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+  <span class="nl">line-height</span><span class="p">:</span> <span class="m">1.5</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--copy</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#333</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--sm</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">16px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--md</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.text--lg</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">24px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.card</span> <span class="p">{</span>
+  <span class="nl">border</span><span class="p">:</span> <span class="m">2px</span> <span class="nb">solid</span> <span class="m">#888</span><span class="p">;</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="n">flex</span><span class="p">;</span>
+  <span class="nl">flex-direction</span><span class="p">:</span> <span class="n">column</span><span class="p">;</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.card__image</span> <span class="p">{</span>
+  <span class="nl">flex</span><span class="p">:</span> <span class="m">0</span> <span class="m">1</span> <span class="nb">auto</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.card__content</span> <span class="p">{</span>
+  <span class="nl">flex</span><span class="p">:</span> <span class="m">0</span> <span class="m">1</span> <span class="nb">auto</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">16px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.content__header</span> <span class="p">{</span>
+  <span class="nl">padding-bottom</span><span class="p">:</span> <span class="m">8px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.content__heading</span> <span class="p">{</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.content__footer</span> <span class="p">{</span>
+  <span class="nl">padding-top</span><span class="p">:</span> <span class="m">24px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.image__container</span> <span class="p">{</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.image__img</span> <span class="p">{</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.button__container</span> <span class="p">{</span>
+  <span class="nl">height</span><span class="p">:</span> <span class="m">50px</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+  <span class="nl">max-width</span><span class="p">:</span> <span class="m">240px</span><span class="p">;</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.button__btn</span> <span class="p">{</span>
+  <span class="nl">appearance</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="m">#fff</span><span class="p">;</span>
+  <span class="nl">border-color</span><span class="p">:</span> <span class="m">#000</span><span class="p">;</span>
+  <span class="nl">border-style</span><span class="p">:</span> <span class="nb">solid</span><span class="p">;</span>
+  <span class="nl">border-width</span><span class="p">:</span> <span class="m">2px</span><span class="p">;</span>
+  <span class="nl">border-radius</span><span class="p">:</span> <span class="m">3px</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#333</span><span class="p">;</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+  <span class="nl">height</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">position</span><span class="p">:</span> <span class="nb">relative</span><span class="p">;</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.button__btn</span><span class="nd">:focus</span><span class="o">,</span>
+<span class="nc">.button__btn</span><span class="nd">:hover</span> <span class="p">{</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="m">#000</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#fff</span><span class="p">;</span>
+  <span class="nl">outline</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.button__btn</span><span class="nd">:active</span> <span class="p">{</span>
+  <span class="nl">box-shadow</span><span class="p">:</span> <span class="m">0</span> <span class="m">0</span> <span class="m">10px</span> <span class="m">2px</span> <span class="m">#aaa</span><span class="p">;</span>
+  <span class="nl">outline</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.button__content</span> <span class="p">{</span>
+  <span class="nl">bottom</span><span class="p">:</span> <span class="m">50%</span><span class="p">;</span>
+  <span class="nl">position</span><span class="p">:</span> <span class="nb">absolute</span><span class="p">;</span>
+  <span class="nl">text-align</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+  <span class="nl">transform</span><span class="p">:</span> <span class="n">translateY</span><span class="p">(</span><span class="m">50%</span><span class="p">);</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="k">@media</span> <span class="n">screen</span> <span class="n">and</span> <span class="p">(</span><span class="n">min-width</span><span class="p">:</span> <span class="m">768px</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nc">.card</span> <span class="p">{</span>
+    <span class="nl">flex-direction</span><span class="p">:</span> <span class="n">row</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="nc">.card__image</span> <span class="p">{</span>
+    <span class="nl">flex</span><span class="p">:</span> <span class="m">0</span> <span class="m">0</span> <span class="m">240px</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="nc">.image__container</span> <span class="p">{</span>
+    <span class="nl">overflow</span><span class="p">:</span> <span class="nb">hidden</span><span class="p">;</span>
+    <span class="nl">height</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+    <span class="nl">position</span><span class="p">:</span> <span class="nb">relative</span><span class="p">;</span>
+    <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="nc">.image__img</span> <span class="p">{</span>
+    <span class="nl">height</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+    <span class="nl">position</span><span class="p">:</span> <span class="nb">absolute</span><span class="p">;</span>
+    <span class="nl">right</span><span class="p">:</span> <span class="m">50%</span><span class="p">;</span>
+    <span class="nl">transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">50%</span><span class="p">);</span>
+    <span class="nl">width</span><span class="p">:</span> <span class="nb">auto</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="nc">.button__container</span> <span class="p">{</span>
+    <span class="nl">margin-left</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<figure>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+    <section>
+      <img
+        async=on
+        style="display: block; max-height: 300px"
+        alt="Cat with text on a large screen"
+        src="/assets/images/posts/methodical-html-css-development/desktop-comp.jpg"
+      >
+    </section>
+  </div>
+  <figcaption style="text-align: center">
+    <span style="font-style: italic">
+      Pepper on a large screen
+    </span>
+  </figcaption>
+</figure>
+
+<p>Once you&#39;ve finished this process for all supported screen sizes,
+the next step is up to your judgment.  If your content is dynamic,
+you&#39;ll want to make sure that your
+dynamism is implemented and test your new UI with a
+cross-section of possible content.</p>
+
+<p>Have you been checking your UI in multiple browsers throughout this
+process?  If not, better fire up Safari and IE and get to work now
+before you deploy your 🔥 HTML and CSS to production.</p>
+
+<h2 id="summary">Summary</h2>
+
+<p>We started by incrementally turning raw content into idiomatic,
+valid, and accessible markup.  Inline content was properly enclosed
+in <code>span</code>s and/or other appropriate elements.  Block content was duly
+enclosed in one of the many different types of tags that HTML5 gives
+us for a number of purposes.  Block-like elements such as inputs
+and images were coerced into becoming block elements with their own
+purpose-driven, self-contained layouts within.  Support for
+progressively wider screen sizes was incrementally added inside of
+media query scopes so as to avoid introducing regressions into our
+source code.</p>
+
+<p>As with any simplified example, real-world workflows will necessarily
+vary with the types of interfaces the developer is working on.  The
+principles set forth in this article, though, will provide a sensible
+guideline for safeguarding against common frustrations endemic
+to front-end development.</p>
+
+<h2 id="wrapping-it-up">Wrapping it up</h2>
+
+<p>I am eager to
+learn whether this process has helped anyone in real life, so please
+don&#39;t hesitate to reach out and start a dialogue on what&#39;s working
+and what isn&#39;t.</p>
+
+<p>I would like to acknolwedge
+<a href="http://josephalfonso.com/">Joseph Alfonso</a>&#39;s
+contributions - his perspective helped to polish the prose
+in this article.</p>
+
+<style>
+pre,
+code {
+  max-height: 400px;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+}
+
+tbody {
+  vertical-align: baseline;
+}
+
+table ul {
+  margin-left: 8px;
+}
+</style>
+
+    
+    <h3>Keep the conversation going</h3>
+    <p>I really appreciate feedback from anyone and everyone who reads my posts, so please feel free to say hi at <a href="https://mastodon.social/@bignimbus" target="_blank">bignimbus@mastodon.social</a> and keep the conversation going.</p>
+    
+  </div>
+  
+  <footer>
+    <h3>Attributions</h3>
+      <ul>
+        
+        <li>The Hero image is credited to <a href="https://unsplash.com/photos/ujz7MdiCXug">JD Weiher</a>.</li>
+        
+      </ul>
+  </footer>
+  
+</article>
+<footer class="related-posts">
+  <h3>Related</h3>
+  <ul>
+    
+    
+    
+
+    
+      <li>
+  <div class="thumb-container" style="background-image: url('/assets/images/featured/thumbnails/factory-1311075-1279x850.jpg')">
+    <img class="mask" src="/assets/images/shapes/mask.svg" alt="mask">
+  </div>
+  <h3><a class="post-link" href="/programming/a-few-uses-for-javascript-generators">A few uses for JavaScript generator functions</a></h3>
+  
+</li>
+
+    
+    
+      <li>
+  <div class="thumb-container" style="background-image: url('/assets/images/featured/thumbnails/git-lint.jpg')">
+    <img class="mask" src="/assets/images/shapes/mask.svg" alt="mask">
+  </div>
+  <h3><a class="post-link" href="/programming/eslint-changed-files">Using Git to run ESLint on changed files in a feature branch</a></h3>
+  
+</li>
+
+    
+  </ul>
+</footer>
+
+        </div>
+      </section>
+      <section
+        class="hide"
+        id="menu-content"
+      >
+        <div class="wrapper">
+          <h2>by Jeffrey Auriemma</h2>
+          <ul class="social-media-list">
+  <li>
+    <a href="/" span class="fa fa-lg fa-fw fa-home"></span></a>
+  </li>
+  <li>
+    <a href="/feed.xml"><span class="fa fa-lg fa-fw fa-rss"></span></a>
+  </li>
+  <li>
+    <a href="https://github.com/bignimbus"><span class="fa fa-lg fa-fw fa-github"></span></a>
+  </li>
+  <li>
+    <a href="https://mastodon.social/@bignimbus"><span class="fa fa-lg fa-fw fa-mastodon"></span></a>
+  </li>
+  <li>
+    <a target="_blank" href="/assets/resume.pdf" span class="fa fa-lg fa-fw fa-file-pdf-o"></span></a>
+  </li>
+  <li>
+    <a href="https://linkedin.com/in/jeffreyauriemma"><span class="fa fa-lg fa-fw fa-linkedin"></span></a>
+  </li>
+</ul>
+
+          <p>
+            Thanks for visiting!
+          </p>
+          <nav class="main-nav">
+  <h4>Categories</h4>
+  <ul>
+    <li>
+      <a href="/">
+        <div><img src="/assets/images/icons/all.svg" alt="all"></div>
+        <div>All</div>
+      </a>
+    </li>
+    
+    <li>
+      <a href="/category/music">
+        <div><img src="/assets/images/icons/music.svg" alt="music"></div>
+        <div>Music</div>
+      </a>
+    </li>
+    
+    <li>
+      <a href="/category/programming">
+        <div><img src="/assets/images/icons/programming.svg" alt="programming"></div>
+        <div>Programming</div>
+      </a>
+    </li>
+    
+    <li>
+      <a href="/category/misc">
+        <div><img src="/assets/images/icons/misc.svg" alt="misc"></div>
+        <div>Misc</div>
+      </a>
+    </li>
+    
+  </ul>
+  <h4>Popular tags</h4>
+  <ul>
+    
+    
+    
+    <li>
+      <a href="/tag/music">
+        <div><img src="/assets/images/icons/tag.svg" alt="music"></div>
+        <div>music</div>
+      </a>
+    </li>
+    
+    
+    
+    
+    <li>
+      <a href="/tag/javascript">
+        <div><img src="/assets/images/icons/tag.svg" alt="javascript"></div>
+        <div>javascript</div>
+      </a>
+    </li>
+    
+    
+    
+    
+    <li>
+      <a href="/tag/ifbachwrote">
+        <div><img src="/assets/images/icons/tag.svg" alt="ifbachwrote"></div>
+        <div>ifbachwrote</div>
+      </a>
+    </li>
+    
+    
+    
+    
+    <li>
+      <a href="/tag/eslint">
+        <div><img src="/assets/images/icons/tag.svg" alt="eslint"></div>
+        <div>eslint</div>
+      </a>
+    </li>
+    
+    
+    
+    
+    <li>
+      <a href="/tag/vim">
+        <div><img src="/assets/images/icons/tag.svg" alt="vim"></div>
+        <div>vim</div>
+      </a>
+    </li>
+    
+    
+    
+    
+    <li>
+      <a href="/tag/tlaplus">
+        <div><img src="/assets/images/icons/tag.svg" alt="tlaplus"></div>
+        <div>tlaplus</div>
+      </a>
+    </li>
+    
+    
+    
+    
+    <li>
+      <a href="/tag/tdd">
+        <div><img src="/assets/images/icons/tag.svg" alt="tdd"></div>
+        <div>tdd</div>
+      </a>
+    </li>
+    
+    
+    
+    
+    <li>
+      <a href="/tag/remote">
+        <div><img src="/assets/images/icons/tag.svg" alt="remote"></div>
+        <div>remote</div>
+      </a>
+    </li>
+    
+    
+    
+    
+    <li>
+      <a href="/tag/redux">
+        <div><img src="/assets/images/icons/tag.svg" alt="redux"></div>
+        <div>redux</div>
+      </a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </ul>
+</nav>
+
+        </div>
+      </section>
+    </div>
+    <footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <ul class="social-media-list">
+  <li>
+    <a href="/" span class="fa fa-lg fa-fw fa-home"></span></a>
+  </li>
+  <li>
+    <a href="/feed.xml"><span class="fa fa-lg fa-fw fa-rss"></span></a>
+  </li>
+  <li>
+    <a href="https://github.com/bignimbus"><span class="fa fa-lg fa-fw fa-github"></span></a>
+  </li>
+  <li>
+    <a href="https://mastodon.social/@bignimbus"><span class="fa fa-lg fa-fw fa-mastodon"></span></a>
+  </li>
+  <li>
+    <a target="_blank" href="/assets/resume.pdf" span class="fa fa-lg fa-fw fa-file-pdf-o"></span></a>
+  </li>
+  <li>
+    <a href="https://linkedin.com/in/jeffreyauriemma"><span class="fa fa-lg fa-fw fa-linkedin"></span></a>
+  </li>
+</ul>
+
+    </div>
+    <div class="footer-col-wrapper">
+      <footer class="copyright">
+  <p>
+    &copy; Jeffrey Auriemma<br>
+    The articles in this website are available under a<br>
+    <a href="https://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution ShareAlike license</a>.
+  </p>
+</footer>
+
+    </div>
+  </div>
+</footer>
+
+  </body>
+  <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+  <script src="/assets/javascripts/main.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64217213-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-64217213-2');
+  </script>
+</html>
