@@ -23,16 +23,19 @@
   "work": [
     {
       "company": "Handshake",
-      "position": "Senior Software Engineer, Intern Manager",
+      "position": "Senior Software Engineer, Tech Lead, Intern Manager",
       "startDate": "2019-08-26",
       "summary": "",
       "highlights": [
-        "Design software architecture and implementation plans for user-facing features using PostgreSQL, ElasticSearch, Google Cloud, Ruby on Rails, TypeScript, and React for a product with over 20 million users",
+        "Design software architecture and implementation plans for user-facing features using PostgreSQL, ElasticSearch, Google Cloud, Ruby on Rails, TypeScript, and React for a product with over 28 million users",
         "Mentor, onboard, evaluate, and support a software engineering intern",
         "Serve in the primary on-call rotation, responsible for ensuring prompt resolution of production incidents at all hours",
         "Design and document Ruby and TypeScript architecture for text translations and date/time formatting to support international expansion on a fixed timeline",
         "Support transition from Enzyme to React Testing Library by helping to give a component unit testing workshop for colleagues",
-        "Give talks on product and general software engineering topics for engineering, design, and product peers"
+        "Give talks on product and general software engineering topics for engineering, design, and product peers",
+        "Directly responsible for the rollout of a feature empowering users to self-identify their gender and pronouns",
+        "Conceptualized and implemented \"Project Zap App\", an initiative to audit, organize, modularize, modernize, and trim third-party dependencies scattered throughout a mature codebase.  Early interventions were measured via A/B tests and the results indicate 70-200ms improvements in time-to-interactive across all users.",
+        "Create dashboards and visualizations using Datadog and Looker to measure impact of product features, A/B tests (via LaunchDarkly), and technical initiatives"
       ]
     },
     {
@@ -141,8 +144,8 @@
         "Public speaking",
         "Teaching",
         "Onboarding",
-        "Removing hiring bias",
-        "Software fundamentals",
+        "Hiring",
+        "Technical planning",
         "Agile",
         "Performance rubrics",
         "TDD",
@@ -170,16 +173,14 @@
       "name": "Backend development",
       "level": "",
       "keywords": [
-        "Node.js",
-        "Ruby",
-        "Rails",
+        "Ruby on Rails",
         "PostgreSQL",
         "ElasticSearch",
         "GraphQL",
         "Socket.io",
+        "Node.js",
         "WebRTC",
         "Webpack",
-        "Babel",
         "Google Cloud"
       ]
     },
@@ -191,8 +192,9 @@
         "Internationalization",
         "Dev tools",
         "Responsive design",
-        "Performance optimization",
-        "Browser compatibility"
+        "Performance tuning",
+        "Browser compatibility",
+        "Observability"
       ]
     }
   ],
