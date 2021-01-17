@@ -180,8 +180,8 @@ the rule so that it&#39;s visible, I also modified the main config:</p>
 <p>Ok, so the groundwork is there.  Next, I set up a new script in
 <code>package.json</code>:</p>
 <div class="highlight"><pre><code class="language-json" data-lang="json"><span class="p">{</span><span class="w">
-  </span><span class="s2">"scripts"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="s2">"lint:transitional"</span><span class="p">:</span><span class="w"> </span><span class="s2">"eslint -c ./.eslintrc.transitional --no-error-on-unmatched-pattern"</span><span class="w">
+  </span><span class="nl">"scripts"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"lint:transitional"</span><span class="p">:</span><span class="w"> </span><span class="s2">"eslint -c ./.eslintrc.transitional --no-error-on-unmatched-pattern"</span><span class="w">
   </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div>
@@ -196,7 +196,7 @@ we ran into is that deleted file paths were being checked, which caused
 resolved this issue.</p>
 <div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="c"># get a list of js/ts files that are different from master</span>
 <span class="c"># at the merge-base</span>
-<span class="nv">DIFFED_FILES_TO_LINT</span><span class="o">=</span><span class="k">$(</span>git diff master... <span class="nt">--name-only</span> <span class="nt">--</span> <span class="s2">"*.ts"</span> <span class="s2">"*.tsx"</span> <span class="s2">"*.js"</span> <span class="s2">"*.jsx"</span><span class="k">)</span>
+<span class="nv">DIFFED_FILES_TO_LINT</span><span class="o">=</span><span class="si">$(</span>git diff master... <span class="nt">--name-only</span> <span class="nt">--</span> <span class="s2">"*.ts"</span> <span class="s2">"*.tsx"</span> <span class="s2">"*.js"</span> <span class="s2">"*.jsx"</span><span class="si">)</span>
 
 <span class="c"># execute eslint with the "transitional" rules</span>
 <span class="c"># only on touched files.</span>
@@ -494,13 +494,11 @@ as-of-now unknown pain points that may be associated with fixing them.</p>
   </body>
   <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
   <script src="/assets/javascripts/main.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64217213-2"></script>
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-64217213-2', 'auto');
-    ga('send', 'pageview');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-64217213-2');
   </script>
 </html>

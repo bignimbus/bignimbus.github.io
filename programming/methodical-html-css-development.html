@@ -433,15 +433,15 @@ Behold:</p>
 Media tags and form element tags will be necessary, but nothing more - we
 simply want to write no more HTML than is absolutely necessary to display
 the elements with which we will be working.</p>
-<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="s1">'react'</span><span class="p">;</span>
-<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="s1">'./pepper.jpg'</span><span class="p">;</span>
+<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./pepper.jpg</span><span class="dl">'</span><span class="p">;</span>
 
 <span class="kd">const</span> <span class="nx">App</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
   <span class="k">return</span> <span class="p">(</span>
     <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
       <span class="p">&lt;</span><span class="nt">img</span>
-        <span class="na">src=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
-        <span class="na">alt=</span><span class="s1">'Pepper'</span>
+        <span class="na">src</span><span class="p">=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
+        <span class="na">alt</span><span class="p">=</span><span class="s">'Pepper'</span>
       <span class="p">/&gt;</span>
       Pepper
       Pepper is a domestic shorthair.  This is funny because she has
@@ -449,7 +449,7 @@ the elements with which we will be working.</p>
       that and bites me.  She also seems to like meetings, because she
       joins almost all of them.
       <span class="p">&lt;</span><span class="nt">button</span>
-        <span class="na">type=</span><span class="s1">'button'</span>
+        <span class="na">type</span><span class="p">=</span><span class="s">'button'</span>
       <span class="p">&gt;</span>
         Pet Pepper
       <span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
@@ -473,15 +473,15 @@ the process.</p>
 
 <p>Enclose content in semantic HTML tags.  Don&#39;t worry about layout considerations -
 this is where we add anchors, headings, paragraphs, lists, and tables.</p>
-<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="s1">'react'</span><span class="p">;</span>
-<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="s1">'./pepper.jpg'</span><span class="p">;</span>
+<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./pepper.jpg</span><span class="dl">'</span><span class="p">;</span>
 
 <span class="kd">const</span> <span class="nx">App</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
   <span class="k">return</span> <span class="p">(</span>
     <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
       <span class="p">&lt;</span><span class="nt">img</span>
-        <span class="na">src=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
-        <span class="na">alt=</span><span class="s1">'Pepper'</span>
+        <span class="na">src</span><span class="p">=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
+        <span class="na">alt</span><span class="p">=</span><span class="s">'Pepper'</span>
       <span class="p">/&gt;</span>
       <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>
         Pepper
@@ -493,7 +493,7 @@ this is where we add anchors, headings, paragraphs, lists, and tables.</p>
         joins almost all of them.
       <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
       <span class="p">&lt;</span><span class="nt">button</span>
-        <span class="na">type=</span><span class="s1">'button'</span>
+        <span class="na">type</span><span class="p">=</span><span class="s">'button'</span>
       <span class="p">&gt;</span>
         Pet Pepper
       <span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
@@ -621,8 +621,8 @@ else will break as a result:</p>
 </ol>
 
 <p>Here&#39;s our source code so far:</p>
-<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="s1">'react'</span><span class="p">;</span>
-<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="s1">'./pepper.jpg'</span><span class="p">;</span>
+<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./pepper.jpg</span><span class="dl">'</span><span class="p">;</span>
 
 <span class="kd">const</span> <span class="nx">App</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
   <span class="k">return</span> <span class="p">(</span>
@@ -631,8 +631,8 @@ else will break as a result:</p>
         <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>
           <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
             <span class="p">&lt;</span><span class="nt">img</span>
-              <span class="na">src=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
-              <span class="na">alt=</span><span class="s1">'Pepper'</span>
+              <span class="na">src</span><span class="p">=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
+              <span class="na">alt</span><span class="p">=</span><span class="s">'Pepper'</span>
             <span class="p">/&gt;</span>
           <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
         <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
@@ -658,7 +658,7 @@ else will break as a result:</p>
             <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
               <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
                 <span class="p">&lt;</span><span class="nt">button</span>
-                  <span class="na">type=</span><span class="s1">'button'</span>
+                  <span class="na">type</span><span class="p">=</span><span class="s">'button'</span>
                 <span class="p">&gt;</span>
                   <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
                     <span class="p">&lt;</span><span class="nt">span</span><span class="p">&gt;</span>
@@ -769,9 +769,9 @@ like.</p>
 
 <p>With that principle in mind, let&#39;s take a look at our source code
 now:</p>
-<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="s1">'react'</span><span class="p">;</span>
-<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="s1">'./pepper.jpg'</span><span class="p">;</span>
-<span class="k">import</span> <span class="s1">'./App.css'</span><span class="p">;</span>
+<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./pepper.jpg</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="dl">'</span><span class="s1">./App.css</span><span class="dl">'</span><span class="p">;</span>
 
 <span class="kd">const</span> <span class="nx">App</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
   <span class="k">return</span> <span class="p">(</span>
@@ -780,22 +780,22 @@ now:</p>
         <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>
           <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
             <span class="p">&lt;</span><span class="nt">img</span>
-              <span class="na">src=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
-              <span class="na">alt=</span><span class="s1">'Pepper'</span>
+              <span class="na">src</span><span class="p">=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
+              <span class="na">alt</span><span class="p">=</span><span class="s">'Pepper'</span>
             <span class="p">/&gt;</span>
           <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
         <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
         <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>
           <span class="p">&lt;</span><span class="nt">header</span><span class="p">&gt;</span>
             <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>
-              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className=</span><span class="s1">'text text--copy text--lg'</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--copy text--lg'</span><span class="p">&gt;</span>
                 Pepper
               <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
             <span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
           <span class="p">&lt;/</span><span class="nt">header</span><span class="p">&gt;</span>
           <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>
             <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
-              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className=</span><span class="s1">'text text--copy text--sm'</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--copy text--sm'</span><span class="p">&gt;</span>
                 Pepper is a domestic shorthair.  This is funny because she has
                 long hair in real life.  She enjoys being pet until she's done with
                 that and bites me.  She also seems to like meetings, because she
@@ -807,10 +807,10 @@ now:</p>
             <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
               <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
                 <span class="p">&lt;</span><span class="nt">button</span>
-                  <span class="na">type=</span><span class="s1">'button'</span>
+                  <span class="na">type</span><span class="p">=</span><span class="s">'button'</span>
                 <span class="p">&gt;</span>
                   <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
-                    <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className=</span><span class="s1">'text text--md'</span><span class="p">&gt;</span>
+                    <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--md'</span><span class="p">&gt;</span>
                       Pet Pepper
                     <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
                   <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
@@ -958,34 +958,34 @@ absolutely-positioned container gives us an insurance policy against
 accidental breakage.</p>
 
 <p>With that note, let&#39;s inspect our source code after step 5:</p>
-<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="s1">'react'</span><span class="p">;</span>
-<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="s1">'./pepper.jpg'</span><span class="p">;</span>
-<span class="k">import</span> <span class="s1">'./App.css'</span><span class="p">;</span>
+<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./pepper.jpg</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="dl">'</span><span class="s1">./App.css</span><span class="dl">'</span><span class="p">;</span>
 
 <span class="kd">const</span> <span class="nx">App</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
   <span class="k">return</span> <span class="p">(</span>
     <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
       <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">section</span> <span class="na">className=</span><span class="s1">'image'</span><span class="p">&gt;</span>
-          <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className=</span><span class="s1">'image__container'</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">section</span> <span class="na">className</span><span class="p">=</span><span class="s">'image'</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'image__container'</span><span class="p">&gt;</span>
             <span class="p">&lt;</span><span class="nt">img</span>
-              <span class="na">src=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
-              <span class="na">alt=</span><span class="s1">'Pepper'</span>
-              <span class="na">className=</span><span class="s1">'image__img'</span>
+              <span class="na">src</span><span class="p">=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
+              <span class="na">alt</span><span class="p">=</span><span class="s">'Pepper'</span>
+              <span class="na">className</span><span class="p">=</span><span class="s">'image__img'</span>
             <span class="p">/&gt;</span>
           <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
         <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
         <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>
           <span class="p">&lt;</span><span class="nt">header</span><span class="p">&gt;</span>
             <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>
-              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className=</span><span class="s1">'text text--copy text--lg'</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--copy text--lg'</span><span class="p">&gt;</span>
                 Pepper
               <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
             <span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
           <span class="p">&lt;/</span><span class="nt">header</span><span class="p">&gt;</span>
           <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>
             <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
-              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className=</span><span class="s1">'text text--copy text--sm'</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--copy text--sm'</span><span class="p">&gt;</span>
                 Pepper is a domestic shorthair.  This is funny because she has
                 long hair in real life.  She enjoys being pet until she's done with
                 that and bites me.  She also seems to like meetings, because she
@@ -994,14 +994,14 @@ accidental breakage.</p>
             <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
           <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
           <span class="p">&lt;</span><span class="nt">footer</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className=</span><span class="s1">'button'</span><span class="p">&gt;</span>
-              <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className=</span><span class="s1">'button__container'</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'button'</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'button__container'</span><span class="p">&gt;</span>
                 <span class="p">&lt;</span><span class="nt">button</span>
-                  <span class="na">type=</span><span class="s1">'button'</span>
-                  <span class="na">className=</span><span class="s1">'button__btn'</span>
+                  <span class="na">type</span><span class="p">=</span><span class="s">'button'</span>
+                  <span class="na">className</span><span class="p">=</span><span class="s">'button__btn'</span>
                 <span class="p">&gt;</span>
-                  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className=</span><span class="s1">'button__content'</span><span class="p">&gt;</span>
-                    <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className=</span><span class="s1">'text text--md'</span><span class="p">&gt;</span>
+                  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'button__content'</span><span class="p">&gt;</span>
+                    <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--md'</span><span class="p">&gt;</span>
                       Pet Pepper
                     <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
                   <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
@@ -1102,34 +1102,34 @@ block elements are styled with the appropriate values for positioning,
 padding, margins, flex values, and the like.</p>
 
 <p>Our source code so far:</p>
-<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="s1">'react'</span><span class="p">;</span>
-<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="s1">'./pepper.jpg'</span><span class="p">;</span>
-<span class="k">import</span> <span class="s1">'./App.css'</span><span class="p">;</span>
+<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./pepper.jpg</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="dl">'</span><span class="s1">./App.css</span><span class="dl">'</span><span class="p">;</span>
 
 <span class="kd">const</span> <span class="nx">App</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
   <span class="k">return</span> <span class="p">(</span>
-    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className=</span><span class="s1">'container'</span><span class="p">&gt;</span>
-      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className=</span><span class="s1">'card'</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">section</span> <span class="na">className=</span><span class="s1">'card__image image'</span><span class="p">&gt;</span>
-          <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className=</span><span class="s1">'image__container'</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'container'</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'card'</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">section</span> <span class="na">className</span><span class="p">=</span><span class="s">'card__image image'</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'image__container'</span><span class="p">&gt;</span>
             <span class="p">&lt;</span><span class="nt">img</span>
-              <span class="na">src=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
-              <span class="na">alt=</span><span class="s1">'Pepper'</span>
-              <span class="na">className=</span><span class="s1">'image__img'</span>
+              <span class="na">src</span><span class="p">=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
+              <span class="na">alt</span><span class="p">=</span><span class="s">'Pepper'</span>
+              <span class="na">className</span><span class="p">=</span><span class="s">'image__img'</span>
             <span class="p">/&gt;</span>
           <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
         <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">section</span> <span class="na">className=</span><span class="s1">'card__content content'</span><span class="p">&gt;</span>
-          <span class="p">&lt;</span><span class="nt">header</span> <span class="na">className=</span><span class="s1">'content__header'</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">h2</span> <span class="na">className=</span><span class="s1">'content__heading'</span><span class="p">&gt;</span>
-              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className=</span><span class="s1">'text text--copy text--lg'</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">section</span> <span class="na">className</span><span class="p">=</span><span class="s">'card__content content'</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">header</span> <span class="na">className</span><span class="p">=</span><span class="s">'content__header'</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">h2</span> <span class="na">className</span><span class="p">=</span><span class="s">'content__heading'</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--copy text--lg'</span><span class="p">&gt;</span>
                 Pepper
               <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
             <span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
           <span class="p">&lt;/</span><span class="nt">header</span><span class="p">&gt;</span>
           <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">p</span> <span class="na">className=</span><span class="s1">'content__p'</span><span class="p">&gt;</span>
-              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className=</span><span class="s1">'text text--copy text--sm'</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">p</span> <span class="na">className</span><span class="p">=</span><span class="s">'content__p'</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--copy text--sm'</span><span class="p">&gt;</span>
                 Pepper is a domestic shorthair.  This is funny because she has
                 long hair in real life.  She enjoys being pet until she's done with
                 that and bites me.  She also seems to like meetings, because she
@@ -1137,15 +1137,15 @@ padding, margins, flex values, and the like.</p>
               <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
             <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
           <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
-          <span class="p">&lt;</span><span class="nt">footer</span> <span class="na">className=</span><span class="s1">'content__footer'</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className=</span><span class="s1">'button'</span><span class="p">&gt;</span>
-              <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className=</span><span class="s1">'button__container'</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">footer</span> <span class="na">className</span><span class="p">=</span><span class="s">'content__footer'</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'button'</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'button__container'</span><span class="p">&gt;</span>
                 <span class="p">&lt;</span><span class="nt">button</span>
-                  <span class="na">type=</span><span class="s1">'button'</span>
-                  <span class="na">className=</span><span class="s1">'button__btn'</span>
+                  <span class="na">type</span><span class="p">=</span><span class="s">'button'</span>
+                  <span class="na">className</span><span class="p">=</span><span class="s">'button__btn'</span>
                 <span class="p">&gt;</span>
-                  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className=</span><span class="s1">'button__content'</span><span class="p">&gt;</span>
-                    <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className=</span><span class="s1">'text text--md'</span><span class="p">&gt;</span>
+                  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'button__content'</span><span class="p">&gt;</span>
+                    <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--md'</span><span class="p">&gt;</span>
                       Pet Pepper
                     <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
                   <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
@@ -1318,36 +1318,36 @@ so far will be affected by this step:</p>
 <span class="p">}</span>
 </code></pre></div>
 <p>Our final source code:</p>
-<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">useState</span> <span class="p">}</span> <span class="k">from</span> <span class="s1">'react'</span><span class="p">;</span>
-<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="s1">'./pepper.jpg'</span><span class="p">;</span>
-<span class="k">import</span> <span class="s1">'./App.css'</span><span class="p">;</span>
+<div class="highlight"><pre><code class="language-jsx" data-lang="jsx"><span class="k">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">useState</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">pepper</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./pepper.jpg</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="dl">'</span><span class="s1">./App.css</span><span class="dl">'</span><span class="p">;</span>
 
 <span class="kd">const</span> <span class="nx">App</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
   <span class="kd">const</span> <span class="p">[</span><span class="nx">pets</span><span class="p">,</span> <span class="nx">addPet</span><span class="p">]</span> <span class="o">=</span> <span class="nx">useState</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
 
   <span class="k">return</span> <span class="p">(</span>
-    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className=</span><span class="s1">'container'</span><span class="p">&gt;</span>
-      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className=</span><span class="s1">'card'</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">section</span> <span class="na">className=</span><span class="s1">'card__image image'</span><span class="p">&gt;</span>
-          <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className=</span><span class="s1">'image__container'</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'container'</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'card'</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">section</span> <span class="na">className</span><span class="p">=</span><span class="s">'card__image image'</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'image__container'</span><span class="p">&gt;</span>
             <span class="p">&lt;</span><span class="nt">img</span>
-              <span class="na">src=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
-              <span class="na">alt=</span><span class="s1">'Pepper'</span>
-              <span class="na">className=</span><span class="s1">'image__img'</span>
+              <span class="na">src</span><span class="p">=</span><span class="si">{</span><span class="nx">pepper</span><span class="si">}</span>
+              <span class="na">alt</span><span class="p">=</span><span class="s">'Pepper'</span>
+              <span class="na">className</span><span class="p">=</span><span class="s">'image__img'</span>
             <span class="p">/&gt;</span>
           <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
         <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">section</span> <span class="na">className=</span><span class="s1">'card__content content'</span><span class="p">&gt;</span>
-          <span class="p">&lt;</span><span class="nt">header</span> <span class="na">className=</span><span class="s1">'content__header'</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">h2</span> <span class="na">className=</span><span class="s1">'content__heading'</span><span class="p">&gt;</span>
-              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className=</span><span class="s1">'text text--copy text--lg'</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">section</span> <span class="na">className</span><span class="p">=</span><span class="s">'card__content content'</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">header</span> <span class="na">className</span><span class="p">=</span><span class="s">'content__header'</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">h2</span> <span class="na">className</span><span class="p">=</span><span class="s">'content__heading'</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--copy text--lg'</span><span class="p">&gt;</span>
                 Pepper
               <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
             <span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
           <span class="p">&lt;/</span><span class="nt">header</span><span class="p">&gt;</span>
           <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">p</span> <span class="na">className=</span><span class="s1">'content__p'</span><span class="p">&gt;</span>
-              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className=</span><span class="s1">'text text--copy text--sm'</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">p</span> <span class="na">className</span><span class="p">=</span><span class="s">'content__p'</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--copy text--sm'</span><span class="p">&gt;</span>
                 Pepper is a domestic shorthair.  This is funny because she has
                 long hair in real life.  She enjoys being pet until she's done with
                 that and bites me.  She also seems to like meetings, because she
@@ -1355,20 +1355,20 @@ so far will be affected by this step:</p>
               <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
             <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
           <span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
-          <span class="p">&lt;</span><span class="nt">footer</span> <span class="na">className=</span><span class="s1">'content__footer'</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className=</span><span class="s1">'button'</span><span class="p">&gt;</span>
-              <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className=</span><span class="s1">'button__container'</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">footer</span> <span class="na">className</span><span class="p">=</span><span class="s">'content__footer'</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'button'</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'button__container'</span><span class="p">&gt;</span>
                 <span class="p">&lt;</span><span class="nt">button</span>
-                  <span class="na">type=</span><span class="s1">'button'</span>
-                  <span class="na">className=</span><span class="s1">'button__btn'</span>
-                  <span class="na">onClick=</span><span class="si">{</span><span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+                  <span class="na">type</span><span class="p">=</span><span class="s">'button'</span>
+                  <span class="na">className</span><span class="p">=</span><span class="s">'button__btn'</span>
+                  <span class="na">onClick</span><span class="p">=</span><span class="si">{</span><span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
                     <span class="kd">const</span> <span class="nx">newPets</span> <span class="o">=</span> <span class="nx">pets</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
                     <span class="nx">addPet</span><span class="p">(</span><span class="nx">newPets</span><span class="p">);</span>
-                    <span class="nx">alert</span><span class="p">(</span><span class="s2">`Pepper successfully petted. Total pets: ${newPets}`</span><span class="p">);</span>
+                    <span class="nx">alert</span><span class="p">(</span><span class="s2">`Pepper successfully petted. Total pets: </span><span class="p">${</span><span class="nx">newPets</span><span class="p">}</span><span class="s2">`</span><span class="p">);</span>
                   <span class="p">}</span><span class="si">}</span>
                 <span class="p">&gt;</span>
-                  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className=</span><span class="s1">'button__content'</span><span class="p">&gt;</span>
-                    <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className=</span><span class="s1">'text text--md'</span><span class="p">&gt;</span>
+                  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="p">=</span><span class="s">'button__content'</span><span class="p">&gt;</span>
+                    <span class="p">&lt;</span><span class="nt">span</span> <span class="na">className</span><span class="p">=</span><span class="s">'text text--md'</span><span class="p">&gt;</span>
                       Pet Pepper
                     <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
                   <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
@@ -1883,13 +1883,11 @@ table ul {
   </body>
   <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
   <script src="/assets/javascripts/main.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64217213-2"></script>
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-64217213-2', 'auto');
-    ga('send', 'pageview');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-64217213-2');
   </script>
 </html>

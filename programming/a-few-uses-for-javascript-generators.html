@@ -160,18 +160,18 @@ body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,hr,dl,dd,ol,ul,figure{margin:0;padding:0
   <span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>In the same browser, this took up about one kilobyte of memory.  Because generator functions are evaluted only when they are incremented, you avoid having to store all of your data in memory.  This is called <a href="http://odetocode.com/blogs/scott/archive/2015/03/09/lazy-evaluation-of-generators-in-es6.aspx">lazy evaluation</a>, and it is key to understanding the fundamental difference between generators and traditional JavaScript objects.</p>
+<p>In the same browser, this took up about one kilobyte of memory.  Because generator functions are evaluted only when they are incremented, you avoid having to store all of your data in memory.  This is called lazy evaluation, and it is key to understanding the fundamental difference between generators and traditional JavaScript objects.</p>
 
 <p>Iterating over millions of data points will still consume considerable CPU resources, but the savings in memory can open up new possibilities.  The above code snippet is a generalized use case, but you may find the lazy evalution paradigm to be indispensible when working with large data sets on the client or in Node.</p>
 
 <h3 id="recursion-in-generators">Recursion in generators</h3>
 
 <p>It is possible to use recursion inside a generator function with the use of the <code>*</code> sigil after your <code>yield</code> statement.  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield*">MDN goes into more detail</a> on how this works.</p>
-<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="kd">const</span> <span class="nx">lyrics</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'du'</span><span class="p">,</span> <span class="s1">'hast'</span><span class="p">,</span> <span class="s1">'mich'</span><span class="p">];</span>
+<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="kd">const</span> <span class="nx">lyrics</span> <span class="o">=</span> <span class="p">[</span><span class="dl">'</span><span class="s1">du</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">hast</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">mich</span><span class="dl">'</span><span class="p">];</span>
 <span class="c1">// context: https://www.youtube.com/watch?v=W3q8Od5qJio</span>
 <span class="c1">// you should probably wear headphones</span>
 
-<span class="kd">function</span> <span class="o">*</span> <span class="nx">rammstein</span> <span class="p">(</span><span class="nx">words</span><span class="p">,</span> <span class="nx">singThis</span> <span class="o">=</span> <span class="s1">''</span><span class="p">)</span> <span class="p">{</span>
+<span class="kd">function</span> <span class="o">*</span> <span class="nx">rammstein</span> <span class="p">(</span><span class="nx">words</span><span class="p">,</span> <span class="nx">singThis</span> <span class="o">=</span> <span class="dl">''</span><span class="p">)</span> <span class="p">{</span>
   <span class="k">yield</span> <span class="nx">singThis</span><span class="p">;</span>
   <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">words</span><span class="p">.</span><span class="nx">length</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
 
@@ -199,20 +199,20 @@ body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,hr,dl,dd,ol,ul,figure{margin:0;padding:0
 
 <p>Let&#39;s say you&#39;re making an app that is a calendar of concerts at which 90s industrial metal bands* are playing.  The API response contains an array of objects, each object representing a concert that is happening in the current calendar year.  Something like this:</p>
 <div class="highlight"><pre><code class="language-json" data-lang="json"><span class="p">{</span><span class="w">
-  </span><span class="s2">"data"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="s2">"concerts"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+  </span><span class="nl">"data"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"concerts"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
       </span><span class="p">{</span><span class="w">
-        </span><span class="s2">"timestamp"</span><span class="p">:</span><span class="w"> </span><span class="mi">1461011753</span><span class="p">,</span><span class="w">
-        </span><span class="s2">"bands"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"rammstein"</span><span class="p">],</span><span class="w">
-        </span><span class="s2">"location"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mf">41.8851600</span><span class="p">,</span><span class="w"> </span><span class="mf">-87.6607320</span><span class="p">]</span><span class="w">
+        </span><span class="nl">"timestamp"</span><span class="p">:</span><span class="w"> </span><span class="mi">1461011753</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"bands"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"rammstein"</span><span class="p">],</span><span class="w">
+        </span><span class="nl">"location"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mf">41.8851600</span><span class="p">,</span><span class="w"> </span><span class="mf">-87.6607320</span><span class="p">]</span><span class="w">
       </span><span class="p">},</span><span class="w"> </span><span class="p">{</span><span class="w">
-        </span><span class="s2">"timestamp"</span><span class="p">:</span><span class="w"> </span><span class="mi">1461875683</span><span class="p">,</span><span class="w">
-        </span><span class="s2">"bands"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"rob zombie"</span><span class="p">,</span><span class="w"> </span><span class="s2">"marilyn manson"</span><span class="p">],</span><span class="w">
-        </span><span class="s2">"location"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mf">42.8851600</span><span class="p">,</span><span class="w"> </span><span class="mf">-87.6607320</span><span class="p">]</span><span class="w">
+        </span><span class="nl">"timestamp"</span><span class="p">:</span><span class="w"> </span><span class="mi">1461875683</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"bands"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"rob zombie"</span><span class="p">,</span><span class="w"> </span><span class="s2">"marilyn manson"</span><span class="p">],</span><span class="w">
+        </span><span class="nl">"location"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mf">42.8851600</span><span class="p">,</span><span class="w"> </span><span class="mf">-87.6607320</span><span class="p">]</span><span class="w">
       </span><span class="p">},</span><span class="w"> </span><span class="p">{</span><span class="w">
-        </span><span class="s2">"timestamp"</span><span class="p">:</span><span class="w"> </span><span class="mi">1487453724</span><span class="p">,</span><span class="w">
-        </span><span class="s2">"bands"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"nine inch nails"</span><span class="p">],</span><span class="w">
-        </span><span class="s2">"location"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mf">41.8851600</span><span class="p">,</span><span class="w"> </span><span class="mf">-86.6607320</span><span class="p">]</span><span class="w">
+        </span><span class="nl">"timestamp"</span><span class="p">:</span><span class="w"> </span><span class="mi">1487453724</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"bands"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"nine inch nails"</span><span class="p">],</span><span class="w">
+        </span><span class="nl">"location"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mf">41.8851600</span><span class="p">,</span><span class="w"> </span><span class="mf">-86.6607320</span><span class="p">]</span><span class="w">
       </span><span class="p">}</span><span class="w">
     </span><span class="p">]</span><span class="w">
   </span><span class="p">}</span><span class="w">
@@ -531,13 +531,11 @@ body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,hr,dl,dd,ol,ul,figure{margin:0;padding:0
   </body>
   <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
   <script src="/assets/javascripts/main.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64217213-2"></script>
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-64217213-2', 'auto');
-    ga('send', 'pageview');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-64217213-2');
   </script>
 </html>
