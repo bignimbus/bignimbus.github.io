@@ -1,20 +1,20 @@
 <ul class="social-media-list">
   <li>
-    <a href="/" span class="fa fa-lg fa-fw fa-home"></span></a>
+    <a href="/" aria-label="home"><span class="fa fa-lg fa-fw fa-home" aria-hidden="true"></span></a>
   </li>
   <li>
-    <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="fa fa-lg fa-fw fa-rss"></span></a>
+    <a href="{{ "/feed.xml" | prepend: site.baseurl }}" aria-label="RSS"><span class="fa fa-lg fa-fw fa-rss" aria-hidden="true"></span></a>
   </li>
   <li>
-    <a href="https://github.com/{{ site.github_username }}"><span class="fa fa-lg fa-fw fa-github"></span></a>
+    <a href="https://github.com/{{ site.github_username }}" aria-label="github"><span class="fa fa-lg fa-fw fa-github" aria-hidden="true"></span></a>
   </li>
   <li>
-    <a href="https://mastodon.social/@{{ site.mastodon_username }}"><span class="fa fa-lg fa-fw fa-mastodon"></span></a>
+    <a href="https://mastodon.social/@{{ site.mastodon_username }}" aria-label="mastodon"><span class="fa fa-lg fa-fw fa-mastodon" aria-hidden="true"></span></a>
   </li>
   <li>
-    <a target="_blank" href="/assets/resume.pdf" span class="fa fa-lg fa-fw fa-file-pdf-o"></span></a>
+    <a target="_blank" href="/assets/resume.pdf" aria-label="resume PDF"><span class="fa fa-lg fa-fw fa-file-pdf-o" aria-hidden="true"></span></a>
   </li>
   <li>
-    <a href="https://linkedin.com/in/{{ site.linkedin_username }}"><span class="fa fa-lg fa-fw fa-linkedin"></span></a>
+    <a href="https://linkedin.com/in/{{ site.linkedin_username }}" aria-label="linked in"><span class="fa fa-lg fa-fw fa-linkedin" aria-hidden="true"></span></a>
   </li>
 </ul>
