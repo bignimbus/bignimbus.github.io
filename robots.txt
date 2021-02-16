@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /page*
+Disallow: /category/
+Disallow: /tag/
+Disallow: /google81125189f823d83b.html
