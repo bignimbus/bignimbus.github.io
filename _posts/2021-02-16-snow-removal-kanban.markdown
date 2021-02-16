@@ -1,17 +1,41 @@
 ---
 layout: post
 title: "Snow removal tasks as a kanban board"
-date:   2021-02-16 12:00:00 -0500
-featured_image: rubber-ducking.jpg
-categories: programming
-tags: ['project management', 'agile', 'kanban']
+date:   2021-02-15 23:30:00 -0500
+featured_image: snow-removal.jpg
+categories: misc
+tags: ['agile', 'kanban']
 excerpt: Copy-able public kanban board that captures snow removal tasks for what I reckon is a typical single-family dwelling with a driveway and/or sidewalk in North America.
 permalink: /:categories/:title
 cta: false
+attributions: [{asset_name: 'Hero image', asset_url: 'https://www.flickr.com/photos/32219803@N00/12684765963', author: kewing}]
 ---
 
-I had the honor of being a guest on the Rubber Ducking podcast
-with Spencer Miskiovak and Chris Schmitz.  Find it wherever you
-get podcasts or [right here](https://rubberducking.fm/episodes/24)!
+As with many places in North America this winter, we've seen more snowstorms
+than usual recently.  For those of us who are responsible for clearing a
+property of snow, that means work.  I tend to want to make work as orderly
+as plausible, and I've been removing snow for long enough to have a sense of
+what needs to be done.  So I naturally created a kanban board for these tasks.
+I chose Airtable because that platform facilitates easy copying and extending.
+I've pasted the full description underneath the embedded board.
 
-<p style="font-size: 0.9rem;font-style: italic;"><img style="display: block;" src="https://live.staticflickr.com/2823/12684765963_bff7105bd4_b.jpg" alt="Snow"><a href="https://www.flickr.com/photos/32219803@N00/12684765963">"Snow"</a><span> by <a href="https://www.flickr.com/photos/32219803@N00">kewing</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC 2.0</a><a href="https://creativecommons.org/licenses/by-nc/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg?image_id=c958da08-06eb-4029-a5b6-6cbbbbf31308" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nc_icon.svg" /></a></p>
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrchyBc2AZML7PoY?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+## About
+
+Copy-able public kanban board that captures snow removal tasks for what I reckon is a typical single-family dwelling with a driveway and/or sidewalk in North America. Fields for blockers, priority, and estimated effort are included. All tasks include acceptance criteria and some contain additional descriptions that may include links to external resources.
+
+These tasks make use of Imperial units. The links regarding legal requirements and postal service guidelines are geared toward USA residents.
+
+I have populated the tasks with estimates and prioritization that reflect my own needs, please don’t feel obligated to apply my own estimates and prioritization to your own unique residence.
+
+If you feel that a certain addition or edit would be generally useful, please add a comment or send me a message and I’d be happy to consider an update to this board. In particular, it would be nice to internationalize this board in earnest. Thank you for reading!
+
+## Resources
+
+* [Complete Guide to Snow and Snow Removal](https://edenapp.com/guides/snow-removal-guide/)
+* [10 Great Snow and Ice Removal Hacks](https://www.familyhandyman.com/list/10-great-snow-and-ice-removal-hacks/)
+* [Wire Cutter: The Best Snow Shovels](https://www.nytimes.com/wirecutter/reviews/best-snow-shovels/)
+* [Wire Cutter: The Best Snow Blowers](https://www.nytimes.com/wirecutter/reviews/best-snow-blowers/)
+* [Wire Cutter: The Best Ice Scraper](https://www.nytimes.com/wirecutter/reviews/best-ice-scraper/)
+
