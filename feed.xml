@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jeffrey Auriemma's Blog</title>
+    <title>Jeff Auriemma's Blog</title>
     <description>thoughts on code, music, misc.</description>
     <link>https://jdauriemma.com/</link>
     <atom:link href="https://jdauriemma.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Feb 2021 04:50:08 +0000</pubDate>
-    <lastBuildDate>Tue, 16 Feb 2021 04:50:08 +0000</lastBuildDate>
+    <pubDate>Tue, 16 Feb 2021 04:55:31 +0000</pubDate>
+    <lastBuildDate>Tue, 16 Feb 2021 04:55:31 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       
