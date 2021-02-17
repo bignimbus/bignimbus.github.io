@@ -5,8 +5,8 @@
     <description>thoughts on code, music, misc.</description>
     <link>https://jdauriemma.com/</link>
     <atom:link href="https://jdauriemma.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Feb 2021 22:19:04 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Feb 2021 22:19:04 +0000</lastBuildDate>
+    <pubDate>Wed, 17 Feb 2021 22:41:44 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Feb 2021 22:41:44 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       
@@ -78,11 +78,11 @@ downloaded from LastPass so that it is no longer available on your computer.&lt;
 &lt;li&gt;Leave this window open for a moment.&lt;/li&gt;
 &lt;li&gt;Open a plain text editor.  If you're not sure what a plain text editor is,
 don't worry.  You have one installed on your operating system.
-[See this link](https://www.fedoraoutlier.com/the-built-in-text-editors-on-windows-and-macs/)
+&lt;a href=&quot;https://www.fedoraoutlier.com/the-built-in-text-editors-on-windows-and-macs/&quot;&gt;See this link&lt;/a&gt;
 for more information.&lt;/li&gt;
 &lt;li&gt;Highlight and copy all the text from the open LastPass window.  Paste
 it into your text editor.&lt;/li&gt;
-&lt;li&gt;Save the file as `export.csv`.&lt;/li&gt;
+&lt;li&gt;Save the file as &lt;code&gt;export.csv&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;To avoid inadvertently pasting this sensitive information somewhere
