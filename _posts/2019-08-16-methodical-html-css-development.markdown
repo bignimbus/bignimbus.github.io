@@ -22,9 +22,6 @@ is: "it depends."  In the past, my workflow looked a bit like this:
 3. Thing 1 is messed up so I need to do it again but differently now
 4. Adjust spacing on thing 2
 5. The way I was gonna do the next thing is now not going to work for some reason
-6. Coffee
-7. I have a fantastic idea, it's gonna work
-
 ...
 
 42\. Done! Just don't ask how
@@ -114,7 +111,8 @@ they require.
 <div class="figures">
   <figure class="figures__figure">
     <img
-      async=on
+      loading="lazy"
+      decoding="async"
       alt="horizontal rectangles wrapping to two lines"
       src="/assets/images/posts/methodical-html-css-development/inline.svg"
       style="display: block; margin-left: auto; margin-right: auto; max-width: 350px;"
@@ -140,7 +138,8 @@ they have defined width, height, positioning, and spacing.
 <div class="figures">
   <figure class="figures__figure">
     <img
-      async=on
+      loading="lazy"
+      decoding="async"
       alt="horizontal rectangles wrapping to two lines"
       src="https://mdn.mozillademos.org/files/13647/box-model-standard-small.png"
       style="display: block; margin-left: auto; margin-right: auto; max-width: 500px;"
@@ -246,7 +245,8 @@ ol' block elements.
 <div class="figures">
   <figure class="figures__figure">
     <img
-      async=on
+      loading="lazy"
+      decoding="async"
       alt="CSS values displayed in the dev tools element inspector"
       src="/assets/images/posts/methodical-html-css-development/ua-stylesheet.jpg"
       style="display: block; margin-left: auto; margin-right: auto; max-width: 500px;"
@@ -276,7 +276,8 @@ Behold:
   <div style="display: flex; flex-wrap: wrap">
     <section>
       <img
-        async=on
+        loading="lazy"
+        decoding="async"
         style="display: block; max-height: 300px"
         alt="Cat with text on a small screen"
         src="/assets/images/posts/methodical-html-css-development/mobile-comp.jpg"
@@ -284,7 +285,8 @@ Behold:
     </section>
     <section>
       <img
-        async=on
+        loading="lazy"
+        decoding="async"
         style="display: block; max-height: 300px"
         alt="Cat with text on a large screen"
         src="/assets/images/posts/methodical-html-css-development/desktop-comp.jpg"
@@ -572,7 +574,8 @@ export default App;
 <div class="figures">
   <figure class="figures__figure">
     <img
-      async=on
+      loading="lazy"
+      decoding="async"
       alt="screenshot of UI after step 3"
       src="/assets/images/posts/methodical-html-css-development/wip.jpg"
     />
@@ -1204,7 +1207,8 @@ size you support!
   <div style="display: flex; flex-wrap: wrap; justify-content: center;">
     <section>
       <img
-        async=on
+        loading="lazy"
+        decoding="async"
         style="display: block; max-height: 400px"
         alt="Cat with text on a small screen"
         src="/assets/images/posts/methodical-html-css-development/mobile-comp.jpg"
@@ -1462,7 +1466,8 @@ export default App;
   <div style="display: flex; flex-wrap: wrap; justify-content: center;">
     <section>
       <img
-        async=on
+        loading="lazy"
+        decoding="async"
         style="display: block; max-height: 300px"
         alt="Cat with text on a large screen"
         src="/assets/images/posts/methodical-html-css-development/desktop-comp.jpg"
