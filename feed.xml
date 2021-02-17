@@ -5,9 +5,230 @@
     <description>thoughts on code, music, misc.</description>
     <link>https://jdauriemma.com/</link>
     <atom:link href="https://jdauriemma.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Feb 2021 20:18:12 +0000</pubDate>
-    <lastBuildDate>Tue, 16 Feb 2021 20:18:12 +0000</lastBuildDate>
+    <pubDate>Wed, 17 Feb 2021 22:01:28 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Feb 2021 22:01:28 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+      <item>
+        <title>How to move from LastPass to Bitwarden in ten minutes</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/lastpass-to-bitwarden.jpg&quot; alt=&quot;How to move from LastPass to Bitwarden in ten minutes&quot;&gt;&lt;p&gt;LastPass recently notified users that their free product will drastically
+changeon 2021-03-16 in
+&lt;a href=&quot;https://blog.lastpass.com/2021/02/changes-to-lastpass-free/&quot;&gt;a recent blog post&lt;/a&gt;.
+I believe
+this change is being made irresponsibly,
+but you can read my opinion in a follow-up post I&amp;#39;m planning.
+Many non-paying users are looking around
+for alternatives.  &lt;a href=&quot;https://bitwarden.com/&quot;&gt;Bitwarden&lt;/a&gt; fits the bill nicely
+for me: it has desktop, mobile, and web apps with the same features as LastPass,
+plus it has the benefit of being largely
+&lt;a href=&quot;https://github.com/bitwarden&quot;&gt;open-source software&lt;/a&gt;
+distributed under GPL/AGPL licenses.&lt;/p&gt;
+
+&lt;p&gt;Bitwarden&amp;#39;s help docs have a decent
+&lt;a href=&quot;https://bitwarden.com/help/article/import-from-lastpass/&quot;&gt;guide to help users import data from LastPass&lt;/a&gt;
+but if you need some additional resources, please read on.&lt;/p&gt;
+
+&lt;h2 id=&quot;export-your-lastpass-data&quot;&gt;Export your LastPass data&lt;/h2&gt;
+
+&lt;p&gt;Before we get started, be aware that you will be downloading a file containing
+all the username/password combinations you have stored in LastPass.  This
+file will not be encrypted - the passwords will be in plain text.
+Once you&amp;#39;re done copying your data into Bitwarden, delete all the data you
+downloaded from LastPass so that it is no longer available on your computer.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;On a desktop or laptop, log into LastPass.&lt;/li&gt;
+&lt;li&gt;Open the navigation panel on the left side of the screen.&lt;/li&gt;
+&lt;li&gt;Tap &lt;strong&gt;Advanced Options&lt;/strong&gt;.  A new menu will appear to the right.&lt;/li&gt;
+&lt;li&gt;Tap &lt;strong&gt;Export&lt;/strong&gt;.  You will be prompted to enter your master password.&lt;/li&gt;
+&lt;li&gt;The screen may appear unresponsive for a short time.  That is normal.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+  &lt;div style=&quot;display: flex; flex-wrap: wrap; justify-content: center;&quot;&gt;
+    &lt;section&gt;
+      &lt;img
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+        style=&quot;display: block; max-height: 400px&quot;
+        alt=&quot;LastPass interface showing the left navigation bar open and 'Advanced Options' highlighted&quot;
+        src=&quot;/assets/images/posts/lastpass-to-bitwarden/desktop-1.png&quot;
+      &gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+      &lt;img
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+        style=&quot;display: block; max-height: 400px&quot;
+        alt=&quot;LastPass interface showing the left navigation bar open and 'Export' highlighted&quot;
+        src=&quot;/assets/images/posts/lastpass-to-bitwarden/desktop-2.png&quot;
+      &gt;
+    &lt;/section&gt;
+  &lt;/div&gt;
+  &lt;figcaption style=&quot;text-align: center&quot;&gt;
+    &lt;span style=&quot;font-style: italic&quot;&gt;
+      Use the left navigation to drill down: &lt;strong&gt;Advanced Options&lt;/strong&gt; 👉 &lt;strong&gt;Export&lt;/strong&gt;
+    &lt;/span&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;The browser window will turn white and black text will appear.  This text contains all the usernames, passwords, etc. you store in LastPass.&lt;/li&gt;
+&lt;li&gt;Leave this window open for a moment.&lt;/li&gt;
+&lt;li&gt;Open a plain text editor.  If you&amp;#39;re not sure what a plain text editor is,
+don&amp;#39;t worry.  You have one installed on your operating system.
+&lt;a href=&quot;https://www.fedoraoutlier.com/the-built-in-text-editors-on-windows-and-macs/&quot;&gt;See this link&lt;/a&gt;
+for more information.&lt;/li&gt;
+&lt;li&gt;Highlight and copy all the text from the open LastPass window.  Paste
+it into your text editor.&lt;/li&gt;
+&lt;li&gt;Save the file as &lt;code&gt;export.csv&lt;/code&gt;.&lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;To avoid inadvertently pasting this sensitive information somewhere
+else, copy some other text as a safeguard.&lt;/p&gt;
+
+&lt;h2 id=&quot;sign-up-for-bitwarden&quot;&gt;Sign up for Bitwarden&lt;/h2&gt;
+
+&lt;p&gt;Go to &lt;a href=&quot;https://bitwarden.com&quot;&gt;bitwarden.com&lt;/a&gt;.  Tap &amp;quot;Get Started&amp;quot; in the top
+right corner.  You will be prompted to enter your email address and to set
+a master password, much like LastPass.  I recommend using a password that
+is different from your LastPass master password.&lt;/p&gt;
+
+&lt;p&gt;Once you have completed registration and confirmed your email address,
+log into Bitwarden again.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Tap &lt;strong&gt;Tools&lt;/strong&gt; at the top of the window.&lt;/li&gt;
+&lt;li&gt;On the left, tap &lt;strong&gt;Import Data&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Under &lt;strong&gt;1. Select the format of the import file&lt;/strong&gt;, select
+&amp;quot;LastPass (csv).&amp;quot;&lt;/li&gt;
+&lt;li&gt;Under &lt;strong&gt;2. Select the import file&lt;/strong&gt;, select the &lt;code&gt;export.csv&lt;/code&gt; file you created earlier.  Tap the button labeled &lt;strong&gt;Import Data&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+  &lt;div style=&quot;display: flex; flex-wrap: wrap; justify-content: center;&quot;&gt;
+    &lt;section&gt;
+      &lt;img
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+        style=&quot;display: block; max-height: 400px&quot;
+        alt=&quot;Text editor showing a file called 'export.csv' with data&quot;
+        src=&quot;/assets/images/posts/lastpass-to-bitwarden/desktop-3.png&quot;
+      &gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+      &lt;img
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+        style=&quot;display: block; max-height: 400px&quot;
+        alt=&quot;Bitwarden interface showing the 'Tools' section open and 'Import Data' highlighted&quot;
+        src=&quot;/assets/images/posts/lastpass-to-bitwarden/desktop-4.png&quot;
+      &gt;
+    &lt;/section&gt;
+  &lt;/div&gt;
+  &lt;figcaption style=&quot;text-align: center&quot;&gt;
+    &lt;span style=&quot;font-style: italic&quot;&gt;
+      Copy the LastPass export into &lt;code&gt;exports.csv&lt;/code&gt; using a plain text editor like Notepad, TextEdit, or Vim.  Tap &lt;strong&gt;Tools&lt;/strong&gt; 👉  &lt;strong&gt;Import Data&lt;/strong&gt; and upload &lt;code&gt;exports.csv&lt;/code&gt;.
+    &lt;/span&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Your data should now be available.  According to Bitwarden&amp;#39;s documentation,
+some users have experienced issues with the encoding of certain special
+characters in passwords:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Warning&lt;/p&gt;
+
+&lt;p&gt;Some users have reported a bug which changes special characters in your passwords (&amp;amp;, &amp;lt;, &amp;gt;, etc.) to their HTML-encoded values (for example, &lt;code&gt;&amp;amp;amp;&lt;/code&gt; in the printed export.&lt;/p&gt;
+
+&lt;p&gt;If you observe this bug in your exported data, use a text editor to find and replace all altered values before importing into Bitwarden.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I haven&amp;#39;t come across anything like that yet, but I transitioned very recently.
+I will update this post if I come across anything unusual.&lt;/p&gt;
+
+&lt;h2 id=&quot;ios-users-update-autofill&quot;&gt;iOS users: update AutoFill&lt;/h2&gt;
+
+&lt;p&gt;If you&amp;#39;re not an iOS user, &lt;a href=&quot;#delete-your-lastpass&quot;&gt;skip this section&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As an iOS user, I am accustomed to using LastPass to autofill passwords.
+After installing the
+&lt;a href=&quot;https://apps.apple.com/us/app/bitwarden-password-manager/id1137397744&quot;&gt;Bitwarden app&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go into &lt;strong&gt;Settings&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Tap on &lt;strong&gt;Passwords&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Tap on &lt;strong&gt;AutoFill Passwords&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Tap on &lt;strong&gt;Bitwarden&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Follow the prompts.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+  &lt;div style=&quot;display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center&quot;&gt;
+    &lt;section&gt;
+      &lt;img
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+        style=&quot;display: block; max-width: 200px&quot;
+        alt=&quot;iOS Settings menu with 'Passwords' highlighted&quot;
+        src=&quot;/assets/images/posts/lastpass-to-bitwarden/ios-1.jpg&quot;
+      &gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+      &lt;img
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+        style=&quot;display: block; max-height: 200px&quot;
+        alt=&quot;iOS Passwords menu&quot;
+        src=&quot;/assets/images/posts/lastpass-to-bitwarden/ios-2.jpg&quot;
+      &gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+      &lt;img
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+        style=&quot;display: block; max-height: 200px&quot;
+        alt=&quot;iOS AutoFill Passwords menu with Bitwarden selected&quot;
+        src=&quot;/assets/images/posts/lastpass-to-bitwarden/ios-3.jpg&quot;
+      &gt;
+    &lt;/section&gt;
+  &lt;/div&gt;
+  &lt;figcaption style=&quot;text-align: center&quot;&gt;
+    &lt;span style=&quot;font-style: italic&quot;&gt;
+      &lt;strong&gt;Settings&lt;/strong&gt; 👉
+      &lt;strong&gt;Passwords&lt;/strong&gt; 👉
+      &lt;strong&gt;Autofill Passwords&lt;/strong&gt; 👉
+      &lt;strong&gt;Bitwarden&lt;/strong&gt;
+    &lt;/span&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;div id=&quot;delete-your-lastpass&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;delete-your-lastpass-after-a-while&quot;&gt;Delete your LastPass (after a while)&lt;/h2&gt;
+
+&lt;p&gt;It&amp;#39;s a good idea to hold onto your LastPass free account for a short time,
+at least until you are reasonably certain Bitwarden is meeting your needs and
+that all of your data was copied over successfully.  I haven&amp;#39;t done this part
+yet, but
+&lt;a href=&quot;https://lastpass.com/delete_account.php&quot;&gt;the documentation&lt;/a&gt;
+makes it seem pretty simple.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Feb 2021 21:56:00 +0000</pubDate>
+        <link>https://jdauriemma.com/misc/lastpass-to-bitwarden</link>
+        <guid isPermaLink="true">https://jdauriemma.com/misc/lastpass-to-bitwarden</guid>
+        
+        <category>security</category>
+        
+        <category>lastpass</category>
+        
+        <category>bitwarden</category>
+        
+        
+        <category>misc</category>
+        
+      </item>
     
       
       <item>
@@ -437,12 +658,9 @@ is: &amp;quot;it depends.&amp;quot;  In the past, my workflow looked a bit like 
 &lt;li&gt;Do another thing&lt;/li&gt;
 &lt;li&gt;Thing 1 is messed up so I need to do it again but differently now&lt;/li&gt;
 &lt;li&gt;Adjust spacing on thing 2&lt;/li&gt;
-&lt;li&gt;The way I was gonna do the next thing is now not going to work for some reason&lt;/li&gt;
-&lt;li&gt;Coffee&lt;/li&gt;
-&lt;li&gt;I have a fantastic idea, it&amp;#39;s gonna work&lt;/li&gt;
+&lt;li&gt;The way I was gonna do the next thing is now not going to work for some reason
+...&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;...&lt;/p&gt;
 
 &lt;p&gt;42. Done! Just don&amp;#39;t ask how&lt;/p&gt;
 
@@ -531,7 +749,8 @@ they require.&lt;/p&gt;
 &lt;div class=&quot;figures&quot;&gt;
   &lt;figure class=&quot;figures__figure&quot;&gt;
     &lt;img
-      async=on
+      loading=&quot;lazy&quot;
+      decoding=&quot;async&quot;
       alt=&quot;horizontal rectangles wrapping to two lines&quot;
       src=&quot;/assets/images/posts/methodical-html-css-development/inline.svg&quot;
       style=&quot;display: block; margin-left: auto; margin-right: auto; max-width: 350px;&quot;
@@ -556,7 +775,8 @@ they have defined width, height, positioning, and spacing.&lt;/p&gt;
 &lt;div class=&quot;figures&quot;&gt;
   &lt;figure class=&quot;figures__figure&quot;&gt;
     &lt;img
-      async=on
+      loading=&quot;lazy&quot;
+      decoding=&quot;async&quot;
       alt=&quot;horizontal rectangles wrapping to two lines&quot;
       src=&quot;https://mdn.mozillademos.org/files/13647/box-model-standard-small.png&quot;
       style=&quot;display: block; margin-left: auto; margin-right: auto; max-width: 500px;&quot;
@@ -662,7 +882,8 @@ ol&amp;#39; block elements.&lt;/p&gt;
 &lt;div class=&quot;figures&quot;&gt;
   &lt;figure class=&quot;figures__figure&quot;&gt;
     &lt;img
-      async=on
+      loading=&quot;lazy&quot;
+      decoding=&quot;async&quot;
       alt=&quot;CSS values displayed in the dev tools element inspector&quot;
       src=&quot;/assets/images/posts/methodical-html-css-development/ua-stylesheet.jpg&quot;
       style=&quot;display: block; margin-left: auto; margin-right: auto; max-width: 500px;&quot;
@@ -692,7 +913,8 @@ Behold:&lt;/p&gt;
   &lt;div style=&quot;display: flex; flex-wrap: wrap&quot;&gt;
     &lt;section&gt;
       &lt;img
-        async=on
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
         style=&quot;display: block; max-height: 300px&quot;
         alt=&quot;Cat with text on a small screen&quot;
         src=&quot;/assets/images/posts/methodical-html-css-development/mobile-comp.jpg&quot;
@@ -700,7 +922,8 @@ Behold:&lt;/p&gt;
     &lt;/section&gt;
     &lt;section&gt;
       &lt;img
-        async=on
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
         style=&quot;display: block; max-height: 300px&quot;
         alt=&quot;Cat with text on a large screen&quot;
         src=&quot;/assets/images/posts/methodical-html-css-development/desktop-comp.jpg&quot;
@@ -970,7 +1193,8 @@ else will break as a result:&lt;/p&gt;
 &lt;div class=&quot;figures&quot;&gt;
   &lt;figure class=&quot;figures__figure&quot;&gt;
     &lt;img
-      async=on
+      loading=&quot;lazy&quot;
+      decoding=&quot;async&quot;
       alt=&quot;screenshot of UI after step 3&quot;
       src=&quot;/assets/images/posts/methodical-html-css-development/wip.jpg&quot;
     /&gt;
@@ -1566,7 +1790,8 @@ size you support!&lt;/p&gt;
   &lt;div style=&quot;display: flex; flex-wrap: wrap; justify-content: center;&quot;&gt;
     &lt;section&gt;
       &lt;img
-        async=on
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
         style=&quot;display: block; max-height: 400px&quot;
         alt=&quot;Cat with text on a small screen&quot;
         src=&quot;/assets/images/posts/methodical-html-css-development/mobile-comp.jpg&quot;
@@ -1815,7 +2040,8 @@ so far will be affected by this step:&lt;/p&gt;
   &lt;div style=&quot;display: flex; flex-wrap: wrap; justify-content: center;&quot;&gt;
     &lt;section&gt;
       &lt;img
-        async=on
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
         style=&quot;display: block; max-height: 300px&quot;
         alt=&quot;Cat with text on a large screen&quot;
         src=&quot;/assets/images/posts/methodical-html-css-development/desktop-comp.jpg&quot;
@@ -2055,101 +2281,6 @@ As of this past weekend, however, I am finally confident that I&amp;#39;ve craft
         
         
         <category>misc</category>
-        
-      </item>
-    
-      
-      <item>
-        <title>If Bach Wrote Never Gonna Give You Up</title>
-        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/bach-rick.jpg&quot; alt=&quot;If Bach Wrote Never Gonna Give You Up&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;Never gonna give you up
-Never gonna let you down
-Never gonna run around
-And desert you
-- Stock Aitken Waterman, as performed by Rick Astley
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;My colleague, Dan, recently changed our conference call hold music to Rick Astley&amp;#39;s 1987 hit, &amp;quot;Never Gonna Give You Up.&amp;quot;  Little did he know that I had been sitting on an almost-finished homage to Mr. Astley for the better part of two years.  A new job and a new child later, I&amp;#39;ve finally put the finishing touches on &amp;quot;If Bach Wrote.... Never Gonna Give You Up.&amp;quot;  I take great pleasure in being able to do a completely original Rick Roll of the internet.&lt;/p&gt;
-
-&lt;h3 id=&quot;full-audio&quot;&gt;Full audio&lt;/h3&gt;
-
-&lt;audio class=&quot;site-player&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;
-  
-  &lt;source src=&quot;/assets/audio/if-bach-wrote-never-gonna-give-you-up.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
-  
-  &lt;source src=&quot;/assets/audio/if-bach-wrote-never-gonna-give-you-up.ogg&quot; type=&quot;audio/ogg&quot;&gt;
-  
-  &lt;span&gt;Your browser does not support the audio element.&lt;/span&gt;
-&lt;/audio&gt;
-
-&lt;h3 id=&quot;the-original&quot;&gt;The original&lt;/h3&gt;
-
-&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dQw4w9WgXcQ&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&quot;about-this-series&quot;&gt;About this series&lt;/h3&gt;
-
-&lt;p&gt;For those who aren&amp;#39;t familiar, this piece is part of a series of fugues called &lt;a href=&quot;https://jdauriemma.com/tag/ifbachwrote&quot;&gt;If Bach Wrote&lt;/a&gt;.  The premise is simple: extract a memorable tune (or tunes) from pop music with minimal alteration, and write a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue&quot;&gt;fugue&lt;/a&gt; with that tune as the &lt;a href=&quot;https://www3.northern.edu/wieland/theory/form/fugue.htm&quot;&gt;subject&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;analysis&quot;&gt;Analysis&lt;/h3&gt;
-
-&lt;p&gt;This is a three-voice fugue in the key that Astley sang it: A-flat major (!?).  I made one key modification: the &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_signature&quot;&gt;time signature&lt;/a&gt;.  Instead of the standard 4/4 time signature, I opted to go with 3/8.  It just sounds more like a Baroque dance this way, and allowed me to take advantage of the &amp;quot;bouncy&amp;quot; nature of the rhythms.&lt;/p&gt;
-
-&lt;h4 id=&quot;themes&quot;&gt;Themes&lt;/h4&gt;
-
-&lt;p&gt;I chose the melody of the chorus as a subject:
-&lt;figure class=&quot;music&quot;&gt;
-  &lt;img src=&quot;/assets/images/posts/if-bach-wrote-never-gonna-give-you-up/subject.png&quot; alt=&quot;subject&quot;&gt;
-  &lt;figcaption&gt;bass clef; Ab major&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;There is a &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue#The_exposition&quot;&gt;tonal answer&lt;/a&gt;:
-&lt;figure class=&quot;music&quot;&gt;
-  &lt;img src=&quot;/assets/images/posts/if-bach-wrote-never-gonna-give-you-up/answer.png&quot; alt=&quot;answer&quot;&gt;
-  &lt;figcaption&gt;treble clef; Ab major&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&quot;http://en.wikipedia.org/wiki/Fugue#The_exposition&quot;&gt;countersubjects&lt;/a&gt;:
-&lt;figure class=&quot;music&quot;&gt;
-  &lt;img src=&quot;/assets/images/posts/if-bach-wrote-never-gonna-give-you-up/countersubject.png&quot; alt=&quot;countersubject&quot;&gt;
-  &lt;figcaption&gt;bass clef; Ab major&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;passages-of-note&quot;&gt;Passages of note&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;mm78: the subject is stated in double augmentation, and several times thereafter&lt;/li&gt;
-&lt;li&gt;mm133: the subject is stated in B-flat minor with a B-flat pedal tone in voice III&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;tonal-outline&quot;&gt;Tonal outline&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;mm1: A-flat major&lt;/li&gt;
-&lt;li&gt;mm34: F minor&lt;/li&gt;
-&lt;li&gt;mm43: A-flat major&lt;/li&gt;
-&lt;li&gt;mm51: D-flat major&lt;/li&gt;
-&lt;li&gt;mm78: E-flat major&lt;/li&gt;
-&lt;li&gt;mm99: F minor&lt;/li&gt;
-&lt;li&gt;mm121: A-flat major&lt;/li&gt;
-&lt;li&gt;mm124: D-flat major&lt;/li&gt;
-&lt;li&gt;mm133: B-flat minor&lt;/li&gt;
-&lt;li&gt;mm160: A-flat major&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;full-score&quot;&gt;Full score&lt;/h3&gt;
-
-&lt;iframe style=&quot;height: 300px; width: 100%;&quot; src=&quot;https://www.noteflight.com/embed/52a4b121e0aaebe232780b5584ceaa3ac085c460?scale=1&amp;app=html5&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Or view and listen to &lt;a href=&quot;https://www.noteflight.com/scores/view/52a4b121e0aaebe232780b5584ceaa3ac085c460&quot;&gt;the full score here&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 07 May 2016 06:00:00 +0000</pubDate>
-        <link>https://jdauriemma.com/music/if-bach-wrote-never-gonna-give-you-up</link>
-        <guid isPermaLink="true">https://jdauriemma.com/music/if-bach-wrote-never-gonna-give-you-up</guid>
-        
-        <category>ifbachwrote</category>
-        
-        <category>music</category>
-        
-        
-        <category>music</category>
         
       </item>
     
