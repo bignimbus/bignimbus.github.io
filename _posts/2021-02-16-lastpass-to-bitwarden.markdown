@@ -79,6 +79,7 @@ for more information.</li>
 <li>Highlight and copy all the text from the open LastPass window.  Paste
 it into your text editor.</li>
 <li>Save the file as `export.csv`.</li>
+</ol>
 
 To avoid inadvertently pasting this sensitive information somewhere
 else, copy some other text as a safeguard.
