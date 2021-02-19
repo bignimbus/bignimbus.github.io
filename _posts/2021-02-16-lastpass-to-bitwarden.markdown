@@ -11,7 +11,7 @@ cta: true
 ---
 
 LastPass recently notified users that their free product will drastically
-changeon 2021-03-16 in
+change on 2021-03-16 in
 [a recent blog post](https://blog.lastpass.com/2021/02/changes-to-lastpass-free/).
 I believe
 this change is being made irresponsibly,
