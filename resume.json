@@ -27,15 +27,16 @@
       "startDate": "2019-08-26",
       "summary": "",
       "highlights": [
-        "Design software architecture and implementation plans for user-facing features using PostgreSQL, ElasticSearch, Google Cloud, Ruby on Rails, TypeScript, and React for a product with over 28 million users",
-        "Mentor, onboard, evaluate, and support a software engineering intern",
-        "Serve in the primary on-call rotation, responsible for ensuring prompt resolution of production incidents at all hours",
+        "Design software architecture and implementation plans for user-facing features using PostgreSQL, ElasticSearch, Google Cloud, Ruby on Rails, GraphQL, TypeScript, and React for a product with over 30 million users",
+        "Serve as the full-stack web engineering Tech Lead on the Student Relationships squad since November, 2020.  My responsibilities include being the liaison between our squad's engineers and the greater engineering organization to ensure alignment on broad technical initiatives; project management; onboarding new engineers; working with product and design to manage scope and discover opportunities for trade-offs and enhancements; reviewing production code; contributiing individually to production code where uncertainty and impact are high; prototyping",
+        "Successfully launched high-impact features to production: student referral programs, UK launch, the scheduling portion of our Virtual Fairs project, self-identification of gender & pronouns in the candidate-facing product, redesigns of student-facing recruiter/ambassador profiles, and Virtual Info Chats",
+        "As an intern manager in each of the past two summers, I onboarded, mentored, evaluated, and supported a full-stack web software engineering intern",
+        "Serve as a leader in our on-call teams, responsible for ensuring prompt resolution of production incidents at all hours.  In the rollout of team-specific on-call rotations, I planned and gave two training sessions for a group of 7 engineers.  I have also served as a primary on-call engineer (first responder) and secondary on-call engineer (responsible for supporting and guiding primaries, handles escalated incidents)",
         "Design and document Ruby and TypeScript architecture for text translations and date/time formatting to support international expansion on a fixed timeline",
-        "Support transition from Enzyme to React Testing Library by helping to give a component unit testing workshop for colleagues",
-        "Give talks on product and general software engineering topics for engineering, design, and product peers",
-        "Directly responsible for the rollout of a feature empowering users to self-identify their gender and pronouns",
-        "Conceptualized and implemented \"Project Zap App\", an initiative to audit, organize, modularize, modernize, and trim third-party dependencies scattered throughout a mature codebase.  Early interventions were measured via A/B tests and the results indicate 70-200ms improvements in time-to-interactive across all users.",
-        "Create dashboards and visualizations using Datadog and Looker to measure impact of product features, A/B tests (via LaunchDarkly), and technical initiatives"
+        "Give talks on software topics for engineering, design, and product peers",
+        "Conceptualized and implemented an initiative to audit, organize, modularize, modernize, and trim third-party dependencies scattered throughout a mature codebase.  Early interventions were measured via A/B tests and the results indicate 70-200ms improvements in time-to-interactive across all users",
+        "Create dashboards, automated monitors, and visualizations using Datadog and Looker to measure impact of product features, A/B tests (via LaunchDarkly), and technical initiatives",
+        "Promoted to Level 6 in June, 2021"
       ]
     },
     {
