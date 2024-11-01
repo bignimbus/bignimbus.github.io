@@ -5,8 +5,8 @@
     <description>thoughts on code, music, misc.</description>
     <link>https://jdauriemma.com/</link>
     <atom:link href="https://jdauriemma.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 01 Aug 2021 18:52:16 +0000</pubDate>
-    <lastBuildDate>Sun, 01 Aug 2021 18:52:16 +0000</lastBuildDate>
+    <pubDate>Fri, 01 Nov 2024 18:08:13 +0000</pubDate>
+    <lastBuildDate>Fri, 01 Nov 2024 18:08:13 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       
@@ -77,9 +77,7 @@ downloaded from LastPass so that it is no longer available on your computer.&lt;
 &lt;li&gt;The browser window will turn white and black text will appear.  This text contains all the usernames, passwords, etc. you store in LastPass.&lt;/li&gt;
 &lt;li&gt;Leave this window open for a moment.&lt;/li&gt;
 &lt;li&gt;Open a plain text editor.  If you're not sure what a plain text editor is,
-don't worry.  You have one installed on your operating system.
-&lt;a href=&quot;https://www.fedoraoutlier.com/the-built-in-text-editors-on-windows-and-macs/&quot;&gt;See this link&lt;/a&gt;
-for more information.&lt;/li&gt;
+don't worry.  You have one installed on your operating system.&lt;/li&gt;
 &lt;li&gt;Highlight and copy all the text from the open LastPass window.  Paste
 it into your text editor.&lt;/li&gt;
 &lt;li&gt;Save the file as &lt;code&gt;export.csv&lt;/code&gt;.&lt;/li&gt;
@@ -779,13 +777,13 @@ they have defined width, height, positioning, and spacing.&lt;/p&gt;
       loading=&quot;lazy&quot;
       decoding=&quot;async&quot;
       alt=&quot;horizontal rectangles wrapping to two lines&quot;
-      src=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model/boxmodel-(3).png&quot;
+      src=&quot;https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png&quot;
       style=&quot;display: block; margin-left: auto; margin-right: auto; max-width: 500px;&quot;
     /&gt;
     &lt;figcaption style=&quot;text-align: center;&quot;&gt;
       &lt;span style=&quot;font-style: italic;&quot;&gt;
         The CSS Box Model.&lt;br&gt;
-        Attribution: &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model&quot;&gt;Mozilla Contributors&lt;/a&gt;
+        Attribution: &lt;a href=&quot;https://commons.m.wikimedia.org/wiki/File:Boxmodell-detail.png#mw-jump-to-license&quot;&gt;Matthias Apsel&lt;/a&gt;
       &lt;/span&gt;
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -2137,7 +2135,7 @@ table ul {
 
 &lt;p&gt;It&amp;#39;s worth a read:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.hillelwayne.com/post/tla-redux/&quot;&gt;Modeling Redux with TLA+&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://web.archive.org/web/20180315100715/https://www.hillelwayne.com/post/tla-redux/&quot;&gt;Modeling Redux with TLA+&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 14 Feb 2018 06:00:00 +0000</pubDate>
         <link>https://jdauriemma.com/programming/modeling-redux-with-tla-plus</link>
