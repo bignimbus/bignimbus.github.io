@@ -17,6 +17,9 @@ exclude:
   - package.json
   - package-lock.json
 
+include:
+  - .well-known
+
 # Site settings
 title: Jeff Auriemma's Blog
 description: thoughts on code, music, misc.
