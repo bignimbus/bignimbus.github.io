@@ -73,9 +73,7 @@ downloaded from LastPass so that it is no longer available on your computer.
 <li>The browser window will turn white and black text will appear.  This text contains all the usernames, passwords, etc. you store in LastPass.</li>
 <li>Leave this window open for a moment.</li>
 <li>Open a plain text editor.  If you're not sure what a plain text editor is,
-don't worry.  You have one installed on your operating system.
-<a href="https://www.fedoraoutlier.com/the-built-in-text-editors-on-windows-and-macs/">See this link</a>
-for more information.</li>
+don't worry.  You have one installed on your operating system.</li>
 <li>Highlight and copy all the text from the open LastPass window.  Paste
 it into your text editor.</li>
 <li>Save the file as <code>export.csv</code>.</li>
