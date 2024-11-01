@@ -61,7 +61,7 @@ Countersubject 2, free counterpoint thereafter
 
 You may notice that Countersubject sounds a tiny bit like the right-hand piano part of the song - this was unintentional but welcome.
 
-The exposition is strict with very little free counterpoint, so it's over fairly quickly for a four-voice fugue. The development begins in measure 17\. The subject is stated many times throughout the piece per se, in simplified rhythms, [augmented](http://composerstoolbox.wordpress.com/2011/09/26/tool-17-augmentation-and-diminution/), and [inverted](http://en.wikipedia.org/wiki/Inversion_(music)). I am particularly proud of measures 49-59, where the subject is iterated concurrently per se and in augmentation.
+The exposition is strict with very little free counterpoint, so it's over fairly quickly for a four-voice fugue. The development begins in measure 17\. The subject is stated many times throughout the piece per se, in simplified rhythms, [augmented](https://en.m.wikipedia.org/wiki/Augmentation_(music)), and [inverted](http://en.wikipedia.org/wiki/Inversion_(music)). I am particularly proud of measures 49-59, where the subject is iterated concurrently per se and in augmentation.
 
 The tonal outline of the piece is:
 
