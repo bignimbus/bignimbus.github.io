@@ -2,7 +2,7 @@
 layout: post
 title: "Software ate the world; what's AI going to do to software?"
 date:   2025-09-24 16:56:00 -0500
-featured_image: lastpass-to-bitwarden.jpg
+featured_image: fish-eat-fish.png
 categories: misc
 tags: ['ai', 'platforms', 'llms']
 excerpt: Under the hood, the AI era can be understood as the migration of users from producer-published software to platform-published software.  The specifics of how that happens have massive implications for our everyday lives.  What do we do now?
