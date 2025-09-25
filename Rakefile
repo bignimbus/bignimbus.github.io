@@ -34,7 +34,8 @@ task :test do
       /https?:\/\/jdauriemma\.com.*/,
       /https?:\/\/twitter\.com.*\/jbones3000/,
       /https?:\/\/www\.freeimages\.com.*/,
-      /https:\/\/www\.pexels\.com\/photo\/laptop-on-white-desk-3740747\//
+      /https:\/\/www\.pexels\.com\/photo\/laptop-on-white-desk-3740747\//,
+      /https?:\/\/unsplash\.com\/photos\/photo-of-empty-vehicle-ujz7MdiCXug/
     ]
   ).run
 end
