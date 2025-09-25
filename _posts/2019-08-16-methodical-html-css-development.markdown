@@ -8,7 +8,7 @@ tags: ['html', 'css']
 excerpt: A 7-step process for removing frustration from the process of developing UIs with HTML and CSS.
 permalink: /:categories/:title
 cta: true
-attributions: [{asset_name: 'Hero image', asset_url: 'https://unsplash.com/photos/ujz7MdiCXug', author: JD Weiher }]
+attributions: [{asset_name: 'Hero image', asset_url: 'https://unsplash.com/photos/photo-of-empty-vehicle-ujz7MdiCXug', author: JD Weiher }]
 ---
 
 Maybe you're a developer.  Maybe you're a designer.  Maybe
