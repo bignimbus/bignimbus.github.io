@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+
+
+<html>
+  
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicon/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-64x64.png" sizes="64x64">
+  <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="msapplication-TileImage" content="/assets/images/favicon/mstile-150x150.png">
+  <meta name="msapplication-square70x70logo" content="/assets/images/favicon/mstile-70x70.png">
+  <meta name="msapplication-square150x150logo" content="/assets/images/favicon/mstile-150x150.png">
+  <meta name="msapplication-square310x310logo" content="/assets/images/favicon/mstile-310x310.png">
+  <meta name="msapplication-wide310x150logo" content="/assets/images/favicon/mstile-310x150.png">
+  <title>Software ate the world; what's AI going to do to software?</title>
+  <meta name="description" content="Under the hood, the AI era can be understood as the migration of users from producer-published software to platform-published software.  The specifics of how...">
+<meta property="thumbnail" content="https://jdauriemma.com/assets/images/featured/fish-eat-fish.png">
+<meta property="og:title" content="Software ate the world; what's AI going to do to software?">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://jdauriemma.com/misc/software-ate-the-world-whats-ai-going-to-do-to-software">
+<meta property="og:image" content="https://jdauriemma.com/assets/images/featured/fish-eat-fish.png">
+<meta property="og:description" content="Under the hood, the AI era can be understood as the migration of users from producer-published software to platform-published software.  The specifics of how...">
+<meta property="og:site_name" content="Jeff Auriemma's Blog">
+
+
+  <meta property="article:modified_time" content="2025-09-25T15:00:00+00:00">
+  <meta property="article:published_time" content="2025-09-25T15:00:00+00:00">
+  
+  
+  
+
+  
+  <meta property="og:see_also" content="https://jdauriemma.com/misc/principles-for-remote-teams">
+  
+  
+    <meta property="og:see_also" content="https://jdauriemma.com/misc/lastpass-to-bitwarden">
+  
+
+
+
+  
+  <meta property="article:section" content="misc">
+  
+
+
+
+  
+  <meta property="article:tag" content="ai">
+  
+  <meta property="article:tag" content="platforms">
+  
+  <meta property="article:tag" content="llms">
+  
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@jbones3000">
+<meta name="twitter:title" content="Software ate the world; what's AI going to do to software?">
+<meta name="twitter:description" content="Under the hood, the AI era can be understood as the migration of users from producer-published software to platform-published software.  The specifics of how...">
+<meta name="twitter:image" content="https://jdauriemma.com/assets/images/featured/fish-eat-fish.png">
+<meta name="twitter:url" content="https://jdauriemma.com/misc/software-ate-the-world-whats-ai-going-to-do-to-software">
+
+<link rel="canonical" href="https://jdauriemma.com/misc/software-ate-the-world-whats-ai-going-to-do-to-software">
+<link rel="alternate" type="application/rss+xml" title="Jeff Auriemma's Blog" href="https://jdauriemma.com/feed.xml">
+<meta name="description" content="Under the hood, the AI era can be understood as the migration of users from producer-published software to platform-published software.  The specifics of how...">
+
+
+
+<link rel="canonical" href="https://jdauriemma.com/misc/software-ate-the-world-whats-ai-going-to-do-to-software">
+
+
+
+
+  <link rel="prev" href="https://jdauriemma.com/misc/lastpass-to-bitwarden" title="How to move from LastPass to Bitwarden in ten minutes">
+
+
+
+  <link href='https://fonts.googleapis.com/css?family=Cousine:400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="canonical" href="https://jdauriemma.com/misc/software-ate-the-world-whats-ai-going-to-do-to-software">
+  <link rel="stylesheet" href="/assets/css/fork-awesome-1.0.1/css/fork-awesome.min.css">
+  <link rel="alternate" type="application/rss+xml" title="Jeff Auriemma's Blog" href="https://jdauriemma.com/feed.xml">
+  <style>
+body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,hr,dl,dd,ol,ul,figure{margin:0;padding:0}body{font:400 16px/1.5 "Cousine",Monaco,Consolas,"Lucida Console",monospace;color:#333;background-color:#fdfdfd;-webkit-text-size-adjust:100%;-webkit-font-feature-settings:"kern" 1;-moz-font-feature-settings:"kern" 1;-o-font-feature-settings:"kern" 1;font-feature-settings:"kern" 1;font-kerning:normal}h1,h2,h3,h4,h5,h6,p,blockquote,pre,ul,ol,dl,figure{margin-bottom:20px}img{max-width:100%;vertical-align:middle}figure>img{display:block}figcaption{font-size:14px}ul,ol{margin-left:30px}li>ul,li>ol{margin-bottom:0}h1,h2,h3,h4,h5,h6{font-weight:400}h2{line-height:1.1;padding-top:20px}h3{padding-top:16px}h4,h5,h6{padding-top:4px}blockquote{color:gray;border-left:4px solid #e6e6e6;padding-left:15px;font-size:18px;letter-spacing:-1px;font-style:italic}blockquote>:last-child{margin-bottom:0}pre,code{font-size:0.9rem;border-radius:3px}code{background:#eee;padding:1px 5px}pre{background-color:#eee;padding:8px 12px;overflow-x:auto}pre>code{background:transparent;border:0;padding-right:0;padding-left:0}.wrapper{max-width:-webkit-calc(800px - (30px * 2));max-width:calc(800px - (30px * 2));margin-right:auto;margin-left:auto;padding-right:30px;padding-left:30px}@media screen and (max-width: 800px){.wrapper{max-width:-webkit-calc(800px - (30px));max-width:calc(800px - (30px));padding-right:15px;padding-left:15px}}.wrapper:after,.footer-col-wrapper:after{content:"";display:table;clear:both}.icon>svg{display:inline-block;width:16px;height:16px;vertical-align:middle}.icon>svg path{fill:gray}@media screen and (max-width: 600px){html{font-size:14px}}.site-header{background:linear-gradient(to bottom, #ccc, #fff);min-height:56px;position:relative;text-align:center}@media screen and (max-width: 600px){.site-header .site-title{letter-spacing:-1px}}.blog-title{cursor:pointer;display:inline-block;font-size:1.5rem;text-decoration:none}.avatar{background:url("/assets/images/avatar.svg");background-repeat:no-repeat;background-size:contain;display:inline-block;height:56px;transition:transform 0.3s, -webkit-transform 0.3s;vertical-align:middle;width:56px}.site-nav{float:right;line-height:56px}.site-nav .menu-icon{display:none}.site-nav .page-link{color:#333;line-height:1.5}.site-nav .page-link:not(:last-child){margin-right:20px}@media screen and (max-width: 600px){.site-nav{background-color:#333;position:absolute;top:9px;right:15px;border:1px solid #e6e6e6;border-radius:5px;text-align:right}.site-nav .menu-icon{display:block;float:right;width:36px;height:26px;line-height:0;padding-top:10px;text-align:center}.site-nav .trigger{clear:both;display:none}.site-nav:hover .trigger{display:block;padding-bottom:5px}.site-nav .page-link{display:block;padding:5px 10px;margin-left:20px}.site-nav .page-link:not(:last-child){margin-right:0}}.home h2{text-align:center}.site-footer{background:linear-gradient(#fff, #ccc);color:#333;padding:30px 0;position:relative;z-index:1}.footer-heading{font-size:18px;margin-bottom:15px}.contact-list,.social-media-list,.related-posts>ul{list-style:none;margin-left:0;text-align:center}.social-media-list li{display:inline-block}.footer-col-wrapper{font-size:15px;color:gray;margin-left:-15px}.footer-col{float:left;margin-bottom:15px;padding-left:15px}.footer-col-1{width:-webkit-calc(35% - (30px / 2));width:calc(35% - (30px / 2))}.footer-col-2{width:-webkit-calc(20% - (30px / 2));width:calc(20% - (30px / 2))}.footer-col-3{width:-webkit-calc(45% - (30px / 2));width:calc(45% - (30px / 2))}@media screen and (max-width: 800px){.footer-col-1,.footer-col-2{width:-webkit-calc(50% - (30px / 2));width:calc(50% - (30px / 2))}.footer-col-3{width:-webkit-calc(100% - (30px / 2));width:calc(100% - (30px / 2))}}@media screen and (max-width: 600px){.footer-col{float:none;width:-webkit-calc(100% - (30px / 2));width:calc(100% - (30px / 2))}}.page-content,#main-content{box-sizing:border-box}#main-content{min-height:calc(100vh - 30px - 56px - 97px)}.page-content{overflow:hidden;padding:30px 0 0;position:relative}.related-posts li{display:inline-block;vertical-align:top;width:48%}@media screen and (max-width: 600px){.related-posts li{width:100%}}.post-list{margin-left:0;list-style:none}.post-list>li{box-shadow:0 3px 3px #ccc, 0 0 3px #ccc;clear:both;margin:0 auto 60px;padding:16px;position:relative;text-align:center;transition:box-shadow .3s;width:75%}.post-list>li:hover{box-shadow:0 16px 20px #ccc, 0 0 3px #ccc}@media screen and (max-width: 600px){.post-list>li{width:auto}}.post-list>li p{margin-top:8px;text-align:justify}.post-meta{font-size:14px;color:gray}.post-header{margin-bottom:30px}.post-title{line-height:1.3}.post-content{margin-bottom:30px}.post-content img{margin-bottom:15px}.thumb-container{background-position:center center;background-size:cover;height:100px;margin:0 auto 16px;position:relative;width:100px}.thumb-container img{height:102%;left:50%;margin:0;max-width:initial;position:absolute;top:49%;transform:translate(-50%, -50%);z-index:1}.thumb-container:after{background-image:radial-gradient(rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 45%, rgba(0,0,0,0.7) 100%);content:' ';display:block;height:100%;position:absolute;width:100%;z-index:0}.tags{color:#777;font-family:press-start;font-size:14px;letter-spacing:-1px;list-style-type:none;margin-left:0}.tags li{display:inline-block}.tags li a{border-bottom:0;color:#777;text-decoration:none}.featured-image-container{width:100%}.featured-image-container img{width:100%}.main-nav{text-align:center}.main-nav ul{align-items:center;box-sizing:border-box;display:flex;flex-flow:row wrap;justify-content:space-around}.main-nav li{border:2px solid #333;box-sizing:border-box;flex:0 1 125px;margin:16px 4px;min-width:20%;padding:4px}.site-player{margin:16px 0;width:100%}figure.music figcaption{font-style:italic}figure.music img{max-height:100px}.figures{display:flex;flex-wrap:wrap;margin:0 -4px;width:100%}.figures__figure{flex:1 1 362px;margin-left:4px}.figures__figure img{width:100%}.copyright{text-align:center}@keyframes slide{from{height:auto}to{height:1px}}@font-face{font-family:press-start;src:url("/assets/fonts/press-start/PressStart2P.eot");src:url("/assets/fonts/press-start/PressStart2P.ttf") format("truetype"),url("/assets/fonts/press-start/PressStart2P.woff") format("woff"),url("/assets/fonts/press-start/PressStart2P.eot#iefix") format("embedded-opentype")}h1,h2,h3,h4,h5,h6,.blog-tagline,.site-title{font-family:press-start;letter-spacing:-1px;vertical-align:middle}.blog-tagline{text-shadow:1px 2px 1px #333}h1{font-size:1.5rem}h2{font-size:1.35rem}h3{font-size:1.2rem}h4{font-family:"Cousine",Monaco,Consolas,"Lucida Console",monospace;font-size:1.1rem;font-weight:bold}h5{font-family:"Cousine",Monaco,Consolas,"Lucida Console",monospace;font-size:1rem;font-weight:bold}h6{font-family:"Cousine",Monaco,Consolas,"Lucida Console",monospace;font-size:0.9rem;font-weight:bold}p,li,pre,code{font-size:1rem}.blog-tagline{letter-spacing:0}.blog-tagline .color-0{color:#ff2313}.blog-tagline .color-1{color:#2869fd}.blog-tagline .color-2{color:#00c363}.blog-tagline .color-3{color:#fee04f}a{border-bottom:2px solid #333;text-decoration:none}a.no-underline,a.blog-title{border-bottom:0}.site-header .blog-title:after{display:none}.site-header a:after{z-index:0}.page-content a{color:#333}.page-content a.color-0{border-color:#ff2313}.page-content a.color-0:hover,.page-content a.color-0:active{color:#ff2313}.page-content a.color-1{border-color:#2869fd}.page-content a.color-1:hover,.page-content a.color-1:active{color:#2869fd}.page-content a.color-2{border-color:#00c363}.page-content a.color-2:hover,.page-content a.color-2:active{color:#00c363}.page-content a.color-3{border-color:#fee04f}.page-content a.color-3:hover,.page-content a.color-3:active{color:#fee04f}.page-content a:hover,.page-content a:active{color:#333}.site-footer a{border-bottom:0;color:#333;text-decoration:none}.highlight .hll{background-color:#ffc}.highlight .c{color:#8f5902;font-style:italic}.highlight .err{color:#a40000;border:1px solid #ef2929}.highlight .g{color:#000}.highlight .k{color:#204a87;font-weight:bold}.highlight .l{color:#000}.highlight .n{color:#000}.highlight .o{color:#ce5c00;font-weight:bold}.highlight .x{color:#000}.highlight .p{color:#000000;font-weight:bold}.highlight .cm{color:#8f5902;font-style:italic}.highlight .cp{color:#8f5902;font-style:italic}.highlight .c1{color:#8f5902;font-style:italic}.highlight .cs{color:#8f5902;font-style:italic}.highlight .gd{color:#a40000}.highlight .ge{color:#000000;font-style:italic}.highlight .gr{color:#ef2929}.highlight .gh{color:#000080;font-weight:bold}.highlight .gi{color:#00A000}.highlight .go{color:#000000;font-style:italic}.highlight .gp{color:#8f5902}.highlight .gs{color:#000000;font-weight:bold}.highlight .gu{color:#800080;font-weight:bold}.highlight .gt{color:#a40000;font-weight:bold}.highlight .kc{color:#204a87;font-weight:bold}.highlight .kd{color:#204a87;font-weight:bold}.highlight .kn{color:#204a87;font-weight:bold}.highlight .kp{color:#204a87;font-weight:bold}.highlight .kr{color:#204a87;font-weight:bold}.highlight .kt{color:#204a87;font-weight:bold}.highlight .ld{color:#000}.highlight .m{color:#0000cf;font-weight:bold}.highlight .s{color:#4e9a06}.highlight .na{color:#c4a000}.highlight .nb{color:#204a87}.highlight .nc{color:#000}.highlight .no{color:#000}.highlight .nd{color:#5c35cc;font-weight:bold}.highlight .ni{color:#ce5c00}.highlight .ne{color:#cc0000;font-weight:bold}.highlight .nf{color:#000}.highlight .nl{color:#f57900}.highlight .nn{color:#000}.highlight .nx{color:#000}.highlight .py{color:#000}.highlight .nt{color:#204a87;font-weight:bold}.highlight .nv{color:#000}.highlight .ow{color:#204a87;font-weight:bold}.highlight .w{color:#f8f8f8;text-decoration:none}.highlight .mf{color:#0000cf;font-weight:bold}.highlight .mh{color:#0000cf;font-weight:bold}.highlight .mi{color:#0000cf;font-weight:bold}.highlight .mo{color:#0000cf;font-weight:bold}.highlight .sb{color:#4e9a06}.highlight .sc{color:#4e9a06}.highlight .sd{color:#8f5902;font-style:italic}.highlight .s2{color:#4e9a06}.highlight .se{color:#4e9a06}.highlight .sh{color:#4e9a06}.highlight .si{color:#4e9a06}.highlight .sx{color:#4e9a06}.highlight .sr{color:#4e9a06}.highlight .s1{color:#4e9a06}.highlight .ss{color:#4e9a06}.highlight .bp{color:#3465a4}.highlight .vc{color:#000}.highlight .vg{color:#000}.highlight .vi{color:#000}.highlight .il{color:#0000cf;font-weight:bold}.show-menu{overflow-y:hidden}.show-menu .avatar{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.show-menu .page-content{height:calc(100vh - 56px);overflow-y:scroll}.show-menu .page-content>section:first-child{left:-100%;padding-top:30px;position:fixed;top:56px}.page-content:after{content:"";display:table;clear:both}.page-content>section{background:#fff;float:left;left:0;position:relative;top:0;width:100%}.page-content>section:first-child{transition:left 0.3s;z-index:2}.page-content>section:last-child{padding-top:30px;position:absolute;text-align:center;z-index:1}.page-content>section nav ul{list-style-type:none;margin-left:0}.main-nav li:nth-child(1n):hover,.main-nav li:nth-child(1n):active{border-color:#ff2313}.main-nav li:nth-child(2n):hover,.main-nav li:nth-child(2n):active{border-color:#2869fd}.main-nav li:nth-child(3n):hover,.main-nav li:nth-child(3n):active{border-color:#00c363}.main-nav li:nth-child(4n):hover,.main-nav li:nth-child(4n):active{border-color:#fee04f}.blog-tagline span{display:inline-block;transform:rotate(0);transition:transform .3s}.blog-tagline span:hover{transform:rotate(15deg)}nav.pagination{font-size:1.2rem;text-align:center}
+
+  </style>
+</head>
+
+  <body>
+    <header class="site-header">
+  <div class="wrapper">
+    <div
+      id="menu-button"
+      aria-pressed="false"
+      aria-label="toggle site menu"
+      tabindex="0"
+      role="button"
+      class="blog-title"
+    >
+      <span class="avatar"></span><span class="blog-tagline"><span class="color-0">j</span><span class="color-1">e</span><span class="color-2">f</span><span class="color-3">f</span></span>
+    </div>
+  </div>
+</header>
+
+    <div class="page-content">
+      <section id="main-content">
+        <div class="wrapper">
+          <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Software ate the world; what's AI going to do to software?</h1>
+    <p class="post-meta"><ul class="tags">
+  <li class="date">September 25, 2025</li>
+    <li class="category"><a href="/category/misc/"><span aria-label="category"><span aria-hidden="true">#</span></span>misc</a></li>
+  
+    <li><a href="/tag/ai/"><span aria-label="tag"><span aria-hidden="true">.</span></span>ai</a></li>
+  
+    <li><a href="/tag/platforms/"><span aria-label="tag"><span aria-hidden="true">.</span></span>platforms</a></li>
+  
+    <li><a href="/tag/llms/"><span aria-label="tag"><span aria-hidden="true">.</span></span>llms</a></li>
+  
+</ul>
+</p>
+    
+    <div class="featured-image-container">
+      <img src="/assets/images/featured/fish-eat-fish.png" alt="Software ate the world; what's AI going to do to software?">
+    </div>
+    
+  </header>
+  <div class="post-content" itemprop="articleBody">
+    <p>Under the hood, the AI era can be understood as the migration of users from producer-published software to platform-published software.  The specifics of how that happens have massive implications for our everyday lives.</p>
+
+<p>These predictions are built on the stipulation that users will increasingly make AI platforms an indispensable part of their daily lives.  It’s completely valid to reject that premise, I just want to be forthcoming about what assumptions I’ve baked into this essay.</p>
+
+<h2 id="software-publication-via-platforms">Software publication via platforms</h2>
+
+<p>On the internet, consumers use software to transact with producers.  That software is typically developed and published by the producers.  And that software is designed to serve the interests of the producer.  TikTok wants you to watch more videos (see more ads).  Indeed wants you to apply for more jobs.  DoorDash wants to bundle shaving cream from CVS along with the burrito that Chipotle’s making you.  They’ll develop their software accordingly.  </p>
+
+<div class="figures">
+  <figure class="figures__figure">
+    <img
+      loading="lazy"
+      decoding="async"
+      alt="A flow diagram showing three rectangular boxes connected in sequence. On the left is a green box labeled “Consumer,” in the middle a blue box labeled “Software,” and on the right a blue box labeled “Producer.” The Consumer connects to the Software with a dotted arrow pointing both ways, while the Software and Producer are connected with a solid two-way arrow."
+      src="/assets/images/posts/software-ate-the-world/consumer-producer.png"
+    />
+</div>
+
+<p>But software is rarely distributed by the producer.  It’s downloaded by the user through a platform.  Today’s dominant software platforms are the web and app stores.  The producer distributes their software by making it available - publishing it - to a place where consumers can find it.  The web’s constraints on users and publishers are largely technical and generally not economic - there’s no <em>de jure</em> rent-seeking entity there.  App stores, though, are a different beast.  We’ll get into that in a moment.  But let’s update our diagram:  </p>
+
+<div class="figures">
+  <figure class="figures__figure">
+    <img
+      loading="lazy"
+      decoding="async"
+      alt="A flow diagram with four labeled elements. On the left, a green box labeled “Consumer” connects with a dotted two-way arrow to a blue box labeled “Software.” The software box sits inside a larger orange box labeled “Platform.” To the right, the software connects with a solid two-way arrow to another blue box labeled “Producer."
+      src="/assets/images/posts/software-ate-the-world/consumer-producer-platform.png"
+    />
+</div>
+
+<p>Post-iPhone, when Steve Jobs and Tim Apple saw that diagram their pupils turned into dollar signs.  They correctly predicted that the platform could be a source of incredible leverage given a critical mass of users, which they brought to bear with spectacular results.  Unfortunately for the Apple folks, there’s a limit to that power.  Apple publishes only a relative handful of apps themselves, which puts them partially at the mercy of publishers/producers.  If they alienate the producers, the value of the platform goes down.  Let’s draw a rectangle in our diagram to illustrate.  Look at all those blue boxes that can gang up on Big Orange:</p>
+
+<div class="figures">
+  <figure class="figures__figure">
+    <img
+      loading="lazy"
+      decoding="async"
+      alt="A flow diagram showing a green box labeled “Consumer” on the left, connected with dotted arrows to three blue boxes labeled “App A,” “App B,” and “App C,” which are all inside a larger orange box labeled “Platform.” Each app has a label “published by” pointing to a corresponding blue box on the right: “Producer A,” “Producer B,” and “Producer C.” The structure shows consumers accessing apps through a platform, with each app linked to a different producer."
+      src="/assets/images/posts/software-ate-the-world/platform-published.png"
+    />
+</div>
+
+<h2 id="the-enshittification-quotient">The enshittification quotient</h2>
+
+<p>Call that the <em>enshittification quotient</em>: the maximum extent to which a platform can capture value from transactions between consumers and producers therein.  The web has an enshittification quotient that approaches zero, though user tracking/ad tech are a really interesting side quest that I won’t go into because they’re not inherently a part of the platform.  App stores have a much higher enshittification quotient.  There are a ton of other examples out there, but I want to remain laser-focused on software distribution because I think that’s where persons of conscience should focus.</p>
+
+<p>There’s a new type of platform emerging, though, and that’s the AI Agent.  I’m sure you’ve heard of it.  If you’re in Control-F mode, I’ll also call this ChatGPT, Chatbots, AI assistants, LLMs, agentic experiences, and so on.  I’ll be grateful for one authoritative collective noun to describe this type of thing.  These platforms have a unique capability: they can generate and execute code.  That makes all the difference in the world because it means the platform has no theoretical limit on how much software it can publish.  The enshittification quotient for an AI Agent platform is unknown; it has no theoretical ceiling but could be bounded by certain market conditions.  We’re early enough in the process that there’s considerable opportunity to limit the damage.</p>
+
+<p>Using a fictionalized AI Agent that exists in the very near future, let’s buy a rug. Prompt:  “I want a 5x8 rug in a geometric pattern, mostly earth tones.”  What do we see?  The AI Agent platform can’t design, fabricate, and ship a rug right there (though that’s an interesting rabbit hole to go down) - they’ll need to connect the consumer’s prompt to a plausible match from a producer.  It’ll probably respond with a few rectangular cards containing some rug choices.  For simplicity’s sake, let’s say I like the second one, which shows a little icon that indicates that it’s from Target, and a price of $99.99.  Prompt: “The second one.”  Response: “Great. I’ll place that order now.”  I get notified when the transaction completes and later when it ships.  Cool.  Where will AI Agent Platform, Inc. get the right to show Target’s inventory and branding in their experience?  That’s the key question.  It turns out, there’s another layer (APIs) in our diagram:</p>
+
+<div class="figures">
+  <figure class="figures__figure">
+    <img
+      loading="lazy"
+      decoding="async"
+      alt="A flow diagram showing relationships between consumers, an AI platform, APIs, and producers. On the left, a green box labeled “Consumer” connects with a dotted two-way arrow to a beige box labeled “Generated Software,” which sits inside a larger orange box labeled “AI Platform.” From the AI Platform, dotted arrows connect to three blue boxes labeled “API A,” “API B,” and “API C,” grouped under the heading “Who controls these?” Each API box connects with a dotted arrow to a corresponding blue box on the right: “Producer A,” “Producer B,” and “Producer C.”"
+      src="/assets/images/posts/software-ate-the-world/api-layer.png"
+    />
+</div>
+
+<p>Today, the producers’ data and capabilities are largely coupled with the software applications they publish.  Their house, their rules.  But when software distribution becomes a property of AI platforms, it’s possible (though not a foregone conclusion) that data/transactions could follow suit, at least to some extent.  One thing is clear to me, though: AI Platforms will not make money from providing LLMs as a service in the foreseeable future unless the underlying tech gets orders of magnitude more efficient.  But if the hosted LLM side of the business is a loss leader in the pursuit of a dominant platform that encompasses both the software and the underlying data transactions, that’s a much more compelling business idea.  The rent-seeking potential of such a platform scares me on behalf of consumers and producers.  The entire supply chain could be verticalized; imagine Amazon’s dominance in cloud, retail, and logistics but also with a ubiquitous software creation and distribution platform stapled on.  Enshittification quotient = infinity.</p>
+
+<h2 id="predictions-in-the-platform-published-software-era">Predictions in the platform-published software era</h2>
+
+<p>With the caveat that antitrust law (will that exist in ten years?) could prevent some of the worst excesses of such a scenario, what conclusions can we draw from this hypothetical example?  Here’s my take:</p>
+
+<h3 id="1-in-the-gold-rush-analogy-ai-isn-t-the-gold-it-s-the-shovel">1. In the “gold rush” analogy, AI isn’t the gold, it’s the shovel</h3>
+
+<p>Data is the gold.  The hype cycle around AI makes it tempting to treat the models themselves as the prize. They’re not. Models are infrastructure: the picks and shovels of this era. They are necessary to participate, but they’re not where the lasting value accrues. What matters is not who has the fanciest shovel, but who owns the gold mine. In the AI context, the “mine” is the data and transaction layer: the flows of inventory, prices, user intents, and completed exchanges that feed the real economy. Whoever controls that registry will have enduring leverage.</p>
+
+<h3 id="2-ai-wrappers-aka-agentic-development-won-t-last-long">2. AI wrappers (aka agentic development) won’t last long</h3>
+
+<p>Many companies are now building “agentic experiences”: thin wrappers around foundation models, dressed up with a prompt template and a UI. These are useful as an extension of the producer-published software model, but I don’t believe they have a durable future because they’re structurally misaligned with both consumer behavior and platform economics.</p>
+
+<p>Consumers won’t want to jump from app to app to ask slightly different AI agents to do the same things given a compelling alternative (again, I’m assuming that consumers will increasingly adopt AI platforms). Nobody will open their travel app to type “reserve three nights at the Doubletree in Toronto” into a worse version of ChatGPT, then switch over to the retail app to tell a nerfed Claude they need a new nightstand. That future looks absurd. Consumers put their food orders into DoorDash rather than juggling a dozen restaurant sites, and they will consolidate their various transactions into a handful of dominant AI platforms that can mediate across domains.</p>
+
+<p>From the producer side, the incentives to invest in standalone applications will wane. Maintaining a full-stack app, whether it’s a traditional UI or an agentic experience, is expensive and offers diminishing returns if consumers are defaulting to agents. Web and mobile app development won’t disappear; they’re here to stay.  But if the dominant channel for discovery and transaction is an AI platform, producers will pour their energy into making sure their inventory, pricing, and services are optimized for that platform’s data and transaction conventions. Application development becomes less about bespoke consumer software and more about maintaining a compliant, performant data interface.</p>
+
+<p>The same logic applies to chatbots. For the last decade, companies have been coaxed into building their own “assistant experiences” inside apps and websites. These efforts rarely delighted customers, and in an agent-dominated world they will make even less sense. Why build and maintain a second-rate chatbot if consumers can get a first-rate one that already knows their order history, payment methods, and preferences? One-off chatbots will survive only in tightly scoped niches, not as a general strategy for consumer engagement.</p>
+
+<p>In short: the application layer itself is shrinking. Producers won’t stop investing in digital presence altogether, but the locus of value shifts from publishing and owning a bespoke app to participating in and hedging against the platform’s publishing layer.</p>
+
+<h3 id="3-producers-stand-to-lose-a-lot-of-value">3. Producers stand to lose a lot of value</h3>
+
+<p>When producers no longer publish their own software, they risk being reduced to interchangeable data sources inside someone else’s platform. That shift strips away the direct brand presence (the Starbucks app, the Delta notifications, the Netflix interface) and replaces it with a widget in an agent’s results. Producers become dependent on the ranking algorithms and monetization policies of the platform, just as Amazon sellers live or die by search placement. Margins compress, competition is reframed around who can satisfy the platform’s incentives, and the producer’s relationship with its customer becomes mediated, if not severed. This is the most immediate danger of the platform-as-publisher economy: the alienation of producers from their services.</p>
+
+<h3 id="4-everyday-people-will-suffer-if-ai-platforms-become-buyer-and-seller-agents">4. Everyday people will suffer if AI platforms become buyer and seller agents</h3>
+
+<p>For consumers, the story is no brighter.</p>
+
+<p><em>United States v. Google LLC</em> was adjudicated against Google for monopolizing the search engine and search advertising markets, most notably on Android devices, as well as with Apple and mobile carriers.  The gist of this case is that Google’s ad marketplace represented the platform, buyers, and sellers.  They used the inherent leverage of that position and its (bought and paid for) dominance in the web and mobile markets to cement its dominance.  The harm to users was and continues to be evident.  Had any of those parties (platform, buyer, seller) been represented by an adversarial organization, the competitive pressure would have made a huge difference in mitigating the moral hazard and distributing more value to the stakeholders in the resulting system.</p>
+
+<p>The lesson?  When platforms act as publishers, they gain the power to arbitrate not just discovery, but also the terms of engagement: which products are surfaced, how prices are presented, what add-ons are bundled. More of the economic surplus shifts toward arbitrage and rent-seeking instead of value creation. Consumers face higher prices, less transparency, and less choice. The governance of these platforms will likely be opaque, algorithmic, and unaccountable.  So if the trajectory of past platforms is any guide, enshittification is a feature not a bug, and everyday people are the ones who pay.</p>
+
+<h2 id="our-role-as-tech-people">Our role as tech people</h2>
+
+<p>To summarize: the AI era can be broadly understood as the unbounded expansion of software publication by dominant platforms. That collapse could drive user hostility to an intolerable extent if it also encompasses the data transactions that have been traditionally coupled with producer-published applications. Unless producers retain leverage over that all-important data layer, they will be reduced to line items in someone else’s prompt response.</p>
+
+<p>Remember: enshittification is not a general term that refers to software getting progressively worse.  It’s a specific tendency of big platforms described by <a href="https://doctorow.medium.com/social-quitting-1ce85b67b456">Doctorow</a>: (1) gain a critical mass of consumers by offering value at a loss; (2) attract a critical mass of producers by brokering consumer data and engagement, still at a loss; (3) incrementally and progressively exploit both tenants once the cost of switching becomes sufficiently high.  We are currently in phase 1: AI products are being jammed down our throats left and right, often at low or no cost to the consumer.  The unit economics are awful for the platform until they reach phase 3, and I am convinced that phase 2 (and therefore, 3) <em>can</em> be prevented, though I don’t know <em>how</em>.</p>
+
+<p>All I can offer is a challenge to the tech industry: our opportunity and the urgent calling of this era is to build the technical and economic infrastructure to ensure that AI platforms cannot double- or triple-deal between consumers, producers, and themselves.  The consequence of failure are dire.</p>
+
+    
+    <h3>Keep the conversation going</h3>
+    <p>I really appreciate feedback from anyone and everyone who reads my posts, so please feel free to say hi at <a href="https://bsky.app/profile/jeff.auriemma.xyz" target="_blank">@jeff.auriemma.xyz</a> and keep the conversation going.</p>
+    
+  </div>
+  
+</article>
+<footer class="related-posts">
+  <h3>Related</h3>
+  <ul>
+    
+    
+    
+
+    
+      <li>
+  <div class="thumb-container" style="background-image: url('/assets/images/featured/thumbnails/home-office.jpg')">
+    <img class="mask" src="/assets/images/shapes/mask.svg" alt="mask">
+  </div>
+  <h3><a class="post-link" href="/misc/principles-for-remote-teams">Principles for an Effective Distributed Team</a></h3>
+  
+</li>
+
+    
+    
+      <li>
+  <div class="thumb-container" style="background-image: url('/assets/images/featured/thumbnails/lastpass-to-bitwarden.jpg')">
+    <img class="mask" src="/assets/images/shapes/mask.svg" alt="mask">
+  </div>
+  <h3><a class="post-link" href="/misc/lastpass-to-bitwarden">How to move from LastPass to Bitwarden in ten minutes</a></h3>
+  
+</li>
+
+    
+  </ul>
+</footer>
+
+        </div>
+      </section>
+      <section
+        class="hide"
+        id="menu-content"
+      >
+        <div class="wrapper">
+          <h2>Jeff Auriemma's blog</h2>
+          <ul class="social-media-list">
+  <li>
+    <a href="/" aria-label="home"><span class="fa fa-lg fa-fw fa-home" aria-hidden="true"></span></a>
+  </li>
+  <li>
+    <a href="/feed.xml" aria-label="RSS"><span class="fa fa-lg fa-fw fa-rss" aria-hidden="true"></span></a>
+  </li>
+  <li>
+    <a href="https://github.com/bignimbus" aria-label="github"><span class="fa fa-lg fa-fw fa-github" aria-hidden="true"></span></a>
+  </li>
+  <li>
+    <a href="https://linkedin.com/in/jeffreyauriemma" aria-label="linked in"><span class="fa fa-lg fa-fw fa-linkedin" aria-hidden="true"></span></a>
+  </li>
+</ul>
+
+          <p>
+            Thanks for visiting!
+          </p>
+          <nav class="main-nav">
+  <h4>Categories</h4>
+  <ul>
+    <li>
+      <a href="/">
+        <div><img src="/assets/images/icons/all.svg" alt="all"></div>
+        <div>All</div>
+      </a>
+    </li>
+    
+    <li>
+      <a href="/category/music">
+        <div><img src="/assets/images/icons/music.svg" alt="music"></div>
+        <div>Music</div>
+      </a>
+    </li>
+    
+    <li>
+      <a href="/category/programming">
+        <div><img src="/assets/images/icons/programming.svg" alt="programming"></div>
+        <div>Programming</div>
+      </a>
+    </li>
+    
+    <li>
+      <a href="/category/misc">
+        <div><img src="/assets/images/icons/misc.svg" alt="misc"></div>
+        <div>Misc</div>
+      </a>
+    </li>
+    
+  </ul>
+  <h4>Popular tags</h4>
+  <ul>
+    
+    
+    
+    <li>
+      <a href="/tag/music">
+        <div><img src="/assets/images/icons/tag.svg" alt="music"></div>
+        <div>music</div>
+      </a>
+    </li>
+    
+    
+    
+    
+    <li>
+      <a href="/tag/javascript">
+        <div><img src="/assets/images/icons/tag.svg" alt="javascript"></div>
+        <div>javascript</div>
+      </a>
+    </li>
+    
+    
+    
+    
+    <li>
+      <a href="/tag/ifbachwrote">
+        <div><img src="/assets/images/icons/tag.svg" alt="ifbachwrote"></div>
+        <div>ifbachwrote</div>
+      </a>
+    </li>
+    
+    
+    
+    
+    <li>
+      <a href="/tag/eslint">
+        <div><img src="/assets/images/icons/tag.svg" alt="eslint"></div>
+        <div>eslint</div>
+      </a>
+    </li>
+    
+    
+    
+    
+    <li>
+      <a href="/tag/vim">
+        <div><img src="/assets/images/icons/tag.svg" alt="vim"></div>
+        <div>vim</div>
+      </a>
+    </li>
+    
+    
+    
+    
+    <li>
+      <a href="/tag/tlaplus">
+        <div><img src="/assets/images/icons/tag.svg" alt="tlaplus"></div>
+        <div>tlaplus</div>
+      </a>
+    </li>
+    
+    
+    
+    
+    <li>
+      <a href="/tag/tdd">
+        <div><img src="/assets/images/icons/tag.svg" alt="tdd"></div>
+        <div>tdd</div>
+      </a>
+    </li>
+    
+    
+    
+    
+    <li>
+      <a href="/tag/security">
+        <div><img src="/assets/images/icons/tag.svg" alt="security"></div>
+        <div>security</div>
+      </a>
+    </li>
+    
+    
+    
+    
+    <li>
+      <a href="/tag/remote">
+        <div><img src="/assets/images/icons/tag.svg" alt="remote"></div>
+        <div>remote</div>
+      </a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </ul>
+</nav>
+
+        </div>
+      </section>
+    </div>
+    <footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <ul class="social-media-list">
+  <li>
+    <a href="/" aria-label="home"><span class="fa fa-lg fa-fw fa-home" aria-hidden="true"></span></a>
+  </li>
+  <li>
+    <a href="/feed.xml" aria-label="RSS"><span class="fa fa-lg fa-fw fa-rss" aria-hidden="true"></span></a>
+  </li>
+  <li>
+    <a href="https://github.com/bignimbus" aria-label="github"><span class="fa fa-lg fa-fw fa-github" aria-hidden="true"></span></a>
+  </li>
+  <li>
+    <a href="https://linkedin.com/in/jeffreyauriemma" aria-label="linked in"><span class="fa fa-lg fa-fw fa-linkedin" aria-hidden="true"></span></a>
+  </li>
+</ul>
+
+    </div>
+    <div class="footer-col-wrapper">
+      <footer class="copyright">
+  <p>
+    &copy; Jeff Auriemma<br>
+    The articles in this website are available under a<br>
+    <a href="https://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution ShareAlike license</a>.
+  </p>
+</footer>
+
+    </div>
+  </div>
+</footer>
+
+  </body>
+  <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+  <script src="/assets/javascripts/main.js"></script>
+  <script data-goatcounter="https://jdauriemma.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</html>
