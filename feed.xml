@@ -5,9 +5,129 @@
     <description>thoughts on code, music, misc.</description>
     <link>https://jdauriemma.com/</link>
     <atom:link href="https://jdauriemma.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Nov 2024 18:08:13 +0000</pubDate>
-    <lastBuildDate>Fri, 01 Nov 2024 18:08:13 +0000</lastBuildDate>
+    <pubDate>Fri, 26 Sep 2025 15:54:57 +0000</pubDate>
+    <lastBuildDate>Fri, 26 Sep 2025 15:54:57 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+      <item>
+        <title>Software ate the world; what's AI going to do to software?</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/fish-eat-fish.png&quot; alt=&quot;Software ate the world; what's AI going to do to software?&quot;&gt;&lt;p&gt;Under the hood, the AI era can be understood as the migration of users from producer-published software to platform-published software.  The specifics of how that happens have massive implications for our everyday lives.&lt;/p&gt;
+
+&lt;p&gt;These predictions are built on the stipulation that users will increasingly make AI platforms an indispensable part of their daily lives.  It’s completely valid to reject that premise, I just want to be forthcoming about what assumptions I’ve baked into this essay.&lt;/p&gt;
+
+&lt;h2 id=&quot;software-publication-via-platforms&quot;&gt;Software publication via platforms&lt;/h2&gt;
+
+&lt;p&gt;On the internet, consumers use software to transact with producers.  That software is typically developed and published by the producers.  And that software is designed to serve the interests of the producer.  TikTok wants you to watch more videos (see more ads).  Indeed wants you to apply for more jobs.  DoorDash wants to bundle shaving cream from CVS along with the burrito that Chipotle’s making you.  They’ll develop their software accordingly.  &lt;/p&gt;
+
+&lt;div class=&quot;figures&quot;&gt;
+  &lt;figure class=&quot;figures__figure&quot;&gt;
+    &lt;img
+      loading=&quot;lazy&quot;
+      decoding=&quot;async&quot;
+      alt=&quot;A flow diagram showing three rectangular boxes connected in sequence. On the left is a green box labeled “Consumer,” in the middle a blue box labeled “Software,” and on the right a blue box labeled “Producer.” The Consumer connects to the Software with a dotted arrow pointing both ways, while the Software and Producer are connected with a solid two-way arrow.&quot;
+      src=&quot;/assets/images/posts/software-ate-the-world/consumer-producer.png&quot;
+    /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;But software is rarely distributed by the producer.  It’s downloaded by the user through a platform.  Today’s dominant software platforms are the web and app stores.  The producer distributes their software by making it available - publishing it - to a place where consumers can find it.  The web’s constraints on users and publishers are largely technical and generally not economic - there’s no &lt;em&gt;de jure&lt;/em&gt; rent-seeking entity there.  App stores, though, are a different beast.  We’ll get into that in a moment.  But let’s update our diagram:  &lt;/p&gt;
+
+&lt;div class=&quot;figures&quot;&gt;
+  &lt;figure class=&quot;figures__figure&quot;&gt;
+    &lt;img
+      loading=&quot;lazy&quot;
+      decoding=&quot;async&quot;
+      alt=&quot;A flow diagram with four labeled elements. On the left, a green box labeled “Consumer” connects with a dotted two-way arrow to a blue box labeled “Software.” The software box sits inside a larger orange box labeled “Platform.” To the right, the software connects with a solid two-way arrow to another blue box labeled “Producer.&quot;
+      src=&quot;/assets/images/posts/software-ate-the-world/consumer-producer-platform.png&quot;
+    /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Post-iPhone, when Steve Jobs and Tim Apple saw that diagram their pupils turned into dollar signs.  They correctly predicted that the platform could be a source of incredible leverage given a critical mass of users, which they brought to bear with spectacular results.  Unfortunately for the Apple folks, there’s a limit to that power.  Apple publishes only a relative handful of apps themselves, which puts them partially at the mercy of publishers/producers.  If they alienate the producers, the value of the platform goes down.  Let’s draw a rectangle in our diagram to illustrate.  Look at all those blue boxes that can gang up on Big Orange:&lt;/p&gt;
+
+&lt;div class=&quot;figures&quot;&gt;
+  &lt;figure class=&quot;figures__figure&quot;&gt;
+    &lt;img
+      loading=&quot;lazy&quot;
+      decoding=&quot;async&quot;
+      alt=&quot;A flow diagram showing a green box labeled “Consumer” on the left, connected with dotted arrows to three blue boxes labeled “App A,” “App B,” and “App C,” which are all inside a larger orange box labeled “Platform.” Each app has a label “published by” pointing to a corresponding blue box on the right: “Producer A,” “Producer B,” and “Producer C.” The structure shows consumers accessing apps through a platform, with each app linked to a different producer.&quot;
+      src=&quot;/assets/images/posts/software-ate-the-world/platform-published.png&quot;
+    /&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;the-enshittification-quotient&quot;&gt;The enshittification quotient&lt;/h2&gt;
+
+&lt;p&gt;Call that the &lt;em&gt;enshittification quotient&lt;/em&gt;: the maximum extent to which a platform can capture value from transactions between consumers and producers therein.  The web has an enshittification quotient that approaches zero, though user tracking/ad tech are a really interesting side quest that I won’t go into because they’re not inherently a part of the platform.  App stores have a much higher enshittification quotient.  There are a ton of other examples out there, but I want to remain laser-focused on software distribution because I think that’s where persons of conscience should focus.&lt;/p&gt;
+
+&lt;p&gt;There’s a new type of platform emerging, though, and that’s the AI Agent.  I’m sure you’ve heard of it.  If you’re in Control-F mode, I’ll also call this ChatGPT, Chatbots, AI assistants, LLMs, agentic experiences, and so on.  I’ll be grateful for one authoritative collective noun to describe this type of thing.  These platforms have a unique capability: they can generate and execute code.  That makes all the difference in the world because it means the platform has no theoretical limit on how much software it can publish.  The enshittification quotient for an AI Agent platform is unknown; it has no theoretical ceiling but could be bounded by certain market conditions.  We’re early enough in the process that there’s considerable opportunity to limit the damage.&lt;/p&gt;
+
+&lt;p&gt;Using a fictionalized AI Agent that exists in the very near future, let’s buy a rug. Prompt:  “I want a 5x8 rug in a geometric pattern, mostly earth tones.”  What do we see?  The AI Agent platform can’t design, fabricate, and ship a rug right there (though that’s an interesting rabbit hole to go down) - they’ll need to connect the consumer’s prompt to a plausible match from a producer.  It’ll probably respond with a few rectangular cards containing some rug choices.  For simplicity’s sake, let’s say I like the second one, which shows a little icon that indicates that it’s from Target, and a price of $99.99.  Prompt: “The second one.”  Response: “Great. I’ll place that order now.”  I get notified when the transaction completes and later when it ships.  Cool.  Where will AI Agent Platform, Inc. get the right to show Target’s inventory and branding in their experience?  That’s the key question.  It turns out, there’s another layer (APIs) in our diagram:&lt;/p&gt;
+
+&lt;div class=&quot;figures&quot;&gt;
+  &lt;figure class=&quot;figures__figure&quot;&gt;
+    &lt;img
+      loading=&quot;lazy&quot;
+      decoding=&quot;async&quot;
+      alt=&quot;A flow diagram showing relationships between consumers, an AI platform, APIs, and producers. On the left, a green box labeled “Consumer” connects with a dotted two-way arrow to a beige box labeled “Generated Software,” which sits inside a larger orange box labeled “AI Platform.” From the AI Platform, dotted arrows connect to three blue boxes labeled “API A,” “API B,” and “API C,” grouped under the heading “Who controls these?” Each API box connects with a dotted arrow to a corresponding blue box on the right: “Producer A,” “Producer B,” and “Producer C.”&quot;
+      src=&quot;/assets/images/posts/software-ate-the-world/api-layer.png&quot;
+    /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Today, the producers’ data and capabilities are largely coupled with the software applications they publish.  Their house, their rules.  But when software distribution becomes a property of AI platforms, it’s possible (though not a foregone conclusion) that data/transactions could follow suit, at least to some extent.  One thing is clear to me, though: AI Platforms will not make money from providing LLMs as a service in the foreseeable future unless the underlying tech gets orders of magnitude more efficient.  But if the hosted LLM side of the business is a loss leader in the pursuit of a dominant platform that encompasses both the software and the underlying data transactions, that’s a much more compelling business idea.  The rent-seeking potential of such a platform scares me on behalf of consumers and producers.  The entire supply chain could be verticalized; imagine Amazon’s dominance in cloud, retail, and logistics but also with a ubiquitous software creation and distribution platform stapled on.  Enshittification quotient = infinity.&lt;/p&gt;
+
+&lt;h2 id=&quot;predictions-in-the-platform-published-software-era&quot;&gt;Predictions in the platform-published software era&lt;/h2&gt;
+
+&lt;p&gt;With the caveat that antitrust law (will that exist in ten years?) could prevent some of the worst excesses of such a scenario, what conclusions can we draw from this hypothetical example?  Here’s my take:&lt;/p&gt;
+
+&lt;h3 id=&quot;1-in-the-gold-rush-analogy-ai-isn-t-the-gold-it-s-the-shovel&quot;&gt;1. In the “gold rush” analogy, AI isn’t the gold, it’s the shovel&lt;/h3&gt;
+
+&lt;p&gt;Data is the gold.  The hype cycle around AI makes it tempting to treat the models themselves as the prize. They’re not. Models are infrastructure: the picks and shovels of this era. They are necessary to participate, but they’re not where the lasting value accrues. What matters is not who has the fanciest shovel, but who owns the gold mine. In the AI context, the “mine” is the data and transaction layer: the flows of inventory, prices, user intents, and completed exchanges that feed the real economy. Whoever controls that registry will have enduring leverage.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-ai-wrappers-aka-agentic-development-won-t-last-long&quot;&gt;2. AI wrappers (aka agentic development) won’t last long&lt;/h3&gt;
+
+&lt;p&gt;Many companies are now building “agentic experiences”: thin wrappers around foundation models, dressed up with a prompt template and a UI. These are useful as an extension of the producer-published software model, but I don’t believe they have a durable future because they’re structurally misaligned with both consumer behavior and platform economics.&lt;/p&gt;
+
+&lt;p&gt;Consumers won’t want to jump from app to app to ask slightly different AI agents to do the same things given a compelling alternative (again, I’m assuming that consumers will increasingly adopt AI platforms). Nobody will open their travel app to type “reserve three nights at the Doubletree in Toronto” into a worse version of ChatGPT, then switch over to the retail app to tell a nerfed Claude they need a new nightstand. That future looks absurd. Consumers put their food orders into DoorDash rather than juggling a dozen restaurant sites, and they will consolidate their various transactions into a handful of dominant AI platforms that can mediate across domains.&lt;/p&gt;
+
+&lt;p&gt;From the producer side, the incentives to invest in standalone applications will wane. Maintaining a full-stack app, whether it’s a traditional UI or an agentic experience, is expensive and offers diminishing returns if consumers are defaulting to agents. Web and mobile app development won’t disappear; they’re here to stay.  But if the dominant channel for discovery and transaction is an AI platform, producers will pour their energy into making sure their inventory, pricing, and services are optimized for that platform’s data and transaction conventions. Application development becomes less about bespoke consumer software and more about maintaining a compliant, performant data interface.&lt;/p&gt;
+
+&lt;p&gt;The same logic applies to chatbots. For the last decade, companies have been coaxed into building their own “assistant experiences” inside apps and websites. These efforts rarely delighted customers, and in an agent-dominated world they will make even less sense. Why build and maintain a second-rate chatbot if consumers can get a first-rate one that already knows their order history, payment methods, and preferences? One-off chatbots will survive only in tightly scoped niches, not as a general strategy for consumer engagement.&lt;/p&gt;
+
+&lt;p&gt;In short: the application layer itself is shrinking. Producers won’t stop investing in digital presence altogether, but the locus of value shifts from publishing and owning a bespoke app to participating in and hedging against the platform’s publishing layer.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-producers-stand-to-lose-a-lot-of-value&quot;&gt;3. Producers stand to lose a lot of value&lt;/h3&gt;
+
+&lt;p&gt;When producers no longer publish their own software, they risk being reduced to interchangeable data sources inside someone else’s platform. That shift strips away the direct brand presence (the Starbucks app, the Delta notifications, the Netflix interface) and replaces it with a widget in an agent’s results. Producers become dependent on the ranking algorithms and monetization policies of the platform, just as Amazon sellers live or die by search placement. Margins compress, competition is reframed around who can satisfy the platform’s incentives, and the producer’s relationship with its customer becomes mediated, if not severed. This is the most immediate danger of the platform-as-publisher economy: the alienation of producers from their services.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-everyday-people-will-suffer-if-ai-platforms-become-buyer-and-seller-agents&quot;&gt;4. Everyday people will suffer if AI platforms become buyer and seller agents&lt;/h3&gt;
+
+&lt;p&gt;For consumers, the story is no brighter.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;United States v. Google LLC&lt;/em&gt; was adjudicated against Google for monopolizing the search engine and search advertising markets, most notably on Android devices, as well as with Apple and mobile carriers.  The gist of this case is that Google’s ad marketplace represented the platform, buyers, and sellers.  They used the inherent leverage of that position and its (bought and paid for) dominance in the web and mobile markets to cement its dominance.  The harm to users was and continues to be evident.  Had any of those parties (platform, buyer, seller) been represented by an adversarial organization, the competitive pressure would have made a huge difference in mitigating the moral hazard and distributing more value to the stakeholders in the resulting system.&lt;/p&gt;
+
+&lt;p&gt;The lesson?  When platforms act as publishers, they gain the power to arbitrate not just discovery, but also the terms of engagement: which products are surfaced, how prices are presented, what add-ons are bundled. More of the economic surplus shifts toward arbitrage and rent-seeking instead of value creation. Consumers face higher prices, less transparency, and less choice. The governance of these platforms will likely be opaque, algorithmic, and unaccountable.  So if the trajectory of past platforms is any guide, enshittification is a feature not a bug, and everyday people are the ones who pay.&lt;/p&gt;
+
+&lt;h2 id=&quot;our-role-as-tech-people&quot;&gt;Our role as tech people&lt;/h2&gt;
+
+&lt;p&gt;To summarize: the AI era can be broadly understood as the unbounded expansion of software publication by dominant platforms. That collapse could drive user hostility to an intolerable extent if it also encompasses the data transactions that have been traditionally coupled with producer-published applications. Unless producers retain leverage over that all-important data layer, they will be reduced to line items in someone else’s prompt response.&lt;/p&gt;
+
+&lt;p&gt;Remember: enshittification is not a general term that refers to software getting progressively worse.  It’s a specific tendency of big platforms described by &lt;a href=&quot;https://doctorow.medium.com/social-quitting-1ce85b67b456&quot;&gt;Doctorow&lt;/a&gt;: (1) gain a critical mass of consumers by offering value at a loss; (2) attract a critical mass of producers by brokering consumer data and engagement, still at a loss; (3) incrementally and progressively exploit both tenants once the cost of switching becomes sufficiently high.  We are currently in phase 1: AI products are being jammed down our throats left and right, often at low or no cost to the consumer.  The unit economics are awful for the platform until they reach phase 3, and I am convinced that phase 2 (and therefore, 3) &lt;em&gt;can&lt;/em&gt; be prevented, though I don’t know &lt;em&gt;how&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;All I can offer is a challenge to the tech industry: our opportunity and the urgent calling of this era is to build the technical and economic infrastructure to ensure that AI platforms cannot double- or triple-deal between consumers, producers, and themselves.  The consequence of failure are dire.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 25 Sep 2025 15:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/misc/software-ate-the-world-whats-ai-going-to-do-to-software</link>
+        <guid isPermaLink="true">https://jdauriemma.com/misc/software-ate-the-world-whats-ai-going-to-do-to-software</guid>
+        
+        <category>ai</category>
+        
+        <category>platforms</category>
+        
+        <category>llms</category>
+        
+        
+        <category>misc</category>
+        
+      </item>
     
       
       <item>
@@ -2149,137 +2269,6 @@ table ul {
         
         
         <category>programming</category>
-        
-      </item>
-    
-      
-      <item>
-        <title>Gino's East Deep Dish Pizza Imitation Recipe</title>
-        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/deep-dish-pizza.jpg&quot; alt=&quot;Gino's East Deep Dish Pizza Imitation Recipe&quot;&gt;&lt;p&gt;Ever since I moved out of Chicago, I&amp;#39;ve missed Gino&amp;#39;s East pizza.  In particular, I loved indulging in their classic deep dish with spicy sausage and green peppers.  Don&amp;#39;t get me wrong&amp;mdash;the New York metro area has amazing pizza, but deep dish is basically non-existant.
-I&amp;#39;ve been spending the past year or so trying to make a convincing facsimile of the Gino&amp;#39;s recipe at home.  I cross-referenced at least a dozen recipes from various corners of the internet.  None of them got it right.  The best recipe I found was a clipping that a coworker shared with me from a recipe book of his.  But that recipe still fell short on the crust.
-As of this past weekend, however, I am finally confident that I&amp;#39;ve crafted a recipe that is every bit as delicious, if not a bit more labor-intensive, than the average slice of Gino&amp;#39;s East fresh out of their ovens.  Here it goes:&lt;/p&gt;
-
-&lt;h2 id=&quot;the-recipe&quot;&gt;The Recipe&lt;/h2&gt;
-
-&lt;p&gt;Makes two 9&amp;quot; deep dish pizzas.  If you are prepping constantly, it takes about two hours minimum.  Add some extra time if this is your first attempt.&lt;/p&gt;
-
-&lt;h3 id=&quot;hardware-etc&quot;&gt;Hardware, etc.&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2 cake/pie pans, 9&amp;quot; each&lt;/li&gt;
-&lt;li&gt;2 large bowls&lt;/li&gt;
-&lt;li&gt;1 sauce pan&lt;/li&gt;
-&lt;li&gt;1 cheese grater&lt;/li&gt;
-&lt;li&gt;Plastic wrap&lt;/li&gt;
-&lt;li&gt;1 skillet (if sausage is a topping)&lt;/li&gt;
-&lt;li&gt;1 brush (optional, but makes life easier)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;dough-ingredients&quot;&gt;Dough ingredients&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2 1/2 cups all-purpose flour&lt;/li&gt;
-&lt;li&gt;1 cup water&lt;/li&gt;
-&lt;li&gt;1 packet OR 2 1/4 teaspoons yeast&lt;/li&gt;
-&lt;li&gt;1/2 cup cornmeal&lt;/li&gt;
-&lt;li&gt;2 tablespoons corn oil&lt;/li&gt;
-&lt;li&gt;1 teaspoon salt&lt;/li&gt;
-&lt;li&gt;1/2 teaspoon sugar&lt;/li&gt;
-&lt;li&gt;(set aside the corn oil bottle, you will need some extra later)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;sauce-ingredients&quot;&gt;Sauce ingredients&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1 can (28 oz) San Marzano tomatoes&lt;/li&gt;
-&lt;li&gt;4 garlic cloves&lt;/li&gt;
-&lt;li&gt;2 tablespoons unsalted butter&lt;/li&gt;
-&lt;li&gt;1/4 cup grated onion&lt;/li&gt;
-&lt;li&gt;2 tablespoons coarsely chopped fresh basil and/or oregano&lt;/li&gt;
-&lt;li&gt;Dried oregano, to taste&lt;/li&gt;
-&lt;li&gt;Dried basil, to taste&lt;/li&gt;
-&lt;li&gt;Ground black pepper, to taste&lt;/li&gt;
-&lt;li&gt;Salt, to taste (kosher salt recommended)&lt;/li&gt;
-&lt;li&gt;1 tablespoon olive oil&lt;/li&gt;
-&lt;li&gt;1/2 teaspoon sugar&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;cheese-and-toppings&quot;&gt;Cheese and toppings&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1 lb fresh mozzarella cheese, grated. Don&amp;#39;t use the cheap stuff, don&amp;#39;t use pre-shredded, for the love of everything holy&lt;/li&gt;
-&lt;li&gt;1/4 cup parmesan and/or asiago, grated&lt;/li&gt;
-&lt;li&gt;1 bell pepper (optional)&lt;/li&gt;
-&lt;li&gt;1 package of spicy Italian sausage (optional)&lt;/li&gt;
-&lt;li&gt;Really anything else you can think of, but I usually limit it to sausage and peppers&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;make-the-dough&quot;&gt;Make the dough&lt;/h3&gt;
-
-&lt;p&gt;Combine the flour, cornmeal, and salt in a big bowl. Heat up 1 cup of water so that it&amp;#39;s not hot, but not room temperature either. Get it warm. Transfer the water into a small bowl. Stir the yeast and sugar into the water. You&amp;#39;ll know the yeast is active when the mixture begins to foam and bubble&amp;mdash;that will take about 5-10 minutes.&lt;/p&gt;
-
-&lt;p&gt;Transfer the water/yeast/sugar mixture into a separate big bowl. Add the corn oil. Wash your hands and thoroughly dry them.&lt;/p&gt;
-
-&lt;p&gt;Slowly add the flour/cornmeal/salt mixture into the wet bowl. Stir the mixture with one hand, using the other to keep the bowl stable. Keep the gooey stuff off the sides of the bowl, trying to keep as much of the mixture together as one blob. It will start to congeal. Once the dry stuff is integrated into the blob, add more. The dough is ready to rise when it&amp;#39;s moist, but not sticky. Add flour if it&amp;#39;s too sticky, add water if it&amp;#39;s too dry. Knead the dough for a few minutes, but you don&amp;#39;t have to get carried away with it.&lt;/p&gt;
-
-&lt;p&gt;The bowl that held the dry stuff is now empty. Using a brush, or your hand, coat the inside of the bowl with corn oil. Pat the dough into a ball, then put it inside the bowl. Cover completely with plastic wrap and set aside to let rise at room temperature for 45-60 minutes.&lt;/p&gt;
-
-&lt;h3 id=&quot;make-the-sauce&quot;&gt;Make the sauce&lt;/h3&gt;
-
-&lt;p&gt;Crush the San Marzano tomatoes in a big bowl. Chop the garlic. Chop the fresh herbs. Grate the onion - use the largest holes to avoid it being too soupy. In a saucepan over medium heat, melt the butter. Once melted, add onion and fresh herbs and cook until liquid is evaporated and the onion is golden brown. Add garlic and cook until fragrant, maximum 30 seconds. Stir in tomatoes and sugar, increase heat to high and bring to a simmer. Then bring the heat to medium-low and let simmer for 20-30 minutes (about 2 1/2 cups should remain after the sauce reduces). Turn off the heat, and stir in olive oil, dried herbs, pepper, and salt to taste. Let sit, stirring every now and then.&lt;/p&gt;
-
-&lt;p&gt;Preheat the oven to 425 degrees, rack on the bottom.&lt;/p&gt;
-
-&lt;h3 id=&quot;prep-the-toppings&quot;&gt;Prep the toppings&lt;/h3&gt;
-
-&lt;p&gt;Grate the cheeses. Cut any toppings to your liking. Keep in mind that any topping pieces should be cut into smaller pieces, 1&amp;quot; diameter tops. Otherwise the pizza&amp;#39;s texture makes it hard to get a good sauce/cheese/topping ratio each bite.&lt;/p&gt;
-
-&lt;p&gt;For sausage, you should cook it in advance. Heat a (preferably cast-iron) skillet to medium, add your cooking spray of choice if needed, brown the sausage for 5 minutes on both sides, turning often. Add 1/2 cup water, cover the skillet, reduce heat to medium-low, and let simmer for 15 minutes. Cut the sausage into 1/2 - 1&amp;quot; bits.
-&lt;div class=&quot;figures&quot;&gt;
-  &lt;figure class=&quot;figures__figure&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/ginos-east-deep-dish-pizza-imitation-recipe/adding-the-toppings.jpg&quot; alt=&quot;two pans with dough and cheese. One has sausage and peppers in it&quot;&gt;
-    &lt;figcaption&gt;Cheese and toppings first: literally the opposite of most other pizza styles&lt;/figcaption&gt;
-  &lt;/figure&gt;
-  &lt;figure class=&quot;figures__figure&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/ginos-east-deep-dish-pizza-imitation-recipe/adding-the-sauce.jpg&quot; alt=&quot;two pans with sauce on top&quot;&gt;
-    &lt;figcaption&gt;If you need to spread the sauce around manually, don&amp;#39;t be shy&lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;assemble-the-pizzas&quot;&gt;Assemble the pizzas&lt;/h3&gt;
-
-&lt;p&gt;Using a brush or your hand, line each deep dish with corn oil. Don&amp;#39;t be shy. Sprinkle some corn meal onto your work surface. Take the risen dough out of the bowl and separate into two equal halves. For each half, on your prepared surface, hand-flatten and roll out to be as large as your dishes, plus a few inches in diameter. It&amp;#39;s easier to make it too wide than not wide enough.&lt;/p&gt;
-
-&lt;p&gt;For each half, transfer the flattened dough to a deep dish. Use your fingers to conform the dough to the contour of the dish, and use your thumbs to make sure that the dough goes all the way up the side of the dish without falling over the edge. Presentation counts, try to clean up any &amp;quot;hills and valleys&amp;quot; at the edges - the dough&amp;#39;s edge should be as smooth as the curve of the dish. Try to repair any holes in the dough. Brush the dough with corn oil - not too much.&lt;/p&gt;
-
-&lt;p&gt;Sprinkle the grated mozzarella evenly on the dough. Next, add any toppings. Then, add the sauce and spread evenly over the top of all the cheese and toppings. Sprinkle the parmesan/asiago on top, to taste.&lt;/p&gt;
-
-&lt;h3 id=&quot;cook&quot;&gt;Cook&lt;/h3&gt;
-
-&lt;p&gt;Cook for 25-35 minutes on the bottom rack at 425 degrees. The pizza is done when the mozzarella bubbles up to the top. Let sit for two minutes before serving.
-&lt;div class=&quot;figures&quot;&gt;
-  &lt;figure class=&quot;figures__figure&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/ginos-east-deep-dish-pizza-imitation-recipe/slice.jpg&quot; alt=&quot;slice of deep dish pizza&quot;&gt;
-    &lt;figcaption&gt;A slice&lt;/figcaption&gt;
-  &lt;/figure&gt;
-  &lt;figure class=&quot;figures__figure&quot;&gt;
-    &lt;img src=&quot;/assets/images/posts/ginos-east-deep-dish-pizza-imitation-recipe/pies.jpg&quot; alt=&quot;deep dish pie&quot;&gt;
-    &lt;figcaption&gt;Finished pie&lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 13 Feb 2018 05:00:00 +0000</pubDate>
-        <link>https://jdauriemma.com/misc/ginos-east-deep-dish-pizza-imitation-recipe</link>
-        <guid isPermaLink="true">https://jdauriemma.com/misc/ginos-east-deep-dish-pizza-imitation-recipe</guid>
-        
-        <category>food</category>
-        
-        <category>recipe</category>
-        
-        <category>pizza</category>
-        
-        
-        <category>misc</category>
         
       </item>
     
