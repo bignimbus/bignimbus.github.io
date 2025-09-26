@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Software ate the world; what's AI going to do to software?"
-date:   2025-09-24 16:56:00 -0500
+date:   2025-09-25 11:00:00 -0400
 featured_image: fish-eat-fish.png
 categories: misc
 tags: ['ai', 'platforms', 'llms']
