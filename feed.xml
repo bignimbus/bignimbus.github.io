@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jeff Auriemma's Blog</title>
+    <description>thoughts on code, music, misc.</description>
+    <link>https://jdauriemma.com/</link>
+    <atom:link href="https://jdauriemma.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 29 Oct 2025 17:06:27 +0000</pubDate>
+    <lastBuildDate>Wed, 29 Oct 2025 17:06:27 +0000</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    
+      
+      <item>
+        <title>You're all staff engineers now</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/staff-engineer.jpg&quot; alt=&quot;You're all staff engineers now&quot;&gt;&lt;p&gt;Don’t get excited, I’m not promoting you.  I’m simply pointing out that the craft of software engineering is changing rapidly and managers are going to adjust expectations accordingly.  This isn’t some AI-pilled cheerleading perspective, by the way; but I think most fair-minded people can agree that code has become cheaper to produce over the past year or so. This comes on the heels of a much more modest revolution: the rise of the staff engineer.&lt;/p&gt;
+
+&lt;p&gt;Let’s start there.  One of my favorite software books is Tanya Reilly’s &lt;em&gt;The Staff Engineer’s Path&lt;/em&gt;. It’s an indispensable resource for individual contributors and engineering managers like me. Here’s the passage I want to highlight: “Early in your career, if you do a great job on something that turns out to be unnecessary, you’ve still done a great job. At the staff engineer level, everything you do has a high opportunity cost, so your work needs to be important.”  For many engineers, from intern to senior, the “something” you do a “great job on” is primarily writing code.  Sure, there is a sliding scale of expertise when it comes to implementation, estimation, testing, scope, and planning sophistication but you get the drift.  When production code is written by hand, the cost of “getting it wrong” is relatively high, so the difference between success and failure is very tangible to management and we are able to articulate what progression and achievement looks like with a fair bit of precision.&lt;/p&gt;
+
+&lt;p&gt;Once they achieve senior level, it becomes clear that some engineers possess uncommon and valuable domain, technical, and/or executive skills. These skills are distinct enough to merit further advancement.  Recent consensus deems this “staff” level engineering.  Reilly proposes a taxonomy of these skill sets in the &lt;em&gt;Tech Lead&lt;/em&gt;, the &lt;em&gt;Architect&lt;/em&gt;, and the &lt;em&gt;Solver&lt;/em&gt;.  The Tech Lead partners closely with a manager (or teams of managers) to guide execution.  The Architect is responsible for technical direction (and often technical quality) across a large domain or technology area.  The Solver tackles particularly difficult, high-leverage, high-ambiguity problems. These may be urgent crises, deep technical debt, unknowns, cross-team coordination problems, or strategic obstacles.&lt;/p&gt;
+
+&lt;p&gt;To quote myself from a couple paragraphs ago:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;When production code is written by hand, the cost of &amp;quot;getting it wrong&amp;quot; is relatively high&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Considering that I mentioned AI earlier, you probably can guess where this is going: the cost of “getting it wrong” is going down. Production code is increasingly not being written by hand; LLM-powered tools are generating more of it. The exact numbers are fuzzy because foundation model providers, tech executives, and VCs are incentivized to make their usage stats seem as impressive as possible. Based on those faulty stats and anecdata from my experience, I’m confident in saying that the trend line is going up, which means that (re-)writing code is becoming cheaper. Spamming Claude Code to brute-force an implementation to correctness becomes a compelling alternative to relying on developers’ judgment. That sort of implementation work has traditionally been the crucible of the software engineer’s skill set. We in engineering leadership must reckon with the great decoupling of writing code from career progression.&lt;/p&gt;
+
+&lt;p&gt;I’ll quote myself quoting Reilly from a couple paragraphs ago:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;At the staff engineer level, everything you do has a high opportunity cost, so your work needs to be important.&amp;quot; - Tanya Reilly&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I don’t think Reilly was implying that other work was objectively not important, it’s just that certain tasks like all-day-coding were not typically the best use of time for engineers at or above the staff level. But Reilly wrote her book before the rise of agentic coding. Given all that’s changed, it’s plausible for management to conclude that non-staff-shaped work is actually unimportant. That terrifies me because there are a ton of influential people in the tech world who would love nothing more than to cut the rungs off the career ladder and lay off as many software engineers as possible. That’s a terrible idea, both ethically and practically. Software engineering is a necessary craft and cutting off its source of talent is foolhardy. So, what’s the alternative to “everyone’s fired?” to a conscientious manager? It’s simpler than you might think:&lt;/p&gt;
+
+&lt;p&gt;Everyone’s a staff engineer now. If those are the folks doing important work, then that’s what all software engineers all must become. It’s absurd, I know. Staff engineers aren’t created by fiat, they’re forged in the fires of &lt;del&gt;Mt. Doom&lt;/del&gt; too many trips through the SDLC. They’re special jewels tucked away in the caves of normie developers, a 10x treasure to be plucked from obscurity by enlightened directors and vice presidents of engineering. And yet, we must change, because times have changed. Look no further than the daily rituals of software engineering: the standups, the reviews, the syncs. They may be morphing into coordination layers for semi-autonomous agents. If you’re orchestrating between a handful of humans and a handful of models, deciding who gets to make what decision, you’re doing the job of a staff engineer. In this context you’re not managing people so much as managing epistemology: whose output counts as truth and under what conditions. Of course, the scale and scope of impact matters, so I’ll propose a thought experiment.&lt;/p&gt;
+
+&lt;p&gt;Suspend disbelief for a moment and imagine what the day-to-day life of a Junior Staff Engineer would be. In my mind, it’s almost an apprenticeship. They’d work closely with their more senior counterparts to cultivate the skill sets associated with Reilly’s archetypes. They would coordinate AI and human workflows like a Tech Lead. They would vet the coherence and sustainability of ensuring model-generated systems like an Architect. They would triage and diagnose emergent failures of AI-assisted production code like a Solver. And they’d also be cultivating the craft of context engineering/prompt engineering/tool orchestration (pick your buzzword). Their progression would be facilitated not just through person-to-person mentorship but also a thoughtful curriculum of software architecture best practices, learning to see the forest without having to mind the trees as much. A Junior (or some other early-career title) Staff Engineer would still code by hand where appropriate but like their higher-level counterparts, they’d need to be selective about what tasks need their hands-on attention.&lt;/p&gt;
+
+&lt;p&gt;If this all sounds hand-wavey to you, that’s because it is. Anyone who acts like they know what they’re doing and where they’re going in this era of software engineering invites suspicion. I will go out on a limb and say that I think my diagnosis&amp;mdash;that software engineering career progression needs to be rethought in this era&amp;mdash;is something I stand by. “Oops, all staff engineers!” may not be the right prescription, though. But it’s valuable as a provocative conversation-starter, so I humbly present it to you.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Oct 2025 15:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/programming/youre-all-staff-engineers-now</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/youre-all-staff-engineers-now</guid>
+        
+        <category>management</category>
+        
+        <category>career</category>
+        
+        <category>ai</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      
+      <item>
+        <title>GraphQL SDL makes good on UML's broken promise</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/graphql-uml.png&quot; alt=&quot;GraphQL SDL makes good on UML's broken promise&quot;&gt;&lt;p&gt;For a brief moment in the 1990s, a significant portion of the software development world thought it had found the Holy Grail. I am referring, of course, to UML. The field had matured enough to crave predictability and discipline, and the Unified Modeling Language (UML) was prophesized to deliver it. At last, there would be a way to describe software systems with the rigor of an electrical diagram or a set of blueprints. It was a truly romantic vision for the software development lifecycle. UML promised to unify a messy landscape of competing notations into a single common language, one that could capture the essence of a system before a line of code was written. Architects could speak it. Managers could read it. And developers could supposedly generate entire systems from it. Software would finally behave like a proper engineering discipline.&lt;/p&gt;
+
+&lt;p&gt;It didn’t turn out that way. UML calcified into an ornamental layer above the real work, a PowerPoint aesthetic draped over code that refused to behave as neatly as its diagrams. Tools multiplied, semantics diverged, and the diagrams grew more ceremonial than descriptive. UML’s vision splintered into dozens of incompatible interpretations. The dream of a living model became a tedious exercise in drawing boxes. And somewhere between the Rational Rose installer and the thirteenth factory pattern, the whole movement got swallowed by Enterprise Java Hell. The only thing UML ever truly unified was the suffering of developers forced to generate stale diagrams from even staler XML.&lt;/p&gt;
+
+&lt;p&gt;Decades later, I think it’s safe to declare UML dead. Its promise, however, remains alive in the visualization tools, network maps, and diagramming systems that still seek to render complexity visible and make structure legible. From architecture maps to service dependency graphs, the impulse to draw what we cannot fully see continues to echo UML’s original intent, only now with living data and interactive visualizations replacing the static diagrams of the past.&lt;/p&gt;
+
+&lt;p&gt;UML and all its spiritual descendents all share a common limitation: they are lossy representations of reality. They are visual conveniences that inevitably discard detail and context. However sophisticated the visualization or network map, none of them are guaranteed to reflect (or predictably manipulate) the true state of the system. They are human approximations, not empirical reflections.&lt;/p&gt;
+
+&lt;p&gt;Ironically, a technology with a very different heritage has already made good on all of the above. GraphQL can model complex systems, is capable of being robustly visualized, is a reliable representation of running code, and has widespread adoption among developers. Nobody talks about it this way, and considering UML’s reputation maybe that&amp;#39;s for the best. But I find the concepts behind UML compelling, and everyone I’ve talked to seems to be of a similar mind. So if you like the ideas behind UML but don’t ever want to actually put it in your SDLC, take a closer look at GraphQL with me.&lt;/p&gt;
+
+&lt;h2 id=&quot;modeling-a-system&quot;&gt;Modeling a system&lt;/h2&gt;
+
+&lt;p&gt;To understand how GraphQL’s Schema Definition Language (SDL) succeeded where UML failed, it helps to revisit what UML was actually trying to accomplish. In the mid-1990s, object-oriented programming had reached its peak of self-importance. Everyone was drawing circles and arrows to represent classes and inheritance hierarchies, and every methodology seemed to have its own way of doing it. Rational Software saw a market opportunity and decided to merge the best ideas of Booch, Rumbaugh, and Jacobson into a single universal notation.&lt;/p&gt;
+
+&lt;p&gt;UML’s goal was to capture the totality of software structure and behavior. You could diagram data models, object interactions, dependencies, even deployment environments. The language was meant to be general enough for banks and air-traffic control systems alike. You could generate code from your models, reverse-engineer diagrams from existing code, and in theory, keep the two in sync forever. It was an optimistic vision that envisioned a high ceiling for the “engineering” half of software engineering.&lt;/p&gt;
+
+&lt;p&gt;By the time web development arrived, UML already felt like a relic of a slower age. Developers didn’t want to model entire systems; they wanted to ship features. Or perhaps it’s more cynical/accurate to say that developers were not incentivized to behave like big-e Engineers; we were to be Agile, our mantra was to Move Fast And Break Things. Now we are at the dawn of the vibe coding era, and UML’s legacy lives only in documentation templates, forgotten in practice.&lt;/p&gt;
+
+&lt;p&gt;GraphQL’s SDL began from a very different place. It wasn’t designed to model everything; it was supposed to describe the structure of a JSON object. A lingua franca so that a client and a server could agree on what to send, what shape it should take, and where it should come from. Yet in solving that narrow problem, SDL stumbled into an outcome that UML had been chasing for decades. The GraphQL schema defines objects, relationships, and boundaries in a way that’s concise, readable, and enforceable by machines. In a few lines, you can express entities and their associations more clearly than any diagramming tool ever managed. More importantly, the schema doesn’t sit in a binder, design document, or whiteboard. It powers a live system.&lt;/p&gt;
+
+&lt;p&gt;That executability is what separates SDL from every modeling language that came before it. A GraphQL schema isn’t an artist’s rendering of an API: it is the API. It can be validated. It lives in version control. It can be generated from code or authored directly. It can be visualized in hypertext and in a visualization In doing so, GraphQL quietly inverted UML’s hierarchy of abstraction. UML began with design and hoped to generate implementation. GraphQL begins with implementation and distills it into a design that remains truthful and malleable. The model doesn’t precede the system; it emerges from it. And because it’s executable, it never goes stale.&lt;/p&gt;
+
+&lt;h2 id=&quot;on-round-trip-engineering&quot;&gt;On round-trip engineering&lt;/h2&gt;
+
+&lt;p&gt;Point of order: UML sorta-kinda supported a similar workflow in the form of “round-trip engineering.”  ” You could generate code from diagrams, then edit the code and automatically regenerate the diagrams. In theory, model and implementation would remain forever synchronized. In practice, it was a recursive headache of mismatched semantics and fragile toolchains that didn’t ever quite work well together. Engineers working in polyglot codebases didn’t have the “It Just Works” experience, so they were incentivized to work around, not with, the tooling.&lt;/p&gt;
+
+&lt;p&gt;GraphQL achieved UML’s dream almost by accident. Developers can generate types, stubs, and client models from the SDL; they can also generate the SDL itself from introspection or schema composition. The schema and the implementation reflect one another naturally because both are built on the same underlying contract. When the contract changes, the ecosystem reacts. It’s a much more human-centric workflow. This subtle symmetry gives GraphQL developers a robust and immediate feedback loop. A schema that doesn’t match its implementation fails validation. Queries that rely on outdated types break at compile time. The same language can be used to propose changes, map a system, and enforce a contract between client and server.&lt;/p&gt;
+
+&lt;p&gt;The irony is that UML’s downfall came from trying to model too much. It wanted to represent structure and behavior and interaction all at once. Maybe UML would have gone further with the robust DevOps and CI/CD tools and infrastructure available today. But I think the real headline is that GraphQL limits itself to the system’s boundary, the contract between participants. That narrowness is its strength. Though I may be speaking too soon: some teams have built massive Server-Driven User Interface (SDUI) frameworks in GraphQL, styling and all.&lt;/p&gt;
+
+&lt;h2 id=&quot;conway-s-law-and-graphql-federation&quot;&gt;Conway’s Law and GraphQL Federation&lt;/h2&gt;
+
+&lt;p&gt;If GraphQL’s SDL solved UML’s problems at the level of a single service, GraphQL Federation solved them at the scale of entire organizations. UML diagrams once tried to capture system-of-systems complexity with dotted lines and package dependencies, Federation composes real, executable graphs from many contributors. Each subgraph owns a piece of the model; composition stitches them into a coherent whole. The result is a living systems diagram. You can query the architecture itself and grasp which teams own which entities, trace a field’s lineage across boundaries, or validate a dependency in CI. The schema is the documentation, the integration test, and the contract all at once. In other words, GraphQL Federation embraces Conway’s Law. It accepts team boundaries as a given and gives teams a social contract in the form of supergraph composition.&lt;/p&gt;
+
+&lt;p&gt;Though there is an ecosystem of code generation, UML does not build in the sort of distributed responsibilities that GraphQL Federation assumes. So it’s important to note that UML’s collapse wasn’t purely a technical failure. It was cultural. It presumed that software would be developed by top-down mandate, not empowered small teams with defined ownership. UML represented bureaucracy disguised as design. The language of the architect had little to do with the language of the builder. GraphQL’s success followed the opposite path. It spread bottom-up through usefulness, not decree. Front-end developers adopted it because it solved real pain. The schema existed to serve running code, not to document it (and yet, it documents code extremely well). Over time, those schemas became the most reliable source of truth organizations had. And Federation gave a means of distributing responsibility for that truth without constraining teams.&lt;/p&gt;
+
+&lt;p&gt;This reversal explains a lot about modern software culture. UML assumed that design comes before code. GraphQL assumes design and code evolve together. A schema isn’t a prerequisite to development; it’s the byproduct of it. That feedback loop is why GraphQL is alive and growing.&lt;/p&gt;
+
+&lt;h2 id=&quot;uml-talks-sdl-walks&quot;&gt;UML talks, SDL walks&lt;/h2&gt;
+
+&lt;p&gt;I decided to re-read the Agile Manifesto. Here’s the meat of it:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:&lt;/p&gt;
+
+&lt;p&gt;Individuals and interactions over processes and tools
+Working software over comprehensive documentation
+Customer collaboration over contract negotiation
+Responding to change over following a plan&lt;/p&gt;
+
+&lt;p&gt;That is, while there is value in the items on the right, we value the items on the left more.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It might as well say “UML is on the right, GraphQL is on the left.” There are enough distinctions between the two technologies that it’s not a tidy comparison. And I want to acknowledge that I’m hand-waving around a significant amount of nuance. But I think it’s worth thinking about GraphQL in the context of what UML was, very admirably, trying to accomplish. The Schema Definition Language fulfills UML’s central promise by narrowing it. It doesn’t try to capture everything; it captures just enough to make systems interoperable. It’s readable enough for humans to reason about, strict enough for machines to enforce, and flexible enough for both to evolve together. It sits precisely at the border between comprehension and computation. And with complementary tooling like code generation and Federation, the value to developers is immense. That balance is what makes GraphQL feel so natural. It functions as a description of software but feels like a developer tool.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 22 Oct 2025 15:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/programming/graphql-sdl-makes-good-on-umls-broken-promise</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/graphql-sdl-makes-good-on-umls-broken-promise</guid>
+        
+        <category>graphql</category>
+        
+        <category>uml</category>
+        
+        <category>architecture</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      
+      <item>
+        <title>Software ate the world; what's AI going to do to software?</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/fish-eat-fish.png&quot; alt=&quot;Software ate the world; what's AI going to do to software?&quot;&gt;&lt;p&gt;Under the hood, the AI era can be understood as the migration of users from producer-published software to platform-published software.  The specifics of how that happens have massive implications for our everyday lives.&lt;/p&gt;
+
+&lt;p&gt;These predictions are built on the stipulation that users will increasingly make AI platforms an indispensable part of their daily lives.  It’s completely valid to reject that premise, I just want to be forthcoming about what assumptions I’ve baked into this essay.&lt;/p&gt;
+
+&lt;h2 id=&quot;software-publication-via-platforms&quot;&gt;Software publication via platforms&lt;/h2&gt;
+
+&lt;p&gt;On the internet, consumers use software to transact with producers.  That software is typically developed and published by the producers.  And that software is designed to serve the interests of the producer.  TikTok wants you to watch more videos (see more ads).  Indeed wants you to apply for more jobs.  DoorDash wants to bundle shaving cream from CVS along with the burrito that Chipotle’s making you.  They’ll develop their software accordingly.  &lt;/p&gt;
+
+&lt;div class=&quot;figures&quot;&gt;
+  &lt;figure class=&quot;figures__figure&quot;&gt;
+    &lt;img
+      loading=&quot;lazy&quot;
+      decoding=&quot;async&quot;
+      alt=&quot;A flow diagram showing three rectangular boxes connected in sequence. On the left is a green box labeled “Consumer,” in the middle a blue box labeled “Software,” and on the right a blue box labeled “Producer.” The Consumer connects to the Software with a dotted arrow pointing both ways, while the Software and Producer are connected with a solid two-way arrow.&quot;
+      src=&quot;/assets/images/posts/software-ate-the-world/consumer-producer.png&quot;
+    /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;But software is rarely distributed by the producer.  It’s downloaded by the user through a platform.  Today’s dominant software platforms are the web and app stores.  The producer distributes their software by making it available - publishing it - to a place where consumers can find it.  The web’s constraints on users and publishers are largely technical and generally not economic - there’s no &lt;em&gt;de jure&lt;/em&gt; rent-seeking entity there.  App stores, though, are a different beast.  We’ll get into that in a moment.  But let’s update our diagram:  &lt;/p&gt;
+
+&lt;div class=&quot;figures&quot;&gt;
+  &lt;figure class=&quot;figures__figure&quot;&gt;
+    &lt;img
+      loading=&quot;lazy&quot;
+      decoding=&quot;async&quot;
+      alt=&quot;A flow diagram with four labeled elements. On the left, a green box labeled “Consumer” connects with a dotted two-way arrow to a blue box labeled “Software.” The software box sits inside a larger orange box labeled “Platform.” To the right, the software connects with a solid two-way arrow to another blue box labeled “Producer.&quot;
+      src=&quot;/assets/images/posts/software-ate-the-world/consumer-producer-platform.png&quot;
+    /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Post-iPhone, when Steve Jobs and Tim Apple saw that diagram their pupils turned into dollar signs.  They correctly predicted that the platform could be a source of incredible leverage given a critical mass of users, which they brought to bear with spectacular results.  Unfortunately for the Apple folks, there’s a limit to that power.  Apple publishes only a relative handful of apps themselves, which puts them partially at the mercy of publishers/producers.  If they alienate the producers, the value of the platform goes down.  Let’s draw a rectangle in our diagram to illustrate.  Look at all those blue boxes that can gang up on Big Orange:&lt;/p&gt;
+
+&lt;div class=&quot;figures&quot;&gt;
+  &lt;figure class=&quot;figures__figure&quot;&gt;
+    &lt;img
+      loading=&quot;lazy&quot;
+      decoding=&quot;async&quot;
+      alt=&quot;A flow diagram showing a green box labeled “Consumer” on the left, connected with dotted arrows to three blue boxes labeled “App A,” “App B,” and “App C,” which are all inside a larger orange box labeled “Platform.” Each app has a label “published by” pointing to a corresponding blue box on the right: “Producer A,” “Producer B,” and “Producer C.” The structure shows consumers accessing apps through a platform, with each app linked to a different producer.&quot;
+      src=&quot;/assets/images/posts/software-ate-the-world/platform-published.png&quot;
+    /&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;the-enshittification-quotient&quot;&gt;The enshittification quotient&lt;/h2&gt;
+
+&lt;p&gt;Call that the &lt;em&gt;enshittification quotient&lt;/em&gt;: the maximum extent to which a platform can capture value from transactions between consumers and producers therein.  The web has an enshittification quotient that approaches zero, though user tracking/ad tech are a really interesting side quest that I won’t go into because they’re not inherently a part of the platform.  App stores have a much higher enshittification quotient.  There are a ton of other examples out there, but I want to remain laser-focused on software distribution because I think that’s where persons of conscience should focus.&lt;/p&gt;
+
+&lt;p&gt;There’s a new type of platform emerging, though, and that’s the AI Agent.  I’m sure you’ve heard of it.  If you’re in Control-F mode, I’ll also call this ChatGPT, Chatbots, AI assistants, LLMs, agentic experiences, and so on.  I’ll be grateful for one authoritative collective noun to describe this type of thing.  These platforms have a unique capability: they can generate and execute code.  That makes all the difference in the world because it means the platform has no theoretical limit on how much software it can publish.  The enshittification quotient for an AI Agent platform is unknown; it has no theoretical ceiling but could be bounded by certain market conditions.  We’re early enough in the process that there’s considerable opportunity to limit the damage.&lt;/p&gt;
+
+&lt;p&gt;Using a fictionalized AI Agent that exists in the very near future, let’s buy a rug. Prompt:  “I want a 5x8 rug in a geometric pattern, mostly earth tones.”  What do we see?  The AI Agent platform can’t design, fabricate, and ship a rug right there (though that’s an interesting rabbit hole to go down) - they’ll need to connect the consumer’s prompt to a plausible match from a producer.  It’ll probably respond with a few rectangular cards containing some rug choices.  For simplicity’s sake, let’s say I like the second one, which shows a little icon that indicates that it’s from Target, and a price of $99.99.  Prompt: “The second one.”  Response: “Great. I’ll place that order now.”  I get notified when the transaction completes and later when it ships.  Cool.  Where will AI Agent Platform, Inc. get the right to show Target’s inventory and branding in their experience?  That’s the key question.  It turns out, there’s another layer (APIs) in our diagram:&lt;/p&gt;
+
+&lt;div class=&quot;figures&quot;&gt;
+  &lt;figure class=&quot;figures__figure&quot;&gt;
+    &lt;img
+      loading=&quot;lazy&quot;
+      decoding=&quot;async&quot;
+      alt=&quot;A flow diagram showing relationships between consumers, an AI platform, APIs, and producers. On the left, a green box labeled “Consumer” connects with a dotted two-way arrow to a beige box labeled “Generated Software,” which sits inside a larger orange box labeled “AI Platform.” From the AI Platform, dotted arrows connect to three blue boxes labeled “API A,” “API B,” and “API C,” grouped under the heading “Who controls these?” Each API box connects with a dotted arrow to a corresponding blue box on the right: “Producer A,” “Producer B,” and “Producer C.”&quot;
+      src=&quot;/assets/images/posts/software-ate-the-world/api-layer.png&quot;
+    /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Today, the producers’ data and capabilities are largely coupled with the software applications they publish.  Their house, their rules.  But when software distribution becomes a property of AI platforms, it’s possible (though not a foregone conclusion) that data/transactions could follow suit, at least to some extent.  One thing is clear to me, though: AI Platforms will not make money from providing LLMs as a service in the foreseeable future unless the underlying tech gets orders of magnitude more efficient.  But if the hosted LLM side of the business is a loss leader in the pursuit of a dominant platform that encompasses both the software and the underlying data transactions, that’s a much more compelling business idea.  The rent-seeking potential of such a platform scares me on behalf of consumers and producers.  The entire supply chain could be verticalized; imagine Amazon’s dominance in cloud, retail, and logistics but also with a ubiquitous software creation and distribution platform stapled on.  Enshittification quotient = infinity.&lt;/p&gt;
+
+&lt;h2 id=&quot;predictions-in-the-platform-published-software-era&quot;&gt;Predictions in the platform-published software era&lt;/h2&gt;
+
+&lt;p&gt;With the caveat that antitrust law (will that exist in ten years?) could prevent some of the worst excesses of such a scenario, what conclusions can we draw from this hypothetical example?  Here’s my take:&lt;/p&gt;
+
+&lt;h3 id=&quot;1-in-the-gold-rush-analogy-ai-isn-t-the-gold-it-s-the-shovel&quot;&gt;1. In the “gold rush” analogy, AI isn’t the gold, it’s the shovel&lt;/h3&gt;
+
+&lt;p&gt;Data is the gold.  The hype cycle around AI makes it tempting to treat the models themselves as the prize. They’re not. Models are infrastructure: the picks and shovels of this era. They are necessary to participate, but they’re not where the lasting value accrues. What matters is not who has the fanciest shovel, but who owns the gold mine. In the AI context, the “mine” is the data and transaction layer: the flows of inventory, prices, user intents, and completed exchanges that feed the real economy. Whoever controls that registry will have enduring leverage.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-ai-wrappers-aka-agentic-development-won-t-last-long&quot;&gt;2. AI wrappers (aka agentic development) won’t last long&lt;/h3&gt;
+
+&lt;p&gt;Many companies are now building “agentic experiences”: thin wrappers around foundation models, dressed up with a prompt template and a UI. These are useful as an extension of the producer-published software model, but I don’t believe they have a durable future because they’re structurally misaligned with both consumer behavior and platform economics.&lt;/p&gt;
+
+&lt;p&gt;Consumers won’t want to jump from app to app to ask slightly different AI agents to do the same things given a compelling alternative (again, I’m assuming that consumers will increasingly adopt AI platforms). Nobody will open their travel app to type “reserve three nights at the Doubletree in Toronto” into a worse version of ChatGPT, then switch over to the retail app to tell a nerfed Claude they need a new nightstand. That future looks absurd. Consumers put their food orders into DoorDash rather than juggling a dozen restaurant sites, and they will consolidate their various transactions into a handful of dominant AI platforms that can mediate across domains.&lt;/p&gt;
+
+&lt;p&gt;From the producer side, the incentives to invest in standalone applications will wane. Maintaining a full-stack app, whether it’s a traditional UI or an agentic experience, is expensive and offers diminishing returns if consumers are defaulting to agents. Web and mobile app development won’t disappear; they’re here to stay.  But if the dominant channel for discovery and transaction is an AI platform, producers will pour their energy into making sure their inventory, pricing, and services are optimized for that platform’s data and transaction conventions. Application development becomes less about bespoke consumer software and more about maintaining a compliant, performant data interface.&lt;/p&gt;
+
+&lt;p&gt;The same logic applies to chatbots. For the last decade, companies have been coaxed into building their own “assistant experiences” inside apps and websites. These efforts rarely delighted customers, and in an agent-dominated world they will make even less sense. Why build and maintain a second-rate chatbot if consumers can get a first-rate one that already knows their order history, payment methods, and preferences? One-off chatbots will survive only in tightly scoped niches, not as a general strategy for consumer engagement.&lt;/p&gt;
+
+&lt;p&gt;In short: the application layer itself is shrinking. Producers won’t stop investing in digital presence altogether, but the locus of value shifts from publishing and owning a bespoke app to participating in and hedging against the platform’s publishing layer.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-producers-stand-to-lose-a-lot-of-value&quot;&gt;3. Producers stand to lose a lot of value&lt;/h3&gt;
+
+&lt;p&gt;When producers no longer publish their own software, they risk being reduced to interchangeable data sources inside someone else’s platform. That shift strips away the direct brand presence (the Starbucks app, the Delta notifications, the Netflix interface) and replaces it with a widget in an agent’s results. Producers become dependent on the ranking algorithms and monetization policies of the platform, just as Amazon sellers live or die by search placement. Margins compress, competition is reframed around who can satisfy the platform’s incentives, and the producer’s relationship with its customer becomes mediated, if not severed. This is the most immediate danger of the platform-as-publisher economy: the alienation of producers from their services.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-everyday-people-will-suffer-if-ai-platforms-become-buyer-and-seller-agents&quot;&gt;4. Everyday people will suffer if AI platforms become buyer and seller agents&lt;/h3&gt;
+
+&lt;p&gt;For consumers, the story is no brighter.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;United States v. Google LLC&lt;/em&gt; was adjudicated against Google for monopolizing the search engine and search advertising markets, most notably on Android devices, as well as with Apple and mobile carriers.  The gist of this case is that Google’s ad marketplace represented the platform, buyers, and sellers.  They used the inherent leverage of that position and its (bought and paid for) dominance in the web and mobile markets to cement its dominance.  The harm to users was and continues to be evident.  Had any of those parties (platform, buyer, seller) been represented by an adversarial organization, the competitive pressure would have made a huge difference in mitigating the moral hazard and distributing more value to the stakeholders in the resulting system.&lt;/p&gt;
+
+&lt;p&gt;The lesson?  When platforms act as publishers, they gain the power to arbitrate not just discovery, but also the terms of engagement: which products are surfaced, how prices are presented, what add-ons are bundled. More of the economic surplus shifts toward arbitrage and rent-seeking instead of value creation. Consumers face higher prices, less transparency, and less choice. The governance of these platforms will likely be opaque, algorithmic, and unaccountable.  So if the trajectory of past platforms is any guide, enshittification is a feature not a bug, and everyday people are the ones who pay.&lt;/p&gt;
+
+&lt;h2 id=&quot;our-role-as-tech-people&quot;&gt;Our role as tech people&lt;/h2&gt;
+
+&lt;p&gt;To summarize: the AI era can be broadly understood as the unbounded expansion of software publication by dominant platforms. That collapse could drive user hostility to an intolerable extent if it also encompasses the data transactions that have been traditionally coupled with producer-published applications. Unless producers retain leverage over that all-important data layer, they will be reduced to line items in someone else’s prompt response.&lt;/p&gt;
+
+&lt;p&gt;Remember: enshittification is not a general term that refers to software getting progressively worse.  It’s a specific tendency of big platforms described by &lt;a href=&quot;https://doctorow.medium.com/social-quitting-1ce85b67b456&quot;&gt;Doctorow&lt;/a&gt;: (1) gain a critical mass of consumers by offering value at a loss; (2) attract a critical mass of producers by brokering consumer data and engagement, still at a loss; (3) incrementally and progressively exploit both tenants once the cost of switching becomes sufficiently high.  We are currently in phase 1: AI products are being jammed down our throats left and right, often at low or no cost to the consumer.  The unit economics are awful for the platform until they reach phase 3, and I am convinced that phase 2 (and therefore, 3) &lt;em&gt;can&lt;/em&gt; be prevented, though I don’t know &lt;em&gt;how&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;All I can offer is a challenge to the tech industry: our opportunity and the urgent calling of this era is to build the technical and economic infrastructure to ensure that AI platforms cannot double- or triple-deal between consumers, producers, and themselves.  The consequence of failure are dire.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 25 Sep 2025 15:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/misc/software-ate-the-world-whats-ai-going-to-do-to-software</link>
+        <guid isPermaLink="true">https://jdauriemma.com/misc/software-ate-the-world-whats-ai-going-to-do-to-software</guid>
+        
+        <category>ai</category>
+        
+        <category>platforms</category>
+        
+        <category>llms</category>
+        
+        
+        <category>misc</category>
+        
+      </item>
+    
+      
+      <item>
+        <title>How to move from LastPass to Bitwarden in ten minutes</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/lastpass-to-bitwarden.jpg&quot; alt=&quot;How to move from LastPass to Bitwarden in ten minutes&quot;&gt;&lt;p&gt;LastPass recently notified users that their free product will drastically
+change on 2021-03-16 in
+&lt;a href=&quot;https://blog.lastpass.com/2021/02/changes-to-lastpass-free/&quot;&gt;a recent blog post&lt;/a&gt;.
+I believe
+this change is being made irresponsibly,
+but you can read my opinion in a follow-up post I&amp;#39;m planning.
+Many non-paying users are looking around
+for alternatives.  &lt;a href=&quot;https://bitwarden.com/&quot;&gt;Bitwarden&lt;/a&gt; fits the bill nicely
+for me: it has desktop, mobile, and web apps with the same features as LastPass,
+plus it has the benefit of being largely
+&lt;a href=&quot;https://github.com/bitwarden&quot;&gt;open-source software&lt;/a&gt;
+distributed under GPL/AGPL licenses.&lt;/p&gt;
+
+&lt;p&gt;Bitwarden&amp;#39;s help docs have a decent
+&lt;a href=&quot;https://bitwarden.com/help/article/import-from-lastpass/&quot;&gt;guide to help users import data from LastPass&lt;/a&gt;
+but if you need some additional resources, please read on.&lt;/p&gt;
+
+&lt;h2 id=&quot;export-your-lastpass-data&quot;&gt;Export your LastPass data&lt;/h2&gt;
+
+&lt;p&gt;Before we get started, be aware that you will be downloading a file containing
+all the username/password combinations you have stored in LastPass.  This
+file will not be encrypted - the passwords will be in plain text.
+Once you&amp;#39;re done copying your data into Bitwarden, delete all the data you
+downloaded from LastPass so that it is no longer available on your computer.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;On a desktop or laptop, log into LastPass.&lt;/li&gt;
+&lt;li&gt;Open the navigation panel on the left side of the screen.&lt;/li&gt;
+&lt;li&gt;Tap &lt;strong&gt;Advanced Options&lt;/strong&gt;.  A new menu will appear to the right.&lt;/li&gt;
+&lt;li&gt;Tap &lt;strong&gt;Export&lt;/strong&gt;.  You will be prompted to enter your master password.&lt;/li&gt;
+&lt;li&gt;The screen may appear unresponsive for a short time.  That is normal.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+  &lt;div style=&quot;display: flex; flex-wrap: wrap; justify-content: center;&quot;&gt;
+    &lt;section&gt;
+      &lt;img
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+        style=&quot;display: block; max-height: 400px&quot;
+        alt=&quot;LastPass interface showing the left navigation bar open and 'Advanced Options' highlighted&quot;
+        src=&quot;/assets/images/posts/lastpass-to-bitwarden/desktop-1.png&quot;
+      &gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+      &lt;img
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+        style=&quot;display: block; max-height: 400px&quot;
+        alt=&quot;LastPass interface showing the left navigation bar open and 'Export' highlighted&quot;
+        src=&quot;/assets/images/posts/lastpass-to-bitwarden/desktop-2.png&quot;
+      &gt;
+    &lt;/section&gt;
+  &lt;/div&gt;
+  &lt;figcaption style=&quot;text-align: center&quot;&gt;
+    &lt;span style=&quot;font-style: italic&quot;&gt;
+      Use the left navigation to drill down: &lt;strong&gt;Advanced Options&lt;/strong&gt; 👉 &lt;strong&gt;Export&lt;/strong&gt;
+    &lt;/span&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;The browser window will turn white and black text will appear.  This text contains all the usernames, passwords, etc. you store in LastPass.&lt;/li&gt;
+&lt;li&gt;Leave this window open for a moment.&lt;/li&gt;
+&lt;li&gt;Open a plain text editor.  If you're not sure what a plain text editor is,
+don't worry.  You have one installed on your operating system.&lt;/li&gt;
+&lt;li&gt;Highlight and copy all the text from the open LastPass window.  Paste
+it into your text editor.&lt;/li&gt;
+&lt;li&gt;Save the file as &lt;code&gt;export.csv&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To avoid inadvertently pasting this sensitive information somewhere
+else, copy some other text as a safeguard.&lt;/p&gt;
+
+&lt;h2 id=&quot;sign-up-for-bitwarden&quot;&gt;Sign up for Bitwarden&lt;/h2&gt;
+
+&lt;p&gt;Go to &lt;a href=&quot;https://bitwarden.com&quot;&gt;bitwarden.com&lt;/a&gt;.  Tap &amp;quot;Get Started&amp;quot; in the top
+right corner.  You will be prompted to enter your email address and to set
+a master password, much like LastPass.  I recommend using a password that
+is different from your LastPass master password.&lt;/p&gt;
+
+&lt;p&gt;Once you have completed registration and confirmed your email address,
+log into Bitwarden again.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Tap &lt;strong&gt;Tools&lt;/strong&gt; at the top of the window.&lt;/li&gt;
+&lt;li&gt;On the left, tap &lt;strong&gt;Import Data&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Under &lt;strong&gt;1. Select the format of the import file&lt;/strong&gt;, select
+&amp;quot;LastPass (csv).&amp;quot;&lt;/li&gt;
+&lt;li&gt;Under &lt;strong&gt;2. Select the import file&lt;/strong&gt;, select the &lt;code&gt;export.csv&lt;/code&gt; file you created earlier.  Tap the button labeled &lt;strong&gt;Import Data&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+  &lt;div style=&quot;display: flex; flex-wrap: wrap; justify-content: center;&quot;&gt;
+    &lt;section&gt;
+      &lt;img
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+        style=&quot;display: block; max-height: 400px&quot;
+        alt=&quot;Text editor showing a file called 'export.csv' with data&quot;
+        src=&quot;/assets/images/posts/lastpass-to-bitwarden/desktop-3.png&quot;
+      &gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+      &lt;img
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+        style=&quot;display: block; max-height: 400px&quot;
+        alt=&quot;Bitwarden interface showing the 'Tools' section open and 'Import Data' highlighted&quot;
+        src=&quot;/assets/images/posts/lastpass-to-bitwarden/desktop-4.png&quot;
+      &gt;
+    &lt;/section&gt;
+  &lt;/div&gt;
+  &lt;figcaption style=&quot;text-align: center&quot;&gt;
+    &lt;span style=&quot;font-style: italic&quot;&gt;
+      Copy the LastPass export into &lt;code&gt;exports.csv&lt;/code&gt; using a plain text editor like Notepad, TextEdit, or Vim.  Tap &lt;strong&gt;Tools&lt;/strong&gt; 👉  &lt;strong&gt;Import Data&lt;/strong&gt; and upload &lt;code&gt;exports.csv&lt;/code&gt;.
+    &lt;/span&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Your data should now be available.  According to Bitwarden&amp;#39;s documentation,
+some users have experienced issues with the encoding of certain special
+characters in passwords:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Warning&lt;/p&gt;
+
+&lt;p&gt;Some users have reported a bug which changes special characters in your passwords (&amp;amp;, &amp;lt;, &amp;gt;, etc.) to their HTML-encoded values (for example, &lt;code&gt;&amp;amp;amp;&lt;/code&gt; in the printed export.&lt;/p&gt;
+
+&lt;p&gt;If you observe this bug in your exported data, use a text editor to find and replace all altered values before importing into Bitwarden.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I haven&amp;#39;t come across anything like that yet, but I transitioned very recently.
+I will update this post if I come across anything unusual.&lt;/p&gt;
+
+&lt;h2 id=&quot;ios-users-update-autofill&quot;&gt;iOS users: update AutoFill&lt;/h2&gt;
+
+&lt;p&gt;If you&amp;#39;re not an iOS user, &lt;a href=&quot;#delete-your-lastpass&quot;&gt;skip this section&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As an iOS user, I am accustomed to using LastPass to autofill passwords.
+After installing the
+&lt;a href=&quot;https://apps.apple.com/us/app/bitwarden-password-manager/id1137397744&quot;&gt;Bitwarden app&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go into &lt;strong&gt;Settings&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Tap on &lt;strong&gt;Passwords&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Tap on &lt;strong&gt;AutoFill Passwords&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Tap on &lt;strong&gt;Bitwarden&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Follow the prompts.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+  &lt;div style=&quot;display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center&quot;&gt;
+    &lt;section&gt;
+      &lt;img
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+        style=&quot;display: block; max-width: 200px&quot;
+        alt=&quot;iOS Settings menu with 'Passwords' highlighted&quot;
+        src=&quot;/assets/images/posts/lastpass-to-bitwarden/ios-1.jpg&quot;
+      &gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+      &lt;img
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+        style=&quot;display: block; max-height: 200px&quot;
+        alt=&quot;iOS Passwords menu&quot;
+        src=&quot;/assets/images/posts/lastpass-to-bitwarden/ios-2.jpg&quot;
+      &gt;
+    &lt;/section&gt;
+    &lt;section&gt;
+      &lt;img
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+        style=&quot;display: block; max-height: 200px&quot;
+        alt=&quot;iOS AutoFill Passwords menu with Bitwarden selected&quot;
+        src=&quot;/assets/images/posts/lastpass-to-bitwarden/ios-3.jpg&quot;
+      &gt;
+    &lt;/section&gt;
+  &lt;/div&gt;
+  &lt;figcaption style=&quot;text-align: center&quot;&gt;
+    &lt;span style=&quot;font-style: italic&quot;&gt;
+      &lt;strong&gt;Settings&lt;/strong&gt; 👉
+      &lt;strong&gt;Passwords&lt;/strong&gt; 👉
+      &lt;strong&gt;Autofill Passwords&lt;/strong&gt; 👉
+      &lt;strong&gt;Bitwarden&lt;/strong&gt;
+    &lt;/span&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;div id=&quot;delete-your-lastpass&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;delete-your-lastpass-after-a-while&quot;&gt;Delete your LastPass (after a while)&lt;/h2&gt;
+
+&lt;p&gt;It&amp;#39;s a good idea to hold onto your LastPass free account for a short time,
+at least until you are reasonably certain Bitwarden is meeting your needs and
+that all of your data was copied over successfully.  I haven&amp;#39;t done this part
+yet, but
+&lt;a href=&quot;https://lastpass.com/delete_account.php&quot;&gt;the documentation&lt;/a&gt;
+makes it seem pretty simple.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Feb 2021 21:56:00 +0000</pubDate>
+        <link>https://jdauriemma.com/misc/lastpass-to-bitwarden</link>
+        <guid isPermaLink="true">https://jdauriemma.com/misc/lastpass-to-bitwarden</guid>
+        
+        <category>security</category>
+        
+        <category>lastpass</category>
+        
+        <category>bitwarden</category>
+        
+        
+        <category>misc</category>
+        
+      </item>
+    
+      
+      <item>
+        <title>Snow removal tasks as a kanban board</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/snow-removal.jpg&quot; alt=&quot;Snow removal tasks as a kanban board&quot;&gt;&lt;p&gt;As with many places in North America this winter, we&amp;#39;ve seen more snowstorms
+than usual recently.  For those of us who are responsible for clearing a
+property of snow, that means work.  I tend to want to make work as orderly
+as plausible, and I&amp;#39;ve been removing snow for long enough to have a sense of
+what needs to be done.  So I naturally created a kanban board for these tasks.
+I chose Airtable because that platform facilitates easy copying and extending.
+I&amp;#39;ve pasted the full description underneath the embedded board.&lt;/p&gt;
+
+&lt;iframe class=&quot;airtable-embed&quot; src=&quot;https://airtable.com/embed/shrchyBc2AZML7PoY?backgroundColor=blue&quot; frameborder=&quot;0&quot; onmousewheel=&quot;&quot; width=&quot;100%&quot; height=&quot;533&quot; style=&quot;background: transparent; border: 1px solid #ccc;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;about&quot;&gt;About&lt;/h2&gt;
+
+&lt;p&gt;Copy-able public kanban board that captures snow removal tasks for what I reckon is a typical single-family dwelling with a driveway and/or sidewalk in North America. Fields for blockers, priority, and estimated effort are included. All tasks include acceptance criteria and some contain additional descriptions that may include links to external resources.&lt;/p&gt;
+
+&lt;p&gt;These tasks make use of Imperial units. The links regarding legal requirements and postal service guidelines are geared toward USA residents.&lt;/p&gt;
+
+&lt;p&gt;I have populated the tasks with estimates and prioritization that reflect my own needs, please don’t feel obligated to apply my own estimates and prioritization to your own unique residence.&lt;/p&gt;
+
+&lt;p&gt;If you feel that a certain addition or edit would be generally useful, please add a comment or send me a message and I’d be happy to consider an update to this board. In particular, it would be nice to internationalize this board in earnest. Thank you for reading!&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://edenapp.com/guides/snow-removal-guide/&quot;&gt;Complete Guide to Snow and Snow Removal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.familyhandyman.com/list/10-great-snow-and-ice-removal-hacks/&quot;&gt;10 Great Snow and Ice Removal Hacks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/wirecutter/reviews/best-snow-shovels/&quot;&gt;Wire Cutter: The Best Snow Shovels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/wirecutter/reviews/best-snow-blowers/&quot;&gt;Wire Cutter: The Best Snow Blowers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/wirecutter/reviews/best-ice-scraper/&quot;&gt;Wire Cutter: The Best Ice Scraper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 16 Feb 2021 04:30:00 +0000</pubDate>
+        <link>https://jdauriemma.com/misc/snow-removal-kanban</link>
+        <guid isPermaLink="true">https://jdauriemma.com/misc/snow-removal-kanban</guid>
+        
+        <category>agile</category>
+        
+        <category>kanban</category>
+        
+        
+        <category>misc</category>
+        
+      </item>
+    
+      
+      <item>
+        <title>Rubber Ducking: Transitional ESLint Configs</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/rubber-ducking.jpg&quot; alt=&quot;Rubber Ducking: Transitional ESLint Configs&quot;&gt;&lt;p&gt;I had the honor of being a guest on the Rubber Ducking podcast
+with Spencer Miskiovak and Chris Schmitz.  Find it wherever you
+get podcasts or &lt;a href=&quot;https://rubberducking.fm/episodes/24&quot;&gt;right here&lt;/a&gt;!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Nov 2020 17:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/programming/rubber-ducking</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/rubber-ducking</guid>
+        
+        <category>eslint</category>
+        
+        <category>javascript</category>
+        
+        <category>i18n</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      
+      <item>
+        <title>A low-friction way to do TDD with React</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/tdd-react.png&quot; alt=&quot;A low-friction way to do TDD with React&quot;&gt;&lt;p&gt;I had the honor of writing an article for LogRocket about Using
+React Testing Library to do TDD in a React app.
+&lt;a href=&quot;https://blog.logrocket.com/a-low-friction-way-to-do-tdd-with-react/&quot;&gt;Read it here&lt;/a&gt;!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 21 Aug 2020 04:27:00 +0000</pubDate>
+        <link>https://jdauriemma.com/programming/a-low-friction-way-to-do-tdd-with-react</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/a-low-friction-way-to-do-tdd-with-react</guid>
+        
+        <category>react</category>
+        
+        <category>tdd</category>
+        
+        <category>javascript</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      
+      <item>
+        <title>Using Git to run ESLint on changed files in a feature branch</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/git-lint.jpg&quot; alt=&quot;Using Git to run ESLint on changed files in a feature branch&quot;&gt;&lt;p&gt;I lied a bit in the title: this works for any static analysis tool.
+So if you&amp;#39;re a
+&lt;a href=&quot;https://rubocop.org/&quot;&gt;RuboCop&lt;/a&gt;,
+&lt;a href=&quot;https://www.pylint.org/&quot;&gt;Pylint&lt;/a&gt;,
+or [insert awesome static analysis util here] user, this solution
+has you covered.  The impetus for this post was
+&lt;a href=&quot;https://eslint.org/&quot;&gt;ESLint&lt;/a&gt;,
+though, so I&amp;#39;ll use that for the sake of a specific example.&lt;/p&gt;
+
+&lt;p&gt;I found myself in the unenviable position of trying to introduce
+a new linter rule.  The reason this was such a pain was because
+there were over 4,000 violations in our codebase, and this particular
+rule didn&amp;#39;t have an automated fix available.  The manual fix wasn&amp;#39;t
+just a matter of style, either &amp;mdash; it would require regression-testing
+every module it touched.  That&amp;#39;s out of the question.  Ignoring the
+error was impossible, too, because our CI build runs &lt;code&gt;eslint&lt;/code&gt; against
+all of our frontend code.  And making it a warning would not sufficiently
+incentivize the team to fix the underlying issues this rule is supposed
+to police.  What to do?&lt;/p&gt;
+
+&lt;h2 id=&quot;transitional-config&quot;&gt;Transitional config&lt;/h2&gt;
+
+&lt;p&gt;First, I set up a &amp;quot;transitional&amp;quot; config file:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# .eslintrc.transitional&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;extends&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;./.eslintrc&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;rules&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;my-new-rule&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;error&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Note that this extends our existing configuration, adding just one
+modification.  To ensure that any text editor integrations register
+the rule so that it&amp;#39;s visible, I also modified the main config:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# .eslintrc&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# ...&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;rules&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# ...&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;my-new-rule&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;warn&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ok, so the groundwork is there.  Next, I set up a new script in
+&lt;code&gt;package.json&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;lint:transitional&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;eslint -c ./.eslintrc.transitional --no-error-on-unmatched-pattern&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;using-git-diff&quot;&gt;Using git diff&lt;/h2&gt;
+
+&lt;p&gt;Then, the secret sauce: in the same CI build step as where we run
+&lt;code&gt;eslint&lt;/code&gt; against our entire frontend codebase, I added a step
+where we run &lt;code&gt;lint:transitional&lt;/code&gt; only on files that have been
+changed in that particular branch.  &lt;code&gt;git&lt;/code&gt; to the rescue!  One hiccup
+we ran into is that deleted file paths were being checked, which caused
+&lt;code&gt;eslint&lt;/code&gt; to return an error code.  Adding &lt;code&gt;--no-error-on-unmatched-pattern&lt;/code&gt;
+resolved this issue.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;c&quot;&gt;# get a list of js/ts files that are different from master&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# at the merge-base&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;DIFFED_FILES_TO_LINT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;git diff master... &lt;span class=&quot;nt&quot;&gt;--name-only&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;*.ts&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;*.tsx&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;*.js&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;*.jsx&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# execute eslint with the &quot;transitional&quot; rules&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# only on touched files.&lt;/span&gt;
+yarn lint:transitional &lt;span class=&quot;nv&quot;&gt;$DIFFED_FILES_TO_LINT&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;For more info on that &lt;code&gt;git&lt;/code&gt; command, check out this
+&lt;a href=&quot;https://explainshell.com/explain?cmd=git+diff+master...my-branch+--name-only+--+%22*.ts%22+%22*.tsx%22+%22*.js%22+%22*.jsx%22&quot;&gt;explainshell&lt;/a&gt;.
+&lt;a href=&quot;https://stackoverflow.com/questions/20808892/git-diff-between-current-branch-and-master-but-not-including-unmerged-master-com/20809283#20809283&quot;&gt;This StackOverflow answer&lt;/a&gt;
+is also illuminating.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-did-that-accomplish&quot;&gt;What did that accomplish?&lt;/h2&gt;
+
+&lt;p&gt;We can now introduce a painful but ultimately helpful new rule 
+gradually.  When a team touches a file with which they are
+familiar, paying down the technical debt pointed out by the new
+rule becomes a matter of necessity.  Since (presumably) developers
+are only touching files that are relevant to the work they are
+shipping, the chance of a regression is lower than it would be if
+some intrepid but less-familiar engineer took it upon themselves
+to try to update the whole code base at once.  The total number
+of violations will gradually decrement, and so too will the
+as-of-now unknown pain points that may be associated with fixing them.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 May 2020 05:22:00 +0000</pubDate>
+        <link>https://jdauriemma.com/programming/eslint-changed-files</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/eslint-changed-files</guid>
+        
+        <category>git</category>
+        
+        <category>eslint</category>
+        
+        <category>ci</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      
+      <item>
+        <title>Pop-Punk: a vim color scheme</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/pop-punk.png&quot; alt=&quot;Pop-Punk: a vim color scheme&quot;&gt;&lt;p&gt;I&amp;#39;ve been using the vim text editor for a while now.  I
+know some basic
+&lt;a href=&quot;https://learnvimscriptthehardway.stevelosh.com/&quot;&gt;vimscript&lt;/a&gt;,
+but not much more.  A while ago, I settled on a version of
+the &lt;a href=&quot;https://github.com/gkjgh/cobalt&quot;&gt;cobalt&lt;/a&gt; color scheme
+as my theme of choice.  I made a few tweaks here and there
+over the course of a few years.  It started to become more
+noticeably painful to change colors after a while - sometimes
+I&amp;#39;d update a hex color and forget to update the corresponding
+cterm value.  And as I got deeper into customizing my terminal,
+I got deeper into tweaking my vim setup.  So I decided it was
+high time to solidify all the tweaks I made into a coherent
+color scheme (with a matching airline theme).&lt;/p&gt;
+
+&lt;p&gt;So, here&amp;#39;s
+&lt;a href=&quot;https://github.com/bignimbus/pop-punk.vim&quot;&gt;pop-punk.vim&lt;/a&gt;:
+a dark, high-contrast color scheme that retains a sense of
+fun and character.  If you&amp;#39;re a vim user, I&amp;#39;d love to hear
+what you think of it!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 May 2020 04:24:00 +0000</pubDate>
+        <link>https://jdauriemma.com/programming/pop-punk</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/pop-punk</guid>
+        
+        <category>vim</category>
+        
+        <category>airline</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      
+      <item>
+        <title>Principles for an Effective Distributed Team</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/home-office.jpg&quot; alt=&quot;Principles for an Effective Distributed Team&quot;&gt;&lt;p&gt;It&amp;#39;s 2020 and &lt;a href=&quot;https://www.cnbc.com/2018/05/30/70-percent-of-people-globally-work-remotely-at-least-once-a-week-iwg-study.html&quot;&gt;people work from home&lt;/a&gt;.  The benefits are intuitive: commutes are often risky and can be a waste of time and natural resources; plus removing geographical barriers can increase the size of the recruitment pipeline.
+Even though some companies are &lt;a href=&quot;https://www.npr.org/sections/alltechconsidered/2017/07/11/535398716/some-employers-are-rethinking-telework-citing-a-need-for-better-collaboration&quot;&gt;making headlines by bucking that trend&lt;/a&gt;,
+remote working is a fact of life.  People get sick; they make appointments during business hours; they want to keep their heads
+down and focus away from their sometimes-distracting office; they want to catch up before or after hours on something important
+to their work.  Face it: your teams needs to be able to function outside of a centralized workplace.  Whether your team is entirely
+distributed, completely on-site, or some hybrid thereof, try to mind these principles to empower your team for success.&lt;/p&gt;
+
+&lt;h2 id=&quot;principles-for-teams&quot;&gt;Principles for Teams&lt;/h2&gt;
+
+&lt;p&gt;The web has made physical distance less meaningful than ever before in human history.  This means that teams have the power to
+work in ways that were impossible a generation ago.  With this great power
+comes great responsibility, and that responsibility must not fall exclusively on those who happen to be working outside of the space
+where most of the team works.  Before reading, take stock of what kind of team you&amp;#39;re working with: are there any teammates,
+vendors or consultants working off-site?  How many?  How often do teammates work from home?  With these facts in mind, consider the
+principles below.&lt;/p&gt;
+
+&lt;h3 id=&quot;manage-availability-and-expectations&quot;&gt;Manage Availability and Expectations&lt;/h3&gt;
+
+&lt;p&gt;Teammates need to know what to expect of one another.  It&amp;#39;s easy to tell when someone is away from their desk in person,
+but folks working off-site have no easy way to peek over at someone&amp;#39;s desk and figure out their immediate availability,
+and vice versa.  Ensure teammates are aware of each other&amp;#39;s work hours by keeping shared calendars updated.  Don&amp;#39;t be distant on
+instant messenger either: status messages or quick FYIs are a great way to keep everyone&amp;mdash;regardless of location&amp;mdash;aware
+of when someone&amp;#39;s working and when they&amp;#39;re not.&lt;/p&gt;
+
+&lt;p&gt;If your team evaluates teammates in a way that could &lt;em&gt;de facto&lt;/em&gt; penalize someone who is off-site, consider reworking those criteria.
+A results-oriented evaluation system will support work habits that empower all teammates to succeed regardless of their
+latitude and longitude.&lt;/p&gt;
+
+&lt;h3 id=&quot;drop-bread-crumbs&quot;&gt;Drop Bread Crumbs&lt;/h3&gt;
+
+&lt;p&gt;&amp;quot;Silo&amp;quot; is a dirty word in the workplace.  Teams should avoid balkanizing their communications wherever possible.  Informal chats
+about &lt;em&gt;Product A&lt;/em&gt; in the break room can quickly turn into actionable work.  An instant message chain in a small channel can snowball
+into a full-blown spec in no time.  The simple solution?  Take notes!  Sharing a photo of the back of a napkin or a quick email
+summary can help keep the team abreast of developments that will impact their work.  This sort of artifact generation also comes in
+handy months or even years later when trying to retrace the evolution of a product or feature.&lt;/p&gt;
+
+&lt;h3 id=&quot;invest-in-telepresence&quot;&gt;Invest in Telepresence&lt;/h3&gt;
+
+&lt;p&gt;Audio/video quality directly impacts communication quality.  Invest in the right hardware and software in
+order to minimize potential disruptions and maximize comprehension.  Set aside a few minutes before a video conference to make
+sure that the camera and microphone are set up and working.  Teammates shouldn&amp;#39;t wait for others in a teleconference to
+tell them that they can&amp;#39;t be heard or seen&amp;mdash;beginning a meeting with &amp;quot;can you see and hear me?&amp;quot; makes a world of difference.
+Ideally, the answer is &amp;quot;yes,&amp;quot; but if not, everyone needs to pitch in (within reason) in order to troubleshoot and resolve the problem.
+This can be burdensome, but it&amp;#39;s far less disruptive than an information deficit that leads to a defect in the product.&lt;/p&gt;
+
+&lt;p&gt;As important as A/V quality is, telepresence is not the same as physical prescence.  In fact, telepresence is a skill that can be
+cultivated and improved with enough care and attention.
+Keeping the camera and
+microphone on is a good practice, but don&amp;#39;t be alarmed or judgmental of teammates who switch off sometimes.  There&amp;#39;s a difference
+between being physically together in the same space and having your head on a large-screen television for all to see up-close.
+To avoid falling into the trap of &amp;quot;multitasking&amp;quot; and other attention-draining activities during video conferences, try not touching
+the computer at all.  Note-taking or even idle doodling could be an effective way of practicing mindful telepresence.&lt;/p&gt;
+
+&lt;h3 id=&quot;bond&quot;&gt;Bond&lt;/h3&gt;
+
+&lt;p&gt;Spontaneity and shared experiences are the foundation for meaningful human connections.  There&amp;#39;s no reason why these ideals
+can&amp;#39;t be met digitally!  Team instant message channels could ensure there&amp;#39;s a space for unplanned, not-necessarily-work-related
+fun.  Keeping an open-invitation video conference is a nice way for collegues to digitally &amp;quot;visit&amp;quot; each other&amp;#39;s work places.  Team
+outings are a great way to bond, but try to balance out those activities with location-independent events.  Internet games, book clubs,
+and fantasy sports are just a few ways to be geographically inclusive.  Scheduling one-on-one conversations with teammates you&amp;#39;ll never
+physically &amp;quot;bump into&amp;quot; in a shared office is a great way to nurture connections (even if your teammate isn&amp;#39;t your &amp;quot;work friend&amp;quot;).
+Don&amp;#39;t be afraid to use video chat just to say hello!&lt;/p&gt;
+
+&lt;h3 id=&quot;be-inclusive&quot;&gt;Be Inclusive&lt;/h3&gt;
+
+&lt;p&gt;When teammates work across more than one work space, it&amp;#39;s imperative that everyone pitch in to make it work.  Investments in
+a distributed workforce will benefit the whole team, even if most or all workers are on-site most of the time.  Build a lexicon
+of non-judgmental terms to foster inclusivity.  Instead of being &amp;quot;at home,&amp;quot; teammates are &amp;quot;in the cloud.&amp;quot;  Instead of
+&amp;quot;spending&amp;quot; time getting the new conference room microphone set up, &amp;quot;invest&amp;quot; that time.  Teammates don&amp;#39;t &amp;quot;get to&amp;quot; work from
+home&amp;mdash;it&amp;#39;s not a personal favor&amp;mdash;they&amp;#39;re just working.&lt;/p&gt;
+
+&lt;p&gt;Working outside of a central office is easier when teammates understand what to expect.  If teammates are encouraged to occasionally
+work from home, it&amp;#39;s likely that they will understand the needs of off-site teammates more.  Another strategy would be to
+hold an &amp;quot;all-remote&amp;quot; meeting where all attendees&amp;mdash;even if most of them are in the same
+office&amp;mdash;join a teleconference individually.  This will help build empathy amongst teammates by putting everyone on equal
+footing with regards to telepresence.  The quality of the A/V might be surprising too: one microphone and one camera per person
+can do wonders for communication clarity.&lt;/p&gt;
+
+&lt;p&gt;If the team is spread across more than one time zone, there are two rules that must be followed:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Always mind the time zone&lt;/li&gt;
+&lt;li&gt;Seriously, always mind the time zone&lt;/li&gt;
+&lt;li&gt;Mealtimes will vary.  Mind that, too.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;tips-for-remote-workers&quot;&gt;Tips for Remote Workers&lt;/h2&gt;
+
+&lt;p&gt;These are suggestions for someone working off-site, even if it&amp;#39;s only for a day.&lt;/p&gt;
+
+&lt;h3 id=&quot;practice-self-care&quot;&gt;Practice Self-Care&lt;/h3&gt;
+
+&lt;h4 id=&quot;dont-guilt-yourself&quot;&gt;Don&amp;#39;t guilt yourself&lt;/h4&gt;
+
+&lt;p&gt;Working remotely has pros and cons for yourself and the team.  There&amp;#39;s no &amp;quot;right&amp;quot; way to work.&lt;/p&gt;
+
+&lt;h4 id=&quot;take-breaks&quot;&gt;Take breaks&lt;/h4&gt;
+
+&lt;p&gt;Eat a meal, drink a beverage, exercise, take a walk, do something to take care of your mind and body.
+When the end of the day comes, make sure you&amp;#39;ve done at least one thing other than sitting at your workstation.&lt;/p&gt;
+
+&lt;h4 id=&quot;embrace-being-a-head-in-a-box&quot;&gt;Embrace being a head in a box&lt;/h4&gt;
+
+&lt;p&gt;The longer you&amp;#39;re out of a central workplace, the more you become associated with whatever electronic communciation media
+your team uses.  You&amp;#39;re basically a head in a box; don&amp;#39;t fight it!  Have fun with it.&lt;/p&gt;
+
+&lt;h4 id=&quot;maintain-professional-relationships&quot;&gt;Maintain professional relationships&lt;/h4&gt;
+
+&lt;p&gt;If you&amp;#39;re working from home, it&amp;#39;s easy to neglect your professional network/community.  If you can&amp;#39;t go to meetups or other events
+physically, there are ways to stay &amp;quot;in the loop&amp;quot; with people and ideas in your industry.  Seek and cultivate those opportunities.&lt;/p&gt;
+
+&lt;h3 id=&quot;structure-your-time-and-space&quot;&gt;Structure Your Time and Space&lt;/h3&gt;
+
+&lt;h4 id=&quot;commute-to-work&quot;&gt;&amp;quot;Commute&amp;quot; to work&lt;/h4&gt;
+
+&lt;p&gt;Boundaries between personal and work time can help you protect the former and focus on the latter.  Maintain two daily rituals before
+and after work hours to structure your day: a workout, a walk, an errand, a coffee run, taking the kids to/from school, etc.&lt;/p&gt;
+
+&lt;h4 id=&quot;have-a-designated-work-space&quot;&gt;Have a designated work &amp;quot;space&amp;quot;&lt;/h4&gt;
+
+&lt;p&gt;The notion of an office needs to be adapted in order to apply to remote work.  Whether you set up shop in your
+single-family home five days a week or travel the world in a van, guerilla-working from wherever you can find the
+best coffee and wifi, crafting an office can be a great way to tacitly enforce boundaries
+between work and life.  In 2020, your office is not necessarily a physical area; it can be a state of mind.
+If you work from your home, avoid regularly working in areas reserved for eating, sleeping, or leisure.  Those
+spots can be great for taking a one-on-one or for an occasional change of scenery, but they are too tightly coupled
+with your personal life for routine productivity.  Strive to find a location other than your dining table to get
+things done on a regular basis.  If your locale changes regularly, try to find something to help trick your brain
+into perceiving an &amp;quot;office.&amp;quot;  For some, simply starting at a fixed time of day is a good way to mentally tag
+their &amp;quot;office.&amp;quot;  For others, wearing a certain pin or other accessory during business hours may do the trick.
+Whatever your solution, make your &amp;quot;office&amp;quot; something that consistently differentiates work time from the other
+parts of your life.&lt;/p&gt;
+
+&lt;h3 id=&quot;dont-be-a-stranger&quot;&gt;Don&amp;#39;t Be a Stranger&lt;/h3&gt;
+
+&lt;h4 id=&quot;make-time-for-relationships&quot;&gt;Make time for relationships&lt;/h4&gt;
+
+&lt;p&gt;Go out of your way&amp;mdash;schedule it if you must&amp;mdash;to connect and reconnect with colleagues.  Keep in mind, though, that
+staying connected is a shared responsibility.  Don&amp;#39;t shoulder everything yourself.&lt;/p&gt;
+
+&lt;h4 id=&quot;see-and-be-seen&quot;&gt;See and be seen&lt;/h4&gt;
+
+&lt;p&gt;Don&amp;#39;t turn off your camera during video conferences unless you need to, and do your best to participate in situations that
+haven&amp;#39;t been optimized for videoconferencing.&lt;/p&gt;
+
+&lt;h3 id=&quot;maintain-professionalism&quot;&gt;Maintain Professionalism&lt;/h3&gt;
+
+&lt;h4 id=&quot;get-dressed&quot;&gt;Get dressed&lt;/h4&gt;
+
+&lt;p&gt;Even pants.  You might think you&amp;#39;re only visible from the shoulders up, but just in case.&lt;/p&gt;
+
+&lt;h4 id=&quot;master-your-communication-apps&quot;&gt;Master your communication apps&lt;/h4&gt;
+
+&lt;p&gt;Get to know your instant message, video conference, and VOIP apps better than anyone.  Learn how to troubleshoot efficiently.
+Become a power user to minimize technical difficulties and maximize utility.&lt;/p&gt;
+
+&lt;h4 id=&quot;be-available&quot;&gt;Be available&lt;/h4&gt;
+
+&lt;p&gt;Not all messages can be returned right away&amp;mdash;teammates won&amp;#39;t always mind your status/away message or check your calendar
+before sending an IM your way.  Find ways to respond, even if it&amp;#39;s a triage message, something like:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Hey, I&amp;#39;m in meetings all afternoon so I can get focus on this starting around 4:00pm Eastern Time.  In the meantime, I think
+Charlie might be able to help out.  I&amp;#39;m setting a reminder for myself now.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;children-and-animals&quot;&gt;Children and animals...&lt;/h4&gt;
+
+&lt;p&gt;... can be welcome &amp;quot;guest stars&amp;quot; on camera.  They can also be a distraction.  Always be mindful of the context and purpose.&lt;/p&gt;
+
+&lt;h2 id=&quot;acknowledgements&quot;&gt;Acknowledgements&lt;/h2&gt;
+
+&lt;p&gt;Lydia Nash and Ayo Jimoh proofread and contributed ideas to this post.  Thank you!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Mar 2020 04:12:10 +0000</pubDate>
+        <link>https://jdauriemma.com/misc/principles-for-remote-teams</link>
+        <guid isPermaLink="true">https://jdauriemma.com/misc/principles-for-remote-teams</guid>
+        
+        <category>remote</category>
+        
+        <category>management</category>
+        
+        
+        <category>misc</category>
+        
+      </item>
+    
+  </channel>
+</rss>
