@@ -35,7 +35,10 @@ task :test do
       /https?:\/\/twitter\.com.*\/jbones3000/,
       /https?:\/\/www\.freeimages\.com.*/,
       /https:\/\/www\.pexels\.com\/photo\/laptop-on-white-desk-3740747\//,
-      /https?:\/\/unsplash\.com\/photos\/photo-of-empty-vehicle-ujz7MdiCXug/
+      /https?:\/\/unsplash\.com\/photos\/photo-of-empty-vehicle-ujz7MdiCXug/,
+      /https?:\/\/explainshell\.com.*/,
+      /https?:\/\/doctorow\.medium\.com.*/,
+      /https?:\/\/web\.archive\.org.*/
     ]
   ).run
 end
