@@ -5,9 +5,49 @@
     <description>thoughts on code, music, misc.</description>
     <link>https://jdauriemma.com/</link>
     <atom:link href="https://jdauriemma.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Oct 2025 17:06:27 +0000</pubDate>
-    <lastBuildDate>Wed, 29 Oct 2025 17:06:27 +0000</lastBuildDate>
+    <pubDate>Sat, 21 Feb 2026 18:12:13 +0000</pubDate>
+    <lastBuildDate>Sat, 21 Feb 2026 18:12:13 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      
+      <item>
+        <title>I want Artificial Competence, not more Artificial Intelligence</title>
+        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/creation-burrito.jpg&quot; alt=&quot;I want Artificial Competence, not more Artificial Intelligence&quot;&gt;&lt;p&gt;A person contacted an airline’s customer support chatbot after a family death.  They wanted to know whether they qualified for a bereavement fare.  The bot told them yes, and explained that they could book a regular ticket and apply for the discounted rate afterward.  They followed the instructions.  The airline later refused to honor the discount.  The case ended up in front of a tribunal, which ruled that the airline was responsible for the information its AI system provided and had to pay the difference.&lt;/p&gt;
+
+&lt;p&gt;That case, &lt;em&gt;Moffatt v. Air Canada&lt;/em&gt;, is the first high-profile commercial example I’m aware of that showcased the hazards posed by improper usage of LLMs.  We have clever names for the workarounds that have emerged to prevent these scenarios: context management, prompt engineering, fine tuning, and so forth.  One of my favorite tech talks on this subject was given by Lada Kesseler.  The talk expertly guides the listener through a map of obstacles, patterns, and anti-patterns that one encounters when using agentic coding tools.  I remain bewildered by this map, not just by its exhaustiveness and utility but by the fact that it has to exist at all.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/lexler/augmented-coding-patterns/refs/heads/main/slides/map.png&quot; alt=&quot;A hand-drawn style systems map showing obstacles (pink), anti-patterns (yellow), and patterns (green) connected in a winding path that illustrates how to build more reliable AI agents. Starting from issues like “Context Rot,” “Cannot Learn,” and “Non-Determinism,” the diagram moves through solutions such as “Context Management,” “Knowledge Document,” “Ground Rules,” and “Extract Knowledge,” then toward “Focused Agent,” “Reference Docs,” and “Knowledge Composition.” Additional branches address hallucinations, unvalidated leaps, excess verbosity, noise cancellation, semantic zoom, and alignment techniques like “Active Partner,” “Check Alignment,” “Context Markers,” and “Reverse Direction.” A small legend explains the color coding.&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;The pithy way to put it is that we are trying to engineer consistency and reliability into systems that are, by design, inconsistent and unreliable.  Since consistency and reliability are the hallmarks of competence, the even-pithier version is that we are practicing Competence Engineering.&lt;/p&gt;
+
+&lt;p&gt;Kesseler’s talk gives shape to this emerging domain.  I like her work as much as I dislike the need for it.  (A lot.)  As a former pro musician, I am deeply familiar with the “genius who can’t show up to the gig on time” type of individual.  They are exhausting and beautiful in equal parts.  I would listen to their music all day if I could, but they’re terrible bandmates.  I’d have to call them the day before the show.  And an hour before they were supposed to leave to get to rehearsal on time.  The constant babysitting is a sap on attention and motivation.  When I look at Kesseler’s diagram, I get flashbacks to how I had to manage “Josh” (pseudonym to protect the “innocent”).&lt;/p&gt;
+
+&lt;p&gt;I put up with Josh because I thought he was worth it, on balance.  And we (engineers?  White-collar workers?  People in general?) are hypothesizing that investing in these emerging disciplines is worth it because the payoff can be so big.  LLMs can reduce toil and expose capabilities that were previously out of reach or unfathomable.&lt;/p&gt;
+
+&lt;p&gt;But I worry that “we” are losing track of a bigger prize: reducing and eventually eliminating the need for this sort of micromanagement.  Yes, I put up with Josh, and I put up with LLMs, because they’re awesome.  But I fully expect the Putting-Up-With-It Era to pass, lest our professional lives be forever dominated by incremental Competence Engineering improvements.  The real revolution will be the conquest of Quadrant 3.&lt;/p&gt;
+
+&lt;p&gt;What is Quadrant 3, you ask?  To that I’ll invoke another person whose work I admire and will complain about: Dwight D. Eisenhower.  His Matrix haunts me:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.shopify.com/s/files/1/0614/6565/7577/files/eisenhower-matrix_438da51c-2338-4e86-b4e7-059b6872d427.webp?v=1691522399&quot; alt=&quot;A four-quadrant Eisenhower Matrix titled “The Eisenhower Matrix: Prioritize tasks based on their urgency and importance.” The top axis is labeled “Urgent” and “Not Urgent,” and the left axis is labeled “Important” and “Not Important.” Quadrant 1 (Important + Urgent): Do — “The Fire-Fighting Zone.” Tasks are both urgent and important, demanding immediate attention. Quadrant 2 (Important + Not Urgent): Schedule — “The Visionary Zone.” Tasks are pivotal for long-term success but don’t require immediate action. Quadrant 3 (Not Important + Urgent): Delegate — “The Delegation Zone.” Tasks seem pressing but may not align with larger goals. Quadrant 4 (Not Important + Not Urgent): Eliminate — “The Elimination Zone.” Tasks neither serve an immediate need nor align with long-term objectives.&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;I am pleased to say that, like many workers, I’m pretty good at Quadrants 1, 2, and 4.  I am in search of “The Delegation Zone,” the entity to which I can readily delegate those pressing and unimportant tasks.  I cannot understate the impact that having a reliable Quadrant 3 offload would have on ordinary people’s lives (Eisenhower, I assume, had enough people to do Quadrant 3 work).  The ability to take low-level-but-not-optional things off our plates would put countless hours back in the hands of people so they can cook, paint, spend time with family/friends, sleep… the good stuff.&lt;/p&gt;
+
+&lt;p&gt;I am tantalized by the possibility that agents &lt;em&gt;could&lt;/em&gt; be our Quadrant 3.  Every now and then I do a little experiment and always walk away disappointed.  When I consider this in the context of Kesseler’s diagram, it’s not surprising.  Fully realizing the productivity gains promised by AI tooling requires a lot of expertise to bring to bear.&lt;/p&gt;
+
+&lt;p&gt;So what am I to make of an entity that’s sold as having “PhD-level intelligence” that can’t be trusted to correctly order a burrito or manage a calendar or follow the system prompt?&lt;/p&gt;
+
+&lt;p&gt;Sure, it’s great that it can do data entry, turn Shakespeare into almost-workable rap lyrics, write a Perl one-liner, and suggest a passable marathon training plan in the same minute. But that doesn’t really help most people live their lives better. AI boosters insist that real autonomy is just around the corner, but all I see are a bunch of Joshes. I’m willing to keep investing the time to learn how to use these tools well. But agents remain constrained by fundamental limitations in today’s frontier models, and that’s disappointing. I don’t want a thousand more Joshes. I don’t want more elaborate schemes for managing them. I want tools that show up on time. Artificial Competence can’t come soon enough.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 Feb 2026 15:00:00 +0000</pubDate>
+        <link>https://jdauriemma.com/programming/i-want-artificial-competence-not-more-ai</link>
+        <guid isPermaLink="true">https://jdauriemma.com/programming/i-want-artificial-competence-not-more-ai</guid>
+        
+        <category>ai</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
     
       
       <item>
@@ -496,9 +536,9 @@ I&amp;#39;ve pasted the full description underneath the embedded board.&lt;/p&gt
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://edenapp.com/guides/snow-removal-guide/&quot;&gt;Complete Guide to Snow and Snow Removal&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.familyhandyman.com/list/10-great-snow-and-ice-removal-hacks/&quot;&gt;10 Great Snow and Ice Removal Hacks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/wirecutter/reviews/best-snow-shovels/&quot;&gt;Wire Cutter: The Best Snow Shovels&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/wirecutter/reviews/best-snow-blowers/&quot;&gt;Wire Cutter: The Best Snow Blowers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/wirecutter/reviews/best-ice-scraper/&quot;&gt;Wire Cutter: The Best Ice Scraper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://web.archive.org/web/20260203210810/https://www.nytimes.com/wirecutter/reviews/best-snow-shovels/&quot;&gt;Wire Cutter: The Best Snow Shovels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://web.archive.org/web/20251228105158/https://www.nytimes.com/wirecutter/reviews/best-snow-blowers/&quot;&gt;Wire Cutter: The Best Snow Blowers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://web.archive.org/web/20251202074350/https://www.nytimes.com/wirecutter/reviews/best-ice-scraper/&quot;&gt;Wire Cutter: The Best Ice Scraper&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 16 Feb 2021 04:30:00 +0000</pubDate>
@@ -689,196 +729,6 @@ what you think of it!&lt;/p&gt;
         
         
         <category>programming</category>
-        
-      </item>
-    
-      
-      <item>
-        <title>Principles for an Effective Distributed Team</title>
-        <description>&lt;img src=&quot;https://jdauriemma.com/assets/images/featured/home-office.jpg&quot; alt=&quot;Principles for an Effective Distributed Team&quot;&gt;&lt;p&gt;It&amp;#39;s 2020 and &lt;a href=&quot;https://www.cnbc.com/2018/05/30/70-percent-of-people-globally-work-remotely-at-least-once-a-week-iwg-study.html&quot;&gt;people work from home&lt;/a&gt;.  The benefits are intuitive: commutes are often risky and can be a waste of time and natural resources; plus removing geographical barriers can increase the size of the recruitment pipeline.
-Even though some companies are &lt;a href=&quot;https://www.npr.org/sections/alltechconsidered/2017/07/11/535398716/some-employers-are-rethinking-telework-citing-a-need-for-better-collaboration&quot;&gt;making headlines by bucking that trend&lt;/a&gt;,
-remote working is a fact of life.  People get sick; they make appointments during business hours; they want to keep their heads
-down and focus away from their sometimes-distracting office; they want to catch up before or after hours on something important
-to their work.  Face it: your teams needs to be able to function outside of a centralized workplace.  Whether your team is entirely
-distributed, completely on-site, or some hybrid thereof, try to mind these principles to empower your team for success.&lt;/p&gt;
-
-&lt;h2 id=&quot;principles-for-teams&quot;&gt;Principles for Teams&lt;/h2&gt;
-
-&lt;p&gt;The web has made physical distance less meaningful than ever before in human history.  This means that teams have the power to
-work in ways that were impossible a generation ago.  With this great power
-comes great responsibility, and that responsibility must not fall exclusively on those who happen to be working outside of the space
-where most of the team works.  Before reading, take stock of what kind of team you&amp;#39;re working with: are there any teammates,
-vendors or consultants working off-site?  How many?  How often do teammates work from home?  With these facts in mind, consider the
-principles below.&lt;/p&gt;
-
-&lt;h3 id=&quot;manage-availability-and-expectations&quot;&gt;Manage Availability and Expectations&lt;/h3&gt;
-
-&lt;p&gt;Teammates need to know what to expect of one another.  It&amp;#39;s easy to tell when someone is away from their desk in person,
-but folks working off-site have no easy way to peek over at someone&amp;#39;s desk and figure out their immediate availability,
-and vice versa.  Ensure teammates are aware of each other&amp;#39;s work hours by keeping shared calendars updated.  Don&amp;#39;t be distant on
-instant messenger either: status messages or quick FYIs are a great way to keep everyone&amp;mdash;regardless of location&amp;mdash;aware
-of when someone&amp;#39;s working and when they&amp;#39;re not.&lt;/p&gt;
-
-&lt;p&gt;If your team evaluates teammates in a way that could &lt;em&gt;de facto&lt;/em&gt; penalize someone who is off-site, consider reworking those criteria.
-A results-oriented evaluation system will support work habits that empower all teammates to succeed regardless of their
-latitude and longitude.&lt;/p&gt;
-
-&lt;h3 id=&quot;drop-bread-crumbs&quot;&gt;Drop Bread Crumbs&lt;/h3&gt;
-
-&lt;p&gt;&amp;quot;Silo&amp;quot; is a dirty word in the workplace.  Teams should avoid balkanizing their communications wherever possible.  Informal chats
-about &lt;em&gt;Product A&lt;/em&gt; in the break room can quickly turn into actionable work.  An instant message chain in a small channel can snowball
-into a full-blown spec in no time.  The simple solution?  Take notes!  Sharing a photo of the back of a napkin or a quick email
-summary can help keep the team abreast of developments that will impact their work.  This sort of artifact generation also comes in
-handy months or even years later when trying to retrace the evolution of a product or feature.&lt;/p&gt;
-
-&lt;h3 id=&quot;invest-in-telepresence&quot;&gt;Invest in Telepresence&lt;/h3&gt;
-
-&lt;p&gt;Audio/video quality directly impacts communication quality.  Invest in the right hardware and software in
-order to minimize potential disruptions and maximize comprehension.  Set aside a few minutes before a video conference to make
-sure that the camera and microphone are set up and working.  Teammates shouldn&amp;#39;t wait for others in a teleconference to
-tell them that they can&amp;#39;t be heard or seen&amp;mdash;beginning a meeting with &amp;quot;can you see and hear me?&amp;quot; makes a world of difference.
-Ideally, the answer is &amp;quot;yes,&amp;quot; but if not, everyone needs to pitch in (within reason) in order to troubleshoot and resolve the problem.
-This can be burdensome, but it&amp;#39;s far less disruptive than an information deficit that leads to a defect in the product.&lt;/p&gt;
-
-&lt;p&gt;As important as A/V quality is, telepresence is not the same as physical prescence.  In fact, telepresence is a skill that can be
-cultivated and improved with enough care and attention.
-Keeping the camera and
-microphone on is a good practice, but don&amp;#39;t be alarmed or judgmental of teammates who switch off sometimes.  There&amp;#39;s a difference
-between being physically together in the same space and having your head on a large-screen television for all to see up-close.
-To avoid falling into the trap of &amp;quot;multitasking&amp;quot; and other attention-draining activities during video conferences, try not touching
-the computer at all.  Note-taking or even idle doodling could be an effective way of practicing mindful telepresence.&lt;/p&gt;
-
-&lt;h3 id=&quot;bond&quot;&gt;Bond&lt;/h3&gt;
-
-&lt;p&gt;Spontaneity and shared experiences are the foundation for meaningful human connections.  There&amp;#39;s no reason why these ideals
-can&amp;#39;t be met digitally!  Team instant message channels could ensure there&amp;#39;s a space for unplanned, not-necessarily-work-related
-fun.  Keeping an open-invitation video conference is a nice way for collegues to digitally &amp;quot;visit&amp;quot; each other&amp;#39;s work places.  Team
-outings are a great way to bond, but try to balance out those activities with location-independent events.  Internet games, book clubs,
-and fantasy sports are just a few ways to be geographically inclusive.  Scheduling one-on-one conversations with teammates you&amp;#39;ll never
-physically &amp;quot;bump into&amp;quot; in a shared office is a great way to nurture connections (even if your teammate isn&amp;#39;t your &amp;quot;work friend&amp;quot;).
-Don&amp;#39;t be afraid to use video chat just to say hello!&lt;/p&gt;
-
-&lt;h3 id=&quot;be-inclusive&quot;&gt;Be Inclusive&lt;/h3&gt;
-
-&lt;p&gt;When teammates work across more than one work space, it&amp;#39;s imperative that everyone pitch in to make it work.  Investments in
-a distributed workforce will benefit the whole team, even if most or all workers are on-site most of the time.  Build a lexicon
-of non-judgmental terms to foster inclusivity.  Instead of being &amp;quot;at home,&amp;quot; teammates are &amp;quot;in the cloud.&amp;quot;  Instead of
-&amp;quot;spending&amp;quot; time getting the new conference room microphone set up, &amp;quot;invest&amp;quot; that time.  Teammates don&amp;#39;t &amp;quot;get to&amp;quot; work from
-home&amp;mdash;it&amp;#39;s not a personal favor&amp;mdash;they&amp;#39;re just working.&lt;/p&gt;
-
-&lt;p&gt;Working outside of a central office is easier when teammates understand what to expect.  If teammates are encouraged to occasionally
-work from home, it&amp;#39;s likely that they will understand the needs of off-site teammates more.  Another strategy would be to
-hold an &amp;quot;all-remote&amp;quot; meeting where all attendees&amp;mdash;even if most of them are in the same
-office&amp;mdash;join a teleconference individually.  This will help build empathy amongst teammates by putting everyone on equal
-footing with regards to telepresence.  The quality of the A/V might be surprising too: one microphone and one camera per person
-can do wonders for communication clarity.&lt;/p&gt;
-
-&lt;p&gt;If the team is spread across more than one time zone, there are two rules that must be followed:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Always mind the time zone&lt;/li&gt;
-&lt;li&gt;Seriously, always mind the time zone&lt;/li&gt;
-&lt;li&gt;Mealtimes will vary.  Mind that, too.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;tips-for-remote-workers&quot;&gt;Tips for Remote Workers&lt;/h2&gt;
-
-&lt;p&gt;These are suggestions for someone working off-site, even if it&amp;#39;s only for a day.&lt;/p&gt;
-
-&lt;h3 id=&quot;practice-self-care&quot;&gt;Practice Self-Care&lt;/h3&gt;
-
-&lt;h4 id=&quot;dont-guilt-yourself&quot;&gt;Don&amp;#39;t guilt yourself&lt;/h4&gt;
-
-&lt;p&gt;Working remotely has pros and cons for yourself and the team.  There&amp;#39;s no &amp;quot;right&amp;quot; way to work.&lt;/p&gt;
-
-&lt;h4 id=&quot;take-breaks&quot;&gt;Take breaks&lt;/h4&gt;
-
-&lt;p&gt;Eat a meal, drink a beverage, exercise, take a walk, do something to take care of your mind and body.
-When the end of the day comes, make sure you&amp;#39;ve done at least one thing other than sitting at your workstation.&lt;/p&gt;
-
-&lt;h4 id=&quot;embrace-being-a-head-in-a-box&quot;&gt;Embrace being a head in a box&lt;/h4&gt;
-
-&lt;p&gt;The longer you&amp;#39;re out of a central workplace, the more you become associated with whatever electronic communciation media
-your team uses.  You&amp;#39;re basically a head in a box; don&amp;#39;t fight it!  Have fun with it.&lt;/p&gt;
-
-&lt;h4 id=&quot;maintain-professional-relationships&quot;&gt;Maintain professional relationships&lt;/h4&gt;
-
-&lt;p&gt;If you&amp;#39;re working from home, it&amp;#39;s easy to neglect your professional network/community.  If you can&amp;#39;t go to meetups or other events
-physically, there are ways to stay &amp;quot;in the loop&amp;quot; with people and ideas in your industry.  Seek and cultivate those opportunities.&lt;/p&gt;
-
-&lt;h3 id=&quot;structure-your-time-and-space&quot;&gt;Structure Your Time and Space&lt;/h3&gt;
-
-&lt;h4 id=&quot;commute-to-work&quot;&gt;&amp;quot;Commute&amp;quot; to work&lt;/h4&gt;
-
-&lt;p&gt;Boundaries between personal and work time can help you protect the former and focus on the latter.  Maintain two daily rituals before
-and after work hours to structure your day: a workout, a walk, an errand, a coffee run, taking the kids to/from school, etc.&lt;/p&gt;
-
-&lt;h4 id=&quot;have-a-designated-work-space&quot;&gt;Have a designated work &amp;quot;space&amp;quot;&lt;/h4&gt;
-
-&lt;p&gt;The notion of an office needs to be adapted in order to apply to remote work.  Whether you set up shop in your
-single-family home five days a week or travel the world in a van, guerilla-working from wherever you can find the
-best coffee and wifi, crafting an office can be a great way to tacitly enforce boundaries
-between work and life.  In 2020, your office is not necessarily a physical area; it can be a state of mind.
-If you work from your home, avoid regularly working in areas reserved for eating, sleeping, or leisure.  Those
-spots can be great for taking a one-on-one or for an occasional change of scenery, but they are too tightly coupled
-with your personal life for routine productivity.  Strive to find a location other than your dining table to get
-things done on a regular basis.  If your locale changes regularly, try to find something to help trick your brain
-into perceiving an &amp;quot;office.&amp;quot;  For some, simply starting at a fixed time of day is a good way to mentally tag
-their &amp;quot;office.&amp;quot;  For others, wearing a certain pin or other accessory during business hours may do the trick.
-Whatever your solution, make your &amp;quot;office&amp;quot; something that consistently differentiates work time from the other
-parts of your life.&lt;/p&gt;
-
-&lt;h3 id=&quot;dont-be-a-stranger&quot;&gt;Don&amp;#39;t Be a Stranger&lt;/h3&gt;
-
-&lt;h4 id=&quot;make-time-for-relationships&quot;&gt;Make time for relationships&lt;/h4&gt;
-
-&lt;p&gt;Go out of your way&amp;mdash;schedule it if you must&amp;mdash;to connect and reconnect with colleagues.  Keep in mind, though, that
-staying connected is a shared responsibility.  Don&amp;#39;t shoulder everything yourself.&lt;/p&gt;
-
-&lt;h4 id=&quot;see-and-be-seen&quot;&gt;See and be seen&lt;/h4&gt;
-
-&lt;p&gt;Don&amp;#39;t turn off your camera during video conferences unless you need to, and do your best to participate in situations that
-haven&amp;#39;t been optimized for videoconferencing.&lt;/p&gt;
-
-&lt;h3 id=&quot;maintain-professionalism&quot;&gt;Maintain Professionalism&lt;/h3&gt;
-
-&lt;h4 id=&quot;get-dressed&quot;&gt;Get dressed&lt;/h4&gt;
-
-&lt;p&gt;Even pants.  You might think you&amp;#39;re only visible from the shoulders up, but just in case.&lt;/p&gt;
-
-&lt;h4 id=&quot;master-your-communication-apps&quot;&gt;Master your communication apps&lt;/h4&gt;
-
-&lt;p&gt;Get to know your instant message, video conference, and VOIP apps better than anyone.  Learn how to troubleshoot efficiently.
-Become a power user to minimize technical difficulties and maximize utility.&lt;/p&gt;
-
-&lt;h4 id=&quot;be-available&quot;&gt;Be available&lt;/h4&gt;
-
-&lt;p&gt;Not all messages can be returned right away&amp;mdash;teammates won&amp;#39;t always mind your status/away message or check your calendar
-before sending an IM your way.  Find ways to respond, even if it&amp;#39;s a triage message, something like:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Hey, I&amp;#39;m in meetings all afternoon so I can get focus on this starting around 4:00pm Eastern Time.  In the meantime, I think
-Charlie might be able to help out.  I&amp;#39;m setting a reminder for myself now.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;children-and-animals&quot;&gt;Children and animals...&lt;/h4&gt;
-
-&lt;p&gt;... can be welcome &amp;quot;guest stars&amp;quot; on camera.  They can also be a distraction.  Always be mindful of the context and purpose.&lt;/p&gt;
-
-&lt;h2 id=&quot;acknowledgements&quot;&gt;Acknowledgements&lt;/h2&gt;
-
-&lt;p&gt;Lydia Nash and Ayo Jimoh proofread and contributed ideas to this post.  Thank you!&lt;/p&gt;
-</description>
-        <pubDate>Tue, 10 Mar 2020 04:12:10 +0000</pubDate>
-        <link>https://jdauriemma.com/misc/principles-for-remote-teams</link>
-        <guid isPermaLink="true">https://jdauriemma.com/misc/principles-for-remote-teams</guid>
-        
-        <category>remote</category>
-        
-        <category>management</category>
-        
-        
-        <category>misc</category>
         
       </item>
     
