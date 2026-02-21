@@ -35,7 +35,7 @@ If you feel that a certain addition or edit would be generally useful, please ad
 
 * [Complete Guide to Snow and Snow Removal](https://edenapp.com/guides/snow-removal-guide/)
 * [10 Great Snow and Ice Removal Hacks](https://www.familyhandyman.com/list/10-great-snow-and-ice-removal-hacks/)
-* [Wire Cutter: The Best Snow Shovels](https://www.nytimes.com/wirecutter/reviews/best-snow-shovels/)
-* [Wire Cutter: The Best Snow Blowers](https://www.nytimes.com/wirecutter/reviews/best-snow-blowers/)
-* [Wire Cutter: The Best Ice Scraper](https://www.nytimes.com/wirecutter/reviews/best-ice-scraper/)
+* [Wire Cutter: The Best Snow Shovels](https://web.archive.org/web/20260203210810/https://www.nytimes.com/wirecutter/reviews/best-snow-shovels/)
+* [Wire Cutter: The Best Snow Blowers](https://web.archive.org/web/20251228105158/https://www.nytimes.com/wirecutter/reviews/best-snow-blowers/)
+* [Wire Cutter: The Best Ice Scraper](https://web.archive.org/web/20251202074350/https://www.nytimes.com/wirecutter/reviews/best-ice-scraper/)
 
