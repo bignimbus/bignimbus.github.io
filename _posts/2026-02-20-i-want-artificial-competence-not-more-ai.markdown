@@ -5,10 +5,10 @@ date:   2026-02-20 11:00:00 -0400
 featured_image: creation-burrito.jpg
 categories: programming
 tags: ['ai']
-excerpt: We are meant to do more than babysit agents
+excerpt: We are meant to do more than babysit agents.
 permalink: /:categories/:title
 cta: true
-attributions: [{asset_name: 'Diagram of agentic coding patterns', asset_url: 'https://raw.githubusercontent.com/lexler/augmented-coding-patterns/refs/heads/main/slides/map.png', author: "Lada Kesseler"}, {asset_name: 'Diagram of agentic coding patterns', asset_url: 'https://cdn.shopify.com/s/files/1/0614/6565/7577/files/eisenhower-matrix_438da51c-2338-4e86-b4e7-059b6872d427.webp?v=1691522399', author: "Matt Downey"}]
+attributions: [{asset_name: 'Diagram of agentic coding patterns', asset_url: 'https://raw.githubusercontent.com/lexler/augmented-coding-patterns/refs/heads/main/slides/map.png', author: "Lada Kesseler"}, {asset_name: 'Eisenhower Matrix representation', asset_url: 'https://cdn.shopify.com/s/files/1/0614/6565/7577/files/eisenhower-matrix_438da51c-2338-4e86-b4e7-059b6872d427.webp?v=1691522399', author: "Matt Downey"}]
 ---
 
 A person contacted an airline’s customer support chatbot after a family death.  They wanted to know whether they qualified for a bereavement fare.  The bot told them yes, and explained that they could book a regular ticket and apply for the discounted rate afterward.  They followed the instructions.  The airline later refused to honor the discount.  The case ended up in front of a tribunal, which ruled that the airline was responsible for the information its AI system provided and had to pay the difference.
