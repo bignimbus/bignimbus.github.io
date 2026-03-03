@@ -5,7 +5,7 @@ date:   2026-02-20 11:00:00 -0400
 featured_image: creation-burrito.jpg
 categories: programming
 tags: ['ai']
-excerpt: We are meant to do more than babysit agents: in search of competent tools.
+excerpt: We are meant to do more than babysit agents.
 permalink: /:categories/:title
 cta: true
 attributions: [{asset_name: 'Diagram of agentic coding patterns', asset_url: 'https://raw.githubusercontent.com/lexler/augmented-coding-patterns/refs/heads/main/slides/map.png', author: "Lada Kesseler"}, {asset_name: 'Eisenhower Matrix representation', asset_url: 'https://cdn.shopify.com/s/files/1/0614/6565/7577/files/eisenhower-matrix_438da51c-2338-4e86-b4e7-059b6872d427.webp?v=1691522399', author: "Matt Downey"}]
