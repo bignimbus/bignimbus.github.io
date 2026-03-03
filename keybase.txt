@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jeffauriemma
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jdauriemma.com
+  * I am jeffauriemma (https://keybase.io/jeffauriemma) on keybase.
+  * I have a public key ASCF2I-DD0nSd-2WFjybeqLVfE-bHCi9G6UlukU8Ibdq_Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01010a84377304ed8771e951ada20cd6e5f16e882d6c013fc40c72ae71c13a0c30150a",
+      "host": "keybase.io",
+      "kid": "012085d88f830f49d277ed96163c9b7aa2d57c4f9b1c28bd1ba525ba453c21b76afd0a",
+      "uid": "a188da06dce8de0784df462712801719",
+      "username": "jeffauriemma"
+    },
+    "merkle_root": {
+      "ctime": 1563999994,
+      "hash": "6856ccdd4244635ebc6187a18e9a6192774854afea27b641b7ebf6dbff0e7c577117d036464ef15d83f5e00a2494a8f5268602c9d78b76ed8d59220a748b9ac8",
+      "hash_meta": "ad85a91e755d0b05de65f7b0d782ba7de0190e8e13049af249101ecc97bf36ee",
+      "seqno": 5845600
+    },
+    "service": {
+      "entropy": "l+dhVl7ZON0OGL6PeKkMVIoo",
+      "hostname": "jdauriemma.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.2.1"
+  },
+  "ctime": 1564000003,
+  "expire_in": 504576000,
+  "prev": "1692803fe620840a4965db22bee940f45c955a04007d81f1f645f7cfecd5d95d",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEghdiPgw9J0nftlhY8m3qi1XxPmxwovRulJbpFPCG3av0Kp3BheWxvYWTESpcCBsQgFpKAP+YghApJZdsivulA9FyVWgQAfYHx9kX3z+zV2V3EIJhiyx3bHIshaohG00tOwrEROWj4tysvVVpeRDzHxdHcAgHCo3NpZ8RAe7YOS0uKnM0ef7gReGRxz5YgLoQzJxjJIxIQ9PjXKy51DQqfuOSelrskIJEwFm0HbOwGc8ETsrQlSAvi8QFBCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEJwmV/XhlAZyd+Ip5oBrHnv2snUGNpp02lllsvRc1ggo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jeffauriemma
+
+==================================================================
