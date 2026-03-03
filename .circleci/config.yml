@@ -4,13 +4,17 @@ jobs:
   build_test:
     docker:
       - image: cimg/ruby:2.7.1-node
-    resource_class: large
+    resource_class: medium
     steps:
       - checkout
       - restore_cache:
           keys:
             - bundler-v1-{{ arch }}-{{ checksum "Gemfile.lock" }}
             - bundler-v1-{{ arch }}-
+      - restore_cache:
+          keys:
+            - node-modules-v1-{{ arch }}-{{ checksum "package-lock.json" }}
+            - node-modules-v1-{{ arch }}-
       - restore_cache:
           keys:
             - npm-v1-{{ arch }}-{{ checksum "package-lock.json" }}
@@ -25,11 +29,20 @@ jobs:
             bundle install --jobs 4 --retry 3
       - run:
           name: Install Node dependencies
-          command: npm ci --no-audit --prefer-offline
+          command: |
+            if [ -d node_modules ]; then
+              echo "node_modules cache hit; skipping npm ci"
+            else
+              npm ci --no-audit --prefer-offline
+            fi
       - save_cache:
           key: bundler-v1-{{ arch }}-{{ checksum "Gemfile.lock" }}
           paths:
             - vendor/bundle
+      - save_cache:
+          key: node-modules-v1-{{ arch }}-{{ checksum "package-lock.json" }}
+          paths:
+            - node_modules
       - save_cache:
           key: npm-v1-{{ arch }}-{{ checksum "package-lock.json" }}
           paths:
@@ -48,7 +61,7 @@ jobs:
   publish:
     docker:
       - image: cimg/ruby:2.7.1-node
-    resource_class: large
+    resource_class: medium
     steps:
       - checkout
       - attach_workspace:
