@@ -1,36 +1,88 @@
-version: 2
+version: 2.1
+
 jobs:
-  dummy:
+  build_test:
     docker:
-      - image: circleci/ruby:2.7.1-node
-    steps:
-      - run: echo 'wack'
-  build:
-    docker:
-      - image: circleci/ruby:2.7.1-node
-        environment:
-          BUNDLER_VERSION: 2.0.2
-      - image: circleci/node:10.11
+      - image: cimg/ruby:2.7.1-node
+    resource_class: large
     steps:
       - checkout
-      - run: gem update
-      - run: gem install bundler -v 2.4.22
-      - run: bundle install --path vendor/bundle
-      - run: npm install --verbose
-      - run: bundle exec rake publish
-    resource_class: large  
+      - restore_cache:
+          keys:
+            - bundler-v1-{{ arch }}-{{ checksum "Gemfile.lock" }}
+            - bundler-v1-{{ arch }}-
+      - restore_cache:
+          keys:
+            - npm-v1-{{ arch }}-{{ checksum "package-lock.json" }}
+            - npm-v1-{{ arch }}-
+      - run:
+          name: Install Bundler
+          command: gem install bundler -v 2.4.22
+      - run:
+          name: Install Ruby dependencies
+          command: |
+            bundle config set path "vendor/bundle"
+            bundle install --jobs 4 --retry 3
+      - run:
+          name: Install Node dependencies
+          command: npm ci --no-audit --prefer-offline
+      - save_cache:
+          key: bundler-v1-{{ arch }}-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+      - save_cache:
+          key: npm-v1-{{ arch }}-{{ checksum "package-lock.json" }}
+          paths:
+            - ~/.npm
+      - run:
+          name: Generate site output
+          command: bundle exec rake generate
+      - run:
+          name: Run site checks
+          command: bundle exec rake test
+      - persist_to_workspace:
+          root: .
+          paths:
+            - _site
+
+  publish:
+    docker:
+      - image: cimg/ruby:2.7.1-node
+    resource_class: large
+    steps:
+      - checkout
+      - attach_workspace:
+          at: .
+      - restore_cache:
+          keys:
+            - bundler-v1-{{ arch }}-{{ checksum "Gemfile.lock" }}
+            - bundler-v1-{{ arch }}-
+      - run:
+          name: Install Bundler
+          command: gem install bundler -v 2.4.22
+      - run:
+          name: Install Ruby dependencies
+          command: |
+            bundle config set path "vendor/bundle"
+            bundle install --jobs 4 --retry 3
+      - run:
+          name: Publish generated site
+          command: bundle exec rake publish_site
+
 workflows:
   version: 2
   test-and-build:
     jobs:
-      - build:
+      - build_test:
+          filters:
+            branches:
+              ignore:
+                - staging-build
+                - master
+      - publish:
+          requires:
+            - build_test
           filters:
             branches:
               only:
                 - staging
-      - dummy:
-          filters:
-            branches:
-              only:
-                - staging-build
-                - master

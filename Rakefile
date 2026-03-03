@@ -43,8 +43,8 @@ task :test do
   ).run
 end
 
-desc "Generate and publish blog to gh-pages"
-task :publish => [:generate, :test] do
+desc "Publish pre-generated blog output to gh-pages"
+task :publish_site do
   Dir.mktmpdir do |tmp|
     cp_r "_site/.", tmp
 
@@ -66,4 +66,9 @@ task :publish => [:generate, :test] do
 
     Dir.chdir pwd
   end
+end
+
+desc "Generate and publish blog to gh-pages"
+task :publish => [:generate, :test] do
+  Rake::Task[:publish_site].invoke
 end
